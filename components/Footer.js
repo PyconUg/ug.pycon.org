@@ -4,27 +4,27 @@ import logo from '../img/logo.png';
 export default function Footer() {
     return(
       <footer class="bg-neutral-100 text-center text-neutral-600 dark:bg-neutral-600 dark:text-neutral-200 lg:text-left">
-        <div class="scroll-px-0 py-10 text-justify">
+        <div className="max-w-5xl mx-auto px-4">
         <div class="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-        <div class="">
+        <div class="my-10">
             <Image
               src={logo}
-              alt="Picture of the author"
-              width={100}
-              height={50}
+              alt="Pycon logo"
+              width={120}
+              height={70}
             />
             <p>
             PyCon Uganda is one of the Python Conferences you can attend in East Africa. We shall talk about Python applications in data, web and other domains. This is a platform where Python users, developers, library developers and companies that use Python come together.
             This is going to be the FIRST PyCon Conference in Uganda!
             </p>
         </div>
-        <div class="">
+        <div class="my-10">
             <h6
             class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
             Useful links
             </h6>
             <p class="mb-4">
-            <a href="#!" class="text-neutral-600 dark:text-neutral-200"
+            <a href="/" class="text-neutral-600 dark:text-neutral-200"
                 >Home</a
             >
             </p>
@@ -44,7 +44,7 @@ export default function Footer() {
             >
             </p>
         </div>
-        <div>
+        <div class="my-10">
             <h6
             class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
             Contact
