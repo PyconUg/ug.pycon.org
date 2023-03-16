@@ -38,7 +38,7 @@ export default function Navbar() {
             {NavbarLinks.map(({ path, label }) => {
               return <a href={path}>{label}</a>
             })}
-            <button className="bg-black text-white px-6 py-1 border rounded rounded-lg">Buy Ticket</button>
+            <button className="bg-black text-white px-6 py-1 border rounded-lg">Buy Ticket</button>
           </div>
         </div>
       </div>
