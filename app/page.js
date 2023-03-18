@@ -1,7 +1,11 @@
+import HeroSection from "@/components/HeroSection";
+import AboutSection from "@/components/AboutSection";
+
 export default function Home() {
   return (
     <main>
-      <h1 className="text-3xl font-bold underline">Pycon Uganda</h1>
+      <HeroSection />
+      <AboutSection />
     </main>
   );
 }
