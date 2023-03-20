@@ -1,3 +1,6 @@
+import Image from 'next/image';
+import logo from '../img/logo.png';
+
 export default function Navbar() {
   const NavbarLinks = [
     {
@@ -33,7 +36,12 @@ export default function Navbar() {
     <nav className="sticky top-0 z-10 bg-white backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-gray-200">
       <div className="max-w-5xl mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          <span className="text-2xl text-gray-900 font-semibold">Logo</span>
+            <Image
+              src={logo}
+              alt="Pycon logo"
+              width={120}
+              height={70}
+            />
           <div className="flex space-x-4 text-gray-900">
             {NavbarLinks.map(({ path, label }) => {
               return <a href={path}>{label}</a>
