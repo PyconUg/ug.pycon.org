@@ -4,6 +4,7 @@ import SpeakerSection from "@/components/SpeakerSection";
 import ScheduleSection from "@/components/ScheduleSection";
 import VenueSection from "@/components/VenueSection";
 import SponsorSection from "@/components/SponsorSection";
+import NewsletterSection from "@/components/NewsletterSection";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <ScheduleSection />
       <VenueSection />
       <SponsorSection />
+      <NewsletterSection />
     </main>
   );
 }
