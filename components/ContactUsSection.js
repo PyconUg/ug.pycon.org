@@ -36,7 +36,7 @@ export default function ContactUsSection() {
                     </div>
                     <form method="POST" action="#" className="block justify-center space-y-8 items-center mb-10">
                         <div>
-                            <label for="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your Email</label>
+                            <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your Email</label>
                             <input type="email" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 block" placeholder="name@email.com" required />
                         </div>
                         <div>
