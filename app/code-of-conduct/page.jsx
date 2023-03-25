@@ -36,27 +36,27 @@ export default function CodeOfConduct() {
         <ul class="list-disc list-inside md:list-inside">
           <li>
             Being open. Members of the community are open to collaboration,
-            whether it’s on PEPs, patches, problems, or otherwise.
+            whether it&#39;s on PEPs, patches, problems, or otherwise.
           </li>
           <li>
-            Focusing on what is best for the community. We’re respectful of the
+            Focusing on what is best for the community. We&#39;re respectful of the
             processes set forth in the community, and we work within them.
           </li>
           <li>
-            Acknowledging time and effort. We’re respectful of the volunteer
-            efforts that permeate the Python community. We’re thoughtful when
+            Acknowledging time and effort. We&#39;re respectful of the volunteer
+            efforts that permeate the Python community. We&#39;re thoughtful when
             addressing the efforts of others, keeping in mind that oftentimes
             the labor was completed simply for the good of the community.
           </li>
           <li>
-            Being respectful of differing viewpoints and experiences. We’re
+            Being respectful of differing viewpoints and experiences. We&#39;re
             receptive to constructive comments and criticism, as the experiences
             and skill sets of other members contribute to the whole of our
             efforts.
           </li>
           <li>
-            Showing empathy towards other community members. We’re attentive in
-            our communications, whether in person or online, and we’re tactful
+            Showing empathy towards other community members. We&#39;re attentive in
+            our communications, whether in person or online, and we&#39;re tactful
             when approaching differing views.
           </li>
           <li>
@@ -64,7 +64,7 @@ export default function CodeOfConduct() {
             peers – other Python users.
           </li>
           <li>
-            Being respectful. We’re respectful of others, their positions, their
+            Being respectful. We&#39;re respectful of others, their positions, their
             skills, their commitments, and their efforts.
           </li>
           <li>
@@ -72,7 +72,7 @@ export default function CodeOfConduct() {
             are courteous in raising our issues.
           </li>
           <li>
-            Use welcoming and inclusive language. We’re accepting of all who
+            Use welcoming and inclusive language. We&#39;re accepting of all who
             wish to take part in our activities, fostering an environment where
             anyone can participate and everyone can make a difference.
           </li>
