@@ -23,10 +23,9 @@ export default function SpeakerSection() {
           <h6 className="text-center text-[#0e1b4d]">
             You can view our{" "}
             <a
-              className="buy-tickets scrollto"
               href="/assets/docs/Call_For_Proposals.pdf"
               target="_blank"
-              className="text-[#0e1b4d] ml-0"
+              className="text-[#0e1b4d] ml-0 buy-tickets scrollto"
             >
               Call For Proposals
             </a>{" "}
