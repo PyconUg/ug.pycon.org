@@ -262,8 +262,9 @@ export default function CodeOfConduct() {
           otherwise assist any attendee to feel safe for the duration of the
           conference. We value your attendance.
         </p>
+        <br/>
         <p>
-          LICENSE This Code of Conduct is licensed under the Creative Commons
+          <b>LICENSE:</b> This Code of Conduct is licensed under the Creative Commons
           Attribution-ShareAlike 3.0 Unported License.
         </p>
         <p>
