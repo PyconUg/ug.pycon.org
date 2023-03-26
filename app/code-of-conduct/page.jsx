@@ -268,7 +268,7 @@ export default function CodeOfConduct() {
           Attribution-ShareAlike 3.0 Unported License.
         </p>
         <p>
-          ATTRIBUTIONS This Code of Conduct was forked from the example policy
+          <b>ATTRIBUTIONS:</b> This Code of Conduct was forked from the example policy
           from the Geek Feminism wiki, created by the Ada Initiative and other
           volunteers, which is under a Creative Commons Zero license
         </p>
