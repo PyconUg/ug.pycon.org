@@ -254,7 +254,7 @@ export default function CodeOfConduct() {
         </p>
         <ul className="list-disc list-inside md:list-inside">
           <li>Lubega Mark, Chairperson - 0701 599 722</li>
-          <li>Bukirwa halimah, Chairperson - 0789 189 583</li>
+          <li>Bukirwa Halimah, Chairperson - 0789 189 583</li>
         </ul>
         <p>
           Conference staff will be happy to help participants contact
