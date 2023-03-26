@@ -2,7 +2,7 @@ export default function CodeOfConduct() {
   return (
     <>
       {" "}
-      <section class="flex bg-cyan-900 text-zinc-300">
+      <section className="flex bg-cyan-900 text-zinc-300">
         <div className="flex py-10 lg:items-center">
           <div className="mx-auto text-center">
             <h1 className="text-3xl font-extrabold sm:text-5xl text-white">
@@ -33,7 +33,7 @@ export default function CodeOfConduct() {
           Behaviours that reinforce these values contribute to a positive
           environment, and include:
         </p>
-        <ul class="list-disc list-inside md:list-inside">
+        <ul className="list-disc list-inside md:list-inside">
           <li>
             Being open. Members of the community are open to collaboration,
             whether it&#39;s on PEPs, patches, problems, or otherwise.
@@ -98,7 +98,7 @@ export default function CodeOfConduct() {
           INAPPROPRIATE BEHAVIOUR
         </h2>
         <p>Examples of unacceptable behavior by participants include:</p>
-        <ul class="list-disc list-inside md:list-inside">
+        <ul className="list-disc list-inside md:list-inside">
           <li>Harassment of any participants in any form</li>
           <li>Deliberate intimidation, stalking or following</li>
           <li>
@@ -191,7 +191,7 @@ export default function CodeOfConduct() {
         <p>
           This Code of Conduct applies to the following people at PyCon Uganda:
         </p>
-        <ul class="list-disc list-inside md:list-inside">
+        <ul className="list-disc list-inside md:list-inside">
           <li>
             Staff, Speakers, Panelists, Tutorial or workshop leaders, Poster
             presenters, People invited to meetings or summits, Exhibitors,
@@ -201,7 +201,7 @@ export default function CodeOfConduct() {
         <p>
           The Code of Conduct applies in official venue event spaces, including:
         </p>
-        <ul class="list-disc list-inside md:list-inside">
+        <ul className="list-disc list-inside md:list-inside">
           <li>
             Exhibit hall or vendor tabling area, Panel and presentation rooms,
             Hackathon or sprint rooms, Tutorial or workshop rooms, Poster
@@ -214,7 +214,7 @@ export default function CodeOfConduct() {
           The Code of Conduct applies to interactions with official event
           accounts on social media spaces and phone applications, including:
         </p>
-        <ul class="list-disc list-inside md:list-inside">
+        <ul className="list-disc list-inside md:list-inside">
           <li>
             comments made on official conference phone apps, comments made on
             event video hosting services, comments made on the official event
@@ -252,9 +252,9 @@ export default function CodeOfConduct() {
           immediately. In case of a conflict of interest, you can individually
           contact:
         </p>
-        <ul class="list-disc list-inside md:list-inside">
+        <ul className="list-disc list-inside md:list-inside">
           <li>Lubega Mark, Chairperson - 0701 599 722</li>
-          <li>Bukirwa halimah, Chairperson - 0789 189 583</li>
+          <li>Bukirwa Halimah, Chairperson - 0789 189 583</li>
         </ul>
         <p>
           Conference staff will be happy to help participants contact
@@ -262,12 +262,13 @@ export default function CodeOfConduct() {
           otherwise assist any attendee to feel safe for the duration of the
           conference. We value your attendance.
         </p>
+        <br/>
         <p>
-          LICENSE This Code of Conduct is licensed under the Creative Commons
+          <b>LICENSE:</b> This Code of Conduct is licensed under the Creative Commons
           Attribution-ShareAlike 3.0 Unported License.
         </p>
         <p>
-          ATTRIBUTIONS This Code of Conduct was forked from the example policy
+          <b>ATTRIBUTIONS:</b> This Code of Conduct was forked from the example policy
           from the Geek Feminism wiki, created by the Ada Initiative and other
           volunteers, which is under a Creative Commons Zero license
         </p>
@@ -275,7 +276,7 @@ export default function CodeOfConduct() {
         <p className="italic font-sans text-xl font-medium sm:text-2xl">
           Language was incorporated from the following Codes of Conduct:
         </p>
-        <ul class="list-disc list-inside md:list-inside">
+        <ul className="list-disc list-inside md:list-inside">
           <li>
             Affect Conf Code of Conduct, licensed under a Creative Commons
             Attribution-ShareAlike 3.0 Unported License.
