@@ -11,8 +11,7 @@ import ContactUsSection from "@/components/ContactUsSection";
 export default function Home() {
   return (
     <>
-   
-      {/* <HeroSection /> */}
+      <HeroSection />
       {/* <AboutSection />
       <SpeakerSection />
       <ScheduleSection />
