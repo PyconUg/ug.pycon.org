@@ -15,10 +15,10 @@ export default function Home() {
       <AboutSection />
       <SpeakerSection />
       <ScheduleSection />
-      {/* <VenueSection />
+      <VenueSection />
       <SponsorSection />
       <NewsletterSection />
-      <BuyTicketSection />
+      {/* <BuyTicketSection />
       <ContactUsSection /> */}
     </>
   );
