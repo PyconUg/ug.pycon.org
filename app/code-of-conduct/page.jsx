@@ -4,7 +4,7 @@ export default function CodeOfConduct() {
       {" "}
       <section className="flex bg-cyan-900 text-zinc-300">
         <div className="flex py-10 lg:items-center">
-          <div className="mx-auto text-center">
+          <div className="md:mx-10 text-center mx-4">
             <h1 className="text-3xl font-extrabold sm:text-5xl text-white">
               Code of Conduct
             </h1>
@@ -24,7 +24,7 @@ export default function CodeOfConduct() {
           </div>
         </div>
       </section>
-      <section className="mx-auto max-w-screen-xl my-10 text-justify text-lg">
+     <section className="mx-auto max-w-screen-xl my-10 text-justify text-lg">
         <h2 className="font-sans text-xl font-bold sm:text-2xl">
           OUR COMMUNITY
         </h2>
