@@ -36,7 +36,7 @@ export default function Navbar() {
   const QUICKET_LINK = "https://qkt.io/pyconug";
   return (
     <nav className="sticky top-0 z-10 bg-white backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-gray-200">
-      <div className="max-w-5xl mx-auto px-4">
+      <div className="max-w-5xl mx-auto px-5">
         <div className="flex items-center justify-between h-16">
           <Link href={"/"}>
             <Image src={logo} alt="Pycon logo" width={120} height={70} />
@@ -47,7 +47,7 @@ export default function Navbar() {
             })}
 
             <Link
-              className="bg-black text-white px-6 py-1 border rounded-lg"
+              className="bg-black text-white px-6 py-0 border rounded-lg"
               href={QUICKET_LINK}
             >
               {" "}
