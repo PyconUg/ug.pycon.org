@@ -10,16 +10,17 @@ import ContactUsSection from "@/components/ContactUsSection";
 
 export default function Home() {
   return (
-    <main>
-      <HeroSection />
-      <AboutSection />
+    <>
+      hello
+      {/* <HeroSection /> */}
+      {/* <AboutSection />
       <SpeakerSection />
       <ScheduleSection />
       <VenueSection />
       <SponsorSection />
       <NewsletterSection />
       <BuyTicketSection />
-      <ContactUsSection />
-    </main>
+      <ContactUsSection /> */}
+    </>
   );
 }
