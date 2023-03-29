@@ -24,7 +24,7 @@ export default function CodeOfConduct() {
           </div>
         </div>
       </section>
-     <section className="mx-auto max-w-screen-xl my-10 text-justify text-lg">
+     <section className="mx-8 md:mx-28 max-w-screen-xl my-10 text-justify text-lg">
         <h2 className="font-sans text-xl font-bold sm:text-2xl">
           OUR COMMUNITY
         </h2>
