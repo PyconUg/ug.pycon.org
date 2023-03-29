@@ -18,8 +18,8 @@ export default function Home() {
       <VenueSection />
       <SponsorSection />
       <NewsletterSection />
-      {/* <BuyTicketSection />
-      <ContactUsSection /> */}
+      <BuyTicketSection />
+      <ContactUsSection />
     </>
   );
 }
