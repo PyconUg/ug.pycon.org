@@ -41,9 +41,13 @@ export default function Navbar() {
           <Link href={"/"}>
             <Image src={logo} alt="Pycon logo" width={120} height={70} />
           </Link>
-          <div className="flex space-x-4 text-gray-900">
-            {NavbarLinks.map(({ path, label }) => {
-              return <a href={path}>{label}</a>;
+          <div className="md:flex space-x-4 text-gray-900 hidden">
+            {NavbarLinks.map(({ path, label }, index) => {
+              return (
+                <a key={index} href={path}>
+                  {label}
+                </a>
+              );
             })}
 
             <Link
