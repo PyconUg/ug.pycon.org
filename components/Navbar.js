@@ -49,15 +49,14 @@ export default function Navbar() {
                 </a>
               );
             })}
-
-            <Link
-              className="bg-black text-white px-6 py-0 border rounded-lg"
-              href={QUICKET_LINK}
-            >
-              {" "}
-              Buy Ticket
-            </Link>
           </div>
+          <Link
+            className="bg-black text-white px-6 py-0 border rounded-lg"
+            href={QUICKET_LINK}
+          >
+            {" "}
+            Buy Ticket
+          </Link>
         </div>
       </div>
     </nav>
