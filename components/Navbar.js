@@ -41,19 +41,18 @@ export default function Navbar() {
           <Link href={"/"}>
             <Image src={logo} alt="Pycon logo" width={120} height={70} />
           </Link>
-          <div className="flex space-x-4 text-gray-900">
+          <div className="md:flex space-x-4 text-gray-900 hidden">
             {NavbarLinks.map(({ path, label }, index) => {
               return <a key={index} href={path}>{label}</a>;
             })}
-
-            <Link
-              className="bg-black text-white px-6 py-1 border rounded-lg"
-              href={QUICKET_LINK}
-            >
-              {" "}
-              Buy Ticket
-            </Link>
           </div>
+          <Link
+            className="bg-black text-white px-6 py-1 border rounded-lg"
+            href={QUICKET_LINK}
+          >
+            {" "}
+            Buy Ticket
+          </Link>
         </div>
       </div>
     </nav>

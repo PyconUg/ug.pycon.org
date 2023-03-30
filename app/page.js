@@ -10,7 +10,7 @@ import ContactUsSection from "@/components/ContactUsSection";
 
 export default function Home() {
   return (
-    <main>
+    <>
       <HeroSection />
       <AboutSection />
       <SpeakerSection />
@@ -20,6 +20,6 @@ export default function Home() {
       <NewsletterSection />
       <BuyTicketSection />
       <ContactUsSection />
-    </main>
+    </>
   );
 }
