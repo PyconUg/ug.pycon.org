@@ -51,7 +51,7 @@ export default function Navbar() {
             })}
           </div>
           <Link
-            className="bg-black text-white px-6 py-0 border rounded-lg"
+            className="bg-black text-white px-6 py-1 border rounded-lg"
             href={QUICKET_LINK}
           >
             {" "}
