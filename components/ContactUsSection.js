@@ -51,13 +51,13 @@ export default function ContactUsSection() {
                 htmlFor="email"
                 className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
               >
-                Your Email
+                Your Name
               </label>
 
               <input
                 type="text"
                 className="border rounded-3xl py-2 px-10 m-2"
-                placeholder="Enter your Email"
+                placeholder="Please enter your Name..."
               />
             </div>
             <div>
@@ -71,7 +71,7 @@ export default function ContactUsSection() {
               <input
                 type="text"
                 className="border rounded-3xl py-2 px-10 m-2"
-                placeholder="Enter your Email"
+                placeholder="Please enter your Email..."
               />
             </div>
             <div className="sm:col-span-2">
@@ -79,11 +79,11 @@ export default function ContactUsSection() {
                 htmlFor="message"
                 className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
               >
-                Your Email
+                Your Comment
               </label>
               <textarea
                 className="border rounded-3xl py-2 px-10 m-2"
-                placeholder="Leave a comment"
+                placeholder="Please write your comment here..."
               ></textarea>
             </div>
             <button
