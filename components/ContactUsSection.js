@@ -53,11 +53,11 @@ export default function ContactUsSection() {
               >
                 Your Email
               </label>
+
               <input
-                type="email"
-                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 block"
-                placeholder="name@email.com"
-                required
+                type="text"
+                className="border rounded-3xl py-2 px-10 m-2"
+                placeholder="Enter your Email"
               />
             </div>
             <div>
@@ -67,11 +67,11 @@ export default function ContactUsSection() {
               >
                 Your Email
               </label>
+
               <input
                 type="text"
-                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 block"
-                placeholder="Let us know how we can help"
-                required
+                className="border rounded-3xl py-2 px-10 m-2"
+                placeholder="Enter your Email"
               />
             </div>
             <div className="sm:col-span-2">
@@ -82,7 +82,7 @@ export default function ContactUsSection() {
                 Your Email
               </label>
               <textarea
-                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 block"
+                className="border rounded-3xl py-2 px-10 m-2"
                 placeholder="Leave a comment"
               ></textarea>
             </div>
