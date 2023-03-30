@@ -41,58 +41,60 @@ export default function ContactUsSection() {
               </div>
             </div>
           </div>
-          <form
-            method="POST"
-            action="#"
-            className="block justify-center space-y-8 items-center mb-10"
-          >
-            <div>
-              <label
-                htmlFor="email"
-                className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
-              >
-                Your Name
-              </label>
-
-              <input
-                type="text"
-                className="border rounded-3xl py-2 px-10 m-2"
-                placeholder="Please enter your Name..."
-              />
-            </div>
-            <div>
-              <label
-                htmlFor="subject"
-                className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
-              >
-                Your Email
-              </label>
-
-              <input
-                type="text"
-                className="border rounded-3xl py-2 px-10 m-2"
-                placeholder="Please enter your Email..."
-              />
-            </div>
-            <div className="sm:col-span-2">
-              <label
-                htmlFor="message"
-                className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
-              >
-                Your Comment
-              </label>
-              <textarea
-                className="border rounded-3xl py-2 px-10 m-2"
-                placeholder="Please write your comment here..."
-              ></textarea>
-            </div>
-            <button
-              type="submit"
-              className="bg-[#ffe135] text-white py-2 px-6 m-2 border rounded-3xl"
+          <div className="flex justify-center">
+            <form
+              method="POST"
+              action="#"
+              className="block justify-center space-y-8 items-center mb-10"
             >
-              Send message
-            </button>
-          </form>
+              <div>
+                <label
+                  htmlFor="email"
+                  className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+                >
+                  Your Name
+                </label>
+
+                <input
+                  type="text"
+                  className="border rounded-3xl py-2 px-10 m-2"
+                  placeholder="Please enter your Name..."
+                />
+              </div>
+              <div>
+                <label
+                  htmlFor="subject"
+                  className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+                >
+                  Your Email
+                </label>
+
+                <input
+                  type="text"
+                  className="border rounded-3xl py-2 px-10 m-2"
+                  placeholder="Please enter your Email..."
+                />
+              </div>
+              <div className="sm:col-span-2">
+                <label
+                  htmlFor="message"
+                  className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+                >
+                  Your Comment
+                </label>
+                <textarea
+                  className="border rounded-3xl py-2 px-10 m-2"
+                  placeholder="Please write your comment here..."
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                className="bg-[#ffe135] text-white py-2 px-6 m-2 border rounded-3xl"
+              >
+                Send message
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </section>
