@@ -106,7 +106,7 @@ export default function CodeOfConduct() {
             purposes
           </li>
           <li>
-            Publishing other's private information, such as a physical or
+            Publishing other&#39;s private information, such as a physical or
             electronic address, without explicit permission
           </li>
           <li>Violent threats or language directed against another person</li>
