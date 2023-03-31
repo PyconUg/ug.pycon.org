@@ -13,9 +13,9 @@ export default function Footer() {
               width={120}
               height={70}
             />
-            <p>
+            <p className="py-2">
             PyCon Uganda is one of the Python Conferences you can attend in East Africa. We shall talk about Python applications in data, web and other domains. This is a platform where Python users, developers, library developers and companies that use Python come together.
-            This is going to be the FIRST PyCon Conference in Uganda!
+            This is going to be the <strong>1st</strong> PyCon Conference in Uganda!
             </p>
         </div>
         <div className="my-10">
@@ -105,11 +105,11 @@ export default function Footer() {
         </div>
     </div>
     <div className="bg-neutral-200 p-6 text-center dark:bg-neutral-700">
-        <span>© 2023 Copyright:</span>
+        <span>© 2023 Copyright: </span>
         <a
         className="font-semibold text-neutral-600 dark:text-neutral-400"
         href="https://ug.pycon.org/"
-        >PyconUg</a
+        >PyCon Uganda</a
         >
     </div>
 </footer>
