@@ -6,9 +6,9 @@ export default function NewsletterSection() {
   const [email, setEmail] = useState("");
 
   function HandleSubmit(e) {
-    window.location.href = `pycon-uganda+subscribe@googlegroups.com?subject=Subscribe%20to%20Your%20Group`;
+    window.location.href = `mailto:pycon-uganda+subscribe@googlegroups.com?subject=Subscribe%20to%20Your%20Group`;
   }
-  
+
   return (
     <section>
       <div className="py-[60px]">
