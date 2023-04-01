@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function SpeakerSection() {
   return (
     <section>
@@ -20,17 +22,17 @@ export default function SpeakerSection() {
             promoting diversity and inclusion in the conference program and
             encourage the sharing of new ideas and approaches.
           </p>
-          <h6 className="text-center text-[#0e1b4d]">
-            You can view our{" "}
-            <a
-              href="/assets/docs/Call_For_Proposals.pdf"
-              target="_blank"
-              className="text-[#0e1b4d] ml-0 buy-tickets scrollto"
-            >
-              Call For Proposals
-            </a>{" "}
-            guidelines.
-          </h6>
+          <div className="flex justify-center mt-16">
+            <p className="flex flex-col text-center md:flex-row">
+              <span>
+                Interested in speaking at <b>PyCon Uganda 2023</b> ?
+              </span>
+              &nbsp;
+              <Link href={"/speakers"} className="underline text-cyan-900">
+                View our Call For Proposals guidelines
+              </Link>
+            </p>
+          </div>
         </div>
       </div>
     </section>

@@ -5,7 +5,7 @@ import logo from "../public/img/logo.png";
 export default function Navbar() {
   const NavbarLinks = [
     {
-      path: "#speakers",
+      path: "/speakers",
       label: "Speakers",
     },
     {
