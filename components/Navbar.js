@@ -9,18 +9,6 @@ export default function Navbar() {
       label: "Speakers",
     },
     {
-      path: "#schedule",
-      label: "Schedule",
-    },
-    {
-      path: "#venue",
-      label: "Venue",
-    },
-    {
-      path: "#hotels",
-      label: "Hotels",
-    },
-    {
       path: "/sponsors",
       label: "Sponsors",
     },
