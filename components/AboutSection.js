@@ -7,8 +7,7 @@ export default function AboutSection() {
             About The Conference
           </h2>
           <p className="mt-2 sm:leading-relaxed">
-            PyCon Uganda is one of the Python Conferences you can attend in East
-            Africa. We shall talk about Python applications in data, web and
+            PyCon Uganda is one of the Python Conferences you can attend in World Wide. We shall talk about Python applications in data, web and
             other domains. This is a platform where Python users, developers,
             library developers and companies that use Python come together.This
             is going to be the <b>1st ever</b> PyCon in Uganda!
