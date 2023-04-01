@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function BuyTicketSection() {
-    const QUICKET_LINK = "https://qkt.io/pyconug";
+    const QUICKET_LINK = "https://qkt.io/pyconug2023";
     return (
         <section className="py-[60px] bg-[#f6f7fd]">
             <div className="mx-auto max-w-screen-xl px-4 py-16 lg:flex lg:h-60 lg:items-center">
