@@ -130,8 +130,8 @@ export default function SpeakersPage() {
           </p>
         </div>
 
-        <div className="grid place-items-center mt-16">
-          <p>
+        <div className="flex justify-center mt-16">
+          <p className="flex flex-col text-center md:flex-row">
             <span>Ready to submit a proposal ?</span>&nbsp;
             <Link
               href={"https://sessionize.com/pycon-uganda"}
