@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from "next/link";
 import logo from '../public/img/logo.png';
 
 export default function Footer() {
@@ -39,9 +40,7 @@ export default function Footer() {
             >
             </p>
             <p>
-            <a href="#!" className="text-neutral-600 dark:text-neutral-200"
-                >Privacy Policy</a
-            >
+            <Link href={"/privacy-policy"} className="text-neutral-600 dark:text-neutral-200">Privacy Policy</Link>
             </p>
         </div>
         <div className="my-10">
