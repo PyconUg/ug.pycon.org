@@ -1,4 +1,4 @@
-export default function Sponsors() {
+export default function SponsorsPage() {
   return (
     <>
       <section className="flex bg-cyan-900 text-zinc-300">
