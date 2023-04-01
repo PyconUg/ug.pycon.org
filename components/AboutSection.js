@@ -1,7 +1,7 @@
 export default function AboutSection() {
   return (
     <section className="bg-gray-800">
-      <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen">
+      <div className="mx-auto max-w-screen-xl px-4 py-28 lg:flex">
         <div className="mx-auto max-w-xl text-white">
           <h2 className="text-3xl font-extrabold sm:text-4xl">
             About The Conference
