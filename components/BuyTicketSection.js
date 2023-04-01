@@ -10,7 +10,7 @@ export default function BuyTicketSection() {
                     <p className="text-base p-0 font-medium">Tickets can be bought by following the link below.</p>
                     <div className="py-12">
                         <Link className="bg-[#ffe135] text-white font-bold py-3 px-10 m-2 border rounded-3xl" href={QUICKET_LINK}>
-                            Register
+                            Get Ticket
                         </Link>
                     </div>
                 </div>

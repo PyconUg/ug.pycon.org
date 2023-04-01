@@ -43,7 +43,7 @@ export default function Navbar() {
             href={QUICKET_LINK}
           >
             {" "}
-            Register
+            Get Ticket
           </Link>
         </div>
       </div>
