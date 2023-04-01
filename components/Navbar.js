@@ -17,7 +17,7 @@ export default function Navbar() {
       label: "Code of Conduct",
     },
     {
-      path: "#contact",
+      path: "/contact",
       label: "Contact",
     },
   ];
