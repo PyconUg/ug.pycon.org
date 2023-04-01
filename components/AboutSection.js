@@ -13,10 +13,16 @@ export default function AboutSection() {
             library developers and companies that use Python come together.This
             is going to be the <b>1st ever</b> PyCon in Uganda!
           </p>
-          <h3 className="mt-4 text-2xl font-bold sm:text-xl">WHERE</h3>
-          <p className="mt-2 sm:leadung-relaxed">MoTIV, Kampala, Uganda</p>
-          <h3 className="mt-4 text-2xl font-bold sm:text-xl">WHEN</h3>
-          <p className="mt-2 sm:leadung-relaxed">21 - 23 September, 2023</p>
+          <div className="flex flex-col md:flex-row justify-between my-8">
+            <div>
+              <h3 className="mt-4 text-2xl font-bold sm:text-xl">WHERE</h3>
+              <p className="mt-2 sm:leadung-relaxed">MoTIV, Kampala, Uganda</p>
+            </div>
+            <div>
+              <h3 className="mt-4 text-2xl font-bold sm:text-xl">WHEN</h3>
+              <p className="mt-2 sm:leadung-relaxed">21 - 23 September, 2023</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
