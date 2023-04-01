@@ -16,7 +16,7 @@ export default function PrivacyPolicy() {
             </div>
           </div>
         </section>
-       <section className="mx-8 md:mx-28 max-w-screen-xl my-10 text-justify text-lg">
+       <section className="mx-8 md:mx-28 max-w-screen-xl my-10 text-justify text-lg mb-40">
           <h2 className="font-sans pb-4 text-xl font-bold sm:text-2xl">
             SPAM-Free Warranty
           </h2>
