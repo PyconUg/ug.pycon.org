@@ -18,7 +18,7 @@ export default function ContactUsSection() {
             <i className="bi bi-phone"></i>
             <h3 className="text-lg uppercase font-bold">Phone Number</h3>
             <p>
-              <a href="tel:+155895548855">+256 777 111 111</a>
+              <a href="tel:+ 256 701 599 722">+ 256 701 599 722</a>
             </p>
           </div>
           <div className="mb-0 text-[#112363]">
