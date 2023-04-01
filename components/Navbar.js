@@ -9,7 +9,19 @@ export default function Navbar() {
       label: "Speakers",
     },
     {
-      path: "#sponsors",
+      path: "#schedule",
+      label: "Schedule",
+    },
+    {
+      path: "#venue",
+      label: "Venue",
+    },
+    {
+      path: "#hotels",
+      label: "Hotels",
+    },
+    {
+      path: "/sponsors",
       label: "Sponsors",
     },
     {
