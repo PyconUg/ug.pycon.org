@@ -43,7 +43,7 @@ export default function Navbar() {
             href={QUICKET_LINK}
           >
             {" "}
-            Buy Ticket
+            Register
           </Link>
         </div>
       </div>
