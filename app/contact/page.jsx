@@ -1,4 +1,4 @@
-export default function CallForSponsors() {
+export default function ContactPage() {
   return (
     <>
       <section className="flex bg-cyan-900 text-zinc-300">
