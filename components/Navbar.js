@@ -21,7 +21,7 @@ export default function Navbar() {
       label: "Hotels",
     },
     {
-      path: "#sponsors",
+      path: "/sponsors",
       label: "Sponsors",
     },
     {
