@@ -5,7 +5,7 @@ export default function HeroSection() {
         className="w-full h-screen bg-no-repeat bg-cover "
         style={{
           backgroundImage:
-            "url(https://user-images.githubusercontent.com/65954740/227708763-5d987ff4-564e-42e0-a8f8-2d609611fccb.jpg)",
+            "url(https://i.ibb.co/v1cVrYd/Untitled.jpg)",
         }}
       >
         <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center text-white">

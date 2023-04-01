@@ -86,8 +86,7 @@ export default function CodeOfConduct() {
         <p>
           Every member of our community has the right to have their identity
           respected. The Python community is dedicated to providing a positive
-          experience for everyone, regardless of age, gender identity and
-          expression, sexual orientation, disability, physical appearance, body
+          experience for everyone, regardless of age, disability, physical appearance, body
           size, ethnicity, nationality, race, religion (or lack thereof),
           education, or socioeconomic status.
         </p>
@@ -167,6 +166,8 @@ export default function CodeOfConduct() {
           items will be asked to leave immediately, and will only be allowed to
           return without the weapon.
         </p>
+
+        <br />
         <h2 className="font-sans text-xl font-bold sm:text-2xl">
           CONSEQUENCES
         </h2>
@@ -274,7 +275,7 @@ export default function CodeOfConduct() {
         </p>
         <br />
         <p className="italic font-sans text-xl font-medium sm:text-2xl">
-          Language was incorporated from the following Codes of Conduct:
+          Language used here was adapted from the following Codes of Conduct:
         </p>
         <ul className="list-disc list-inside md:list-inside">
           <li>
@@ -292,10 +293,6 @@ export default function CodeOfConduct() {
           <li>
             Django Project Code of Conduct, licensed under a Creative Commons
             Attribution 3.0 Unported License.
-          </li>
-          <li>
-            LGBTQ in Tech Slack Code of Conduct, licensed under a Creative
-            Commons Zero License.
           </li>
           <li>
             PyCon 2018 Code of Conduct, licensed under a Creative Commons
