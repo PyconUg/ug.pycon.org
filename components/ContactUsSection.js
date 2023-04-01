@@ -12,20 +12,20 @@ export default function ContactUsSection() {
           <div className="mb-0 text-[#112363]">
             <i className="bi bi-geo-alt"></i>
             <h3 className="text-lg uppercase font-bold">Address</h3>
-            <address>Kampala</address>
+            <address>MOTIV Uganda</address>
           </div>
           <div className="mb-0 text-[#112363]">
             <i className="bi bi-phone"></i>
             <h3 className="text-lg uppercase font-bold">Phone Number</h3>
             <p>
-              <a href="tel:+155895548855">+256 777 111 111</a>
+              <a href="tel:+ 256 701 599 722">+ 256 701 599 722</a>
             </p>
           </div>
           <div className="mb-0 text-[#112363]">
             <i className="bi bi-envelope"></i>
             <h3 className="text-lg uppercase font-bold">Email</h3>
             <p>
-              <a href="mailto:info@example.com">pyconug@pycon.org</a>
+              <a href="mailto:pyconug@pycon.org">pyconug@pycon.org</a>
             </p>
           </div>
         </div>
