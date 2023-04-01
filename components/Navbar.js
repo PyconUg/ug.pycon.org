@@ -21,7 +21,7 @@ export default function Navbar() {
       label: "Contact",
     },
   ];
-  const QUICKET_LINK = "https://qkt.io/pyconug";
+  const QUICKET_LINK = "https://qkt.io/pyconug2023";
   return (
     <nav className="sticky top-0 z-10 bg-white backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-gray-200">
       <div className="max-w-5xl mx-auto px-5">
@@ -43,7 +43,7 @@ export default function Navbar() {
             href={QUICKET_LINK}
           >
             {" "}
-            Buy Ticket
+            Get Ticket
           </Link>
         </div>
       </div>
