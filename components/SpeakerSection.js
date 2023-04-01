@@ -22,7 +22,17 @@ export default function SpeakerSection() {
             promoting diversity and inclusion in the conference program and
             encourage the sharing of new ideas and approaches.
           </p>
-         
+          <div className="flex justify-center mt-16">
+            <p className="flex flex-col text-center md:flex-row">
+              <span>Interested in speaking at <b>PyCon Uganda 2023</b> ?</span>&nbsp;
+              <Link
+                href={"https://sessionize.com/pycon-uganda"}
+                className="underline text-cyan-900"
+              >
+                View our Call For Proposals guidelines
+              </Link>
+            </p>
+          </div>
         </div>
       </div>
     </section>
