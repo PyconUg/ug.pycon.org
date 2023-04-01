@@ -8,7 +8,7 @@ export default function VenueSection() {
               Event Venue
             </h2>
             <p className="text-base p-0 font-medium">
-              <b>PyCon Uganda</b> will be hosted at MOTIV Kampala
+              <b>PyCon Uganda</b> will be hosted at MOTIV Uganda
             </p>
           </div>
           <div className="mt-4">
