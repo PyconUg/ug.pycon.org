@@ -23,7 +23,7 @@ export default function Navbar() {
   ];
   const QUICKET_LINK = "#";
   const SESSIONIZE_LINK = "https://sessionize.com/pycon-uganda";
-  
+
   return (
     <nav className="sticky top-0 z-10 bg-white backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-gray-200">
       <div className="max-w-5xl mx-auto px-5">
@@ -42,7 +42,7 @@ export default function Navbar() {
           </div>
           <Link
             className="bg-black text-white px-6 py-1 border rounded-lg"
-            href={QUICKET_LINK}
+            href={SESSIONIZE_LINK}
           >
             {" "}
             Become A Speaker
