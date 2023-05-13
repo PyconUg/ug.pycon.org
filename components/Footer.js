@@ -39,8 +39,11 @@ export default function Footer() {
                 >Tickets</a
             >
             </p>
-            <p>
+            <p className="mb-4">
             <Link href={"/privacy-policy"} className="text-neutral-600 dark:text-neutral-200">Privacy Policy</Link>
+            </p>
+            <p className="mb-4">
+            <Link href={"/health-and-safety"} className="text-neutral-600 dark:text-neutral-200">Health and Safety Guidelines</Link>
             </p>
         </div>
         <div className="my-10">
