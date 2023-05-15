@@ -21,7 +21,7 @@ export default function Navbar() {
       label: "Contact",
     },
   ];
-  const QUICKET_LINK = "#";
+  const QUICKET_LINK = "https://qkt.io/w31vDE";
   const SESSIONIZE_LINK = "https://sessionize.com/pycon-uganda";
 
   return (
