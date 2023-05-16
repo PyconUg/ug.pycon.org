@@ -23,7 +23,7 @@ export default function Navbar() {
   ];
   const QUICKET_LINK = "https://qkt.io/w31vDE";
   const SESSIONIZE_LINK = "https://sessionize.com/pycon-uganda";
-  const TICKET_BTN_LABEL = "Get Your Ticket";
+  const TICKET_BTN_LABEL = "Get Ticket";
 
   return (
     <nav className="sticky top-0 z-10 bg-white backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-gray-200">
