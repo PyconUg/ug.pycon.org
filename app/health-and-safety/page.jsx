@@ -11,7 +11,7 @@ export default function HealthAndSafety() {
                 Health and Safety Guidelines
               </h1>
               <p className="mt-4 sm:text-xl text-justify mx-5">
-              Our attendees' health and safety remain our top priority and we look to the venue, and Ministry of Health guidelines to make the best and most informed decisions around onsite safety and requirements so we will be erring on the side of safety for all participants.<br /><br />
+              Our attendees&apos; health and safety remain our top priority and we look to the venue, and Ministry of Health guidelines to make the best and most informed decisions around onsite safety and requirements so we will be erring on the side of safety for all participants.<br /><br />
               PyCon Uganda will continue to provide social distancing where possible in the venue. Hand sanitizer will also be available for all attendees. The guidelines implemented for PyCon Uganda 2023 are subject to change based on health and safety recommendations at the time of the event. We are committing, however, to only make changes in the direction of greater protections.
 
               </p>
