@@ -21,8 +21,9 @@ export default function Navbar() {
       label: "Contact",
     },
   ];
-  const QUICKET_LINK = "#";
+  const QUICKET_LINK = "https://qkt.io/w31vDE";
   const SESSIONIZE_LINK = "https://sessionize.com/pycon-uganda";
+  const TICKET_BTN_LABEL = "Get Ticket";
 
   return (
     <nav className="sticky top-0 z-10 bg-white backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-gray-200">
@@ -42,10 +43,9 @@ export default function Navbar() {
           </div>
           <Link
             className="bg-black text-white px-6 py-1 border rounded-lg"
-            href={SESSIONIZE_LINK}
+            href={QUICKET_LINK}
           >
-            {" "}
-            Become A Speaker
+            {TICKET_BTN_LABEL}
           </Link>
         </div>
       </div>
