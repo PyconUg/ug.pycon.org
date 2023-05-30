@@ -9,7 +9,7 @@ export default function SponsorSection() {
                     <h2 className="text-4xl text-[#0e1b4d] font-bold uppercase">Our Sponsors</h2>
                     <p className="text-base p-4 font-medium">Join our growing list of sponsors who are making PyCon Uganda happen</p>
                     <Image
-                        src="/../public/img/psf-logo.png"
+                        src="/img/sponsors/psf-logo.png"
                         alt="PSF Logo"
                         width={800}
                         height={304}
