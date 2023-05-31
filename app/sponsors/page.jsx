@@ -508,7 +508,7 @@ export default function SponsorsPage() {
           <form
             action="mailto:pyconug@gmail.com"
             method="post"
-            enctype="multipart/form-data"
+            encType="multipart/form-data"
             className="space-y-8"
           >
             <div>
