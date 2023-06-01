@@ -25,7 +25,7 @@ export default function ContactUsSection() {
             <i className="bi bi-envelope"></i>
             <h3 className="text-lg uppercase font-bold">Email</h3>
             <p>
-              <a href="mailto:pyconug@pycon.org">pyconug@pycon.org</a>
+              <a href="mailto:pyconug@gmail.com">pyconug@gmail.com</a>
             </p>
           </div>
         </div>
