@@ -1,3 +1,5 @@
+import { PYCONUG_EMAIL } from "@/utils";
+
 export default function ContactPage() {
   return (
     <>
@@ -18,7 +20,7 @@ export default function ContactPage() {
         <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
           
           <form
-            action="mailto:pyconug@gmail.com"
+            action={`mailto:${PYCONUG_EMAIL}`}
             method="post"
             enctype="multipart/form-data"
             className="space-y-8"

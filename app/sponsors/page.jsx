@@ -1,3 +1,5 @@
+import { PYCONUG_EMAIL } from "@/utils";
+
 export default function SponsorsPage() {
   return (
     <>
@@ -506,7 +508,7 @@ export default function SponsorsPage() {
             Interested in sponsoring? We would love to hear from you.
           </p>
           <form
-            action="mailto:pyconug@gmail.com"
+            action={`mailto:${PYCONUG_EMAIL}`}
             method="post"
             encType="multipart/form-data"
             className="space-y-8"
