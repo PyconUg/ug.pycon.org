@@ -1,4 +1,7 @@
+import { PYCONUG_EMAIL } from "@/utils";
+
 export default function ContactUsSection() {
+ 
   return (
     <section>
       <div className="mx-auto max-w-screen-xl px-4 py-16 lg:block lg:h-85 lg:items-center">
@@ -25,14 +28,14 @@ export default function ContactUsSection() {
             <i className="bi bi-envelope"></i>
             <h3 className="text-lg uppercase font-bold">Email</h3>
             <p>
-              <a href="mailto:pyconug@gmail.com">pyconug@gmail.com</a>
+              <a href={`mailto:${PYCONUG_EMAIL}`}>{PYCONUG_EMAIL}</a>
             </p>
           </div>
         </div>
           
           <div className="py-4 lg:py-8 px-4 mx-auto max-w-screen-sm">
           <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Reach out to us in case of queries.</p>
-          <form action="mailto:pyconug@gmail.com" method="post" enctype="multipart/form-data" className="space-y-8">
+          <form action={`mailto:${PYCONUG_EMAIL}`} method="post" enctype="multipart/form-data" className="space-y-8">
               <div>
                   <label htmlFor="name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your Name</label>
                   <input type="text" id="name" className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" required />
