@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from 'next/image';
 
 export default function SpeakersPage() {
   return (
@@ -21,6 +22,13 @@ export default function SpeakersPage() {
         </div>
       </section>
       <section className="mx-8 md:mx-28 max-w-screen-xl my-10 text-justify text-lg mb-40">
+        <div style={{
+          display: "flex",
+          justifyContent: "center",
+        }}>
+          <Image src="/img/closed.png" alt="CFP closed" width={164} height={84} />
+        </div>
+        <br/>
         <p>
           Be it Web Development, Data Science, Machine Learning, Data
           Engineering or any other domain, Python programming has become a key
@@ -130,16 +138,14 @@ export default function SpeakersPage() {
           </p>
         </div>
 
-        <div className="flex justify-center mt-16">
-          <p className="flex flex-col text-center md:flex-row">
-            <span>Ready to submit a proposal ?</span>&nbsp;
-            <Link
-              href={"https://sessionize.com/pycon-uganda"}
-              className="underline text-cyan-900"
-            >
-              Click here
-            </Link>
-          </p>
+        <div className="flex justify-center mt-16">          
+          <div style={{
+            display: "flex",
+            justifyContent: "center",
+          }}>
+            <Image src="/img/closed.png" alt="CFP closed" width={164} height={84} />
+          </div>
+          <br/>
         </div>
       </section>
     </>
