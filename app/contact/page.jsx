@@ -22,7 +22,7 @@ export default function ContactPage() {
           <form
             action={`mailto:${PYCONUG_EMAIL}`}
             method="post"
-            enctype="multipart/form-data"
+            encType="multipart/form-data"
             className="space-y-8"
           >
             <div>

@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Image from 'next/image';
 
 export default function SpeakerSection() {
   return (
@@ -22,17 +22,21 @@ export default function SpeakerSection() {
             promoting diversity and inclusion in the conference program and
             encourage the sharing of new ideas and approaches.
           </p>
-          <div className="flex justify-center mt-16">
+          <div className="flex justify-center mt-4 pb-2">
             <p className="flex flex-col text-center md:flex-row">
               <span>
                 Interested in speaking at <b>PyCon Uganda 2023</b> ?
               </span>
               &nbsp;
-              <Link href={"/speakers"} className="underline text-cyan-900">
-                View our Call For Proposals guidelines
-              </Link>
             </p>
           </div>
+              
+          <div style={{
+              display: "flex",
+              justifyContent: "center",
+            }}>
+              <Image src="/img/closed.png" alt="CFP closed" width={164} height={84} />
+              </div>
         </div>
       </div>
     </section>
