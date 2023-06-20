@@ -39,7 +39,7 @@ export default function DiversityPage() {
           <br/>
         </p>
 
-        <p>*Submitting your application does not guarantee immediate approval, as each application will be individually reviewed by the PyCon Uganda Organizing Team. Applications will be evaluated based on the information provided in the application form to determine the applicant's eligibility.
+        <p>*Submitting your application does not guarantee immediate approval, as each application will be individually reviewed by the PyCon Uganda Organizing Team. Applications will be evaluated based on the information provided in the application form to determine the applicant&apos;s eligibility.
         </p>
         <br/>
 
