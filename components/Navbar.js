@@ -17,6 +17,10 @@ export default function Navbar() {
       label: "Code of Conduct",
     },
     {
+      path: "/financial-aid",
+      label: "Financial Aid",
+    },
+    {
       path: "/contact",
       label: "Contact",
     },

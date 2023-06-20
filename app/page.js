@@ -7,6 +7,7 @@ import SponsorSection from "@/components/SponsorSection";
 import NewsletterSection from "@/components/NewsletterSection";
 import BuyTicketSection from "@/components/BuyTicketSection";
 import ContactUsSection from "@/components/ContactUsSection";
+import DiversityPage from './financial-aid/page';
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <SponsorSection />
       <NewsletterSection />
       <BuyTicketSection />
+      <DiversityPage/>
       <ContactUsSection />
     </>
   );
