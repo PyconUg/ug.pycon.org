@@ -8,12 +8,20 @@ export default function SponsorSection() {
                 <div className="mx-auto max-w-xl text-center">
                     <h2 className="text-4xl text-[#0e1b4d] font-bold uppercase">Our Sponsors</h2>
                     <p className="text-base p-4 font-medium">Join our growing list of sponsors who are making PyCon Uganda happen</p>
-                    <Image
-                        src="/img/sponsors/psf-logo.png"
-                        alt="PSF Logo"
-                        width={800}
-                        height={304}
-                    />
+                    <div className="grid grid-cols-2 gap-6">
+                        <Image
+                            src="/img/sponsors/psf-logo.png"
+                            alt="PSF Logo"
+                            width={800}
+                            height={304}
+                        />
+                        <Image
+                            src="/img/sponsors/tiv-dark-logo.png"
+                            alt="TIV Logo"
+                            width={2000}
+                            height={824}
+                        />
+                    </div>
                     <div className="py-12">
                         <Link className="bg-[#ffe135] text-white font-bold py-3 px-10 m-2 border rounded-3xl" href={"/sponsors"}>
                             Become a Sponsor
