@@ -49,7 +49,7 @@ export default function Navbar() {
           </div>
           <div className="flex flex-row space-x-4">
             <Link
-              className="border-black   px-6 py-1 border rounded-lg"
+              className="border-black hidden md:block  px-6 py-1 border rounded-lg"
               href={SHOP_ACTION_LINK}
             >
               {SHOP_ACTION_LABEL}

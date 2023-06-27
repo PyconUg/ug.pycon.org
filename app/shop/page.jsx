@@ -21,7 +21,13 @@ export default function Shop() {
         </div>
       </section>
       <section className="mx-8 md:mx-28 max-w-screen-xl my-10 text-justify text-lg mb-40">
-        <Card />
+        <Card
+          image="shop/hoodie.jpg"
+          title="PyConUg Hoodie"
+          price="UGX 50,000"
+          tags="5.0"
+          cta="Buy Now"
+        />
       </section>
     </>
   );
