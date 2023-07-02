@@ -28,6 +28,8 @@ export default function Navbar() {
   const QUICKET_LINK = "https://qkt.io/w31vDE";
   const SESSIONIZE_LINK = "https://sessionize.com/pycon-uganda";
   const TICKET_BTN_LABEL = "Get Ticket";
+  const SHOP_ACTION_LABEL = "Shop";
+  const SHOP_ACTION_LINK = "/shop";
 
   return (
     <nav className="sticky top-0 z-10 bg-white backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-gray-200">
@@ -45,12 +47,20 @@ export default function Navbar() {
               );
             })}
           </div>
-          <Link
-            className="bg-black text-white px-6 py-1 border rounded-lg"
-            href={QUICKET_LINK}
-          >
-            {TICKET_BTN_LABEL}
-          </Link>
+          <div className="flex flex-row space-x-4">
+            <Link
+              className="border-black hidden md:block  px-6 py-1 border rounded-lg"
+              href={SHOP_ACTION_LINK}
+            >
+              {SHOP_ACTION_LABEL}
+            </Link>
+            <Link
+              className="bg-black text-white px-6 py-1 border rounded-lg"
+              href={QUICKET_LINK}
+            >
+              {TICKET_BTN_LABEL}
+            </Link>{" "}
+          </div>
         </div>
       </div>
     </nav>
