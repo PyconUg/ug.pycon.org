@@ -1,4 +1,5 @@
 import Card from "@/components/ui/Card";
+import { PYCON_MERCHANDIZE_URL } from "@/utils/constants";
 
 export default function Shop() {
   return (
@@ -26,7 +27,8 @@ export default function Shop() {
           title="PyConUg Hoodie"
           price="UGX 50,000"
           tags="5.0"
-          cta="Buy Now"
+          ctaLabel="Buy Now"
+          ctaHref={PYCON_MERCHANDIZE_URL}
         />
       </section>
     </>

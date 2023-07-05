@@ -1,4 +1,4 @@
-import { PYCONUG_EMAIL } from "@/utils";
+import { PYCONUG_EMAIL } from "@/utils/constants";
 
 export default function ContactUsSection() {
  
