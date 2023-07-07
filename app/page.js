@@ -20,7 +20,7 @@ export default function Home() {
       <SponsorSection />
       <NewsletterSection />
       <BuyTicketSection />
-      <DiversityPage/>
+      {/* <DiversityPage/> We have a separate page for this, no need to include it on home page */}
       <ContactUsSection />
     </>
   );
