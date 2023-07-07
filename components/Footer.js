@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from "next/link";
 import logo from '../public/img/logo.png';
-import { PYCONUG_EMAIL } from '@/utils';
+import { PYCONUG_EMAIL } from '@/utils/constants';
 
 export default function Footer() {
     return(

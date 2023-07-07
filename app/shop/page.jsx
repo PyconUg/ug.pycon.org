@@ -1,4 +1,5 @@
 import Card from "@/components/ui/Card";
+import { PYCON_MERCHANDIZE_URL } from "@/utils/constants";
 
 export default function Shop() {
   return (
@@ -23,10 +24,11 @@ export default function Shop() {
       <section className=" md:mx-28 max-w-screen-xl my-10 text-justify text-lg mb-40">
         <Card
           image="shop/hoodie.jpg"
-          title="PyConUg Hoodie"
+          title="PyCon Uganda Hoodie"
           price="UGX 50,000"
           tags="5.0"
-          cta="Buy Now"
+          ctaLabel="Buy Now"
+          ctaHref={PYCON_MERCHANDIZE_URL}
         />
       </section>
     </>
