@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Logo from "./logo";
+import { QUICKET_LINK } from "@/utils/constants";
 
 export default function Navbar() {
   const NavbarLinks = [
@@ -25,7 +26,7 @@ export default function Navbar() {
       label: "Contact",
     },
   ];
-  const QUICKET_LINK = "https://qkt.io/w31vDE";
+
   const SESSIONIZE_LINK = "https://sessionize.com/pycon-uganda";
   const TICKET_BTN_LABEL = "Get Ticket";
   const SHOP_ACTION_LABEL = "Shop";
