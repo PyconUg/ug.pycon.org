@@ -33,7 +33,7 @@ export default function Shop() {
             <ul className="list-disc list-inside md:list-inside indent-8">
               <li>Use your preferred mobile money service provider (e.g., MTN Mobile Money, Airtel Money).</li>
               <li>Locate the merchant payment option within your mobile money menu.</li>
-              <li>Enter the conference's merchant code:</li>
+              <li>Enter the conference&apos;s merchant code:</li>
               <ul className="list-disc list-inside md:list-inside indent-16">
                 <li><span class="font-bold">Airtel</span> merchant code is <span class="font-bold">6290564</span> with the names <span class="font-bold">PYCON Uganda</span>.</li>
                 <li><span class="font-bold">MTN</span> merchant code is <span class="font-bold">178471</span> with the names <span class="font-bold">Lanyero Deborah</span>.</li>
