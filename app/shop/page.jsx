@@ -15,14 +15,14 @@ export default function Shop() {
         <div className="flex flex-col justify-center items-center h-[35vh]">
           <div>
             <h1 className="text-3xl font-extrabold sm:text-5xl text-white">
-              PyConUg Shop
+              PyCon Ug Shop
             </h1>
           </div>
 
           <div>
             {" "}
             <p className="text-base p-4 font-medium">
-              A one stop for all PyconUg Swag
+              A one stop for all Pycon Ug Swag
             </p>
           </div>
         </div>
