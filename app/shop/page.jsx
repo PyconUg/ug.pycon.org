@@ -21,7 +21,7 @@ export default function Shop() {
           </div>
         </div>
       </section>
-      <section className="flex flex-col items-center my-10 mx-10">
+      <section className="flex flex-col md:flex-row md:justify-between items-center my-10 mx-10">
         <h2 className="font-sans text-xl font-bold sm:text-2xl">
           Welcome to the PyCon Uganda Merchandise page! 
         </h2>
