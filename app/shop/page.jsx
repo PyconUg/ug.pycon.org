@@ -29,8 +29,8 @@ export default function Shop() {
         <p>Here are the instructions for purchasing merchandise:</p>
         <br />
         <br />
-        <ol className="list-decimal list-outside md:list-outside flex justify-between">
-          <div className="w-1/2">
+        <ol className="list-decimal list-outside md:list-outside flex flex-col lg:flex-row justify-between">
+          <div className="lg:w-1/2 w-full">
             {" "}
             <h4 className="font-sans text-xl font-bold sm:text-l">
               <li>Mobile Money (MM) payments:</li>
@@ -169,7 +169,7 @@ export default function Shop() {
             </ol>
             <br />
           </div>
-          <div className="w-1/2">
+          <div className="lg:w-1/2 w-full">
             {" "}
             <h4 className="font-sans text-xl font-bold sm:text-l">
               <li>
