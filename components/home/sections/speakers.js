@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-export default function SpeakerSection() {
+export default function Speakers() {
   return (
     <section>
       <div className="mx-auto max-w-screen-xl px-4 py-16 lg:flex lg:h-90 lg:items-center">
@@ -35,7 +35,7 @@ export default function SpeakerSection() {
               display: "flex",
               justifyContent: "center",
             }}>
-              <Image src="/img/closed.png" alt="CFP closed" width={164} height={84} />
+              <Image src="/assets/images/closed.png" alt="CFP closed" width={164} height={84} />
               </div>
         </div>
       </div>

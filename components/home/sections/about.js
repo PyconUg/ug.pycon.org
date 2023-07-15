@@ -1,4 +1,4 @@
-export default function AboutSection() {
+export default function About() {
   return (
     <section className="bg-gray-800">
       <div className="mx-auto max-w-screen-xl px-4 py-28 lg:flex">

@@ -1,4 +1,4 @@
-export default function ScheduleSection() {
+export default function Schedule() {
   return (
     <section className="py-60 bg-gray-100">
       <div className="mx-auto max-w-screen-xl px-4 py-16 lg:flex lg:h-60 lg:items-center">

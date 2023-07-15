@@ -26,7 +26,7 @@ export default function SpeakersPage() {
           display: "flex",
           justifyContent: "center",
         }}>
-          <Image src="/img/closed.png" alt="CFP closed" width={164} height={84} />
+          <Image src="/assets/images/closed.png" alt="CFP closed" width={164} height={84} />
         </div>
         <br/>
         <p>
@@ -143,7 +143,7 @@ export default function SpeakersPage() {
             display: "flex",
             justifyContent: "center",
           }}>
-            <Image src="/img/closed.png" alt="CFP closed" width={164} height={84} />
+            <Image src="/assets/images/closed.png" alt="CFP closed" width={164} height={84} />
           </div>
           <br/>
         </div>

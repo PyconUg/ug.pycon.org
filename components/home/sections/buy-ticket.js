@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function BuyTicketSection() {
+export default function BuyTicket() {
     const QUICKET_LINK = "https://qkt.io/pyconug2023";
     return (
         <section className="py-[60px] bg-[#f6f7fd]">

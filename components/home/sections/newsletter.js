@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-export default function NewsletterSection() {
+export default function Newsletter() {
   const [email, setEmail] = useState("");
 
   function HandleSubmit(e) {

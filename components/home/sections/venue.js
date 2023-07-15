@@ -1,4 +1,4 @@
-export default function VenueSection() {
+export default function Venue() {
   return (
     <section>
       <div className="py-[60px]">

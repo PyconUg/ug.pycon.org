@@ -23,7 +23,7 @@ export default function Shop() {
       </section>
       <section className=" md:mx-28 max-w-screen-xl my-10 text-justify text-lg mb-40">
         <Card
-          image="shop/hoodie.jpg"
+          image="assets/images/swag/hoodie.jpg"
           title="PyCon Uganda Hoodie"
           price="UGX 50,000"
           tags="5.0"
