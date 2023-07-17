@@ -14,7 +14,7 @@ module.exports = {
       colors: {
         "pyconug-yellow": "#F1DB2F",
         "pyconug-lightBlue": "#177E89",
-        "pyconug-darkblue": "#094C61",
+        "pyconug-darkBlue": "#094C61",
         "pyconug-red": "#E32E26",
       },
     },

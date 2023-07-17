@@ -7,7 +7,7 @@ export default function Jumbotron() {
       <div className=" max-w-2xl lg:pl-20 flex flex-col space-y-8 md:mt-32 mt-24 text-center md:text-start md:pt-0 px-4  md:pr-24 lg:pr-0">
         <h1 className="font-bold lg:text-6xl md:text-5xl text-4xl ">
           {" "}
-          The <span className="text-pyconug-yellow">1st</span>
+          The <span className="text-pyconug-red">1st</span>
           &nbsp;Python Language Conference in Uganda
         </h1>
         <p className="text-gray-500 md:text-xl text-lg">
