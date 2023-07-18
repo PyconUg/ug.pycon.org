@@ -54,7 +54,7 @@ export default function SponsorsPage() {
         </p>
 
         <div className="pt-6 grid lg:grid-cols-4 gap-6 xl:gap-x-12">
-          <div className="mb-6 lg:mb-0">
+          <div className="mb-6 lg:mb-0 order-last">
             <div className="block rounded-lg shadow-lg bg-white h-full border border-[#CD7F32]">
               <div className="p-6 border-b border-gray-300 text-center">
                 <p className="uppercase mb-4 text-sm text-[#CD7F32] font-extrabold">
@@ -161,7 +161,7 @@ export default function SponsorsPage() {
             </div>
           </div>
 
-          <div className="mb-6 lg:mb-0">
+          <div className="mb-6 lg:mb-0 order-3">
             <div className="block rounded-lg shadow-lg bg-white h-full border border-[#C0C0C0]">
               <div className="p-6 border-b border-gray-300 text-center">
                 <p className="uppercase mb-4 text-sm text-[#A0A0A0] font-extrabold">
@@ -286,7 +286,7 @@ export default function SponsorsPage() {
             </div>
           </div>
 
-          <div className="mb-6 lg:mb-0">
+          <div className="mb-6 lg:mb-0 order-2">
             <div className="block rounded-lg bg-white h-full border border-[#FFD700]">
               <div className="p-6 border-b border-gray-300 text-center">
                 <p className="uppercase mb-4 text-sm text-[#FFD700] font-extrabold">
@@ -357,7 +357,7 @@ export default function SponsorsPage() {
             </div>
           </div>
 
-          <div className="mb-6 lg:mb-0">
+          <div className="mb-6 lg:mb-0 order-first">
             <div className="block rounded-lg shadow-lg bg-white h-full border border-[#A0B2C6]">
               <div className="p-6 border-b border-gray-300 text-center">
                 <p className="uppercase mb-4 text-sm text-[#A0B2C6] font-extrabold">
