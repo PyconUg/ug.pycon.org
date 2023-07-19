@@ -12,7 +12,7 @@ export const TIV_PURCHASE_STEPS = [
   },
   {
     step: "Step 2",
-    action: "Go to the designated merchandise counter and find <b>NORAH</b>.",
+    action: "Go to the designated merchandise counter and find <b>NASSIWA NORAH</b>.",
   },
   {
     step: "Step 3",
