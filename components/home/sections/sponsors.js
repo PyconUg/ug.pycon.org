@@ -15,12 +15,12 @@ export default function Sponsors() {
                             width={800}
                             height={304}
                         />
-                        <Image
+                        {/* <Image
                             src="/assets/images/sponsors/tiv-dark-logo.png"
                             alt="TIV Logo"
                             width={2000}
                             height={824}
-                        />
+                        /> */}
                     </div>
                     <div className="py-12">
                         <Link className="bg-[#ffe135] text-white font-bold py-3 px-10 m-2 border rounded-3xl" href={"/sponsors"}>
