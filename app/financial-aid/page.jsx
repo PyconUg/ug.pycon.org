@@ -54,6 +54,10 @@ export default function DiversityPage() {
         <p>
           We strongly encourage all eligible individuals to apply for our tickets.
         </p>
+        <br/>
+        <Link target="_blank" className="bg-[#ffe135]  font-bold py-3 px-10 m-2 border rounded-3xl" href="https://docs.google.com/forms/d/1hScuwbPwhxq8I1l8aZ0zOPA7WP-unvDMrarCXi0IxAY">
+          Apply for Financial Aid
+        </Link>
         <br/><br/>
         <p>If you are an accepted speaker, and you don’t need a grant because your employer is funding your conference costs, we can recognise your employer for this. For now we’re planning to get their logo in the programme, next to your talk. This is opt-in. With this, we hope to make it a bit easier for you to convince your employer to contribute towards your conference costs as a speaker.</p>
         <p>
