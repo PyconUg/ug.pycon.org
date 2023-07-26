@@ -24,7 +24,7 @@ export default function DiversityPage() {
           <br/><br/>We try to do this in a number of ways:<br/>
           <ul className="list-disc list-inside md:list-inside">
             <li>Conferences are a meeting place for developers from all around the globe. Therefore, the selection process is designed to benefit people that we believe make a difference, particularly speakers and tutorial presenters.</li>
-            <li>Additionally, the selection process attempts to promote a more diverse DjangoCon Africa. While encouraging diversity takes many forms, we’re happy to use the opportunity grant program as a very direct method of supporting diversity within the Django community. In particular, our grant program prioritises people part of an underrepresented or marginalised group in tech, as these people are more likely to experience hardships and difficulties in traveling to our events and being a part of our community.</li>
+            <li>Additionally, the selection process attempts to promote a more diverse PyCon Uganda. While encouraging diversity takes many forms, we’re happy to use the opportunity grant program as a very direct method of supporting diversity within the Django community. In particular, our grant program prioritises people part of an underrepresented or marginalised group in tech, as these people are more likely to experience hardships and difficulties in traveling to our events and being a part of our community.</li>
             <li>When prioritising grant applications, we try to get a feel for how much impact this grant will have on the applicant and the wider community and country, compared to others. In this, we consider things like involvement in a local community, social impact of the applicant’s activities, and how accessible other conferences are to them.</li>
           </ul>
         </p><br/><br/>
@@ -54,6 +54,10 @@ export default function DiversityPage() {
         <p>
           We strongly encourage all eligible individuals to apply for our tickets.
         </p>
+        <br/>
+        <Link target="_blank" className="bg-[#ffe135]  font-bold py-3 px-10 m-2 border rounded-3xl" href="https://docs.google.com/forms/d/1hScuwbPwhxq8I1l8aZ0zOPA7WP-unvDMrarCXi0IxAY">
+          Apply for Financial Aid
+        </Link>
         <br/><br/>
         <p>If you are an accepted speaker, and you don’t need a grant because your employer is funding your conference costs, we can recognise your employer for this. For now we’re planning to get their logo in the programme, next to your talk. This is opt-in. With this, we hope to make it a bit easier for you to convince your employer to contribute towards your conference costs as a speaker.</p>
         <p>
