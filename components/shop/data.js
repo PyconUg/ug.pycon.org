@@ -12,7 +12,8 @@ export const TIV_PURCHASE_STEPS = [
   },
   {
     step: "Step 2",
-    action: "Go to the designated merchandise counter at TIV Block B Reception and find <b>NASSIWA NORAH</b> or reach her on <b>+256 750 647059.</b>",
+    action:
+      "Go to the designated merchandise counter at TIV Block B Reception and find <b>NASSIWA NORAH</b> or reach her on <b>+256 750 647059.</b>",
   },
   {
     step: "Step 3",
@@ -55,5 +56,59 @@ export const MM_PURCHASE_STEPS = [
   {
     step: "Step 5",
     action: "Keep the proof of payment (transaction receipt) for verification.",
+  },
+];
+
+export const PYCON_DAY1_SCHEDULE = [
+  {
+    title: "Opening Keynotes",
+    duration: "09:00 - 09:30",
+    speaker: "John Doe",
+  },
+  {
+    title: "Break Out Sessions",
+    duration: "09:00 - 09:30",
+    speaker: "Moses Mark",
+  },
+  {
+    title: "What is Pycon",
+    duration: "09:00 - 09:30",
+    speaker: "James Karen",
+  },
+];
+
+export const PYCON_DAY2_SCHEDULE = [
+  {
+    title: "Opening Keynotes",
+    duration: "09:00 - 09:30",
+    speaker: "John Doe",
+  },
+  {
+    title: "Python IDEs",
+    duration: "09:00 - 09:30",
+    speaker: "Moses Mark",
+  },
+  {
+    title: "Python Overview",
+    duration: "09:00 - 09:30",
+    speaker: "James Karen",
+  },
+];
+
+export const PYCON_DAY3_SCHEDULE = [
+  {
+    title: "Opening Keynotes",
+    duration: "09:00 - 09:30",
+    speaker: "John Doe",
+  },
+  {
+    title: "Intro into parallel programming with python",
+    duration: "09:00 - 09:30",
+    speaker: "Moses Mark",
+  },
+  {
+    title: "Background of python",
+    duration: "09:00 - 09:30",
+    speaker: "James Karen",
   },
 ];
