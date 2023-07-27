@@ -17,16 +17,22 @@ export default function Navbar() {
       label: "Sponsors",
     },
     {
-      path: "/code-of-conduct",
-      label: "Code of Conduct",
+      path: "#",
+      label: "About PyCon Ug",
+      subLinks: [
+        {
+          path: "/code-of-conduct",
+          label: "Code of Conduct",
+        },
+        {
+          path: "/health-and-safety",
+          label: "Health and Safety",
+        },
+      ],
     },
     {
       path: "/financial-aid",
       label: "Financial Aid",
-    },
-    {
-      path: "/health-and-safety",
-      label: "Health and Safety",
     },
     {
       path: "/contact",
@@ -76,11 +82,50 @@ export default function Navbar() {
 
           {/* For larger devices */}
           <div className="md:flex space-x-4 hidden">
-            {NavbarLinks.map(({ path, label }, index) => {
+            {NavbarLinks.map(({ path, label, subLinks }, index) => {
               return (
-                <a key={index} href={path}>
-                  {label}
-                </a>
+                <div key={index} className="relative group">
+                  {subLinks ? (
+                    <div
+                      className="flex items-center group-hover:text-black focus:outline-none"
+                      onMouseEnter={() => setIsSideMenuOpen(true)}
+                      onMouseLeave={() => setIsSideMenuOpen(false)}
+                    >
+                      <a href={path}>{label}</a>
+                      <svg
+                        className={`w-4 h-4 ml-1 text-gray-700 transform group-hover:rotate-180 ${
+                          isSideMenuOpen ? "rotate-180" : ""
+                        }`}
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M19 9l-7 7-7-7"
+                        />
+                      </svg>
+                      {isSideMenuOpen && (
+                        <div className="absolute mt-1 top-5 space-y-1 bg-white border border-gray-300 rounded-md">
+                          {subLinks.map(({ path, label }, subIndex) => (
+                            <a
+                              key={subIndex}
+                              href={path}
+                              className="relative block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                            >
+                              {label}
+                            </a>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  ) : (
+                    <a href={path}>{label}</a>
+                  )}
+                </div>
               );
             })}
             <Link
@@ -103,22 +148,46 @@ export default function Navbar() {
               isSideMenuOpen ? "block" : "hidden"
             } md:hidden absolute bg-pyconug-lightBlue text-white top-20 right-0`}
           >
-            {NavbarLinks.map(({ path, label }, index) => {
+            {NavbarLinks.map(({ path, label, subLinks }, index) => {
               return (
-                <a key={index} href={path} className="block px-4 py-2">
-                  {label}
-                </a>
+                <div key={index}>
+                  {subLinks ? (
+                    <div className="border-b border-gray-300">
+                      <button className="w-full text-left px-4 py-2 text-white focus:outline-none">
+                        {label}
+                      </button>
+                      <div className="space-y-1 bg-white">
+                        {subLinks.map(({ path, label }, subIndex) => (
+                          <a
+                            key={subIndex}
+                            href={path}
+                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                          >
+                            {label}
+                          </a>
+                        ))}
+                      </div>
+                    </div>
+                  ) : (
+                    <a
+                      href={path}
+                      className="block px-4 py-2 text-white hover:bg-pyconug-darkBlue"
+                    >
+                      {label}
+                    </a>
+                  )}
+                </div>
               );
             })}
             <Link
               href={SHOP_ACTION_LINK}
-              className="block px-4 py-2 border-gray-300"
+              className="block px-4 py-2 text-white hover:bg-pyconug-darkBlue"
             >
               {SHOP_ACTION_LABEL}
             </Link>
             <Link
               href={QUICKET_LINK}
-              className="block px-4 py-2 border-gray-300"
+              className="block px-4 py-2 text-white hover:bg-pyconug-darkBlue"
             >
               {TICKET_BTN_LABEL}
             </Link>
@@ -128,5 +197,3 @@ export default function Navbar() {
     </nav>
   );
 }
-
-
