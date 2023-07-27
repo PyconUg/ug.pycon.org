@@ -25,6 +25,10 @@ export default function Navbar() {
       label: "Financial Aid",
     },
     {
+      path: "/health-and-safety",
+      label: "Health and Safety",
+    },
+    {
       path: "/contact",
       label: "Contact",
     },
