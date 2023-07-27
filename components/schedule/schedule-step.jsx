@@ -1,4 +1,4 @@
-export default function SpeakerStep({ title, duration, speaker }) {
+export default function ScheduleStep({ title, duration, speaker }) {
   return (
     <li className="mb-10 mt-5 ml-6">
       <span className="absolute flex items-center justify-center w-8 h-8  rounded-full -left-4 ring-4 ring-white  ">
