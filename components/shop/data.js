@@ -12,7 +12,8 @@ export const TIV_PURCHASE_STEPS = [
   },
   {
     step: "Step 2",
-    action: "Go to the designated merchandise counter at TIV Block B Reception and find <b>NASSIWA NORAH</b> or reach her on <b>+256 750 647059.</b>",
+    action:
+      "Go to the designated merchandise counter at TIV Block B Reception and find <b>NASSIWA NORAH</b> or reach her on <b>+256 750 647059.</b>",
   },
   {
     step: "Step 3",
