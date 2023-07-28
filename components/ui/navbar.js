@@ -17,8 +17,12 @@ export default function Navbar() {
       label: "Sponsors",
     },
     {
+      path: "/financial-aid",
+      label: "Financial Aid",
+    },
+    {
       path: "#",
-      label: "About PyCon Ug",
+      label: "Attendee Guide",
       subLinks: [
         {
           path: "/code-of-conduct",
@@ -33,10 +37,6 @@ export default function Navbar() {
           label: "Contact Us",
         },
       ],
-    },
-    {
-      path: "/financial-aid",
-      label: "Financial Aid",
     },
   ];
 
