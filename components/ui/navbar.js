@@ -28,15 +28,15 @@ export default function Navbar() {
           path: "/health-and-safety",
           label: "Health and Safety",
         },
+        {
+          path: "/contact",
+          label: "Contact Us",
+        },
       ],
     },
     {
       path: "/financial-aid",
       label: "Financial Aid",
-    },
-    {
-      path: "/contact",
-      label: "Contact",
     },
   ];
 
