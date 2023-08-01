@@ -22,7 +22,7 @@ export default function SpeakersPage() {
         </div>
       </section>
 
-      <section className="grid grid-cols-3 my-16  mx-10 gap-y-10">
+      <section className="grid md:grid-cols-2 lg:grid-cols-3 my-16 grid-cols-1 mx-10 gap-y-10">
         {SPEAKERS?.map((speaker, index) => {
           return <SpeakerCard speaker={speaker} key={index} />;
         })}
