@@ -67,4 +67,10 @@ export const SPEAKERS = [
     image: "/assets/images/speakers/olayinka-atobiloye.jpeg",
     bio: "Olayinka Atobiloye is a third-year Computer Engineering student at the University of Lagos, and she is also a GitHub Campus Expert and the Chair of Women in Engineering, Unilag. Her passion for software engineering stems from its ability to create solutions that have a direct positive impact on people's lives. In the past, she has had the opportunity to build impactful solutions through internships at companies like Goldman Sachs and GitHub. Additionally, Olayinka is passionate about volunteering and growing communities. As a GitHub Campus Expert, she hosts events like the GitHub Octernship Lagos, where students receive tips and insights into the GitHub Octernship program to help them accelerate their careers. As the current Women in Engineering Chair on her campus, she spearheads programs that improve the software engineering skills and employability of female students. These programs include seminars and mentoring sessions where female students can discuss with women in the industry and learn how to overcome challenges they may face in their early careers. Olayinka is committed to making a significant impact in software engineering and in her immediate community.",
   },
+  {
+    name: "Allan Kiche",
+    description: "Frontend Engineer",
+    image: "/assets/images/speakers/allan-kiche.jpg",
+    bio: "2+ Years of experience in Front End development with React. Currently a 4 the Student persuing Electrical and Telecommunications Engineering. Former frontend developer in Oracom Web Solutions. Github Campus expert facilitating community building in Moi University",
+  },
 ];
