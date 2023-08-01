@@ -60,7 +60,7 @@ export default function DjangoGirls() {
                 <Link
                   className="text-white bg-pyconug-lightBlue px-12 py-4 rounded-md w-50 mt-10"
                   target="_blank"
-                  href=""
+                  href="https://forms.gle/K5nELeYzpfMR8yDf6"
                 >
                   Register here
                 </Link>
@@ -73,7 +73,7 @@ export default function DjangoGirls() {
                 <Link
                   className="text-white bg-pyconug-lightBlue px-12 py-4 rounded-md w-50 mt-10"
                   target="_blank"
-                  href=""
+                  href="https://drive.google.com/open?id=1ZxkIBG7TNS-b-9EV3S2X-x_gDWO9QuBF2QJa8ZrKzwo"
                 >
                   Register here
                 </Link>
