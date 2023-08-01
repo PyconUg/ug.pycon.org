@@ -41,12 +41,12 @@ export default function SpeakersPage() {
 
       <section className="flex justify-center my-16">
         <div className="flex flex-col md:justify-between md:flex-row md:space-x-10 max-w-6xl">
-          <div className="w-1/3 space-y-6 text-center">
-            <div className="w-96 h-96 mx-auto rounded-full overflow-hidden">
+          <div className="md:w-1/3 w-full space-y-6 text-center">
+            <div className="md:w-96 w-72 h-72 md:h-96 mx-auto rounded-full overflow-hidden">
               <Image src={speaker?.image} alt="" width={600} height={600} />
             </div>
           </div>{" "}
-          <div className="w-2/3 mt-14">
+          <div className="md:w-2/3 w-full mt-14 px-4">
             <TitleSection
               name={speaker?.name}
               description={speaker?.description}
