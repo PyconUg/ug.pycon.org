@@ -15,7 +15,7 @@ export default function ScheduleStep({ title, duration, speaker }) {
             r="40"
             fill="#F1DB2F"
             stroke="black"
-            stroke-width="2" 
+            strokeWidth="2" 
           />
 
           <circle cx="50" cy="50" r="2" fill="black" />
@@ -26,7 +26,7 @@ export default function ScheduleStep({ title, duration, speaker }) {
             x2="50"
             y2="30"
             stroke="black"
-            stroke-width="4"
+            strokeWidth="4"
             stroke-linecap="round"
           />
 
@@ -36,7 +36,7 @@ export default function ScheduleStep({ title, duration, speaker }) {
             x2="65"
             y2="50"
             stroke="black"
-            stroke-width="3"
+            strokeWidth="3"
             stroke-linecap="round"
           />
 
@@ -46,7 +46,7 @@ export default function ScheduleStep({ title, duration, speaker }) {
             x2="50"
             y2="70"
             stroke="red"
-            stroke-width="2"
+            strokeWidth="2"
             stroke-linecap="round"
           />
         </svg>
