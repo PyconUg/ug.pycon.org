@@ -34,7 +34,7 @@ export default function SpeakerCard({ speaker }) {
           <h4 className="font-semibold text-2xl text-gray-700">
             {speaker?.name}
           </h4>
-          <p className="text-base text-gray-500">{speaker.position}</p>
+          <p className="text-base text-gray-500">{speaker.description}</p>
         </div>
       </div>
     </div>
