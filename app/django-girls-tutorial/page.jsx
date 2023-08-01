@@ -55,7 +55,7 @@ export default function DjangoGirls() {
           <div className="mx-8 md:mx-28 max-w-screen-xl flex flex-col lg:flex-row mb-10">
             <div className="lg:w-1/2 p-4">
               <h1 className="text-3xl">Become a participant</h1>
-              <p className="mt-3">Feel free to apply and also tell a friend about this workshop. Let's dream, code and create.</p>
+              <p className="mt-3">Feel free to apply and also tell a friend about this workshop. Let&apos;s dream, code and create.</p>
               <div className="flex justify-center md:justify-start">
                 <Link
                   className="text-white bg-pyconug-lightBlue px-12 py-4 rounded-md w-50 mt-10"
@@ -90,7 +90,7 @@ export default function DjangoGirls() {
           </div>
           <div className="lg:w-1/2 p-4 w-full">
             <h3 className="text-xl font-bold">Do I need to have something installed on my laptop?</h3>
-            <p className="mt-3">It would be helpful to have Django installed before the workshop, but we wouldn't expect you to install anything on your own. We will have an installation party the evening before the workshop.</p>
+            <p className="mt-3">It would be helpful to have Django installed before the workshop, but we wouldn&apos;t expect you to install anything on your own. We will have an installation party the evening before the workshop.</p>
             <h3 className="text-xl font-bold mt-5">Do I need to be part of Django girls already?</h3>
             <p className="mt-3">No. You need to sign up for the tutorial session and you will join the group for other activities if interested.</p>
           </div>
@@ -137,7 +137,7 @@ export default function DjangoGirls() {
             </div>
             <div className="lg:w-1/3 p-4 w-full">
               <ul className="list-disc list-inside indent-4">
-                <li>16:45 - 17:00 pm    Break</li>
+                <li>16:45 - 17:00 pm   Break</li>
                 <li>17:00 - 17:30 pm   Fixing Bugs and AOB</li>
                 <li>17:30 - 18:00 pm   Wrap up and announcements and photoshoot</li>
               </ul>
