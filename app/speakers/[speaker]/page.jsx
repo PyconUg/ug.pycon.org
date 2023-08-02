@@ -1,8 +1,25 @@
+"use client";
 import Image from "next/image";
 import TitleSection from "@/components/speakers/title-section";
 import PageSection from "@/components/ui/sections/page-section";
+import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
+import { SPEAKERS } from "@/components/speakers/speakers-data";
 
 export default function SpeakersPage() {
+  const pathname = usePathname();
+
+  const [speaker, setSpeaker] = useState(null);
+
+  useEffect(() => {
+    const speakerName = decodeURI(pathname.split("/").pop()); // Extract the speaker name from the pathname
+
+    if (speakerName) {
+      const speaker = SPEAKERS.find((speaker) => speaker.name === speakerName);
+      setSpeaker(speaker);
+    }
+  }, []);
+
   return (
     <>
       <section className=" bg-cyan-900 text-zinc-300">
@@ -24,22 +41,17 @@ export default function SpeakersPage() {
 
       <section className="flex justify-center my-16">
         <div className="flex flex-col md:justify-between md:flex-row md:space-x-10 max-w-6xl">
-          <div className="w-1/3 space-y-6 text-center">
-            <div className="w-96 h-96 mx-auto rounded-full overflow-hidden">
-              <Image
-                src={"/assets/images/swag/hoodie.jpg"}
-                alt=""
-                width={600}
-                height={600}
-              />
+          <div className="md:w-1/3 w-full space-y-6 text-center">
+            <div className="md:w-96 w-72 h-72 md:h-96 mx-auto rounded-full overflow-hidden">
+              <Image src={speaker?.image} alt="" width={600} height={600} />
             </div>
           </div>{" "}
-          <div className="w-2/3">
+          <div className="md:w-2/3 w-full mt-14 px-4">
             <TitleSection
-              name="John Doe"
-              position="Software Engineer at Pycon Uganda"
+              name={speaker?.name}
+              description={speaker?.description}
             />
-            <PageSection text="Vision Vestibulum  . In consequat dui in dolor suscipit, quis hendrerit dui cursus.  Vestibulum vitae consectetur felis. Aliquam tincidunt eget elit id fermentum. Phasellus lacus turpis, sollicitudin eget turpis sed, rutrum porttitor nisi. Objectives The objectives of the School are; To Nam at dolor non magna blandit consectetur at ac lectus. Donec maximus elit in lorem fermentum euismod. Morbi pretium, massa a malesuada viverra, libero ligula feugiat metus, vel feugiat velit lorem non felis. Nullam tempor pulvinar sem in accumsan. Cras scelerisque elementum lorem vitae sagittis. Curabitur dictum risus in tincidunt varius. Cras bibendum a dui in malesuada. Donec a venenatis dolor, scelerisque pellentesque felis. Maecenas vulputate magna in turpis sagittis, sed consectetur lorem consectetur. Duis mollis, risus vitae fermentum mattis, nisi massa mattis Courses Fusce tincidunt neque nibh, vel porttitor orci faucibus nec. Nunc est nunc, pretium quis orci et, laoreet pretium ex. Nam tristique venenatis odio sit amet pellentesque. In consequat dui in dolor suscipit, quis hendrerit dui cursus. Suspendisse ut accumsan sem. Sed tincidunt convallis sem in sollicitudin. Vestibulum vitae consectetur felis. Aliquam tincidunt eget elit id fermentum. Phasellus lacus turpis, sollicitudin eget turpis sed, rutrum porttitor nisi." />
+            <PageSection text={speaker?.bio} />
           </div>
         </div>
       </section>

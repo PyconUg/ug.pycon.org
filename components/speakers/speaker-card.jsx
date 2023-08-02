@@ -18,7 +18,7 @@ export default function SpeakerCard({ speaker }) {
   return (
     <div className="space-y-3" onClick={handleClick}>
       <div
-        className="text-center"
+        className="text-center cursor-pointer"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
@@ -34,7 +34,7 @@ export default function SpeakerCard({ speaker }) {
           <h4 className="font-semibold text-2xl text-gray-700">
             {speaker?.name}
           </h4>
-          <p className="text-base text-gray-500">{speaker.position}</p>
+          <p className="text-base text-gray-500">{speaker.description}</p>
         </div>
       </div>
     </div>
