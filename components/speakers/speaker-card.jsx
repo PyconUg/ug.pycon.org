@@ -18,7 +18,7 @@ export default function SpeakerCard({ speaker }) {
   return (
     <div className="space-y-3" onClick={handleClick}>
       <div
-        className="text-center"
+        className="text-center cursor-pointer"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
