@@ -28,7 +28,7 @@ export default function Sponsors() {
           </div>
           <div className="py-12">
             <Link
-              className="bg-[#ffe135] text-white font-bold py-3 px-10 m-2 border rounded-3xl"
+              className="uppercase text-white bg-pyconug-lightBlue px-12 py-4 rounded-md w-64 font-bold "
               href={"/sponsors"}
             >
               Become a Sponsor
