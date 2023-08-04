@@ -11,7 +11,8 @@ export default function Jumbotron() {
           &nbsp;Python Language Conference in Uganda
         </h1>
         <p className="text-gray-500 md:text-xl text-lg">
-          21 - 23 September, MoTIV, Kampala Uganda
+          21 - 23 September
+           {/* MoTIV, Kampala Uganda */}
         </p>
 
         <div className="flex justify-center md:justify-start">
