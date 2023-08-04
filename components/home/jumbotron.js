@@ -17,7 +17,7 @@ export default function Jumbotron() {
 
         <div className="flex justify-center md:justify-start">
           <Link
-            className="uppercase text-white bg-pyconug-lightBlue px-12 py-4 rounded-md w-64 font-bold "
+            className=" uppercase text-white bg-pyconug-lightBlue border-2 hover:bg-white hover:text-pyconug-lightBlue hover:border-pyconug-lightBlue px-12 py-4 rounded-md w-64 font-bold "
             target="_blank"
             href={QUICKET_LINK}
           >
