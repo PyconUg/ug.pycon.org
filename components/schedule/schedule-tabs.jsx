@@ -12,7 +12,7 @@ export default function ScheduleTabs() {
   return (
     <Tab.Group>
       <ScheduleTab data={Tabs} />
-      <Tab.Panels className="mx-24">
+      <Tab.Panels className="md:mx-24">
         <SchedulePanel data={PYCON_DAY1_SCHEDULE} />
         <SchedulePanel data={PYCON_DAY2_SCHEDULE} />
         <SchedulePanel data={PYCON_DAY3_SCHEDULE} />

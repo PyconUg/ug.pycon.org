@@ -21,7 +21,7 @@ export default function SchedulePage() {
           </div>
         </div>
       </section>
-      <section className="mx-36 my-16">
+      <section className="lg:mx-36 mx-4 my-16">
         <ScheduleTabs />
       </section>
     </main>

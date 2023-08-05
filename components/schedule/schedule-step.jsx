@@ -7,7 +7,6 @@ export default function ScheduleStep({ title, duration, speaker }) {
           width="100"
           height="100"
           viewBox="0 0 100 100"
-         
         >
           <circle
             cx="50"
@@ -15,7 +14,7 @@ export default function ScheduleStep({ title, duration, speaker }) {
             r="40"
             fill="#F1DB2F"
             stroke="black"
-            strokeWidth="2" 
+            strokeWidth="2"
           />
 
           <circle cx="50" cy="50" r="2" fill="black" />
@@ -55,13 +54,15 @@ export default function ScheduleStep({ title, duration, speaker }) {
         {" "}
         <h3 className=" font-bold leading-tight capitalize">{title}</h3>
         <p className="text-gray-400">{duration}</p>
-        <p className="text-gray-600">
-          {" "}
-          <span className="font-bold capitalize">
-            Speaker(s)/Facilitator(s):{" "}
-          </span>
-          {speaker}
-        </p>
+        {speaker && (
+          <p className="text-gray-600">
+            {" "}
+            <span className="font-bold capitalize">
+              Speaker(s)/Facilitator(s):{" "}
+            </span>
+            {speaker}
+          </p>
+        )}
       </div>
     </li>
   );

@@ -12,6 +12,10 @@ export default function Navbar() {
       path: "/speakers",
       label: "Speakers",
     },
+        {
+      path: "/schedule",
+      label: "Schedule",
+    },
     {
       path: "/sponsors",
       label: "Sponsors",
