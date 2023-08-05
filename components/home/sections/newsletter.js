@@ -25,7 +25,7 @@ export default function Newsletter() {
                 <div className="col-span-10 block md:flex">
                   <input
                     type="text"
-                    className="border rounded-3xl py-2 px-10 m-2"
+                    className="border rounded-3xl py-2 px-10 m-2 border-pyconug-lightBlue"
                     placeholder="Enter your Email"
                     onChange={(e) => {
                       setEmail(e.target.value);
@@ -33,7 +33,7 @@ export default function Newsletter() {
                   />
                   <button
                     type="submit"
-                    className="bg-[#ffe135] text-white py-2 px-10 m-2 border rounded-3xl"
+                    className="hover:bg-pyconug-lightBlue border-2 hover:text-white border-pyconug-lightBlue py-2 px-10 m-2  rounded-3xl"
                   >
                     Subscribe
                   </button>

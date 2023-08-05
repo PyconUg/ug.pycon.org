@@ -7,17 +7,23 @@ export const SPEAKERS = [
     bio: "I am the Co-founder and Technical Community Lead for Data Community Africa, a content and community support advocate at iterative.ai, an ex-basketball data scientist at CBB Analytics, the Facilitator of the African Data Community Newsletter, a 2x AWS ML Community Builder, the Lead Organizer for MLOps Community Lagos, and also a Developer Advocate/Evangelist Advisory Board Member for DevNetwork. I have experience speaking at several conferences worldwide and also have experience in technical writing, with 4+ years of experience in the data science and machine learning fields.",
   },
   {
-    name: "Brayan Kai Mwanyumba",
-    image: "/assets/images/speakers/brayan-kai-mwanyumba.jpg",
-    description:
-      "Data Scientist | Developer Relations | Open-Source Advocate | Technical Writer",
-    bio: "Brayan Kai is a Data Scientist Passionate about Communities, Developer Relations, Technical Writing and Open-Source Advocacy. He currently volunteers at different developer communities across Africa including Google Crowdsource, Open-Source Community Africa, She Code Africa and Dev Careers. All this owing to his strong passion for supporting fellow upcoming technologists, women in tech and advocating for inclusion and diversity. He calls this his personal mission. It makes him happier, more balanced, and gives him a stronger sense of purpose to innovate, share, and teach in and with the community rather than just for it.",
+    name: "Wesley Kambale",
+    description: "ML Engineer | Community Builder",
+    image: "/assets/images/speakers/wesley-kambale.jpg",
+    bio: "ML & AI Engineering | Research: TinyML, TTS & LLM | Communities: GDG Cloud Mbarara & Twitter Developer Community Uganda",
   },
   {
     name: "Abigail Afi Gbadago",
     image: "/assets/images/speakers/abigail-afi-gbadago.jpg",
     description: "SWE. OS Contributor",
     bio: "Abigail Afi Gbadago is a software engineer passionate about building systems, infrastructure, community building and sharing her experiences through speaking engagements and articles.",
+  },
+  {
+    name: "Brayan Kai Mwanyumba",
+    image: "/assets/images/speakers/brayan-kai-mwanyumba.jpg",
+    description:
+      "Data Scientist | Developer Relations | Open-Source Advocate | Technical Writer",
+    bio: "Brayan Kai is a Data Scientist Passionate about Communities, Developer Relations, Technical Writing and Open-Source Advocacy. He currently volunteers at different developer communities across Africa including Google Crowdsource, Open-Source Community Africa, She Code Africa and Dev Careers. All this owing to his strong passion for supporting fellow upcoming technologists, women in tech and advocating for inclusion and diversity. He calls this his personal mission. It makes him happier, more balanced, and gives him a stronger sense of purpose to innovate, share, and teach in and with the community rather than just for it.",
   },
   {
     name: "Emmanuel Okiria",
@@ -54,12 +60,6 @@ export const SPEAKERS = [
     description: "Outreachy Intern S'23 @ Ersilia",
     image: "/assets/images/speakers/hellen-namulinda.jpg",
     bio: "Hellen Namulinda holds a BSc. in Computer Science from Makerere University, and is pursuing a masters in Computer Science, specializing in AI and Data Science. I have been working with the Makerere AI Lab on research projects for the past two years. Currently, I'm an Outreachy Intern at Ersilia Open Source Initiative where I collaborate to extend the Ersilia Model Hub; a FOSS platform featuring ready-to-use AI/ML models for drug discovery.",
-  },
-  {
-    name: "Wesley Kambale",
-    description: "ML Engineer | Community Builder",
-    image: "/assets/images/speakers/wesley-kambale.jpg",
-    bio: "ML & AI Engineering | Research: TinyML, TTS & LLM | Communities: GDG Cloud Mbarara & Twitter Developer Community Uganda",
   },
   {
     name: "Olayinka Atobiloye",
