@@ -9,12 +9,22 @@ import { useState } from "react";
 export default function Navbar() {
   const NavbarLinks = [
     {
-      path: "/speakers",
-      label: "Speakers",
-    },
+      path: "#",
+      label: "Program Guide",
+      subLinks: [
         {
-      path: "/schedule",
-      label: "Schedule",
+          path: "/speakers",
+          label: "Speakers",
+        },
+        {
+          path: "/schedule",
+          label: "Schedule",
+        },
+        {
+          path: "/django-girls",
+          label: "Tutorial",
+        },
+      ],
     },
     {
       path: "/sponsors",
@@ -44,12 +54,20 @@ export default function Navbar() {
     },
   ];
 
-  const SESSIONIZE_LINK = "https://sessionize.com/pycon-uganda";
   const TICKET_BTN_LABEL = "Get Ticket";
   const SHOP_ACTION_LABEL = "Shop";
   const SHOP_ACTION_LINK = "/shop";
 
+  const [openDropdownIndex, setOpenDropdownIndex] = useState(null);
   const [isSideMenuOpen, setIsSideMenuOpen] = useState(false);
+
+  const toggleDropdown = (index) => {
+    if (openDropdownIndex === index) {
+      setOpenDropdownIndex(null);
+    } else {
+      setOpenDropdownIndex(index);
+    }
+  };
 
   const toggleSideMenu = () => {
     setIsSideMenuOpen(!isSideMenuOpen);
@@ -86,52 +104,45 @@ export default function Navbar() {
 
           {/* For larger devices */}
           <div className="md:flex space-x-4 hidden">
-            {NavbarLinks.map(({ path, label, subLinks }, index) => {
-              return (
-                <div key={index} className="relative group">
-                  {subLinks ? (
-                    <div
-                      className="flex items-center group-hover:text-black focus:outline-none"
-                      onMouseEnter={() => setIsSideMenuOpen(true)}
-                      onMouseLeave={() => setIsSideMenuOpen(false)}
-                    >
-                      <a href={path}>{label}</a>
-                      <svg
-                        className={`w-4 h-4 ml-1 text-gray-700 transform group-hover:rotate-180 ${
-                          isSideMenuOpen ? "rotate-180" : ""
-                        }`}
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth="2"
-                          d="M19 9l-7 7-7-7"
-                        />
-                      </svg>
-                      {isSideMenuOpen && (
-                        <div className="absolute mt-1 top-5 space-y-1 bg-white border border-gray-300 rounded-md">
-                          {subLinks.map(({ path, label }, subIndex) => (
-                            <a
-                              key={subIndex}
-                              href={path}
-                              className="relative block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                            >
-                              {label}
-                            </a>
-                          ))}
-                        </div>
-                      )}
-                    </div>
-                  ) : (
+            {NavbarLinks.map(({ path, label, subLinks }, index) => (
+              <div key={index} className="relative group">
+                {subLinks ? (
+                  <div
+                    className="flex items-center focus:outline-none"
+                    onMouseEnter={() => toggleDropdown(index)}
+                    onMouseLeave={() => toggleDropdown(null)}
+                  >
                     <a href={path}>{label}</a>
-                  )}
-                </div>
-              );
-            })}
+                    <svg
+                      className={`w-4 h-4 ml-1 text-gray-700 transform ${
+                        openDropdownIndex === index ? "rotate-180" : ""
+                      }`}
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                    {openDropdownIndex === index && (
+                      <div className="absolute mt-1 top-5 space-y-1 bg-white border border-gray-300 rounded-md">
+                        {subLinks.map(({ path, label }, subIndex) => (
+                          <a
+                            key={subIndex}
+                            href={path}
+                            className="relative block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                          >
+                            {label}
+                          </a>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                ) : (
+                  <a href={path}>{label}</a>
+                )}
+              </div>
+            ))}
             <Link
               className="border-black hidden md:block  px-6 py-1 border rounded-lg"
               href={SHOP_ACTION_LINK}
