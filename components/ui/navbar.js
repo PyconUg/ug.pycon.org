@@ -18,7 +18,7 @@ export default function Navbar() {
     },
     {
       path: "#",
-      label: "Tutorials",
+      label: "Communities",
       subLinks: [
         {
           path: "/django-girls",
