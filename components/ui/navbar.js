@@ -9,20 +9,20 @@ import { useState } from "react";
 export default function Navbar() {
   const NavbarLinks = [
     {
+      path: "/speakers",
+      label: "Speakers",
+    },
+    {
+      path: "/schedule",
+      label: "Schedule",
+    },
+    {
       path: "#",
-      label: "Program Guide",
+      label: "Tutorials",
       subLinks: [
         {
-          path: "/speakers",
-          label: "Speakers",
-        },
-        {
-          path: "/schedule",
-          label: "Schedule",
-        },
-        {
           path: "/django-girls",
-          label: "Tutorial",
+          label: "Django Girls",
         },
       ],
     },
