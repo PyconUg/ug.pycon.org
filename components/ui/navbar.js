@@ -17,16 +17,6 @@ export default function Navbar() {
       label: "Schedule",
     },
     {
-      path: "#",
-      label: "Communities",
-      subLinks: [
-        {
-          path: "/django-girls",
-          label: "Django Girls",
-        },
-      ],
-    },
-    {
       path: "/sponsors",
       label: "Sponsors",
     },
@@ -49,6 +39,16 @@ export default function Navbar() {
         {
           path: "/contact",
           label: "Contact Us",
+        },
+      ],
+    },
+    {
+      path: "#",
+      label: "Communities",
+      subLinks: [
+        {
+          path: "/django-girls",
+          label: "Django Girls",
         },
       ],
     },
