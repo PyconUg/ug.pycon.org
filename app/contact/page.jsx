@@ -1,6 +1,40 @@
-import { PYCONUG_EMAIL } from "@/utils/constants";
+'use client';
+
+import { useState } from "react";
 
 export default function ContactPage() {
+  const [formData, setFormData] = useState(new FormData());
+  const [successMessage, setSuccessMessage] = useState('');
+  const [errorMessage, setErrorMessage] = useState('');
+
+  const handleFormSubmit = async (event) => {
+    event.preventDefault();
+
+    formData.append('visitorname', event.target.visitorname.value);
+    formData.append('email', event.target.email.value);
+    formData.append('message',event.target.message.value);
+
+    // Display formData in console (for debugging)
+    //console.log([...formData]);
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        body: formData,
+      });
+      if (response.ok) {
+        setSuccessMessage('Your message has been received, we shall reach out soon!');
+        setErrorMessage('');
+      } else {
+        setErrorMessage('Something went wrong, please try again');
+        setSuccessMessage('');
+      }
+    } catch (err) {
+      setErrorMessage('An error occurred while submitting the form');
+      setSuccessMessage('');
+    }
+  };
+
   return (
     <>
       <section className="flex bg-cyan-900 text-zinc-300">
@@ -20,21 +54,20 @@ export default function ContactPage() {
         <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
           
           <form
-            action={`mailto:${PYCONUG_EMAIL}`}
-            method="post"
-            encType="multipart/form-data"
+            onSubmit={handleFormSubmit}
             className="space-y-8"
           >
             <div>
               <label
-                htmlFor="name"
+                htmlFor="visitorname"
                 className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
               >
-                Your Name
+                Name
               </label>
               <input
                 type="text"
-                id="name"
+                id="visitorname"
+                name="visitorname"
                 className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
                 required
               />
@@ -49,6 +82,7 @@ export default function ContactPage() {
               <input
                 type="email"
                 id="email"
+                name="name"
                 className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
                 required
               />
@@ -63,8 +97,9 @@ export default function ContactPage() {
               <textarea
                 id="message"
                 rows="6"
+                name="message"
                 className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-                placeholder="Make your interest known..."
+                placeholder="Send us a message..."
               ></textarea>
             </div>
             <button
