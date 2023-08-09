@@ -1,6 +1,39 @@
-import { PYCONUG_EMAIL } from "@/utils/constants";
+'use client';
+
+import { useState } from "react";
 
 export default function SponsorsPage() {
+  const [formData, setFormData] = useState(new FormData());
+  const [successMessage, setSuccessMessage] = useState('');
+  const [errorMessage, setErrorMessage] = useState('');
+
+  const handleFormSubmit = async (event) => {
+    event.preventDefault();
+
+    formData.append('visitorname', event.target.visitorname.value);
+    formData.append('email', event.target.email.value);
+    formData.append('message',event.target.message.value);
+
+    // Display formData in console (for debugging)
+    //console.log([...formData]);
+
+    try {
+      const response = await fetch('/api/sponsor', {
+        method: 'POST',
+        body: formData,
+      });
+      if (response.ok) {
+        setSuccessMessage('Thank you for showing interest to Sponsor PyCon Uganda 2023!');
+        setErrorMessage('');
+      } else {
+        setErrorMessage('Something went wrong, please try again');
+        setSuccessMessage('');
+      }
+    } catch (err) {
+      setErrorMessage('An error occurred while submitting the form');
+      setSuccessMessage('');
+    }
+  };
   return (
     <>
       <section className="flex bg-cyan-900 text-zinc-300">
@@ -507,22 +540,25 @@ export default function SponsorsPage() {
           <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
             Interested in sponsoring? We would love to hear from you.
           </p>
+
+          {successMessage && <p style={{ color: 'green' }}>{successMessage}</p>}
+          {errorMessage && <p style={{ color: 'red' }}>{errorMessage}</p>}
+          
           <form
-            action={`mailto:${PYCONUG_EMAIL}`}
-            method="post"
-            encType="multipart/form-data"
+            onSubmit={handleFormSubmit}
             className="space-y-8"
           >
             <div>
               <label
-                htmlFor="name"
+                htmlFor="visitorname"
                 className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
               >
-                Your Name
+                Name or Company or Organization
               </label>
               <input
                 type="text"
-                id="name"
+                id="visitorname"
+                name="visitorname"
                 className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
                 required
               />
@@ -537,6 +573,7 @@ export default function SponsorsPage() {
               <input
                 type="email"
                 id="email"
+                name="name"
                 className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
                 required
               />
@@ -551,6 +588,7 @@ export default function SponsorsPage() {
               <textarea
                 id="message"
                 rows="6"
+                name="message"
                 className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
                 placeholder="Make your interest known..."
               ></textarea>
