@@ -45,7 +45,7 @@ export default function ContactPage() {
             </h1>
             <p className="mt-4 sm:text-xl text-justify mx-5">
               Interested in sponsoring or have a question? We would love to hear
-              from you.
+              from you
             </p>
           </div>
         </div>
