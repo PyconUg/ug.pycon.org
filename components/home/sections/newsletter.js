@@ -1,9 +1,11 @@
 "use client";
 
 import { useState } from "react";
+import FormData from 'form-data';
 
 export default function Newsletter() {
-  const [formData, setFormData] = useState(new FormData());
+  const form = new FormData();
+  const [formData, setFormData] = useState(form);
   const [successMessage, setSuccessMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
   const [isLoading, setIsLoading] = useState(false);

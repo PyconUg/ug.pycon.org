@@ -1,9 +1,11 @@
 'use client';
 
 import { useState } from "react";
+import FormData from 'form-data';
 
 export default function SponsorsPage() {
-  const [formData, setFormData] = useState(new FormData());
+  const form = new FormData();
+  const [formData, setFormData] = useState(form);
   const [successMessage, setSuccessMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
 
@@ -595,7 +597,7 @@ export default function SponsorsPage() {
             </div>
             <button
               type="submit"
-              className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+              className="hover:bg-pyconug-lightBlue border-2 hover:text-white border-pyconug-lightBlue py-2 px-10 m-2  rounded-3xl"
             >
               Send message
             </button>
