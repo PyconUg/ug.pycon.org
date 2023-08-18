@@ -23,6 +23,7 @@ export default function Newsletter() {
         setErrorMessage('');
       } else {
         setErrorMessage('Something went wrong, please try again');
+        console.log(response);
         setSuccessMessage('');
       }
     } catch (err) {
