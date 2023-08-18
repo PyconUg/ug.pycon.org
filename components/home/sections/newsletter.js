@@ -4,8 +4,7 @@ import { useState } from "react";
 import FormData from 'form-data';
 
 export default function Newsletter() {
-  const form = new FormData();
-  const [formData, setFormData] = useState(form);
+  const formdata = new FormData();
   const [successMessage, setSuccessMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
   const [isLoading, setIsLoading] = useState(false);
@@ -13,12 +12,12 @@ export default function Newsletter() {
   const handleFormSubmit = async (event) => {
     event.preventDefault();
 
-    formData.append('email', event.target.email.value);
+    formdata.append('email', event.target.email.value);
 
     try {
       const response = await fetch('/api/newsletter', {
         method: 'POST',
-        body: formData,
+        body: formdata,
       });
       if (response.ok) {
         setSuccessMessage('Congrats Pythonista, You are now ready to receive all updates!');
