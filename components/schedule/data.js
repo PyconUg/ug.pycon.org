@@ -6,20 +6,19 @@ export const Tabs = [
 
 export const PYCON_DAY1_SCHEDULE = [
   {
-    title: "Opening Keynote",
-    duration: "09:00 - 10:00",
-    speaker: "",
+    title: "Opening session for the first PyCon Uganda conference",
+    duration: "09:00 - 9:30",
+    speaker: "Elijah Okello",
   },
   {
     title: "Breakfast",
-    duration: "10:00 - 11:00",
+    duration: "9:30 - 10:30",
     speaker: "",
   },
   {
-    title:
-      "Enhancing Python Application Scalability: Infrastructure, CI/CD, Testing",
-    duration: "11:00 - 11:30",
-    speaker: "Abigail Afi Gbadago",
+    title: "Opening Keynote",
+    duration: "10:30 - 11:30",
+    speaker: "",
   },
   {
     title:
@@ -153,5 +152,55 @@ export const PYCON_DAY3_SCHEDULE = [
     title: "Breakfast",
     duration: "10:00 - 10:30",
     speaker: "",
+  },
+  {
+    title: "Empowering Data Scientists: Unleashing the Potential of Azure Cloud Services",
+    duration: "11:00 - 11:30",
+    speaker: "Lorna Aine",
+  },
+  {
+    title: "Cultivating Excellence: Nurturing Growth as a Web Developer",
+    duration: "11:30 - 12:00",
+    speaker: "Abudi Mutamba",
+  },
+  {
+    title: "AI recommender systems to improve customer personalization",
+    duration: "12:00 - 12:30",
+    speaker: "Yvvon Jemmy",
+  },
+  {
+    title: "Enhancing Python Application Scalability: Infrastructure, CI/CD, Testing",
+    duration: "12:30 - 13:00",
+    speaker: "Abigail Afi Gbadago",
+  },
+  {
+    title: "Lunch break",
+    duration: "13:00 - 14:00",
+    speaker: "",
+  },
+  {
+    title: "Panel Session (Career Panel)",
+    duration: "14:00 - 15:00",
+    speaker: "",
+  },
+  {
+    title: "Building and Influencing the Open Source Ecosystem",
+    duration: "15:00 - 15:30",
+    speaker: "Omotola Omotayo",
+  },
+  {
+    title: "State of the Community Address",
+    duration: "15:30 - 16:00",
+    speaker: "Mark Lubega",
+  },
+  {
+    title: "Closing keynote ",
+    duration: "16:00 - 17:00",
+    speaker: "",
+  },
+  {
+    title: "Closing session for the inaugural PyCon Uganda conference",
+    duration: "17:00 - 17:30",
+    speaker: "Elijah Okello",
   },
 ];
