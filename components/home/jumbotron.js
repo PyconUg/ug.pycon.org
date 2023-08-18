@@ -11,7 +11,7 @@ export default function Jumbotron() {
           &nbsp;Python Language Conference in Uganda
         </h1>
         <p className="text-gray-500 md:text-xl text-lg">
-          21 - 23 September
+          21 - 23 September, National ICT Innovation Hub
            {/* MoTIV, Kampala Uganda */}
         </p>
 
