@@ -14,7 +14,7 @@ export default function Contact() {
           <div className="mb-0 text-[#112363]">
             <i className="bi bi-geo-alt"></i>
             <h3 className="text-lg uppercase font-bold">Address</h3>
-            <address>To Be Announced Soon</address>
+            <address>National ICT Innovation Hub, Kampala</address>
           </div>
           <div className="mb-0 text-[#112363]">
             <i className="bi bi-phone"></i>
