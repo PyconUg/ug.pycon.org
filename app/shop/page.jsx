@@ -3,9 +3,9 @@ import Step from "@/components/shop/step";
 import Card from "@/components/ui/Card";
 import {
   MM_PURCHASE_STEPS,
-  PYCON_MERCHANDIZE_URL,
   TIV_PURCHASE_STEPS,
 } from "@/components/shop/data";
+import { PYCON_MERCHANDIZE_URL } from "@/utils/constants";
 
 export default function Shop() {
   return (
