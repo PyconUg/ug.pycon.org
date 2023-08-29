@@ -207,7 +207,7 @@ export const PYCON_DAY3_SCHEDULE = [
     duration: "12:30 - 13:00",
     speaker: "Joylynn Kirui",
     workshopTitle:
-      "Python for Robust Data Infrastructure: AirQo#&39;s Air Quality Monitoring in Africa",
+      "Python for Robust Data Infrastructure: AirQo's Air Quality Monitoring in Africa",
     workshopSpeaker: "Noble Mutabazi, Richard Sserunjogi, Noah Nsimbe",
   },
   {
