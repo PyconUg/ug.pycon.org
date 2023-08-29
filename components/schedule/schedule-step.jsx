@@ -1,4 +1,6 @@
-export default function ScheduleStep({ title, duration, speaker }) {
+export default function ScheduleStep({
+stepData
+}) {
   return (
     <li className="mb-10 mt-5 ml-6">
       <span className="absolute flex items-center justify-center w-8 h-8  rounded-full -left-4 ring-4 ring-white  ">
@@ -52,17 +54,37 @@ export default function ScheduleStep({ title, duration, speaker }) {
       </span>
       <div className="space-y-2">
         {" "}
-        <h3 className=" font-bold leading-tight capitalize">{title}</h3>
-        <p className="text-gray-400">{duration}</p>
-        {speaker && (
-          <p className="text-gray-600">
-            {" "}
-            <span className="font-bold capitalize">
-              Speaker(s)/Facilitator(s):{" "}
-            </span>
-            {speaker}
-          </p>
-        )}
+        <p className="text-gray-400">{stepData?.duration}</p>
+        <section className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div>
+            <h3 className=" font-bold leading-tight capitalize">{stepData?.title}</h3>
+            {stepData?.speaker && (
+              <p className="text-gray-600">
+                {" "}
+                <span className="font-bold capitalize">
+                  Speaker(s)/Facilitator(s):{" "}
+                </span>
+                {stepData?.speaker}
+              </p>
+            )}
+          </div>
+          {stepData?.workshopSpeaker && (
+            <div>
+              <h3 className=" font-bold leading-tight capitalize">
+                {stepData?.workshopTitle}
+              </h3>
+              {stepData?.workshopSpeaker && (
+                <p className="text-gray-600">
+                  {" "}
+                  <span className="font-bold capitalize">
+                    Speaker(s)/Facilitator(s):{" "}
+                  </span>
+                  {stepData?.workshopSpeaker}
+                </p>
+              )}
+            </div>
+          )}
+        </section>
       </div>
     </li>
   );
