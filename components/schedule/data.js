@@ -1,7 +1,7 @@
 export const Tabs = [
-  { id: 1, title: "Day 1 (23rd September)" },
-  { id: 2, title: "Day 2 (24th September)" },
-  { id: 3, title: "Day 3 (25th September)" },
+  { id: 1, title: "Day 1 (21st September)" },
+  { id: 2, title: "Day 2 (22nd September)" },
+  { id: 3, title: "Day 3 (23rd September)" },
 ];
 
 export const PYCON_DAY1_SCHEDULE = [
