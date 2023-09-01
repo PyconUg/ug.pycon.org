@@ -51,22 +51,30 @@ export const PYCON_DAY1_SCHEDULE = [
     title: "Developing IoT Applications with Python Microcontrollers",
     duration: "15:00 - 15:30",
     speaker: "Adewale Olaniyan",
+    workshopTitle: "Comunity Summit",
+    workshopSpeaker: "Lincoln Angufibo and Eva Nanyonga",
   },
   {
     title:
       "SIGN-TO-TEXT:Unleashing the Power of Google AI for real time ASL transcription",
     duration: "15:30 - 16:00",
     speaker: "Atieno Ouma",
+    workshopTitle: "Comunity Summit",
+    workshopSpeaker: "Lincoln Angufibo and Eva Nanyonga",
   },
   {
     title: "Closing Keynote",
     duration: "16:00 - 17:00",
     speaker: "",
+    workshopTitle: "Comunity Summit",
+    workshopSpeaker: "Lincoln Angufibo and Eva Nanyonga",
   },
   {
     title: "Lightning Talks",
     duration: "17:00 - 17:30",
     speaker: "",
+    workshopTitle: "Comunity Summit",
+    workshopSpeaker: "Lincoln Angufibo and Eva Nanyonga",
   },
 ];
 
@@ -75,6 +83,8 @@ export const PYCON_DAY2_SCHEDULE = [
     title: "Opening Keynote",
     duration: "09:00 - 10:00",
     speaker: "",
+    workshopTitle: "Django Girls Workshop",
+    workshopSpeaker: "Dorothy Kabarozi .B. and Eva Nanyonga",
   },
   {
     title: "Breakfast",
@@ -86,22 +96,30 @@ export const PYCON_DAY2_SCHEDULE = [
       "Python for Open Source Machine Learning Projects: Insights from Outreachy Internships",
     duration: "11:00 - 11:30",
     speaker: "Hellen Namulinda and Kirabo Kakopo Atuhurira",
+    workshopTitle: "Django Girls Workshop",
+    workshopSpeaker: "Dorothy Kabarozi .B. and Eva Nanyonga",
   },
   {
     title: "Word Embeddings: A Pythonic Delight",
     duration: "11:30 - 12:00",
     speaker: "Brayan Kai Mwanyumba",
+    workshopTitle: "Django Girls Workshop",
+    workshopSpeaker: "Dorothy Kabarozi .B. and Eva Nanyonga",
   },
   {
     title:
       "Harnessing the Power of Real-time Data Processing with Apache Beam and Python",
     duration: "12:00 - 12:30",
     speaker: "Mwangi Kabiru",
+    workshopTitle: "Django Girls Workshop",
+    workshopSpeaker: "Dorothy Kabarozi .B. and Eva Nanyonga",
   },
   {
     title: "Automation & Integration Using Python",
     duration: "12:30 - 13:00",
     speaker: "Wesley Kambale",
+    workshopTitle: "Django Girls Workshop",
+    workshopSpeaker: "Dorothy Kabarozi .B. and Eva Nanyonga",
   },
 
   {
@@ -113,17 +131,23 @@ export const PYCON_DAY2_SCHEDULE = [
     title: "Panel Session (Diversity and Inclusion)",
     duration: "14:00 - 15:00",
     speaker: "",
+    workshopTitle: "Django Girls Workshop",
+    workshopSpeaker: "Dorothy Kabarozi .B. and Eva Nanyonga",
   },
   {
     title: "Using Python and Dash plotly to make interactive dashboard",
     duration: "15:00 - 15:30",
     speaker: "Abdulhaq Adetunji Salako",
+    workshopTitle: "Django Girls Workshop",
+    workshopSpeaker: "Dorothy Kabarozi .B. and Eva Nanyonga",
   },
   {
     title:
       "Revolutionize Your Python Development with GitHub Copilot: Tips, Tricks, and Best Practices",
     duration: "15:30 - 16:00",
     speaker: "Olayinka Atobiloye",
+    workshopTitle: "Django Girls Workshop",
+    workshopSpeaker: "Dorothy Kabarozi .B. and Eva Nanyonga",
   },
   {
     title: "Closing Keynote",
@@ -154,29 +178,44 @@ export const PYCON_DAY3_SCHEDULE = [
     speaker: "",
   },
   {
-    title: "Empowering Data Scientists: Unleashing the Potential of Azure Cloud Services",
+    title:
+      "Empowering Data Scientists: Unleashing the Potential of Azure Cloud Services",
     duration: "11:00 - 11:30",
     speaker: "Lorna Aine",
+    workshopTitle:
+      "Python for Robust Data Infrastructure: AirQo's Air Quality Monitoring in Africa",
+    workshopSpeaker: "Noble Mutabazi, Richard Sserunjogi, Noah Nsimbe",
   },
   {
     title: "Cultivating Excellence: Nurturing Growth as a Web Developer",
     duration: "11:30 - 12:00",
     speaker: "Abudi Mutamba",
+    workshopTitle:
+      "Python for Robust Data Infrastructure: AirQo's Air Quality Monitoring in Africa",
+    workshopSpeaker: "Noble Mutabazi, Richard Sserunjogi, Noah Nsimbe",
   },
   {
     title: "AI recommender systems to improve customer personalization",
     duration: "12:00 - 12:30",
     speaker: "Yvvon Jemmy",
+    workshopTitle:
+      "Python for Robust Data Infrastructure: AirQo#&39;s Air Quality Monitoring in Africa",
+    workshopSpeaker: "Noble Mutabazi, Richard Sserunjogi, Noah Nsimbe",
   },
   {
-    title: "Enhancing Python Application Scalability: Infrastructure, CI/CD, Testing",
+    title: "The Art of Defensive programming",
     duration: "12:30 - 13:00",
-    speaker: "Abigail Afi Gbadago",
+    speaker: "Joylynn Kirui",
+    workshopTitle:
+      "Python for Robust Data Infrastructure: AirQo's Air Quality Monitoring in Africa",
+    workshopSpeaker: "Noble Mutabazi, Richard Sserunjogi, Noah Nsimbe",
   },
   {
     title: "Lunch break",
     duration: "13:00 - 14:00",
     speaker: "",
+    workshopTitle:"Pyladies Luncheon",
+    workshopSpeaker:"Monica Iyabo"
   },
   {
     title: "Panel Session (Career Panel)",
