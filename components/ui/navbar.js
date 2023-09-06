@@ -9,10 +9,6 @@ import { useState } from "react";
 export default function Navbar() {
   const NavbarLinks = [
     {
-      path: "/speakers",
-      label: "Speakers",
-    },
-    {
       path: "/schedule",
       label: "Schedule",
     },
@@ -23,6 +19,20 @@ export default function Navbar() {
     {
       path: "/financial-aid",
       label: "Financial Aid",
+    },
+    {
+      path: "#",
+      label: "Speakers",
+      subLinks: [
+        {
+          path: "/keynote-speakers",
+          label: "Keynote Speakers",
+        },
+        {
+          path: "/speakers",
+          label: "All Speakers",
+        },
+      ],
     },
     {
       path: "#",
