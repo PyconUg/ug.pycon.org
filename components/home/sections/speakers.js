@@ -1,15 +1,22 @@
 "use client";
-import SpeakerCard from "@/components/speakers/speaker-card";
-import { SPEAKERS } from "@/components/speakers/speakers-data";
+import KeynoteSpeakerCard from "@/components/speakers/keynote-speaker-card";
+import { KEYNOTESPEAKERS } from "@/components/speakers/keynote-speakers-data";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Speakers() {
   return (
-    <main className="space-y-14 mt-20">
-      <section className="grid md:grid-cols-2 lg:grid-cols-3  grid-cols-1 mx-10 gap-y-10">
-        {SPEAKERS?.slice(0, 3)?.map((speaker, index) => {
-          return <SpeakerCard speaker={speaker} key={index} />;
+    <main className="space-y-14 my-20 bg-[#f6f7fd] py-[80px]">
+      <section className="">
+        <div className="flex flex-col justify-center items-center text-[#0e1b4d]">
+          <h1 className="text-3xl font-extrabold sm:text-5xl">
+            Keynote Speakers
+          </h1>
+        </div>
+      </section>
+      <section className="grid md:grid-cols-2 lg:grid-cols-2  grid-cols-1 mx-10 gap-y-10">
+        {KEYNOTESPEAKERS?.map((keynoteSpeaker, index) => {
+          return <KeynoteSpeakerCard keynoteSpeaker={keynoteSpeaker} key={index} />;
         })}
       </section>
       <section className="flex md:flex-row  flex-col md:space-x-4 space-y-16 text-center md:space-y-0 justify-center">
