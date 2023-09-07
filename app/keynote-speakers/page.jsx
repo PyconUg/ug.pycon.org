@@ -1,6 +1,5 @@
 "use client";
 import KeynoteSpeakerCard from "@/components/speakers/keynote-speaker-card";
-import SpeakerCard from "@/components/speakers/speaker-card";
 import { KEYNOTESPEAKERS } from "@/components/speakers/keynote-speakers-data";
 import Link from "next/link";
 
