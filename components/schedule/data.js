@@ -25,11 +25,25 @@ export const PYCON_DAY1_SCHEDULE = [
       "Introduction to Data Science with Python: Unleashing the Power of Data",
     duration: "11:30 - 12:00",
     speaker: "Emmanuel Okiria",
+    workshopTitle:
+      "Harness the Power of LLMs (and python?) for In-depth Document analysis",
+    workshopSpeaker: "Bethany",
   },
   {
-    title: "Machine Learning Experimentation with DVC and VS Code",
+    title: "Cultivating Excellence: Nurturing Growth as a Web Developer",
+    duration: "11:30 - 12:00",
+    speaker: "Abudi Mutamba",
+    workshopTitle:
+      "Harness the Power of LLMs (and python?) for In-depth Document analysis",
+    workshopSpeaker: "Bethany",
+  },
+  {
+    title: "AI recommender systems to improve customer personalization",
     duration: "12:00 - 12:30",
-    speaker: "Gift Ojeabulu",
+    speaker: "Yvvon Jemmy",
+    workshopTitle:
+      "Python for Robust Data Infrastructure: AirQo’s Air Quality Monitoring in Africa",
+    workshopSpeaker: "Noble Mutabazi, Richard Sserunjogi, Noah Nsimbe",
   },
   {
     title:
@@ -52,7 +66,7 @@ export const PYCON_DAY1_SCHEDULE = [
     duration: "15:00 - 15:30",
     speaker: "Adewale Olaniyan",
     workshopTitle: "Comunity Summit",
-    workshopSpeaker: "Lincoln Angufibo and Eva Nanyonga",
+    workshopSpeaker: "Halima Bukirwa",
   },
   {
     title:
@@ -60,21 +74,21 @@ export const PYCON_DAY1_SCHEDULE = [
     duration: "15:30 - 16:00",
     speaker: "Atieno Ouma",
     workshopTitle: "Comunity Summit",
-    workshopSpeaker: "Lincoln Angufibo and Eva Nanyonga",
+    workshopSpeaker: "Halima Bukirwa",
   },
   {
     title: "Closing Keynote",
     duration: "16:00 - 17:00",
     speaker: "",
     workshopTitle: "Comunity Summit",
-    workshopSpeaker: "Lincoln Angufibo and Eva Nanyonga",
+    workshopSpeaker: "Halima Bukirwa",
   },
   {
     title: "Lightning Talks",
     duration: "17:00 - 17:30",
     speaker: "",
     workshopTitle: "Comunity Summit",
-    workshopSpeaker: "Lincoln Angufibo and Eva Nanyonga",
+    workshopSpeaker: "Halima Bukirwa",
   },
 ];
 
@@ -187,19 +201,20 @@ export const PYCON_DAY3_SCHEDULE = [
     workshopSpeaker: "Noble Mutabazi, Richard Sserunjogi, Noah Nsimbe",
   },
   {
-    title: "Cultivating Excellence: Nurturing Growth as a Web Developer",
+    title: "Machine Learning Experimentation with DVC and VS Code",
     duration: "11:30 - 12:00",
-    speaker: "Abudi Mutamba",
+    speaker: "Gift Ojeabulu",
     workshopTitle:
       "Python for Robust Data Infrastructure: AirQo's Air Quality Monitoring in Africa",
     workshopSpeaker: "Noble Mutabazi, Richard Sserunjogi, Noah Nsimbe",
   },
   {
-    title: "AI recommender systems to improve customer personalization",
+    title:
+      "Python Custom Visuals in Power BI: Unleashing the Power of Data Visualization",
     duration: "12:00 - 12:30",
-    speaker: "Yvvon Jemmy",
+    speaker: "Allan Kiche",
     workshopTitle:
-      "Python for Robust Data Infrastructure: AirQo#&39;s Air Quality Monitoring in Africa",
+      "Python for Robust Data Infrastructure: AirQo's Air Quality Monitoring in Africa",
     workshopSpeaker: "Noble Mutabazi, Richard Sserunjogi, Noah Nsimbe",
   },
   {
@@ -214,8 +229,8 @@ export const PYCON_DAY3_SCHEDULE = [
     title: "Lunch break",
     duration: "13:00 - 14:00",
     speaker: "",
-    workshopTitle:"Pyladies Luncheon",
-    workshopSpeaker:"Monica Iyabo"
+    workshopTitle: "Pyladies Luncheon",
+    workshopSpeaker: "Monica Iyabo",
   },
   {
     title: "Panel Session (Career Panel)",
