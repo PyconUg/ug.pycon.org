@@ -18,14 +18,14 @@ export default function TravelGuidePage() {
 
       <section className="mx-8 md:mx-28 max-w-screen-xl my-10 text-justify text-lg">
         <p className="py-2">
-        We are excited to welcome you to PyCon Uganda 2023. We are excited to have you join us for this year's conference in Kampala. Here's some important information to make your trip smooth and enjoyable.
+        We are excited to welcome you to PyCon Uganda 2023. We are excited to have you join us for this year&#39;s conference in Kampala. Here&#39;s some important information to make your trip smooth and enjoyable.
         </p><br/>
         <h3 className="font-sans text-xl font-bold sm:text-2xl">
           UGANDA - The Pearl of Africa
         </h3>
 
         <p className="py-2">
-        Uganda, often referred to as the "Pearl of Africa," is an East African nation that provides a captivating backdrop for PyCon Uganda. Just as Uganda's diverse landscapes and wildlife make it a true gem, PyCon Uganda brings together a diverse community of Python enthusiasts, creating a unique and enriching experience. Join us in the heart of the "Pearl of Africa" for PyCon Uganda, where technology and the natural world harmonize to create something truly exceptional.
+        Uganda, often referred to as the &#34;Pearl of Africa,&#34; is an East African nation that provides a captivating backdrop for PyCon Uganda. Just as Uganda&#39;s diverse landscapes and wildlife make it a true gem, PyCon Uganda brings together a diverse community of Python enthusiasts, creating a unique and enriching experience. Join us in the heart of the "Pearl of Africa" for PyCon Uganda, where technology and the natural world harmonize to create something truly exceptional.
         </p>
         <br/>
         <h3 className="font-sans text-xl font-bold sm:text-2xl">
@@ -61,7 +61,7 @@ export default function TravelGuidePage() {
         </h3>
 
         <p className="py-2">
-        There are several means you can use to travel to the PyCon Uganda venue as well as in Kampala and these include Minibus taxis(Matatus), Motorcycles("Boda Bodas"), Uber taxi, among others.
+        There are several means you can use to travel to the PyCon Uganda venue as well as in Kampala and these include Minibus taxis(Matatus), Motorcycles(Boda Bodas), Uber taxi, among others.
 
         For more information, <Link target="_blank" className="underline text-blue-500 font-medium" href="https://www.kampalacityguide.com/getting-around.html#:~:text=Minibus%20taxis%20(Matatus)%20are%20the,taken%20direct%20to%20your%20destination.">see here</Link>
         </p>
