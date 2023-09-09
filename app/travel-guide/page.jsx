@@ -25,7 +25,7 @@ export default function TravelGuidePage() {
         </h3>
 
         <p className="py-2">
-        Uganda, often referred to as the &#34;Pearl of Africa,&#34; is an East African nation that provides a captivating backdrop for PyCon Uganda. Just as Uganda&#39;s diverse landscapes and wildlife make it a true gem, PyCon Uganda brings together a diverse community of Python enthusiasts, creating a unique and enriching experience. Join us in the heart of the "Pearl of Africa" for PyCon Uganda, where technology and the natural world harmonize to create something truly exceptional.
+        Uganda, often referred to as the &#34;Pearl of Africa,&#34; is an East African nation that provides a captivating backdrop for PyCon Uganda. Just as Uganda&#39;s diverse landscapes and wildlife make it a true gem, PyCon Uganda brings together a diverse community of Python enthusiasts, creating a unique and enriching experience. Join us in the heart of the &#34;Pearl of Africa&#34; for PyCon Uganda, where technology and the natural world harmonize to create something truly exceptional.
         </p>
         <br/>
         <h3 className="font-sans text-xl font-bold sm:text-2xl">
