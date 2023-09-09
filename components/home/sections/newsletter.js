@@ -1,13 +1,39 @@
 "use client";
 
 import { useState } from "react";
+import FormData from 'form-data';
 
 export default function Newsletter() {
-  const [email, setEmail] = useState("");
+  const formData = new URLSearchParams();
+  const [successMessage, setSuccessMessage] = useState('');
+  const [errorMessage, setErrorMessage] = useState('');
+  const [isLoading, setIsLoading] = useState(false);
 
-  function HandleSubmit(e) {
-    window.location.href = `mailto:pycon-uganda+subscribe@googlegroups.com?subject=Subscribe%20to%20PyCon%20Uganda%20Newsletter`;
-  }
+  const handleFormSubmit = async (event) => {
+    event.preventDefault();
+
+    formData.append('email', event.target.email.value);
+
+    try {
+      const response = await fetch('/api/newsletter', {
+        method: 'POST',
+        body: formData.toString(),
+      });
+      if (response.ok) {
+        setSuccessMessage('Congrats Pythonista, You are now ready to receive all updates!');
+        setErrorMessage('');
+      } else {
+        setErrorMessage('Something went wrong, please try again');
+        console.log(response);
+        setSuccessMessage('');
+      }
+    } catch (err) {
+      setErrorMessage('An error occurred while submitting the form');
+      setSuccessMessage('');
+    } finally {
+      setIsLoading(false);
+    }
+  };
 
   return (
     <section>
@@ -20,22 +46,25 @@ export default function Newsletter() {
             <p className="text-base p-0 mb-4 font-medium">
               Please subscribe to receive updates.
             </p>
-            <form onSubmit={HandleSubmit}>
+
+            {successMessage && <p style={{ color: 'green' }}>{successMessage}</p>}
+            {errorMessage && <p style={{ color: 'red' }}>{errorMessage}</p>}
+
+            <form onSubmit={handleFormSubmit}>
               <div className="justify-center">
                 <div className="col-span-10 block md:flex">
                   <input
-                    type="text"
+                    type="email"
+                    id="email"
+                    name="email"
                     className="border rounded-3xl py-2 px-10 m-2 border-pyconug-lightBlue"
                     placeholder="Enter your Email"
-                    onChange={(e) => {
-                      setEmail(e.target.value);
-                    }}
                   />
                   <button
-                    type="submit"
+                    type="submit" disabled={isLoading}
                     className="hover:bg-pyconug-lightBlue border-2 hover:text-white border-pyconug-lightBlue py-2 px-10 m-2  rounded-3xl"
                   >
-                    Subscribe
+                    {isLoading ? 'Subscribing...' : 'Subscribe'}
                   </button>
                 </div>
               </div>
