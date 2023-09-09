@@ -39,6 +39,10 @@ export default function Navbar() {
       label: "Attendee Guide",
       subLinks: [
         {
+          path: "/travel-guide",
+          label: "Travel Guide",
+        },
+        {
           path: "/code-of-conduct",
           label: "Code of Conduct",
         },
@@ -46,10 +50,10 @@ export default function Navbar() {
           path: "/health-and-safety",
           label: "Health and Safety",
         },
-        {
-          path: "/contact",
-          label: "Contact Us",
-        },
+        // {
+        //   path: "/contact",
+        //   label: "Contact Us",
+        // },
       ],
     },
     {
