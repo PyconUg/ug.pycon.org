@@ -13,7 +13,7 @@ export default function Newsletter() {
     e.preventDefault();
     try {
       window.location.href = `mailto:pycon-uganda+subscribe@googlegroups.com?subject=Subscribe%20to%20PyCon%20Uganda%20Newsletter`;
-      return toast.success("Thank you for subscribing to out Newsletter 💚", {
+      return toast.success("Thank you for subscribing to ort Newsletter 💚", {
         position: "bottom-center",
         theme: "dark",
       });
