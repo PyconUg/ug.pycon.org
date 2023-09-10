@@ -4,15 +4,19 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 export default function Contact() {
-  const successMessage = () =>
-    toast.success("Your email has been sent successfully 🤗");
   const handleFormSubmit = async (e) => {
     e.preventDefault();
     try {
-      toast.success("Your email has been sent successfully 🤗");
+      toast.success("Your email has been sent successfully 🤗", {
+        position: "bottom-center",
+        theme: "dark",
+      });
     } catch (error) {
       console.log(error);
-      toast.error("There was a problem sending the email");
+      toast.error("There was a problem sending the email", {
+        position: "bottom-center",
+        theme: "dark",
+      });
     }
   };
   return (
