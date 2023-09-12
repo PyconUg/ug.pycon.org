@@ -1,22 +1,14 @@
 "use client";
 import { PYCONUG_EMAIL } from "@/utils/constants";
 import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
-
 export default function Contact() {
   const handleFormSubmit = async (e) => {
     e.preventDefault();
     try {
-      toast.success("Your email has been sent successfully 🤗", {
-        position: "bottom-center",
-        theme: "dark",
-      });
+      toast.success("Your email has been sent successfully 🤗");
     } catch (error) {
       console.log(error);
-      toast.error("There was a problem sending the email", {
-        position: "bottom-center",
-        theme: "dark",
-      });
+      toast.error("There was a problem sending the email");
     }
   };
   return (
@@ -112,7 +104,6 @@ export default function Contact() {
           </form>
         </div>
       </div>
-      <ToastContainer />
     </section>
   );
 }
