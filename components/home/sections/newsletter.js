@@ -1,30 +1,19 @@
 "use client";
 import { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 
 export default function Newsletter() {
   const [email, setEmail] = useState("");
 
-  // function HandleSubmit(e) {
-  //   window.location.href = `mailto:pycon-uganda+subscribe@googlegroups.com?subject=Subscribe%20to%20PyCon%20Uganda%20Newsletter`;
-  // }
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
       window.location.href = `mailto:pycon-uganda+subscribe@googlegroups.com?subject=Subscribe%20to%20PyCon%20Uganda%20Newsletter`;
-      return toast.success("Thank you for subscribing to our Newsletter 💚", {
-        position: "bottom-center",
-        theme: "dark",
-      });
+      return toast.success("Thank you for subscribing to our Newsletter 💚");
     } catch (error) {
       console.log(error);
       return toast.error(
-        "There was a problem subscribing to our Newsletter: Retry",
-        {
-          position: "bottom-center",
-          theme: "dark",
-        }
+        "There was a problem subscribing to our Newsletter: Retry"
       );
     }
   };
@@ -62,6 +51,7 @@ export default function Newsletter() {
           </div>
         </div>
       </div>
+      <ToastContainer position='bottom-center' theme='dark' />
     </section>
   );
 }
