@@ -25,7 +25,7 @@ export default function AttendeeDetails({ params }) {
             width={300}
             className="object-cover object-center h-32"
             src="/assets/images/avatar.png"
-            alt="Woman looking front"
+            alt="Pycon Attendee"
           />
         </div>
         <div className="text-center py-4">
