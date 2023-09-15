@@ -1,5 +1,6 @@
 import Navbar from "@/components/ui/navbar";
 import Footer from "@/components/ui/footer";
+import 'react-toastify/dist/ReactToastify.css';
 import "./globals.css";
 
 export const metadata = {
