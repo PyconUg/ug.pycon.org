@@ -1,11 +1,19 @@
 "use client";
+import { useRef } from "react";
 import { PYCONUG_EMAIL } from "@/utils/constants";
 import { ToastContainer, toast } from "react-toastify";
 export default function Contact() {
+  const nameRef = useRef(null);
+  const emailRef = useRef(null);
+  const messageRef = useRef(null);
+
   const handleFormSubmit = async (e) => {
     e.preventDefault();
     try {
       toast.success("Your email has been sent successfully 🤗");
+      nameRef.current.value = "";
+      emailRef.current.value = "";
+      messageRef.current.value = "";
     } catch (error) {
       console.log(error);
       toast.error("There was a problem sending the email");
@@ -65,6 +73,7 @@ export default function Contact() {
                 id='name'
                 className='block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light'
                 required
+                ref={nameRef}
               />
             </div>
             <div>
@@ -79,6 +88,7 @@ export default function Contact() {
                 id='email'
                 className='shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light'
                 required
+                ref={emailRef}
               />
             </div>
             <div className='sm:col-span-2'>
@@ -93,6 +103,7 @@ export default function Contact() {
                 rows='6'
                 className='block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500'
                 placeholder='Leave your comment...'
+                ref={messageRef}
               ></textarea>
             </div>
             <button
