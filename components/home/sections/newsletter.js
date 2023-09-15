@@ -1,22 +1,23 @@
 "use client";
 import { useState } from "react";
+import React, { useRef } from "react";
 import { ToastContainer, toast } from "react-toastify";
 
 export default function Newsletter() {
   const [email, setEmail] = useState("");
+  const textRef = useRef(null);
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     try {
+      textRef.current.value = "";
       window.location.href = `mailto:pycon-uganda+subscribe@googlegroups.com?subject=Subscribe%20to%20PyCon%20Uganda%20Newsletter`;
-      return toast.success("Thank you for subscribing to our Newsletter 💚");
+      toast.success("Thank you for subscribing to our Newsletter 💚");
     } catch (error) {
-      console.log(error);
-      return toast.error(
-        "There was a problem subscribing to our Newsletter: Retry"
-      );
+      toast.error("There was a problem subscribing to our Newsletter: Retry");
     }
   };
+
   return (
     <section>
       <div className='py-[60px]'>
@@ -38,6 +39,7 @@ export default function Newsletter() {
                     onChange={(e) => {
                       setEmail(e.target.value);
                     }}
+                    ref={textRef}
                   />
                   <button
                     type='submit'
