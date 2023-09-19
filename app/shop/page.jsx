@@ -57,7 +57,7 @@ export default function Shop() {
             {" "}
             <h4 className="font-sans text-xl font-bold sm:text-l">
               <li>
-                Purchase from The Innovation Village (TIV) Offices in Ntinda:
+                Purchase your online ticket from Quicket:
               </li>
             </h4>
             <ol className="relative border-l border-gray-200 dark:border-gray-700 dark:text-gray-400">
