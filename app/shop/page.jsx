@@ -3,7 +3,7 @@ import Step from "@/components/shop/step";
 import Card from "@/components/ui/Card";
 import {
   MM_PURCHASE_STEPS,
-  TIV_PURCHASE_STEPS,
+  QUICKET_PURCHASE_STEPS,
 } from "@/components/shop/data";
 import { PYCON_MERCHANDIZE_URL } from "@/utils/constants";
 
@@ -61,7 +61,7 @@ export default function Shop() {
               </li>
             </h4>
             <ol className="relative border-l border-gray-200 dark:border-gray-700 dark:text-gray-400">
-              {TIV_PURCHASE_STEPS?.map((step, index) => (
+              {QUICKET_PURCHASE_STEPS?.map((step, index) => (
                 <Step
                   key={index}
                   step={step?.step}
