@@ -1,5 +1,5 @@
 export const PURCHASE_INSTRUCTIONS = [
-  "For those using mobile money, share your proof of payment either with the Chairperson of the Organizing Committee or at the TIV offices in Ntinda to facilitate merchandise delivery.",
+  "For those using mobile money, share your proof of payment either with the Chairperson of the Organizing Committee or online tickets from Quicket to facilitate merchandise delivery.",
   "All merchandise will be purchased strictly on order basis, which means you will need to provide your preferred items and quantities before completing the payment.",
   "All participants will get a <b>FREE PyCon Uganda T-Shirt</b>.",
   "Should you have any questions or need further assistance, please contact the Chairperson of the Organizing Committee at <b>+256 781 666 410 / +256 757 866 121</b>.",
