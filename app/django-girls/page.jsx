@@ -84,21 +84,14 @@ export default function DjangoGirls() {
           </div>
         </div>
         <div class="flex flex-col items-center space-x-4">
-          <h1 className="text-3xl font-bold mb-10">Coaches:</h1>
+          <h1 className="text-3xl font-bold mb-10">Coach for the day:</h1>
         </div>
         <div class="mx-8 md:mx-28 max-w-screen-xl flex flex-row justify-center items-center mb-10">
           <div class="flex flex-col items-center space-x-4 mx-10">
-            <img class="w-100 h-100 rounded-full" src="/assets/images/djangogirls/eva.png" alt="Rounded avatar"></img>
+            <img class="w-100 h-100 rounded-full" src="/assets/images/djangogirls/Anne_Namuli.png" alt="Rounded avatar"></img>
             <div class="font-medium dark:text-white">
-              <div>Eva Nanyonga</div>
-              <div class="text-sm text-gray-500 dark:text-gray-400"><a href="https://twitter.com/@EvaNanyonga" class="no-underline hover:underline">@EvaNanyonga</a></div>
-            </div>
-          </div>
-          <div class="flex flex-col items-center space-x-4 mx-10">
-          <img class="w-100 h-100 rounded-full" src="/assets/images/djangogirls/dorothy.png" alt="Rounded avatar"></img>
-            <div class="font-medium dark:text-white">
-              <div>Dorothy Kabarozi</div>
-              <div class="text-sm text-gray-500 dark:text-gray-400"><a href="https://twitter.com/@kizdorothy" class="no-underline hover:underline">@kizdorothy</a></div>
+              <div>Anne Namuli</div>
+              <div class="text-sm text-gray-500 dark:text-gray-400"><a href="https://twitter.com/@annenamuli" class="no-underline hover:underline">@annenamuli</a></div>
             </div>
           </div>
         </div>
