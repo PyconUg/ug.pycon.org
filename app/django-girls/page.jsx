@@ -84,7 +84,7 @@ export default function DjangoGirls() {
           </div>
         </div>
         <div class="flex flex-col items-center space-x-4">
-          <h1 className="text-3xl font-bold mb-10">Coach for the day:</h1>
+          <h1 className="text-3xl font-bold mb-10">Lead coach for the day:</h1>
         </div>
         <div class="mx-8 md:mx-28 max-w-screen-xl flex flex-row justify-center items-center mb-10">
           <div class="flex flex-col items-center space-x-4 mx-10">
