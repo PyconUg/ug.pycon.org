@@ -18,7 +18,7 @@ export const PYCON_DAY1_SCHEDULE = [
   {
     title: "Opening Keynote",
     duration: "10:30 - 11:30",
-    speaker: "",
+    speaker: "Anthony Shaw",
   },
   {
     title:
@@ -27,7 +27,7 @@ export const PYCON_DAY1_SCHEDULE = [
     speaker: "Emmanuel Okiria",
     workshopTitle:
       "Harness the Power of LLMs (and python?) for In-depth Document analysis",
-    workshopSpeaker: "Bethany",
+    workshopSpeaker: "Bethany Jepchumba, Josh Ndemenge, Joylynn Kirui",
   },
   {
     title: "Cultivating Excellence: Nurturing Growth as a Web Developer",
@@ -35,15 +35,15 @@ export const PYCON_DAY1_SCHEDULE = [
     speaker: "Abudi Mutamba",
     workshopTitle:
       "Harness the Power of LLMs (and python?) for In-depth Document analysis",
-    workshopSpeaker: "Bethany",
+    workshopSpeaker: "Bethany Jepchumba, Josh Ndemenge, Joylynn Kirui",
   },
   {
     title: "AI recommender systems to improve customer personalization",
     duration: "12:00 - 12:30",
     speaker: "Yvvon Jemmy",
     workshopTitle:
-      "Python for Robust Data Infrastructure: AirQo’s Air Quality Monitoring in Africa",
-    workshopSpeaker: "Noble Mutabazi, Richard Sserunjogi, Noah Nsimbe",
+      "Harness the Power of LLMs (and python?) for In-depth Document analysis",
+    workshopSpeaker: "Bethany Jepchumba, Josh Ndemenge, Joylynn Kirui",
   },
   {
     title:
@@ -57,13 +57,8 @@ export const PYCON_DAY1_SCHEDULE = [
     speaker: "",
   },
   {
-    title: "Panel Session (PROSEIT)",
-    duration: "14:00 - 15:00",
-    speaker: "",
-  },
-  {
     title: "Developing IoT Applications with Python Microcontrollers",
-    duration: "15:00 - 15:30",
+    duration: "14:00 - 15:00",
     speaker: "Adewale Olaniyan",
     workshopTitle: "Comunity Summit",
     workshopSpeaker: "Halima Bukirwa",
@@ -71,8 +66,19 @@ export const PYCON_DAY1_SCHEDULE = [
   {
     title:
       "SIGN-TO-TEXT:Unleashing the Power of Google AI for real time ASL transcription",
-    duration: "15:30 - 16:00",
+    duration: "15:00 - 15:30",
     speaker: "Atieno Ouma",
+    workshopTitle: "Comunity Summit",
+    workshopSpeaker: "Halima Bukirwa",
+  },
+  {
+    title: "Speeding operations at MTN",
+    duration: "15:30 - 16:00",
+  },
+  {
+    title: "Closing Keynote",
+    duration: "16:00 - 17:00",
+    speaker: "",
     workshopTitle: "Comunity Summit",
     workshopSpeaker: "Halima Bukirwa",
   },
@@ -96,7 +102,7 @@ export const PYCON_DAY2_SCHEDULE = [
   {
     title: "Opening Keynote",
     duration: "09:00 - 10:00",
-    speaker: "",
+    speaker: "Stephen Senkomago Musoke",
     workshopTitle: "Django Girls Workshop",
     workshopSpeaker: "Dorothy Kabarozi .B. and Eva Nanyonga",
   },
