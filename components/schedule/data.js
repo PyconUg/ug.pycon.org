@@ -99,13 +99,13 @@ export const PYCON_DAY1_SCHEDULE = [
     workshopTitle: "Comunity Summit",
     workshopSpeaker: "Halima Bukirwa",
   },
-  {
-    title: "Closing Keynote",
-    duration: "16:00 - 17:00",
-    speaker: "",
-    workshopTitle: "Comunity Summit",
-    workshopSpeaker: "Halima Bukirwa",
-  },
+  // {
+  //   title: "Closing Keynote",
+  //   duration: "16:00 - 17:00",
+  //   speaker: "",
+  //   workshopTitle: "Comunity Summit",
+  //   workshopSpeaker: "Halima Bukirwa",
+  // },
   {
     title: "Lightning Talks",
     duration: "17:00 - 17:30",
@@ -120,8 +120,6 @@ export const PYCON_DAY2_SCHEDULE = [
     title: "Opening Keynote",
     duration: "09:00 - 10:00",
     speaker: "Stephen Senkomago Musoke",
-    workshopTitle: "Django Girls Workshop",
-    workshopSpeaker: "Dorothy Kabarozi .B. and Eva Nanyonga",
   },
   {
     title: "Breakfast",
@@ -172,7 +170,7 @@ export const PYCON_DAY2_SCHEDULE = [
     workshopSpeaker: "Dorothy Kabarozi .B. and Eva Nanyonga",
   },
   {
-    title: "Using Python and Dash plotly to make interactive dashboard",
+    title: "Using Python and Dash plotly to make interactive dashboard (virtual)",
     duration: "15:00 - 15:30",
     speaker: "Abdulhaq Adetunji Salako",
     workshopTitle: "Django Girls Workshop",
