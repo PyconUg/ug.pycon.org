@@ -117,7 +117,7 @@ export const PYCON_DAY2_SCHEDULE = [
   },
   {
     title: "Breakfast",
-    duration: "10:00 - 10:30",
+    duration: "10:00 - 11:00",
     speaker: "",
   },
   {
@@ -197,18 +197,18 @@ export const PYCON_DAY2_SCHEDULE = [
 
 export const PYCON_DAY3_SCHEDULE = [
   {
-    title: "Opening Keynote",
+    title: "Community Spotlight",
     duration: "09:00 - 10:00",
     speaker: "",
   },
   {
     title: "Breakfast",
-    duration: "10:00 - 10:30",
+    duration: "10:00 - 11:00",
     speaker: "",
   },
   {
     title:
-      "Empowering Data Scientists: Unleashing the Potential of Azure Cloud Services",
+      "Empowering Data Scientists: Unleashing the Potential of Azure Cloud Services (Virtual)",
     duration: "11:00 - 11:30",
     speaker: "Lorna Aine",
     workshopTitle:
@@ -256,20 +256,24 @@ export const PYCON_DAY3_SCHEDULE = [
     title: "Building and Influencing the Open Source Ecosystem",
     duration: "15:00 - 15:30",
     speaker: "Omotola Omotayo",
+    workshopTitle: "How to create your own secure chat application",
+    workshopSpeaker: "Bethany Jepchumba, Josh Ndemenge, Joylynn Kirui",
   },
   {
     title: "State of the Community Address",
     duration: "15:30 - 16:00",
     speaker: "Mark Lubega",
+    workshopTitle: "How to create your own secure chat application",
+    workshopSpeaker: "Bethany Jepchumba, Josh Ndemenge, Joylynn Kirui",
   },
   {
-    title: "Closing keynote ",
-    duration: "16:00 - 17:00",
-    speaker: "",
+    title: "AI recommender systems to improve customer personalization",
+    duration: "16:00 - 16:30",
+    speaker: "Yvvon Jemmy",
   },
   {
-    title: "Closing session for the inaugural PyCon Uganda conference",
-    duration: "17:00 - 17:30",
+    title: "Closing session for the Inaugural PyCon Uganda Conference",
+    duration: "16:30 - 17:30",
     speaker: "Elijah Okello",
   },
 ];
