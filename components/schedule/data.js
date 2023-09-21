@@ -181,7 +181,7 @@ export const PYCON_DAY2_SCHEDULE = [
   {
     title: "Closing Keynote",
     duration: "16:00 - 17:00",
-    speaker: "",
+    speaker: " Monica Oyugi",
   },
   {
     title: "Lightning Talks",
