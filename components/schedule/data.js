@@ -6,7 +6,11 @@ export const Tabs = [
 
 export const PYCON_DAY1_SCHEDULE = [
   {
-    title: "Opening session for the first PyCon Uganda conference",
+    title: "Registration",
+    duration: "08:00 - 09:00",
+  },
+  {
+    title: "Opening session for the first PyCon Uganda Conference",
     duration: "09:00 - 9:30",
     speaker: "Elijah Okello",
   },
@@ -31,7 +35,7 @@ export const PYCON_DAY1_SCHEDULE = [
   },
   {
     title: "Cultivating Excellence: Nurturing Growth as a Web Developer",
-    duration: "11:30 - 12:00",
+    duration: "12:00 - 12:30",
     speaker: "Abudi Mutamba",
     workshopTitle:
       "Harness the Power of LLMs (and python?) for In-depth Document analysis",
@@ -46,11 +50,24 @@ export const PYCON_DAY1_SCHEDULE = [
     workshopSpeaker: "Bethany Jepchumba, Josh Ndemenge, Joylynn Kirui",
   },
   {
-    title:
-      "Python Custom Visuals in Power BI: Unleashing the Power of Data Visualization",
+    title: "A word about our sponsor (PSF)",
     duration: "12:30 - 13:00",
-    speaker: "Allan Kiche",
+    speaker: "Joannah Nanjekye",
+    workshopTitle:
+      "Harness the Power of LLMs (and python?) for In-depth Document analysis",
+    workshopSpeaker: "Bethany Jepchumba, Josh Ndemenge, Joylynn Kirui",
   },
+  // {
+  //   title: "AI recommender systems to improve customer personalization",
+  //   duration: "12:00 - 12:30",
+  //   speaker: "Yvvon Jemmy",
+  // },
+  // {
+  //   title:
+  //     "Python Custom Visuals in Power BI: Unleashing the Power of Data Visualization",
+  //   duration: "12:30 - 13:00",
+  //   speaker: "Allan Kiche",
+  // },
   {
     title: "Lunch Break",
     duration: "13:00 - 14:00",
@@ -108,7 +125,7 @@ export const PYCON_DAY2_SCHEDULE = [
   },
   {
     title: "Breakfast",
-    duration: "10:00 - 10:30",
+    duration: "10:00 - 11:00",
     speaker: "",
   },
   {
@@ -188,18 +205,18 @@ export const PYCON_DAY2_SCHEDULE = [
 
 export const PYCON_DAY3_SCHEDULE = [
   {
-    title: "Opening Keynote",
+    title: "Community Spotlight",
     duration: "09:00 - 10:00",
     speaker: "",
   },
   {
     title: "Breakfast",
-    duration: "10:00 - 10:30",
+    duration: "10:00 - 11:00",
     speaker: "",
   },
   {
     title:
-      "Empowering Data Scientists: Unleashing the Potential of Azure Cloud Services",
+      "Empowering Data Scientists: Unleashing the Potential of Azure Cloud Services (Virtual)",
     duration: "11:00 - 11:30",
     speaker: "Lorna Aine",
     workshopTitle:
@@ -247,20 +264,24 @@ export const PYCON_DAY3_SCHEDULE = [
     title: "Building and Influencing the Open Source Ecosystem",
     duration: "15:00 - 15:30",
     speaker: "Omotola Omotayo",
+    workshopTitle: "How to create your own secure chat application",
+    workshopSpeaker: "Bethany Jepchumba, Josh Ndemenge, Joylynn Kirui",
   },
   {
     title: "State of the Community Address",
     duration: "15:30 - 16:00",
     speaker: "Mark Lubega",
+    workshopTitle: "How to create your own secure chat application",
+    workshopSpeaker: "Bethany Jepchumba, Josh Ndemenge, Joylynn Kirui",
   },
   {
-    title: "Closing keynote ",
-    duration: "16:00 - 17:00",
-    speaker: "",
+    title: "AI recommender systems to improve customer personalization",
+    duration: "16:00 - 16:30",
+    speaker: "Yvvon Jemmy",
   },
   {
-    title: "Closing session for the inaugural PyCon Uganda conference",
-    duration: "17:00 - 17:30",
+    title: "Closing session for the Inaugural PyCon Uganda Conference",
+    duration: "16:30 - 17:30",
     speaker: "Elijah Okello",
   },
 ];
