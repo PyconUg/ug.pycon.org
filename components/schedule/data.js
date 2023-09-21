@@ -268,7 +268,7 @@ export const PYCON_DAY3_SCHEDULE = [
   {
     title: "State of the Community Address",
     duration: "15:30 - 16:00",
-    speaker: "Mark Lubega",
+    speaker: "Sumaiya Nalukwago and Lincoln Angufibo",
     workshopTitle: "How to create your own secure chat application",
     workshopSpeaker: "Bethany Jepchumba, Josh Ndemenge, Joylynn Kirui",
   },
@@ -276,6 +276,8 @@ export const PYCON_DAY3_SCHEDULE = [
     title: "AI recommender systems to improve customer personalization",
     duration: "16:00 - 16:30",
     speaker: "Yvvon Jemmy",
+    workshopTitle: "How to create your own secure chat application",
+    workshopSpeaker: "Bethany Jepchumba, Josh Ndemenge, Joylynn Kirui",
   },
   {
     title: "Closing session for the Inaugural PyCon Uganda Conference",
