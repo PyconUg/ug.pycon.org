@@ -42,6 +42,14 @@ export const PYCON_DAY1_SCHEDULE = [
     workshopSpeaker: "Bethany Jepchumba, Josh Ndemenge, Joylynn Kirui",
   },
   {
+    title: "AI recommender systems to improve customer personalization",
+    duration: "12:00 - 12:30",
+    speaker: "Yvvon Jemmy",
+    workshopTitle:
+      "Harness the Power of LLMs (and python?) for In-depth Document analysis",
+    workshopSpeaker: "Bethany Jepchumba, Josh Ndemenge, Joylynn Kirui",
+  },
+  {
     title: "A word about our sponsor (PSF)",
     duration: "12:30 - 13:00",
     speaker: "Joannah Nanjekye",
