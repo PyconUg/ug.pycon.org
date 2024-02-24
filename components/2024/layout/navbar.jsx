@@ -1,17 +1,17 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link"; 
+import Link from "next/link";
 import { QUICKET_LINK } from "@/utils/constants";
 import { useState } from "react";
 import Logo from "@/components/ui/logo";
 
 export default function Navbar2024() {
   const NavbarLinks = [
-    {
-      path: "/2024/schedule",
-      label: "Schedule",
-    },
+    // {
+    //   path: "/2024/schedule",
+    //   label: "Schedule",
+    // },
     {
       path: "/2024/sponsors",
       label: "Sponsors",
@@ -56,20 +56,22 @@ export default function Navbar2024() {
         // },
       ],
     },
-    {
-      path: "#",
-      label: "Communities",
-      subLinks: [
-        {
-          path: "/2024/django-girls",
-          label: "Django Girls",
-        },
-      ],
-    },
+    // {
+    //   path: "#",
+    //   label: "Communities",
+    //   subLinks: [
+    //     {
+    //       path: "/2024/django-girls",
+    //       label: "Django Girls",
+    //     },
+    //   ],
+    // },
   ];
 
   const TICKET_BTN_LABEL = "Get Ticket";
   const SHOP_ACTION_LABEL = "Shop";
+  const SPONSOR_ACTION_LABEL = "Sponsor";
+  const SPONSOR_ACTION_LINK = "/2024/sponsors";
   const SHOP_ACTION_LINK = "/2024/shop";
 
   const [openDropdownIndex, setOpenDropdownIndex] = useState(null);
@@ -117,7 +119,7 @@ export default function Navbar2024() {
           </div>
 
           {/* For larger devices */}
-          <div className="md:flex space-x-4 hidden">
+          <div className="md:flex space-x-4 hidden items-center">
             {NavbarLinks.map(({ path, label, subLinks }, index) => (
               <div key={index} className="relative group">
                 {subLinks ? (
@@ -136,7 +138,12 @@ export default function Navbar2024() {
                       viewBox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg"
                     >
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M19 9l-7 7-7-7"
+                      />
                     </svg>
                     {openDropdownIndex === index && (
                       <div className="absolute mt-1 top-5 space-y-1 bg-white border border-gray-300 rounded-md">
@@ -157,18 +164,20 @@ export default function Navbar2024() {
                 )}
               </div>
             ))}
-            <Link
-              className="border-black hidden md:block  px-6 py-1 border rounded-lg"
-              href={SHOP_ACTION_LINK}
-            >
-              {SHOP_ACTION_LABEL}
-            </Link>
-            <Link
-              className="bg-black text-white px-6 py-1 border rounded-lg"
-              href={QUICKET_LINK}
-            >
-              {TICKET_BTN_LABEL}
-            </Link>
+            <div className="flex flex-row space-x-5">
+              <Link
+                className="border-black hidden md:block  px-6 py-1 border rounded-lg"
+                href={SPONSOR_ACTION_LINK}
+              >
+                {SPONSOR_ACTION_LABEL}
+              </Link>
+              <Link
+                className="bg-black text-white px-6 py-1 border rounded-lg"
+                href={QUICKET_LINK}
+              >
+                {TICKET_BTN_LABEL}
+              </Link>
+            </div>
           </div>
 
           {/* Side Menu Links - For smaller devices */}
@@ -209,10 +218,10 @@ export default function Navbar2024() {
               );
             })}
             <Link
-              href={SHOP_ACTION_LINK}
+              href={SPONSOR_ACTION_LINK}
               className="block px-4 py-2 text-white hover:bg-pyconug-darkBlue"
             >
-              {SHOP_ACTION_LABEL}
+              {SPONSOR_ACTION_LABEL}
             </Link>
             <Link
               href={QUICKET_LINK}
