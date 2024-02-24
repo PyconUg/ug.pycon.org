@@ -9,15 +9,15 @@ import Logo from "@/components/ui/logo";
 export default function Navbar2024() {
   const NavbarLinks = [
     {
-      path: "/schedule",
+      path: "/2024/schedule",
       label: "Schedule",
     },
     {
-      path: "/sponsors",
+      path: "/2024/sponsors",
       label: "Sponsors",
     },
     {
-      path: "/financial-aid",
+      path: "/2024/financial-aid",
       label: "Financial Aid",
     },
     {
@@ -25,11 +25,11 @@ export default function Navbar2024() {
       label: "Speakers",
       subLinks: [
         {
-          path: "/keynote-speakers",
+          path: "/2024/keynote-speakers",
           label: "Keynote Speakers",
         },
         {
-          path: "/speakers",
+          path: "/2024/speakers",
           label: "All Speakers",
         },
       ],
@@ -39,15 +39,15 @@ export default function Navbar2024() {
       label: "Attendee Guide",
       subLinks: [
         {
-          path: "/travel-guide",
+          path: "/2024/travel-guide",
           label: "Travel Guide",
         },
         {
-          path: "/code-of-conduct",
+          path: "/2024/code-of-conduct",
           label: "Code of Conduct",
         },
         {
-          path: "/health-and-safety",
+          path: "/2024/health-and-safety",
           label: "Health and Safety",
         },
         // {
@@ -61,7 +61,7 @@ export default function Navbar2024() {
       label: "Communities",
       subLinks: [
         {
-          path: "/django-girls",
+          path: "/2024/django-girls",
           label: "Django Girls",
         },
       ],
@@ -70,7 +70,7 @@ export default function Navbar2024() {
 
   const TICKET_BTN_LABEL = "Get Ticket";
   const SHOP_ACTION_LABEL = "Shop";
-  const SHOP_ACTION_LINK = "/shop";
+  const SHOP_ACTION_LINK = "/2024/shop";
 
   const [openDropdownIndex, setOpenDropdownIndex] = useState(null);
   const [isSideMenuOpen, setIsSideMenuOpen] = useState(false);

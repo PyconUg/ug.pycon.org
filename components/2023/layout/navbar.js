@@ -4,20 +4,20 @@ import Image from "next/image";
 import Link from "next/link";
 import { QUICKET_LINK } from "@/utils/constants";
 import { useState } from "react";
-import Logo from "./logo";
+import Logo from "../../ui/logo";
 
 export default function Navbar() {
   const NavbarLinks = [
     {
-      path: "/schedule",
+      path: "/2023/schedule",
       label: "Schedule",
     },
     {
-      path: "/sponsors",
+      path: "/2023/sponsors",
       label: "Sponsors",
     },
     {
-      path: "/financial-aid",
+      path: "/2023/financial-aid",
       label: "Financial Aid",
     },
     {
@@ -25,11 +25,11 @@ export default function Navbar() {
       label: "Speakers",
       subLinks: [
         {
-          path: "/keynote-speakers",
+          path: "/2023/keynote-speakers",
           label: "Keynote Speakers",
         },
         {
-          path: "/speakers",
+          path: "/2023/speakers",
           label: "All Speakers",
         },
       ],
@@ -39,15 +39,15 @@ export default function Navbar() {
       label: "Attendee Guide",
       subLinks: [
         {
-          path: "/travel-guide",
+          path: "/2023/travel-guide",
           label: "Travel Guide",
         },
         {
-          path: "/code-of-conduct",
+          path: "/2023/code-of-conduct",
           label: "Code of Conduct",
         },
         {
-          path: "/health-and-safety",
+          path: "/2023/health-and-safety",
           label: "Health and Safety",
         },
         // {
@@ -61,7 +61,7 @@ export default function Navbar() {
       label: "Communities",
       subLinks: [
         {
-          path: "/django-girls",
+          path: "/2023/django-girls",
           label: "Django Girls",
         },
       ],
@@ -70,7 +70,7 @@ export default function Navbar() {
 
   const TICKET_BTN_LABEL = "Get Ticket";
   const SHOP_ACTION_LABEL = "Shop";
-  const SHOP_ACTION_LINK = "/shop";
+  const SHOP_ACTION_LINK = "/2023/shop";
 
   const [openDropdownIndex, setOpenDropdownIndex] = useState(null);
   const [isSideMenuOpen, setIsSideMenuOpen] = useState(false);

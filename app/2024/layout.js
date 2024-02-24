@@ -1,4 +1,4 @@
-import Footer from "@/components/ui/footer";
+import Footer from "@/components/2023/layout/footer";
 import 'react-toastify/dist/ReactToastify.css';
 import "@/app/globals.css";
 import Navbar2024 from "@/components/2024/layout/navbar";

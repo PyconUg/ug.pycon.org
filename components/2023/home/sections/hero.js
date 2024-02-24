@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Jumbotron from "../jumbotron";
+import Jumbotron from "../../jumbotron";
 
 export default function Hero(params) {
   return (
