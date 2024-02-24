@@ -1,3 +1,4 @@
+import HeroSection from "../2024/home/hero";
 import About from "./sections/about";
 import BuyTicket from "./sections/buy-ticket";
 import Contact from "./sections/contact";

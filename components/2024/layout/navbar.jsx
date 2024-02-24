@@ -1,12 +1,12 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
+import Link from "next/link"; 
 import { QUICKET_LINK } from "@/utils/constants";
 import { useState } from "react";
-import Logo from "./logo";
+import Logo from "@/components/ui/logo";
 
-export default function Navbar() {
+export default function Navbar2024() {
   const NavbarLinks = [
     {
       path: "/schedule",
@@ -88,7 +88,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="sticky top-0 z-10 bg-white backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-gray-200">
+    <nav className="sticky top-0 z-10 bg-white backdrop-filter backdrop-blur-lg bg-opacity-30 rounded-lg shadow-lg mx-12 my-4">
       <div className="mx-[6%] my-2">
         <div className="flex items-center justify-between h-16">
           <Logo />
