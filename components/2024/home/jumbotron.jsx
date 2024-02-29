@@ -7,7 +7,7 @@ export default function Jumbotron() {
       <div className=" max-w-2xl lg:pl-20 flex flex-col space-y-8 md:mt-32 mt-24 text-center md:text-start md:pt-0 px-4  md:pr-24 lg:pr-0">
         <h1 className="font-bold lg:text-4xl md:text-5xl text-4xl ">
           {" "}
-          WE'RE BACK
+          WE&#39;RE BACK
         </h1>
         <h1 className="font-bold lg:text-[90px] md:text-5xl text-4xl ">
           <span className="text-pyconug-red">PyCon</span> Uganda 2024
