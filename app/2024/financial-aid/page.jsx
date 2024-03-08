@@ -55,7 +55,7 @@ export default function DiversityPage() {
           We strongly encourage all eligible individuals to apply for our tickets.
         </p>
         <br/>
-        <Link target="_blank" className="bg-[#ffe135]  font-bold py-3 px-10 m-2 border rounded-3xl" href="https://docs.google.com/forms/d/1hScuwbPwhxq8I1l8aZ0zOPA7WP-unvDMrarCXi0IxAY">
+        <Link target="_blank" className="bg-[#ffe135]  font-bold py-3 px-10 m-2 border rounded-3xl" href="https://bit.ly/pyconUG-2024-diversity-aid">
           Apply for Financial Aid
         </Link>
         <br/><br/>

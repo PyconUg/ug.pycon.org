@@ -90,7 +90,7 @@ export default function Navbar2024() {
   };
 
   return (
-    <nav className="sticky top-0 z-10 bg-white backdrop-filter backdrop-blur-lg bg-opacity-30 rounded-lg shadow-lg mx-12 my-4">
+    <nav className="sticky top-0 z-10 bg-white backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-gray-200">
       <div className="mx-[6%] my-2">
         <div className="flex items-center justify-between h-16">
           <Logo />
