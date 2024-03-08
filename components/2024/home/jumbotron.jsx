@@ -1,5 +1,5 @@
 import { QUICKET_LINK } from "@/2023/utils/constants";
-import { CONFERENCE_DATE } from "@/2024/utils/constants";
+import { CFP_LINK, CONFERENCE_DATE, VENUE } from "@/2024/utils/constants";
 import Link from "next/link";
 
 export default function Jumbotron() {
@@ -13,24 +13,39 @@ export default function Jumbotron() {
         <h1 className="font-bold lg:text-[90px] md:text-5xl text-4xl ">
           <span className="text-pyconug-red">PyCon</span> Uganda 2024
         </h1>
-        <p className="text-gray-500 md:text-xl text-lg">
-          - {CONFERENCE_DATE} -
-        </p>
-
+        <div className="flex space-x-4">
+          <div>
+            <span className="font-semibold">Date</span>
+            <p className="text-gray-500 md:text-xl text-lg">
+              {CONFERENCE_DATE}
+            </p>
+          </div>
+          <div>
+            <span className="font-semibold">Venue</span>
+            <p className="text-gray-500 md:text-xl text-lg">{VENUE}</p>
+          </div>
+        </div>
         <div className="flex justify-center md:justify-start space-x-4">
           <Link
-            className="uppercase text-white bg-pyconug-lightBlue border-2 hover:bg-white hover:text-pyconug-lightBlue hover:border-pyconug-lightBlue px-12 py-4 rounded-md w-auto font-bold flex items-center justify-center"
+            className="uppercase text-white bg-pyconug-lightBlue border-2 hover:bg-white hover:text-pyconug-lightBlue hover:border-pyconug-lightBlue p-4 rounded-md w-56 font-bold flex items-center justify-center"
             target="_blank"
             href={QUICKET_LINK}
           >
             Early Bird Ticket
           </Link>
           <Link
-            className="uppercase text-pyconug-lightBlue border-2 border-pyconug-lightBlue px-12 hover:bg-pyconug-lightBlue hover:text-white py-4 rounded-md w-auto font-bold flex items-center justify-center"
+            className="uppercase text-white bg-pyconug-lightBlue border-2 hover:bg-white hover:text-pyconug-lightBlue hover:border-pyconug-lightBlue p-4 rounded-md w-56 font-bold flex items-center justify-center"
             target="_blank"
-            href={QUICKET_LINK}
+            href={CFP_LINK}
           >
-            Submit Talk
+            Submit a talk
+          </Link>
+          <Link
+            className="uppercase text-white bg-pyconug-lightBlue border-2 hover:bg-white hover:text-pyconug-lightBlue hover:border-pyconug-lightBlue p-4 rounded-md w-56 font-bold flex items-center justify-center"
+            target="_blank"
+            href="/2024/sponsors"
+          >
+            Sponsor us
           </Link>
         </div>
       </div>

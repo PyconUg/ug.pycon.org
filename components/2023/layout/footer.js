@@ -15,7 +15,7 @@ export default function Footer() {
               East Africa. We shall talk about Python applications in data, web
               and other domains. This is a platform where Python users,
               developers, library developers and companies that use Python come
-              together. This is going to be the <strong>1st</strong> PyCon
+              together. This is going to be the <strong>2nd</strong> PyCon
               Conference in Uganda!
             </p>
           </div>
@@ -55,11 +55,15 @@ export default function Footer() {
               </Link>
             </p>
             <p className="mb-4">
-               Our PyCon Uganda Editions: 
-               <ul className="list-disc ml-6 space-y-2 mt-2">
-                <li className="text-sm text-blue-400 underline"><Link href='/2024'>PyCon Uganda 2024</Link></li>
-                <li className="text-sm text-blue-400 underline"><Link href='/2023'>PyCon Uganda 2023</Link></li>
-               </ul>
+              Our PyCon Uganda Editions:
+              <ul className="list-disc ml-6 space-y-2 mt-2">
+                <li className="text-sm text-blue-400 underline">
+                  <Link href="/2024">PyCon Uganda 2024</Link>
+                </li>
+                <li className="text-sm text-blue-400 underline">
+                  <Link href="/2023">PyCon Uganda 2023</Link>
+                </li>
+              </ul>
             </p>
           </div>
           <div className="my-10">
@@ -76,7 +80,11 @@ export default function Footer() {
                 <path d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
                 <path d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
               </svg>
-            National ICT Innovation Hub, Kampala
+              <span>
+                {" "}
+                NWSC International Resource Center, Bugolobi (IREC) Plot M11 Old
+                Portbell Road, Bugolobi, P. O. Box 7053, Kampala, Uganda
+              </span>
             </p>
             <p className="mb-4 flex items-center justify-center md:justify-start">
               <svg
@@ -121,7 +129,6 @@ export default function Footer() {
               + 256 789 189 583
             </p>
           </div>
-          
         </div>
       </div>
       <div className="bg-neutral-200 p-6 text-center dark:bg-neutral-700">
@@ -130,7 +137,7 @@ export default function Footer() {
           className="font-semibold text-neutral-600 dark:text-neutral-400"
           href="https://ug.pycon.org/"
         >
-          PyCon Uganda
+          Python Software Society of Uganda (PSSU)
         </a>
       </div>
     </footer>

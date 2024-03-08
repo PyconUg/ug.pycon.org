@@ -508,9 +508,7 @@ export default function SponsorsPage() {
           <h2 className="text-3xl font-bold text-center mb-6 pt-8 sm:text-4xl">
             Expo Packages
           </h2>
-          <p className="text-center font-bold">
-            Explore our expo packages
-          </p>
+          <p className="text-center font-bold">Explore our expo packages</p>
           <div className="pt-6 grid lg:grid-cols-3 gap-6 xl:gap-x-12 grid-col-reverse">
             <div className="mb-6 lg:mb-0 order-2">
               <div className="block rounded-lg bg-white h-full border border-[#FFD700]">
@@ -837,7 +835,9 @@ export default function SponsorsPage() {
             Contact Us
           </h2>
           <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
-            Interested in sponsoring? We would love to hear from you.
+            Interested in sponsoring? Reach out to us via{" "}
+            <span className="font-semibold">{PYCONUG_EMAIL}</span> <br />
+            or contact us here;
           </p>
           <form
             action={`mailto:${PYCONUG_EMAIL}`}

@@ -17,7 +17,7 @@ export default function About() {
           <div className="flex flex-col md:flex-row justify-between my-8">
             <div>
               <h3 className="mt-4 text-2xl font-bold sm:text-xl">WHERE</h3>
-              <p className="mt-2 sm:leadung-relaxed">{VENUE}</p>
+              <p className="mt-2 sm:leadung-relaxed max-w-md">NWSC International Resource Center<br/>Bugolobi (IREC)<br/>Plot M11 Old Portbell Road, Bugolobi<br/> P. O. Box 7053, Kampala, Uganda</p>
             </div>
             <div>
               <h3 className="mt-4 text-2xl font-bold sm:text-xl">WHEN</h3>

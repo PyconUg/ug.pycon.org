@@ -34,28 +34,28 @@ export default function Navbar2024() {
     //     },
     //   ],
     // },
-    // {
-    //   path: "#",
-    //   label: "Attendee Guide",
-    //   subLinks: [
-    //     {
-    //       path: "/2024/travel-guide",
-    //       label: "Travel Guide",
-    //     },
-    //     {
-    //       path: "/2024/code-of-conduct",
-    //       label: "Code of Conduct",
-    //     },
-    //     {
-    //       path: "/2024/health-and-safety",
-    //       label: "Health and Safety",
-    //     },
-    //     // {
-    //     //   path: "/contact",
-    //     //   label: "Contact Us",
-    //     // },
-    //   ],
-    // },
+    {
+      path: "#",
+      label: "Attendee Guide",
+      subLinks: [
+        {
+          path: "/2024/travel-guide",
+          label: "Travel Guide",
+        },
+        {
+          path: "/2024/code-of-conduct",
+          label: "Code of Conduct",
+        },
+        {
+          path: "/2024/health-and-safety",
+          label: "Health and Safety",
+        },
+        // {
+        //   path: "/contact",
+        //   label: "Contact Us",
+        // },
+      ],
+    },
     // {
     //   path: "#",
     //   label: "Communities",
@@ -68,7 +68,7 @@ export default function Navbar2024() {
     // },
   ];
 
-  const TICKET_BTN_LABEL = "Get Ticket";
+  const TICKET_BTN_LABEL = "Get Early Bird Ticket";
   const SHOP_ACTION_LABEL = "Shop";
   const SPONSOR_ACTION_LABEL = "Sponsor";
   const SPONSOR_ACTION_LINK = "/2024/sponsors";

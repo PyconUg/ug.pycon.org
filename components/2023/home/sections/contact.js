@@ -21,40 +21,44 @@ export default function Contact() {
   };
   return (
     <section>
-      <div className='mx-auto max-w-screen-xl px-4 py-16 lg:block lg:h-85 lg:items-center'>
-        <div className='mx-auto max-w-xl text-center'>
-          <h2 className='text-4xl text-[#0e1b4d] font-bold uppercase'>
+      <div className="mx-auto max-w-screen-xl px-4 py-16 lg:block lg:h-85 lg:items-center">
+        <div className="mx-auto max-w-xl text-center">
+          <h2 className="text-4xl text-[#0e1b4d] font-bold uppercase">
             Contact Us
           </h2>
         </div>
 
-        <div className='grid grid-cols-1 md:grid-cols-3 gap-4 text-center m-10'>
-          <div className='mb-0 text-[#112363]'>
-            <i className='bi bi-geo-alt'></i>
-            <h3 className='text-lg uppercase font-bold'>Address</h3>
-            <address>National ICT Innovation Hub, Kampala</address>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-center m-10">
+          <div className="mb-0 text-[#112363]">
+            <i className="bi bi-geo-alt"></i>
+            <h3 className="text-lg uppercase font-bold">Address</h3>
+            <address>
+              NWSC International Resource Center, Bugolobi (IREC)
+              <br /> Plot M11 Old Portbell Road, Bugolobi, <br />
+              P. O. Box 7053, Kampala, Uganda
+            </address>
           </div>
-          <div className='mb-0 text-[#112363]'>
-            <i className='bi bi-phone'></i>
-            <h3 className='text-lg uppercase font-bold'>Phone Number</h3>
+          <div className="mb-0 text-[#112363]">
+            <i className="bi bi-phone"></i>
+            <h3 className="text-lg uppercase font-bold">Phone Number</h3>
             <p>
-              <a href='tel:+ 256 701 599 722'>+ 256 701 599 722</a>
+              <a href="tel:+ 256 701 599 722">+ 256 701 599 722</a>
             </p>
           </div>
-          <div className='mb-0 text-[#112363]'>
-            <i className='bi bi-envelope'></i>
-            <h3 className='text-lg uppercase font-bold'>Email</h3>
+          <div className="mb-0 text-[#112363]">
+            <i className="bi bi-envelope"></i>
+            <h3 className="text-lg uppercase font-bold">Email</h3>
             <p>
               <a href={`mailto:${PYCONUG_EMAIL}`}>{PYCONUG_EMAIL}</a>
             </p>
           </div>
         </div>
 
-        <div className='py-4 lg:py-8 px-4 mx-auto max-w-screen-sm'>
-          <p className='mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl'>
-            Reach out to us in case of queries.
+        <div className="py-4 lg:py-8 px-4 mx-auto max-w-screen-sm">
+          <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
+            Prospective sponsors can contact us at <span className="font-semibold">{PYCONUG_EMAIL}</span>
           </p>
-          <form
+          {/* <form
             onSubmit={handleFormSubmit}
             action={`mailto:${PYCONUG_EMAIL}`}
             method='post'
@@ -112,7 +116,7 @@ export default function Contact() {
             >
               Send message
             </button>
-          </form>
+          </form> */}
         </div>
       </div>
     </section>
