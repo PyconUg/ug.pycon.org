@@ -5,7 +5,7 @@ import {
   MM_PURCHASE_STEPS,
   QUICKET_PURCHASE_STEPS,
 } from "@/components/shop/data";
-import { PYCON_MERCHANDIZE_URL } from "@/utils/constants";
+import { PYCON_MERCHANDIZE_URL } from "@/2023/utils/constants";
 
 export default function Shop() {
   return (

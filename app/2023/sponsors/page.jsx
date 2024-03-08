@@ -1,4 +1,4 @@
-import { PYCONUG_EMAIL } from "@/utils/constants";
+import { PYCONUG_EMAIL } from "@/2023/utils/constants";
 
 export default function SponsorsPage() {
   return (

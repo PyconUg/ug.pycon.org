@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { QUICKET_LINK } from "@/utils/constants";
+import { QUICKET_LINK } from "@/2023/utils/constants";
 import { useState } from "react";
 import Logo from "../../ui/logo";
 
