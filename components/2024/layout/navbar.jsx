@@ -34,28 +34,28 @@ export default function Navbar2024() {
     //     },
     //   ],
     // },
-    {
-      path: "#",
-      label: "Attendee Guide",
-      subLinks: [
-        {
-          path: "/2024/travel-guide",
-          label: "Travel Guide",
-        },
-        {
-          path: "/2024/code-of-conduct",
-          label: "Code of Conduct",
-        },
-        {
-          path: "/2024/health-and-safety",
-          label: "Health and Safety",
-        },
-        // {
-        //   path: "/contact",
-        //   label: "Contact Us",
-        // },
-      ],
-    },
+    // {
+    //   path: "#",
+    //   label: "Attendee Guide",
+    //   subLinks: [
+    //     {
+    //       path: "/2024/travel-guide",
+    //       label: "Travel Guide",
+    //     },
+    //     {
+    //       path: "/2024/code-of-conduct",
+    //       label: "Code of Conduct",
+    //     },
+    //     {
+    //       path: "/2024/health-and-safety",
+    //       label: "Health and Safety",
+    //     },
+    //     // {
+    //     //   path: "/contact",
+    //     //   label: "Contact Us",
+    //     // },
+    //   ],
+    // },
     // {
     //   path: "#",
     //   label: "Communities",
