@@ -509,16 +509,205 @@ export default function SponsorsPage() {
             Expo Packages
           </h2>
           <p className="text-center font-bold">
-            Sign up early to become one of our launch sponsors with extra
-            exposure!
+            Explore our expo packages
           </p>
-          <div className="pt-6 grid lg:grid-cols-4 gap-6 xl:gap-x-12">
-            <div className="mb-6 lg:mb-0 order-last">
-              <div className="block rounded-lg shadow-lg bg-white h-full border border-[#CD7F32]">
+          <div className="pt-6 grid lg:grid-cols-3 gap-6 xl:gap-x-12 grid-col-reverse">
+            <div className="mb-6 lg:mb-0 order-2">
+              <div className="block rounded-lg bg-white h-full border border-[#FFD700]">
                 <div className="p-6 border-b border-gray-300 text-center">
-                  <p className="uppercase mb-4 text-sm text-[#CD7F32] font-extrabold">
-                    Bronze
-                  </p>
+                  <h3 className="text-2xl mb-6">
+                    <strong>UGX 500,000</strong>
+                  </h3>
+                </div>
+                <div className="p-6">
+                  <ol className="list-inside">
+                    <li className="mb-4 flex items-center">
+                      <svg
+                        aria-hidden="true"
+                        focusable="false"
+                        data-prefix="fas"
+                        data-icon="check"
+                        className="text-green-600 w-4 h-4 mr-2"
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+                        ></path>
+                      </svg>{" "}
+                      Double the space of the UGX250,000 package
+                    </li>
+                    <li className="mb-4 flex items-center">
+                      <svg
+                        aria-hidden="true"
+                        focusable="false"
+                        data-prefix="fas"
+                        data-icon="check"
+                        className="text-green-600 w-4 h-4 mr-2"
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+                        ></path>
+                      </svg>
+                      Allowance for 2 people
+                    </li>
+                    <li className="mb-4 flex items-center">
+                      {" "}
+                      <svg
+                        aria-hidden="true"
+                        focusable="false"
+                        data-prefix="fas"
+                        data-icon="check"
+                        className="text-green-600 w-4 h-4 mr-2"
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+                        ></path>
+                      </svg>
+                      Logo on website
+                    </li>
+                    <li className="mb-4 flex items-center">
+                      <svg
+                        aria-hidden="true"
+                        focusable="false"
+                        data-prefix="fas"
+                        data-icon="check"
+                        className="text-green-600 w-4 h-4 mr-2"
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+                        ></path>
+                      </svg>
+                      Unlimited branding in the expo area
+                    </li>
+                    <li className="mb-4 flex items-center">
+                      <svg
+                        aria-hidden="true"
+                        focusable="false"
+                        data-prefix="fas"
+                        data-icon="check"
+                        className="text-green-600 w-4 h-4 mr-2"
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+                        ></path>
+                      </svg>{" "}
+                      Workshop session about products
+                    </li>
+                    <li className="mb-4 flex items-center">
+                      <svg
+                        aria-hidden="true"
+                        focusable="false"
+                        data-prefix="fas"
+                        data-icon="check"
+                        className="text-green-600 w-4 h-4 mr-2"
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+                        ></path>
+                      </svg>{" "}
+                      Free participation access to job fair
+                    </li>
+                    <li className="mb-4 flex items-center">
+                      {" "}
+                      <svg
+                        aria-hidden="true"
+                        focusable="false"
+                        data-prefix="fas"
+                        data-icon="check"
+                        className="text-green-600 w-4 h-4 mr-2"
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+                        ></path>
+                      </svg>
+                      Branding on swag
+                    </li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+
+            <div className="mb-6 lg:mb-0 order-first">
+              <div className="block rounded-lg shadow-lg bg-white h-full border border-[#A0B2C6]">
+                <div className="p-6 border-b border-gray-300 text-center">
+                  <h3 className="text-2xl mb-6">
+                    <strong>UGX 250,000</strong>
+                  </h3>
+                </div>
+                <div className="p-6">
+                  <ol className="list-inside">
+                    <li className="mb-4 flex items-center">
+                      <svg
+                        aria-hidden="true"
+                        focusable="false"
+                        data-prefix="fas"
+                        data-icon="check"
+                        className="text-green-600 w-4 h-4 mr-2"
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+                        ></path>
+                      </svg>
+                      Desk in expo hall enough for 2 people
+                    </li>
+                    <li className="mb-4 flex items-center">
+                      {" "}
+                      <svg
+                        aria-hidden="true"
+                        focusable="false"
+                        data-prefix="fas"
+                        data-icon="check"
+                        className="text-green-600 w-4 h-4 mr-2"
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+                        ></path>
+                      </svg>
+                      Pull-up banner
+                    </li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+
+            <div className="mb-6 lg:mb-0 order-3">
+              <div className="block rounded-lg shadow-lg bg-white h-full border border-[#C0C0C0]">
+                <div className="p-6 border-b border-gray-300 text-center">
                   <h3 className="text-2xl mb-6">
                     <strong>UGX 1,000,000</strong>
                   </h3>
@@ -540,8 +729,9 @@ export default function SponsorsPage() {
                           fill="currentColor"
                           d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
                         ></path>
-                      </svg>
-                      In Press Releases
+                      </svg>{" "}
+                      Space for 4 people (3 times the space of the UGX250,000
+                      package)
                     </li>
                     <li className="mb-4 flex items-center">
                       <svg
@@ -558,8 +748,8 @@ export default function SponsorsPage() {
                           fill="currentColor"
                           d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
                         ></path>
-                      </svg>
-                      Distribute swag
+                      </svg>{" "}
+                      Branding beyond the expo hall
                     </li>
                     <li className="mb-4 flex items-center">
                       <svg
@@ -576,8 +766,27 @@ export default function SponsorsPage() {
                           fill="currentColor"
                           d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
                         ></path>
-                      </svg>
-                      On sponsors page
+                      </svg>{" "}
+                      5-minute plenary session
+                    </li>
+                    <li className="mb-4 flex items-center">Logo on website</li>
+                    <li className="mb-4 flex items-center">
+                      <svg
+                        aria-hidden="true"
+                        focusable="false"
+                        data-prefix="fas"
+                        data-icon="check"
+                        className="text-green-600 w-4 h-4 mr-2"
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+                        ></path>
+                      </svg>{" "}
+                      Workshop session about products
                     </li>
                     <li className="mb-4 flex items-center">
                       <svg
@@ -594,10 +803,11 @@ export default function SponsorsPage() {
                           fill="currentColor"
                           d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
                         ></path>
-                      </svg>
-                      Links in videos
+                      </svg>{" "}
+                      Free participation access to job fair
                     </li>
                     <li className="mb-4 flex items-center">
+                      {" "}
                       <svg
                         aria-hidden="true"
                         focusable="false"
@@ -613,346 +823,7 @@ export default function SponsorsPage() {
                           d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
                         ></path>
                       </svg>
-                      Free tickets
-                    </li>
-                  </ol>
-                </div>
-              </div>
-            </div>
-
-            <div className="mb-6 lg:mb-0 order-3">
-              <div className="block rounded-lg shadow-lg bg-white h-full border border-[#C0C0C0]">
-                <div className="p-6 border-b border-gray-300 text-center">
-                  <p className="uppercase mb-4 text-sm text-[#A0A0A0] font-extrabold">
-                    Silver
-                  </p>
-                  <h3 className="text-2xl mb-6">
-                    <strong>$ 2500</strong>
-                  </h3>
-                </div>
-                <div className="p-6">
-                  <ol className="list-inside">
-                    <li className="mb-4 flex items-center">
-                      <svg
-                        aria-hidden="true"
-                        focusable="false"
-                        data-prefix="fas"
-                        data-icon="check"
-                        className="text-green-600 w-4 h-4 mr-2"
-                        role="img"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 512 512"
-                      >
-                        <path
-                          fill="currentColor"
-                          d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
-                        ></path>
-                      </svg>
-                      Bronze package
-                    </li>
-                    <li className="mb-4 flex items-center">
-                      <svg
-                        aria-hidden="true"
-                        focusable="false"
-                        data-prefix="fas"
-                        data-icon="check"
-                        className="text-green-600 w-4 h-4 mr-2"
-                        role="img"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 512 512"
-                      >
-                        <path
-                          fill="currentColor"
-                          d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
-                        ></path>
-                      </svg>
-                      On swag shirt
-                    </li>
-                    <li className="mb-4 flex items-center">
-                      <svg
-                        aria-hidden="true"
-                        focusable="false"
-                        data-prefix="fas"
-                        data-icon="check"
-                        className="text-green-600 w-4 h-4 mr-2"
-                        role="img"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 512 512"
-                      >
-                        <path
-                          fill="currentColor"
-                          d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
-                        ></path>
-                      </svg>
-                      In website footer
-                    </li>
-                    <li className="mb-4 flex items-center">
-                      <svg
-                        aria-hidden="true"
-                        focusable="false"
-                        data-prefix="fas"
-                        data-icon="check"
-                        className="text-green-600 w-4 h-4 mr-2"
-                        role="img"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 512 512"
-                      >
-                        <path
-                          fill="currentColor"
-                          d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
-                        ></path>
-                      </svg>
-                      1 Pull-up banner
-                    </li>
-                    <li className="mb-4 flex items-center">
-                      <svg
-                        aria-hidden="true"
-                        focusable="false"
-                        data-prefix="fas"
-                        data-icon="check"
-                        className="text-green-600 w-4 h-4 mr-2"
-                        role="img"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 512 512"
-                      >
-                        <path
-                          fill="currentColor"
-                          d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
-                        ></path>
-                      </svg>
-                      1 announcement
-                    </li>
-                    <li className="mb-4 flex items-center">
-                      <svg
-                        aria-hidden="true"
-                        focusable="false"
-                        data-prefix="fas"
-                        data-icon="check"
-                        className="text-green-600 w-4 h-4 mr-2"
-                        role="img"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 512 512"
-                      >
-                        <path
-                          fill="currentColor"
-                          d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
-                        ></path>
-                      </svg>
-                      YouTube CTA links
-                    </li>
-                  </ol>
-                </div>
-              </div>
-            </div>
-
-            <div className="mb-6 lg:mb-0 order-2">
-              <div className="block rounded-lg bg-white h-full border border-[#FFD700]">
-                <div className="p-6 border-b border-gray-300 text-center">
-                  <p className="uppercase mb-4 text-sm text-[#FFD700] font-extrabold">
-                    <strong>Gold</strong>
-                  </p>
-                  <h3 className="text-2xl mb-6">
-                    <strong>$ 4000</strong>
-                  </h3>
-                </div>
-                <div className="p-6">
-                  <ol className="list-inside">
-                    <li className="mb-4 flex items-center">
-                      <svg
-                        aria-hidden="true"
-                        focusable="false"
-                        data-prefix="fas"
-                        data-icon="check"
-                        className="text-green-600 w-4 h-4 mr-2"
-                        role="img"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 512 512"
-                      >
-                        <path
-                          fill="currentColor"
-                          d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
-                        ></path>
-                      </svg>
-                      Silver package
-                    </li>
-                    <li className="mb-4 flex items-center">
-                      <svg
-                        aria-hidden="true"
-                        focusable="false"
-                        data-prefix="fas"
-                        data-icon="check"
-                        className="text-green-600 w-4 h-4 mr-2"
-                        role="img"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 512 512"
-                      >
-                        <path
-                          fill="currentColor"
-                          d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
-                        ></path>
-                      </svg>
-                      2 announcements
-                    </li>
-                    <li className="mb-4 flex items-center">
-                      <svg
-                        aria-hidden="true"
-                        focusable="false"
-                        data-prefix="fas"
-                        data-icon="check"
-                        className="text-green-600 w-4 h-4 mr-2"
-                        role="img"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 512 512"
-                      >
-                        <path
-                          fill="currentColor"
-                          d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
-                        ></path>
-                      </svg>
-                      3-day offer period
-                    </li>
-                  </ol>
-                </div>
-              </div>
-            </div>
-
-            <div className="mb-6 lg:mb-0 order-first">
-              <div className="block rounded-lg shadow-lg bg-white h-full border border-[#A0B2C6]">
-                <div className="p-6 border-b border-gray-300 text-center">
-                  <p className="uppercase mb-4 text-sm text-[#A0B2C6] font-extrabold">
-                    Platinum
-                  </p>
-                  <h3 className="text-2xl mb-6">
-                    <strong>$ 5000</strong>
-                  </h3>
-                </div>
-                <div className="p-6">
-                  <ol className="list-inside">
-                    <li className="mb-4 flex items-center">
-                      <svg
-                        aria-hidden="true"
-                        focusable="false"
-                        data-prefix="fas"
-                        data-icon="check"
-                        className="text-green-600 w-4 h-4 mr-2"
-                        role="img"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 512 512"
-                      >
-                        <path
-                          fill="currentColor"
-                          d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
-                        ></path>
-                      </svg>
-                      Gold package
-                    </li>
-                    <li className="mb-4 flex items-center">
-                      <svg
-                        aria-hidden="true"
-                        focusable="false"
-                        data-prefix="fas"
-                        data-icon="check"
-                        className="text-green-600 w-4 h-4 mr-2"
-                        role="img"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 512 512"
-                      >
-                        <path
-                          fill="currentColor"
-                          d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
-                        ></path>
-                      </svg>
-                      1 tutorial
-                    </li>
-                    <li className="mb-4 flex items-center">
-                      <svg
-                        aria-hidden="true"
-                        focusable="false"
-                        data-prefix="fas"
-                        data-icon="check"
-                        className="text-green-600 w-4 h-4 mr-2"
-                        role="img"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 512 512"
-                      >
-                        <path
-                          fill="currentColor"
-                          d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
-                        ></path>
-                      </svg>
-                      3 announcements
-                    </li>
-                    <li className="mb-4 flex items-center">
-                      <svg
-                        aria-hidden="true"
-                        focusable="false"
-                        data-prefix="fas"
-                        data-icon="check"
-                        className="text-green-600 w-4 h-4 mr-2"
-                        role="img"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 512 512"
-                      >
-                        <path
-                          fill="currentColor"
-                          d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
-                        ></path>
-                      </svg>
-                      3 Pull-up banners
-                    </li>
-                    <li className="mb-4 flex items-center">
-                      <svg
-                        aria-hidden="true"
-                        focusable="false"
-                        data-prefix="fas"
-                        data-icon="check"
-                        className="text-green-600 w-4 h-4 mr-2"
-                        role="img"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 512 512"
-                      >
-                        <path
-                          fill="currentColor"
-                          d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
-                        ></path>
-                      </svg>
-                      Joint Press Release
-                    </li>
-                    <li className="mb-4 flex items-center">
-                      <svg
-                        aria-hidden="true"
-                        focusable="false"
-                        data-prefix="fas"
-                        data-icon="check"
-                        className="text-green-600 w-4 h-4 mr-2"
-                        role="img"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 512 512"
-                      >
-                        <path
-                          fill="currentColor"
-                          d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
-                        ></path>
-                      </svg>
-                      Exhibition space
-                    </li>
-                    <li className="mb-4 flex items-center">
-                      <svg
-                        aria-hidden="true"
-                        focusable="false"
-                        data-prefix="fas"
-                        data-icon="check"
-                        className="text-green-600 w-4 h-4 mr-2"
-                        role="img"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 512 512"
-                      >
-                        <path
-                          fill="currentColor"
-                          d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
-                        ></path>
-                      </svg>
-                      10-minute spot
+                      Branding on swag
                     </li>
                   </ol>
                 </div>
