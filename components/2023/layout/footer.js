@@ -54,6 +54,13 @@ export default function Footer() {
                 Health and Safety Guidelines
               </Link>
             </p>
+            <p className="mb-4">
+               Our PyCon Uganda Editions: 
+               <ul className="list-disc ml-6 space-y-2 mt-2">
+                <li className="text-sm text-blue-400 underline"><Link href='/2024'>PyCon Uganda 2024</Link></li>
+                <li className="text-sm text-blue-400 underline"><Link href='/2023'>PyCon Uganda 2023</Link></li>
+               </ul>
+            </p>
           </div>
           <div className="my-10">
             <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
@@ -114,6 +121,7 @@ export default function Footer() {
               + 256 789 189 583
             </p>
           </div>
+          
         </div>
       </div>
       <div className="bg-neutral-200 p-6 text-center dark:bg-neutral-700">
