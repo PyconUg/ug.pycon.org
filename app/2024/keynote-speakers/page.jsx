@@ -17,7 +17,7 @@ export default function SpeakersPage() {
           <div>
             {" "}
             <p className="text-base p-4 font-medium">
-              View our exciting Keynote Speakers at PyCon Uganda 2023!
+              View our exciting Keynote Speakers at PyCon Uganda 2024!
             </p>
           </div>
         </div>

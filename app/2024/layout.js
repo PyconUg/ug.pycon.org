@@ -5,7 +5,7 @@ import Navbar2024 from "@/components/2024/layout/navbar";
 
 export const metadata = {
   title: "PyCon Uganda",
-  description: "First ever Python Conference in Uganda",
+  description: "PyCon Uganda is one of the Python Conferences you can attend in East Africa with talks about Python applications in data, web and other domains.",
 };
 
 export default function RootLayout({ children }) {

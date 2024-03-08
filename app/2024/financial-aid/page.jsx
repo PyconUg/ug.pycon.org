@@ -18,7 +18,7 @@ export default function DiversityPage() {
 
       <section className="mx-8 md:mx-28 max-w-screen-xl my-10 text-justify text-lg">
         <p className="py-2">
-          PyCon Uganda 2023 is offering grants to attendees and speakers, so that those who might otherwise not be able to attend won’t hesitate to participate. Some expenses for the conference attendance (which can include travel, hotel, registration etc.) will be covered for opportunity grant recipients.
+          PyCon Uganda 2024 is offering grants to attendees and speakers, so that those who might otherwise not be able to attend won’t hesitate to participate. Some expenses for the conference attendance (which can include travel, hotel, registration etc.) will be covered for opportunity grant recipients.
           We actively encourage people to apply for an opportunity grant. While we wish we could give grants to everyone who applies, we do not have the funds to do that. Our goal is to maximise the impact our grant program has, within the limited funds we have.
 
           <br/><br/>We try to do this in a number of ways:<br/>

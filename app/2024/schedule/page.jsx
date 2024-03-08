@@ -16,7 +16,7 @@ export default function SchedulePage() {
           <div>
             {" "}
             <p className="text-base p-4 font-medium">
-              Timetable of sessions for Pycon Uganda 2023
+              Timetable of sessions for Pycon Uganda 2024
             </p>
           </div>
         </div>

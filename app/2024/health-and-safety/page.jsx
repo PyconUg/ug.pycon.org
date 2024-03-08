@@ -12,7 +12,7 @@ export default function HealthAndSafety() {
               </h1>
               <p className="mt-4 sm:text-xl text-justify mx-5">
               Our attendees&apos; health and safety remain our top priority and we look to the venue, and Ministry of Health guidelines to make the best and most informed decisions around onsite safety and requirements so we will be erring on the side of safety for all participants.<br /><br />
-              PyCon Uganda will continue to provide social distancing where possible in the venue. Hand sanitizer will also be available for all attendees. The guidelines implemented for PyCon Uganda 2023 are subject to change based on health and safety recommendations at the time of the event. We are committing, however, to only make changes in the direction of greater protections.
+              PyCon Uganda will continue to provide social distancing where possible in the venue. Hand sanitizer will also be available for all attendees. The guidelines implemented for PyCon Uganda 2024 are subject to change based on health and safety recommendations at the time of the event. We are committing, however, to only make changes in the direction of greater protections.
 
               </p>
             </div>
@@ -52,7 +52,7 @@ export default function HealthAndSafety() {
             Vaccination Requirement
           </h2>
           <p>
-            PyCon Uganda 2023 will require vaccine verification. COVID-19 vaccines are effective at protecting people from getting seriously ill, being hospitalized, and dying. As with other diseases, you are protected best from COVID-19 when you stay up to date with the recommended vaccines, including locally available boosters.
+            PyCon Uganda 202 will require vaccine verification. COVID-19 vaccines are effective at protecting people from getting seriously ill, being hospitalized, and dying. As with other diseases, you are protected best from COVID-19 when you stay up to date with the recommended vaccines, including locally available boosters.
           </p>
   
           <br />
@@ -89,7 +89,7 @@ export default function HealthAndSafety() {
             Ebola Update
           </h2>
           <p>
-            Uganda was officially declared Ebola-free as of 11th January 2023. <Link href={'https://www.afro.who.int/countries/uganda/news/uganda-declares-end-ebola-disease-outbreak'}><span className="text-blue-600">More details...</span></Link>
+            Uganda was officially declared Ebola-free as of 11th January 2024. <Link href={'https://www.afro.who.int/countries/uganda/news/uganda-declares-end-ebola-disease-outbreak'}><span className="text-blue-600">More details...</span></Link>
           </p>
   
           <br />

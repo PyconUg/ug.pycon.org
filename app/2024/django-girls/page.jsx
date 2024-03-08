@@ -17,7 +17,7 @@ export default function DjangoGirls() {
             <div>
               {" "}
               <p className="text-white p-4 font-medium">
-                We are pleased to inform you that the Django girls will hold a tutorial during the Pycon Uganda 2023 conference.
+                We are pleased to inform you that the Django girls will hold a tutorial during the Pycon Uganda 2024 conference.
               </p>
               <p className="text-white p-4 font-medium">
                 Kindly register here if you are interested in attending.

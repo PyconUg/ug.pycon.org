@@ -33,7 +33,7 @@ export default function SpeakersPage() {
           <div>
             {" "}
             <p className="text-base p-4 font-medium">
-              See who will be speaking at PyCon Uganda 2023
+              See who will be speaking at PyCon Uganda 2024
             </p>
           </div>
         </div>

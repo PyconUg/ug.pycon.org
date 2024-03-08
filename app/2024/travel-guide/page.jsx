@@ -18,7 +18,7 @@ export default function TravelGuidePage() {
 
       <section className="mx-8 md:mx-28 max-w-screen-xl my-10 text-justify text-lg">
         <p className="py-2">
-        We are excited to welcome you to PyCon Uganda 2023. We are excited to have you join us for this year&#39;s conference in Kampala. Here&#39;s some important information to make your trip smooth and enjoyable.
+        We are excited to welcome you to PyCon Uganda 2024. We are excited to have you join us for this year&#39;s conference in Kampala. Here&#39;s some important information to make your trip smooth and enjoyable.
         </p><br/>
         <h3 className="font-sans text-xl font-bold sm:text-2xl">
           UGANDA - The Pearl of Africa
