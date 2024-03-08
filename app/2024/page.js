@@ -12,7 +12,7 @@ export default function HomePage() {
     <>
       <HeroSection />
       <About />
-      <KeyNotes />
+      {/* <KeyNotes /> */}
       {/* <ScheduleSection /> */}
       <Venue />
       <Sponsors />

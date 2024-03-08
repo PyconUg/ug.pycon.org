@@ -1,4 +1,5 @@
 import { QUICKET_LINK } from "@/2023/utils/constants";
+import { CONFERENCE_DATE } from "@/2024/utils/constants";
 import Link from "next/link";
 
 export default function Jumbotron() {
@@ -12,7 +13,9 @@ export default function Jumbotron() {
         <h1 className="font-bold lg:text-[90px] md:text-5xl text-4xl ">
           <span className="text-pyconug-red">PyCon</span> Uganda 2024
         </h1>
-        <p className="text-gray-500 md:text-xl text-lg">- 9th - 11th October 2024 -</p>
+        <p className="text-gray-500 md:text-xl text-lg">
+          - {CONFERENCE_DATE} -
+        </p>
 
         <div className="flex justify-center md:justify-start space-x-4">
           <Link

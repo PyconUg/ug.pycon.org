@@ -1,3 +1,5 @@
+import { CONFERENCE_DATE, VENUE } from "@/2024/utils/constants";
+
 export default function About() {
   return (
     <section className="bg-gray-800">
@@ -15,11 +17,11 @@ export default function About() {
           <div className="flex flex-col md:flex-row justify-between my-8">
             <div>
               <h3 className="mt-4 text-2xl font-bold sm:text-xl">WHERE</h3>
-              <p className="mt-2 sm:leadung-relaxed">To be announced</p>
+              <p className="mt-2 sm:leadung-relaxed">{VENUE}</p>
             </div>
             <div>
               <h3 className="mt-4 text-2xl font-bold sm:text-xl">WHEN</h3>
-              <p className="mt-2 sm:leadung-relaxed">October 2024</p>
+              <p className="mt-2 sm:leadung-relaxed">{CONFERENCE_DATE}</p>
             </div>
           </div>
         </div>
