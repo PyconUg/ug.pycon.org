@@ -25,7 +25,7 @@ export default function Jumbotron() {
             <p className="text-gray-500 md:text-xl text-lg">{VENUE}</p>
           </div>
         </div>
-        <div className="flex justify-center md:justify-start space-x-4">
+        <div className="flex justify-center md:justify-start md:space-x-4 flex-col md:flex-row items-center space-y-3">
           <Link
             className="uppercase text-white bg-pyconug-lightBlue border-2 hover:bg-white hover:text-pyconug-lightBlue hover:border-pyconug-lightBlue p-4 rounded-md w-56 font-bold flex items-center justify-center"
             target="_blank"
