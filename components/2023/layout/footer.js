@@ -111,7 +111,7 @@ export default function Footer() {
                   clipRule="evenodd"
                 />
               </svg>
-              + 256 701 599 722
+              + 256 000 000 000
             </p>
             <p className="flex items-center justify-center md:justify-start">
               <svg

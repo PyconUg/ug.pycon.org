@@ -38,13 +38,13 @@ export default function Contact() {
               P. O. Box 7053, Kampala, Uganda
             </address>
           </div>
-          <div className="mb-0 text-[#112363]">
+          {/* <div className="mb-0 text-[#112363]">
             <i className="bi bi-phone"></i>
             <h3 className="text-lg uppercase font-bold">Phone Number</h3>
             <p>
               <a href="tel:+ 256 701 599 722">+ 256 701 599 722</a>
             </p>
-          </div>
+          </div> */}
           <div className="mb-0 text-[#112363]">
             <i className="bi bi-envelope"></i>
             <h3 className="text-lg uppercase font-bold">Email</h3>
