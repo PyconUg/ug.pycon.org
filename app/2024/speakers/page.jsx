@@ -134,7 +134,7 @@ export default function SpeakersPage() {
           <p className="flex flex-col text-center md:flex-row">
             <span>Ready to submit a proposal ?</span>&nbsp;
             <Link
-              href={"https://sessionize.com/pycon-uganda"}
+              href={"https://www.papercall.io/pyconug"}
               className="underline text-cyan-900"
             >
               Click here
