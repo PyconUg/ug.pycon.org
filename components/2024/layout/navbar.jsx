@@ -27,8 +27,18 @@ export default function Navbar2024() {
       ],
     },
     {
-      path: "/2024/financial-aid",
-      label: "Financial Aid",
+      path: "#",
+      label: "Diversity",
+      subLinks: [
+        {
+          path: "/2024/financial-aid",
+          label: "Financial Aid",
+        },
+        {
+          path: "/2024/travel-aid",
+          label: "Travel Aid",
+        },
+      ],
     },
     {
       path: "#",

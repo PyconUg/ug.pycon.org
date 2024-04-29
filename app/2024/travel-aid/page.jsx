@@ -8,10 +8,10 @@ export default function DiversityPage() {
         <div className="flex py-10 lg:items-center">
           <div className="md:mx-10 text-center mx-4">
             <h1 className="text-3xl font-extrabold sm:text-5xl text-white">
-              Financial Aid
+              Travel Aid
             </h1>
             <p className="mt-4 sm:text-xl text-justify mx-5">
-              Call for Applications Closed!
+              Call for Applications Opening Soon!
             </p>
           </div>
         </div>
