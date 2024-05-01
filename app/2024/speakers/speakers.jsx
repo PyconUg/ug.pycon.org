@@ -26,7 +26,7 @@ export default function Speakers() {
       <section>
         {SPEAKERS_2024?.length == 0 ? (
           <div className="my-14">
-            <span>We shall be releasing the list of speakers soon!</span>
+            <span className="px-8">We shall be releasing the list of speakers soon!</span>
           </div>
         ) : (
           <>
