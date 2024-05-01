@@ -36,13 +36,6 @@ export default function Jumbotron() {
           <Link
             className="uppercase text-white bg-pyconug-lightBlue border-2 hover:bg-white hover:text-pyconug-lightBlue hover:border-pyconug-lightBlue p-4 rounded-md w-56 font-bold flex items-center justify-center"
             target="_blank"
-            href={CFP_LINK}
-          >
-            Submit a talk
-          </Link>
-          <Link
-            className="uppercase text-white bg-pyconug-lightBlue border-2 hover:bg-white hover:text-pyconug-lightBlue hover:border-pyconug-lightBlue p-4 rounded-md w-56 font-bold flex items-center justify-center"
-            target="_blank"
             href="/2024/sponsors"
           >
             Sponsor us
