@@ -22,7 +22,7 @@ export default function Navbar2024() {
       subLinks: [
         {
           path: "/2024/speakers",
-          label: "Proposal Guidelines",
+          label: "PyCon 2024 Speakers",
         },
       ],
     },
