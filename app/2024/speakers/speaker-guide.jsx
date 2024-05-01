@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function SpeakersPage() {
+export default function SpeakersGuide() {
   return (
     <>
       {" "}
