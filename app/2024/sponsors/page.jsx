@@ -1,4 +1,6 @@
 import { PYCONUG_EMAIL } from "@/2023/utils/constants";
+import { PYCONUGANDA_PROSPECTUS_2024 } from "@/2024/utils/constants";
+import Link from 'next/link'
 
 export default function SponsorsPage() {
   return (
@@ -828,6 +830,10 @@ export default function SponsorsPage() {
               </div>
             </div>
           </div>
+        </div>
+
+        <div className="flex justify-center items-center">
+          <Link href={PYCONUGANDA_PROSPECTUS_2024} className="underline text-blue-500" target="_blank">View Our Prospectus</Link>
         </div>
 
         <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
