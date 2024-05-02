@@ -12,8 +12,8 @@ export default function Banner() {
         <div className="bg-gray-200 md:py-4 lg:px-24 md:px-16 px-6 py-2 text-center text-sm text-gray-900">
           <div className="container flex items-center justify-between">
             <p>
-              🎉 <span className="font-bold">Big Announcement!</span> 🌍 Join us
-              for PyCon Uganda 2024, paving the way to PyCon Africa 2026 🇺🇬 !
+              🎉 <span className="font-bold">Big Announcement!</span> 🌍 PyCon
+              Uganda to Host PyCon Africa 2026 !
             </p>
             <div className="flex flex-row items-center space-x-4">
               <span className="text-blue-400">
