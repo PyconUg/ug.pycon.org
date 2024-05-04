@@ -5,6 +5,7 @@ import Link from "next/link";
 import { QUICKET_LINK } from "@/2023/utils/constants";
 import { useState } from "react";
 import Logo from "@/components/ui/logo";
+import Banner from "@/components/banner";
 
 export default function Navbar2024() {
   const NavbarLinks = [
@@ -97,6 +98,7 @@ export default function Navbar2024() {
 
   return (
     <nav className="sticky top-0 z-10 bg-white backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-gray-200">
+      <Banner />
       <div className="mx-[6%] my-2">
         <div className="flex items-center justify-between h-16">
           <Logo />
