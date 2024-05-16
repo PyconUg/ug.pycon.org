@@ -57,7 +57,7 @@ export default function TravelAidPage() {
             as each application will be individually reviewed by the PyCon
             Uganda Organizing Team. Applications will be evaluated based on the
             information provided in the application form to determine the
-            applicant's eligibility.
+            applicant&#39;s eligibility.
           </p>
 
           <p>
