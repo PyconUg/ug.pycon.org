@@ -32,7 +32,7 @@ export default function TravelAidPage() {
               target="_blank"
               href={QUICKET_LINK}
             >
-              Click to here get your ticket now
+              Click to here to get your ticket now
             </Link>
           </li>
           <li>
