@@ -20,6 +20,7 @@ const NavbarLinks = [
             {
                 path: "/2024/speakers",
                 label: "PyCon 2024 Speakers",
+                description: "Get to know the speakers at PyCon 2024.",
                 icon:  <UserGroupIcon className="h-6 w-6 text-gray-600 group-hover:text-pyconug-lightBlue" aria-hidden="true" />
             },
         ],
@@ -31,11 +32,13 @@ const NavbarLinks = [
             {
                 path: "/2024/financial-aid",
                 label: "Financial Aid",
+                description: "Apply for financial assistance to attend PyCon.",
                 icon: <BanknotesIcon className="h-6 w-6 text-gray-600 group-hover:text-pyconug-lightBlue" aria-hidden="true" />
             },
             {
                 path: "/2024/travel-aid",
                 label: "Travel Aid",
+                description: "Get support for your travel expenses.",
                 icon: <TruckIcon className="h-6 w-6 text-gray-600 group-hover:text-pyconug-lightBlue" aria-hidden="true" />
             },
         ],
@@ -47,16 +50,19 @@ const NavbarLinks = [
             {
                 path: "/2024/travel-guide",
                 label: "Travel Guide",
+                description: "Find travel tips and guides for PyCon.",
                 icon: <RocketLaunchIcon className="h-6 w-6 text-gray-600 group-hover:text-pyconug-lightBlue" aria-hidden="true" />
             },
             {
                 path: "/2024/code-of-conduct",
                 label: "Code of Conduct",
+                description: "Understand the guidelines for participating.",
                 icon: <DocumentTextIcon className="h-6 w-6 text-gray-600 group-hover:text-pyconug-lightBlue" aria-hidden="true" />
             },
             {
                 path: "/2024/health-and-safety",
                 label: "Health and Safety",
+                description: "Stay informed about health and safety measures.",
                 icon: <ShieldExclamationIcon className="h-6 w-6 text-gray-600 group-hover:text-pyconug-lightBlue" aria-hidden="true" />
             },
             // {
@@ -120,7 +126,7 @@ export default function Example() {
                                                                 {subLink.label}
                                                                 <span className="absolute inset-0" />
                                                             </a>
-                                                        </div>
+                                                            <p className="mt-1 text-gray-600">{subLink?.description}</p>                                                     </div>
                                                     </div>
                                                 ))}
                                             </div>
