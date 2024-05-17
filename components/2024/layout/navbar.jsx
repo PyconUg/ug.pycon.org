@@ -122,7 +122,7 @@ export default function Example() {
                                                             {subLink?.icon}
                                                         </div>
                                                         <div className="flex-auto">
-                                                            <a href={subLink.href} className="block font-semibold text-gray-900">
+                                                            <a href={subLink.path} className="block font-semibold text-gray-900">
                                                                 {subLink.label}
                                                                 <span className="absolute inset-0" />
                                                             </a>
@@ -143,12 +143,12 @@ export default function Example() {
                     ))}
                 </div>
                 <div className="flex flex-1 items-center justify-end gap-x-2">
-                    <a href="#"
+                    <a href="https://www.quicket.co.ug/events/254188-pycon-uganda-2024?preview=t#/tickets"
                         className="hidden md:block rounded-lg border border-black px-3 py-2 font-semibold text-black text-center h-10 truncate ...">
                         Get Early Bird Ticket
                     </a>
                     <a
-                        href="#"
+                        href="/2024/sponsors"
                         className="rounded-lg bg-black px-3 py-2 font-semibold text-white inline-flex items-center"
                     >
                         Sponsor
