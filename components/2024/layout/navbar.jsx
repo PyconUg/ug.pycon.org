@@ -203,7 +203,14 @@ export default function Example() {
                                                                 href={subLink.path}
                                                                 className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                                             >
+                                                                <div
+                                                                    className="group -mx-3 flex items-center gap-x-6 rounded-lg p-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                                                                >
+                                                                    <div className="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+                                                                        {subLink?.icon}
+                                                                    </div>
                                                                 {subLink.label}
+                                                                </div>
                                                             </Disclosure.Button>
                                                         ))}
                                                     </Disclosure.Panel>
