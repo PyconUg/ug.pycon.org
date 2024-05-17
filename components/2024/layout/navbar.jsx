@@ -105,7 +105,7 @@ export default function Example() {
                         onClick={() => setMobileMenuOpen(true)}
                     >
                         <span className="sr-only">Open main menu</span>
-                        <Bars3Icon className="h-6 w-6" aria-hidden="true" />
+                        <HamburgerMenuIcon className="h-6 w-6" aria-hidden="true" />
                     </button>
                 </div>
             </nav>
