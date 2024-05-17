@@ -3,6 +3,7 @@ import { useState, Fragment } from "react";
 import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
 import { Cross1Icon, HamburgerMenuIcon, ChevronDownIcon, HeartFilledIcon } from "@radix-ui/react-icons"
 import Logo from "@/components/ui/logo";
+import { BanknotesIcon, DocumentTextIcon, RocketLaunchIcon, ShieldExclamationIcon, TruckIcon, UserGroupIcon} from '@heroicons/react/24/outline'
 const NavbarLinks = [
     // {
     //   path: "/2024/schedule",
@@ -19,6 +20,7 @@ const NavbarLinks = [
             {
                 path: "/2024/speakers",
                 label: "PyCon 2024 Speakers",
+                icon:  <UserGroupIcon className="h-6 w-6 text-gray-600 group-hover:text-pyconug-lightBlue" aria-hidden="true" />
             },
         ],
     },
@@ -29,10 +31,12 @@ const NavbarLinks = [
             {
                 path: "/2024/financial-aid",
                 label: "Financial Aid",
+                icon: <BanknotesIcon className="h-6 w-6 text-gray-600 group-hover:text-pyconug-lightBlue" aria-hidden="true" />
             },
             {
                 path: "/2024/travel-aid",
                 label: "Travel Aid",
+                icon: <TruckIcon className="h-6 w-6 text-gray-600 group-hover:text-pyconug-lightBlue" aria-hidden="true" />
             },
         ],
     },
@@ -43,14 +47,17 @@ const NavbarLinks = [
             {
                 path: "/2024/travel-guide",
                 label: "Travel Guide",
+                icon: <RocketLaunchIcon className="h-6 w-6 text-gray-600 group-hover:text-pyconug-lightBlue" aria-hidden="true" />
             },
             {
                 path: "/2024/code-of-conduct",
                 label: "Code of Conduct",
+                icon: <DocumentTextIcon className="h-6 w-6 text-gray-600 group-hover:text-pyconug-lightBlue" aria-hidden="true" />
             },
             {
                 path: "/2024/health-and-safety",
                 label: "Health and Safety",
+                icon: <ShieldExclamationIcon className="h-6 w-6 text-gray-600 group-hover:text-pyconug-lightBlue" aria-hidden="true" />
             },
             // {
             //   path: "/contact",
@@ -105,6 +112,9 @@ export default function Example() {
                                                         key={i}
                                                         className="group relative flex gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
                                                     >
+                                                        <div className="mt-1 flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+                                                            {subLink?.icon}
+                                                        </div>
                                                         <div className="flex-auto">
                                                             <a href={subLink.href} className="block font-semibold text-gray-900">
                                                                 {subLink.label}
