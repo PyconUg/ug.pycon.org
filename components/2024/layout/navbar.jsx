@@ -142,9 +142,9 @@ export default function Example() {
                             )
                     ))}
                 </div>
-                <div className="flex flex-1 items-center justify-end gap-x-6">
+                <div className="flex flex-1 items-center justify-end gap-x-2">
                     <a href="#"
-                        className="border-black hidden md:block  px-3 py-2 border rounded-lg">
+                        className="hidden md:block rounded-lg border border-black px-3 py-2 font-semibold text-black text-center h-10 truncate ...">
                         Get Early Bird Ticket
                     </a>
                     <a
