@@ -104,7 +104,7 @@ export default function Example() {
                                     {
                                         ({open})=>(
                                     <>
-                                    <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
+                                    <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900  hover:text-pyconug-lightBlue">
                                         {link.label}
                                         <ChevronDownIcon className={classNames(open ? 'rotate-180' : '', "h-5 w-5 flex-none text-gray-400")} aria-hidden="true" />
                                     </Popover.Button>
@@ -147,7 +147,7 @@ export default function Example() {
                             </Popover.Group>
                         ) :
                             (
-                                <a key={link.label} href={link.path} className="text-sm font-semibold leading-6 text-gray-900">
+                                <a key={link.label} href={link.path} className="text-sm font-semibold leading-6 text-gray-900  hover:text-pyconug-lightBlue">
                                     {link.label}
                         </a>
                             )
