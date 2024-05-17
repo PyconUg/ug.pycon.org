@@ -1,7 +1,7 @@
 "use client";
 import { useState, Fragment } from "react";
 import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
-import { Cross1Icon, HamburgerMenuIcon, ChevronDownIcon, HeartIcon } from "@radix-ui/react-icons"
+import { Cross1Icon, HamburgerMenuIcon, ChevronDownIcon, HeartFilledIcon } from "@radix-ui/react-icons"
 import Logo from "@/components/ui/logo";
 const NavbarLinks = [
     // {
@@ -133,9 +133,10 @@ export default function Example() {
                     </a>
                     <a
                         href="#"
-                        className="rounded-lg bg-black px-3 py-2 font-semibold text-white"
+                        className="rounded-lg bg-black px-3 py-2 font-semibold text-white inline-flex items-center"
                     >
                         Sponsor
+                        <HeartFilledIcon className="ml-1 animate-bounce" color="red" />
                     </a>
                 </div>
                 <div className="flex lg:hidden">
