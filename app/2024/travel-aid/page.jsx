@@ -18,7 +18,7 @@ export default function TravelAidPage() {
       <section className="mx-8 md:mx-28 max-w-screen-xl my-10 text-justify text-lg">
         <p className="py-2">
           PyCon Uganda is offering a Domestic Travel Aid program to assist
-          attendees from Arua, Gulu, Mbarara, or Soroti districts with the cost
+          attendees from Northern, Western, Eastern and Southern regions of Uganda with the cost
           of travel to attend the conference.
         </p>
         <h4 className="font-sans text-lg font-bold sm:text-xl mt-4">
@@ -36,8 +36,7 @@ export default function TravelAidPage() {
             </Link>
           </li>
           <li>
-            Must be a resident of either Arua, Gulu, Mbarara, or Soroti
-            district.
+            Must be a resident of either Northern, Western, Eastern and Southern region of Uganda.
           </li>
         </ul>
 
