@@ -129,7 +129,7 @@ export default function Example() {
                                                             {subLink?.icon}
                                                         </div>
                                                         <div className="flex-auto">
-                                                            <a href={subLink.path} className="block font-semibold text-gray-900">
+                                                            <a href={subLink.path} className="block font-semibold text-gray-900 hover:text-pyconug-lightBlue">
                                                                 {subLink.label}
                                                                 <span className="absolute inset-0" />
                                                             </a>
@@ -215,7 +215,7 @@ export default function Example() {
                                                                 className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                                             >
                                                                 <div
-                                                                    className="group -mx-3 flex items-center gap-x-6 rounded-lg p-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                                                                    className="group -mx-3 flex items-center gap-x-6 rounded-lg p-3 text-base font-semibold leading-7 text-pyconug-lightBlue hover:bg-gray-50"
                                                                 >
                                                                     <div className="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
                                                                         {subLink?.icon}
