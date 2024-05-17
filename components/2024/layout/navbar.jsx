@@ -83,6 +83,10 @@ const NavbarLinks = [
     // },
 ];
 
+function classNames(...classes) {
+    return classes.filter(Boolean).join(' ')
+  }
+
 export default function Example() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -97,9 +101,12 @@ export default function Example() {
                         link?.subLinks?.length ? (
                             <Popover.Group className="hidden lg:flex lg:gap-x-12">
                                 <Popover className="relative">
+                                    {
+                                        ({open})=>(
+                                    <>
                                     <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
                                         {link.label}
-                                        <ChevronDownIcon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
+                                        <ChevronDownIcon className={classNames(open ? 'rotate-180' : '', "h-5 w-5 flex-none text-gray-400")} aria-hidden="true" />
                                     </Popover.Button>
 
                                     <Transition
@@ -132,6 +139,10 @@ export default function Example() {
                                             </div>
                                         </Popover.Panel>
                                     </Transition>
+                                    </>
+                                        )
+                                    }
+                                    
                                 </Popover>
                             </Popover.Group>
                         ) :
