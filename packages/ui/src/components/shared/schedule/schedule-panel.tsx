@@ -1,4 +1,4 @@
-import ScheduleStep from "@/components/schedule/schedule-step";
+import ScheduleStep from "./schedule-step";
 import { Tab } from "@headlessui/react";
 
 export default function SchedulePanel({ data }) {
