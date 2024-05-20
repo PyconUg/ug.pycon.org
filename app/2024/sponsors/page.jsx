@@ -35,7 +35,7 @@ export default function SponsorsPage() {
         <div className="py-12 flex justify-center">
           <Link
             className="uppercase text-white bg-pyconug-lightBlue border-2 hover:bg-white hover:text-pyconug-lightBlue hover:border-pyconug-lightBlue px-12 py-4 rounded-md font-bold "
-            href={"/2024/sponsors"}
+            href={"/2024/sponsors/why-sponsor"}
           >
             Become a Sponsor
           </Link>

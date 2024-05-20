@@ -250,7 +250,7 @@ export default function Example() {
             Get Early Bird Ticket
           </a>
           <a
-            href="/2024/sponsors"
+            href="/2024/sponsors/why-sponsor"
             className="rounded-lg bg-black px-3 py-2 font-semibold text-white inline-flex items-center"
           >
             Sponsor
