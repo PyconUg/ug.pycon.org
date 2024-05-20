@@ -97,9 +97,9 @@ export default function Example() {
                     <Logo />
                 </div>
                 <div className="hidden lg:flex lg:gap-x-12">
-                    {NavbarLinks.map((link) => (
+                    {NavbarLinks.map((link, index) => (
                         link?.subLinks?.length ? (
-                            <Popover.Group className="hidden lg:flex lg:gap-x-12">
+                            <Popover.Group className="hidden lg:flex lg:gap-x-12" key={index}>
                                 <Popover className="relative">
                                     {
                                         ({open})=>(
