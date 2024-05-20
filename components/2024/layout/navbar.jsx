@@ -15,6 +15,7 @@ import {
   ShieldExclamationIcon,
   TruckIcon,
   UserGroupIcon,
+  QuestionMarkCircleIcon,
 } from "@heroicons/react/24/outline";
 import Banner from "@/components/banner";
 const NavbarLinks = [
@@ -23,8 +24,32 @@ const NavbarLinks = [
   //   label: "Schedule",
   // },
   {
-    path: "/2024/sponsors",
+    path: "#",
     label: "Sponsors",
+    subLinks: [
+      {
+        path: "/2024/sponsors",
+        label: "PyCon Uganda 2024 Sponsors",
+        description: "Get to know our sponsors.",
+        icon: (
+          <UserGroupIcon
+            className="h-6 w-6 text-gray-600 group-hover:text-pyconug-lightBlue"
+            aria-hidden="true"
+          />
+        ),
+      },
+      {
+        path: "/2024/sponsors/why-sponsor",
+        label: "Want To Make PyCon Uganda 2024 A Success?",
+        description: "Why you should sponsor Pycon Uganda 2024.",
+        icon: (
+          <QuestionMarkCircleIcon
+            className="h-6 w-6 text-gray-600 group-hover:text-pyconug-lightBlue"
+            aria-hidden="true"
+          />
+        ),
+      },
+    ],
   },
   {
     path: "#",
@@ -32,7 +57,7 @@ const NavbarLinks = [
     subLinks: [
       {
         path: "/2024/speakers",
-        label: "PyCon 2024 Speakers",
+        label: "PyCon Uganda 2024 Speakers",
         description: "Get to know the speakers at PyCon 2024.",
         icon: (
           <UserGroupIcon
