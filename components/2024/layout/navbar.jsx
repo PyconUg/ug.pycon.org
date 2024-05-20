@@ -58,7 +58,7 @@ const NavbarLinks = [
       {
         path: "/2024/speakers",
         label: "PyCon Uganda 2024 Speakers",
-        description: "Get to know the speakers at PyCon 2024.",
+        description: "Get to know the speakers at PyCon Uganda 2024.",
         icon: (
           <UserGroupIcon
             className="h-6 w-6 text-gray-600 group-hover:text-pyconug-lightBlue"
@@ -75,7 +75,7 @@ const NavbarLinks = [
       {
         path: "/2024/financial-aid",
         label: "Financial Aid",
-        description: "Apply for financial assistance to attend PyCon.",
+        description: "Apply for financial assistance to attend PyCon Uganda 2024.",
         icon: (
           <BanknotesIcon
             className="h-6 w-6 text-gray-600 group-hover:text-pyconug-lightBlue"
@@ -103,7 +103,7 @@ const NavbarLinks = [
       {
         path: "/2024/travel-guide",
         label: "Travel Guide",
-        description: "Find travel tips and guides for PyCon.",
+        description: "Find travel tips and guides for PyCon Uganda 2024.",
         icon: (
           <RocketLaunchIcon
             className="h-6 w-6 text-gray-600 group-hover:text-pyconug-lightBlue"
