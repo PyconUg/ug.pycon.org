@@ -8,29 +8,29 @@ module.exports = {
     ignoreBuildErrors: true,
   },
   // fix the rewrites bug
-  async rewrites() {
+async rewrites() {
     return [
       {
         source: "/2023/:path*",
-        destination: `${process.env.NODE_ENV
+        destination: `${(process.env.NODE_ENV || "development")
           === "development" ? "http://localhost:3002" : "https://ug.pycon.org"
         }/:path*`,
       },
       {
         source: "/2023",
-        destination: `${process.env.NODE_ENV
+        destination: `${(process.env.NODE_ENV || "development")
           === "development" ? "http://localhost:3002" : "https://ug.pycon.org"
         }/:path*`,
       },
       {
         source: "/2024/:path*",
-        destination: `${process.env.NODE_ENV
+        destination: `${(process.env.NODE_ENV || "development")
           === "development" ? "http://localhost:3001" : "https://ug.pycon.org"
         }/:path*`,
       },
       {
         source: "/:path*",
-        destination: `${process.env.NODE_ENV
+        destination: `${(process.env.NODE_ENV || "development")
           === "development" ? "http://localhost:3001" : "https://ug.pycon.org"
         }/:path*`,
       },
