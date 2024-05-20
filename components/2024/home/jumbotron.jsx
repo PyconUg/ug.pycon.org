@@ -36,7 +36,7 @@ export default function Jumbotron() {
           <Link
             className="uppercase text-white bg-pyconug-lightBlue border-2 hover:bg-white hover:text-pyconug-lightBlue hover:border-pyconug-lightBlue p-4 rounded-md w-56 font-bold flex items-center justify-center"
             target="_blank"
-            href="/2024/sponsors"
+            href="/2024/sponsors/why-sponsor"
           >
             Sponsor us
           </Link>
