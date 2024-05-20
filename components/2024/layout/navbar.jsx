@@ -15,6 +15,7 @@ import {
   ShieldExclamationIcon,
   TruckIcon,
   UserGroupIcon,
+  QuestionMarkCircleIcon,
 } from "@heroicons/react/24/outline";
 import Banner from "@/components/banner";
 const NavbarLinks = [
@@ -23,8 +24,32 @@ const NavbarLinks = [
   //   label: "Schedule",
   // },
   {
-    path: "/2024/sponsors",
+    path: "#",
     label: "Sponsors",
+    subLinks: [
+      {
+        path: "/2024/sponsors",
+        label: "PyCon Uganda 2024 Sponsors",
+        description: "Get to know our sponsors.",
+        icon: (
+          <UserGroupIcon
+            className="h-6 w-6 text-gray-600 group-hover:text-pyconug-lightBlue"
+            aria-hidden="true"
+          />
+        ),
+      },
+      {
+        path: "/2024/sponsors/why-sponsor",
+        label: "Want To Make PyCon Uganda 2024 A Success?",
+        description: "Why you should sponsor Pycon Uganda 2024.",
+        icon: (
+          <QuestionMarkCircleIcon
+            className="h-6 w-6 text-gray-600 group-hover:text-pyconug-lightBlue"
+            aria-hidden="true"
+          />
+        ),
+      },
+    ],
   },
   {
     path: "#",
@@ -32,8 +57,8 @@ const NavbarLinks = [
     subLinks: [
       {
         path: "/2024/speakers",
-        label: "PyCon 2024 Speakers",
-        description: "Get to know the speakers at PyCon 2024.",
+        label: "PyCon Uganda 2024 Speakers",
+        description: "Get to know the speakers at PyCon Uganda 2024.",
         icon: (
           <UserGroupIcon
             className="h-6 w-6 text-gray-600 group-hover:text-pyconug-lightBlue"
@@ -50,7 +75,7 @@ const NavbarLinks = [
       {
         path: "/2024/financial-aid",
         label: "Financial Aid",
-        description: "Apply for financial assistance to attend PyCon.",
+        description: "Apply for financial assistance to attend PyCon Uganda 2024.",
         icon: (
           <BanknotesIcon
             className="h-6 w-6 text-gray-600 group-hover:text-pyconug-lightBlue"
@@ -78,7 +103,7 @@ const NavbarLinks = [
       {
         path: "/2024/travel-guide",
         label: "Travel Guide",
-        description: "Find travel tips and guides for PyCon.",
+        description: "Find travel tips and guides for PyCon Uganda 2024.",
         icon: (
           <RocketLaunchIcon
             className="h-6 w-6 text-gray-600 group-hover:text-pyconug-lightBlue"
@@ -225,7 +250,7 @@ export default function Example() {
             Get Early Bird Ticket
           </a>
           <a
-            href="/2024/sponsors"
+            href="/2024/sponsors/why-sponsor"
             className="rounded-lg bg-black px-3 py-2 font-semibold text-white inline-flex items-center"
           >
             Sponsor
