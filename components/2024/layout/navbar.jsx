@@ -139,16 +139,22 @@ const NavbarLinks = [
       // },
     ],
   },
-  // {
-  //   path: "#",
-  //   label: "Communities",
-  //   subLinks: [
-  //     {
-  //       path: "/2024/django-girls",
-  //       label: "Django Girls",
-  //     },
-  //   ],
-  // },
+  {
+    path: "#",
+    label: "Communities",
+    subLinks: [
+      {
+        path: "/2024/django-girls",
+        label: "Django Girls",
+        description: "Take part in our Community",
+        icon: (
+          <QuestionMarkCircleIcon
+            className="h-6 w-6 text-gray-600 group-hover:text-pyconug-lightBlue"
+            aria-hidden="true"
+          />),
+      },
+    ],
+  },
 ];
 
 function classNames(...classes) {

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { DJANGO_GIRLS_REG } from "@/2023/utils/constants";
+import { DJANGO_GIRLS_REG } from "@/2024/utils/constants";
 
 export default function DjangoGirls() {
     return (
