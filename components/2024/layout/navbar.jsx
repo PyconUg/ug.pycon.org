@@ -98,6 +98,22 @@ const NavbarLinks = [
   },
   {
     path: "#",
+    label: "Communities",
+    subLinks: [
+      {
+        path: "/2024/django-girls",
+        label: "Django Girls",
+        description: "Empowering women! Join us at PyCon Uganda 2024 for Django workshops.",
+        icon: (
+          <UserGroupIcon
+            className="h-6 w-6 text-gray-600 group-hover:text-pyconug-lightBlue"
+            aria-hidden="true"
+          />),
+      },
+    ],
+  },
+  {
+    path: "#",
     label: "Attendee Guide",
     subLinks: [
       {
@@ -137,22 +153,6 @@ const NavbarLinks = [
       //   path: "/contact",
       //   label: "Contact Us",
       // },
-    ],
-  },
-  {
-    path: "#",
-    label: "Communities",
-    subLinks: [
-      {
-        path: "/2024/django-girls",
-        label: "Django Girls",
-        description: "Empowering women! Join us at PyCon Uganda 2024 for Django workshops.",
-        icon: (
-          <UserGroupIcon
-            className="h-6 w-6 text-gray-600 group-hover:text-pyconug-lightBlue"
-            aria-hidden="true"
-          />),
-      },
     ],
   },
 ];
