@@ -146,7 +146,7 @@ const NavbarLinks = [
       {
         path: "/2024/django-girls",
         label: "Django Girls",
-        description: "Take part in our Community",
+        description: "Empowering women! Join us at PyCon Uganda 2024 for Django workshops.",
         icon: (
           <QuestionMarkCircleIcon
             className="h-6 w-6 text-gray-600 group-hover:text-pyconug-lightBlue"
