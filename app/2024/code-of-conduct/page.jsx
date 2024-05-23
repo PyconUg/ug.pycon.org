@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function CodeOfConduct() {
   return (
     <>
@@ -256,15 +258,11 @@ export default function CodeOfConduct() {
         <ul className="list-disc list-inside md:list-inside">
           <li>
             Hassan Kibirige, Chairperson -{" "}
-            <span className="font-bold hover:underline">
-              <a href="mailto:has2k1@gmail.com">has2k1@gmail.com</a>
-            </span>
+              <Link className="font-bold hover:underline" href="mailto:has2k1@gmail.com">has2k1@gmail.com</Link>
           </li>
           <li>
             Kirabo Atuhurira, Chairperson -{" "}
-            <span className="font-bold hover:underline">
-              <a href="mailto:kiraboismyname@gmail.com">kiraboismyname@gmail.com</a>
-            </span>
+            <Link className="font-bold hover:underline" href="mailto:kiraboismyname@gmail.com">kiraboismyname@gmail.com</Link>
           </li>
         </ul>
         <p>
