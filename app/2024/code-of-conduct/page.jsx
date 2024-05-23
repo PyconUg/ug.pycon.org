@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function CodeOfConduct() {
   return (
     <>
@@ -24,7 +26,7 @@ export default function CodeOfConduct() {
           </div>
         </div>
       </section>
-     <section className="mx-8 md:mx-28 max-w-screen-xl my-10 text-justify text-lg">
+      <section className="mx-8 md:mx-28 max-w-screen-xl my-10 text-justify text-lg">
         <h2 className="font-sans text-xl font-bold sm:text-2xl">
           OUR COMMUNITY
         </h2>
@@ -254,8 +256,14 @@ export default function CodeOfConduct() {
           contact:
         </p>
         <ul className="list-disc list-inside md:list-inside">
-          <li>Lubega Mark, Chairperson - 0701 599 722</li>
-          <li>Bukirwa Halimah, Chairperson - 0789 189 583</li>
+          <li>
+            Hassan Kibirige, Chairperson -{" "}
+              <Link className="font-bold hover:underline" href="mailto:has2k1@gmail.com">has2k1@gmail.com</Link>
+          </li>
+          <li>
+            Kirabo Atuhurira, Chairperson -{" "}
+            <Link className="font-bold hover:underline" href="mailto:kiraboismyname@gmail.com">kiraboismyname@gmail.com</Link>
+          </li>
         </ul>
         <p>
           Conference staff will be happy to help participants contact
@@ -263,7 +271,7 @@ export default function CodeOfConduct() {
           otherwise assist any attendee to feel safe for the duration of the
           conference. We value your attendance.
         </p>
-        <br/>
+        <br />
         <p>
           <b>LICENSE:</b> This Code of Conduct is licensed under the Creative Commons
           Attribution-ShareAlike 3.0 Unported License.
