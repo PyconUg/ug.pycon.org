@@ -254,8 +254,8 @@ export default function CodeOfConduct() {
           contact:
         </p>
         <ul className="list-disc list-inside md:list-inside">
-          <li>Lubega Mark, Chairperson - 0701 599 722</li>
-          <li>Bukirwa Halimah, Chairperson - 0789 189 583</li>
+          <li>Hassan Kibirige, Chairperson - <span className="font-bold">has2k1@gmail.com</span></li>
+          <li>Kirabo Atuhaire, Chairperson - <span className="font-bold">kiraboismyname@gmail.com</span></li>
         </ul>
         <p>
           Conference staff will be happy to help participants contact
