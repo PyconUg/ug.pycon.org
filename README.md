@@ -1,6 +1,8 @@
 # PyCon Uganda 2024
 
-Welcome to the inaugural PyCon Uganda! This conference is dedicated to the Python programming language and is organized by volunteers from the Python developer community in Uganda. Join us from **October 9th - 13th, 2024**, for an event that brings together Python enthusiasts, including software developers, data scientists, data analysts, and tech companies.
+Welcome to the inaugural PyCon Uganda! This conference is dedicated to the Python programming language and is organized by volunteers from the Python developer community in Uganda. 
+
+Join us from **October 9th - 13th, 2024**, for an event that brings together Python enthusiasts, including software developers, data scientists, data analysts, and tech companies.
 
 ### About PyCon Uganda
 
