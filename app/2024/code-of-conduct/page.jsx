@@ -255,7 +255,7 @@ export default function CodeOfConduct() {
         </p>
         <ul className="list-disc list-inside md:list-inside">
           <li>Hassan Kibirige, Chairperson - <span className="font-bold">has2k1@gmail.com</span></li>
-          <li>Kirabo Atuhaire, Chairperson - <span className="font-bold">kiraboismyname@gmail.com</span></li>
+          <li>Kirabo Atuhurira, Chairperson - <span className="font-bold">kiraboismyname@gmail.com</span></li>
         </ul>
         <p>
           Conference staff will be happy to help participants contact
