@@ -24,7 +24,7 @@ export default function CodeOfConduct() {
           </div>
         </div>
       </section>
-     <section className="mx-8 md:mx-28 max-w-screen-xl my-10 text-justify text-lg">
+      <section className="mx-8 md:mx-28 max-w-screen-xl my-10 text-justify text-lg">
         <h2 className="font-sans text-xl font-bold sm:text-2xl">
           OUR COMMUNITY
         </h2>
@@ -254,8 +254,18 @@ export default function CodeOfConduct() {
           contact:
         </p>
         <ul className="list-disc list-inside md:list-inside">
-          <li>Hassan Kibirige, Chairperson - <span className="font-bold">has2k1@gmail.com</span></li>
-          <li>Kirabo Atuhurira, Chairperson - <span className="font-bold">kiraboismyname@gmail.com</span></li>
+          <li>
+            Hassan Kibirige, Chairperson -{" "}
+            <span className="font-bold hover:underline">
+              <a href="mailto:has2k1@gmail.com">has2k1@gmail.com</a>
+            </span>
+          </li>
+          <li>
+            Kirabo Atuhurira, Chairperson -{" "}
+            <span className="font-bold hover:underline">
+              <a href="mailto:kiraboismyname@gmail.com">kiraboismyname@gmail.com</a>
+            </span>
+          </li>
         </ul>
         <p>
           Conference staff will be happy to help participants contact
@@ -263,7 +273,7 @@ export default function CodeOfConduct() {
           otherwise assist any attendee to feel safe for the duration of the
           conference. We value your attendance.
         </p>
-        <br/>
+        <br />
         <p>
           <b>LICENSE:</b> This Code of Conduct is licensed under the Creative Commons
           Attribution-ShareAlike 3.0 Unported License.
