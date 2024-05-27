@@ -18,6 +18,7 @@ import {
   QuestionMarkCircleIcon,
 } from "@heroicons/react/24/outline";
 import Banner from "@/components/banner";
+import { PYCONUGANDA_PROSPECTUS_2024 } from "@/2024/utils/constants";
 const NavbarLinks = [
   // {
   //   path: "/2024/schedule",
@@ -49,6 +50,17 @@ const NavbarLinks = [
           />
         ),
       },
+      {
+        path: PYCONUGANDA_PROSPECTUS_2024,
+        label: "PyCon Uganda 2024 Sponsorship Prospectus",
+        description: "Key themes and goals for PyCon Uganda Conference.",
+        icon: (
+          <DocumentTextIcon
+            className="h-6 w-6 text-gray-600 group-hover:text-pyconug-lightBlue"
+            aria-hidden="true"
+          />
+        ),
+      },
     ],
   },
   {
@@ -75,7 +87,8 @@ const NavbarLinks = [
       {
         path: "/2024/financial-aid",
         label: "Financial Aid",
-        description: "Apply for financial assistance to attend PyCon Uganda 2024.",
+        description:
+          "Apply for financial assistance to attend PyCon Uganda 2024.",
         icon: (
           <BanknotesIcon
             className="h-6 w-6 text-gray-600 group-hover:text-pyconug-lightBlue"
@@ -103,12 +116,14 @@ const NavbarLinks = [
       {
         path: "/2024/django-girls",
         label: "Django Girls",
-        description: "Empowering women! Join us at PyCon Uganda 2024 for Django workshops.",
+        description:
+          "Empowering women! Join us at PyCon Uganda 2024 for Django workshops.",
         icon: (
           <UserGroupIcon
             className="h-6 w-6 text-gray-600 group-hover:text-pyconug-lightBlue"
             aria-hidden="true"
-          />),
+          />
+        ),
       },
     ],
   },
