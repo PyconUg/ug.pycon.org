@@ -501,7 +501,7 @@ export default function WhySponsor() {
                     Expo 2{" "}
                   </p>
                   <h3 className="text-2xl mb-6">
-                    <strong>$ 133</strong>
+                    <strong>UGX 500,000</strong>
                   </h3>
                 </div>
                 <div className="p-6">
@@ -610,7 +610,7 @@ export default function WhySponsor() {
                     Expo 1
                   </p>
                   <h3 className="text-2xl mb-6">
-                    <strong>$ 67</strong>
+                    <strong>UGX 250,000</strong>
                   </h3>
                 </div>
                 <div className="p-6">
@@ -683,7 +683,7 @@ export default function WhySponsor() {
                     Expo 3
                   </p>
                   <h3 className="text-2xl mb-6">
-                    <strong>$ 267</strong>
+                    <strong>UGX 1,000,000</strong>
                   </h3>
                 </div>
                 <div className="p-6">
