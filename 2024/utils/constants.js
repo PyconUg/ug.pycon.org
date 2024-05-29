@@ -15,3 +15,30 @@ export const SPEAKERS_2024 = [
   //   bio: "",
   // },
 ];
+
+export const SPONSORS_2024 = {
+  bronze: [
+    {
+      name: "Pulitzer Center",
+      href: "https://pulitzercenter.org/",
+      logo: "/2024/sponsors/pulitzer-center-logo.jpg",
+    },
+  ],
+  expo: [
+    {
+      name: "GitHub",
+      href: "https://github.com",
+      logo: "/2024/sponsors/GitHub.png",
+    },
+    {
+      name: "JetBrains",
+      href: "https://www.jetbrains.com",
+      logo: "https://resources.jetbrains.com/storage/products/company/brand/logos/jetbrains.png",
+    },
+    {
+      name: "Chaooss Africa",
+      href: "https://chaoss.community/",
+      logo: "/2024/sponsors/CHAOSS AFRICA LOGO.png",
+    },
+  ],
+};
