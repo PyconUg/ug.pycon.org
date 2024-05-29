@@ -1,5 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
+import SponsorList from "../sponsors-list";
+import { SPONSORS_2024 } from "@/2024/utils/constants";
 
 export default function Sponsors() {
   return (
@@ -13,26 +15,15 @@ export default function Sponsors() {
             Join our growing list of sponsors who are making PyCon Uganda
             happen.
           </p>
-          <p className="text-xl font-bold p-4">Expo Sponsors</p>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 place-items-center gap-8 my-8">
-            <Link href="https://github.com" target="_blank">
-              <Image src="/2024/sponsors/GitHub.png" width={500} height={500} />
-            </Link>
-            <Link href="https://www.jetbrains.com" target="_blank">
-              <Image
-                src="https://resources.jetbrains.com/storage/products/company/brand/logos/jetbrains.png"
-                width={500}
-                height={500}
+          <div>
+            {Object.entries(SPONSORS_2024).map(([key, sponsors]) => (
+              <SponsorList
+                key={key}
+                title={key.charAt(0).toUpperCase() + key.slice(1)}
+                sponsors={sponsors}
               />
-            </Link>
-            <Link href="https://chaoss.community/" target="_blank">
-              <Image
-                src="/2024/sponsors/CHAOSS AFRICA LOGO.png"
-                width={500}
-                height={500}
-              />
-            </Link>
+            ))}
           </div>
           <div className="py-12">
             <Link
