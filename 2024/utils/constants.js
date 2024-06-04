@@ -5,7 +5,7 @@ export const DIVERSITY_FINANCIAL_AID_LINK = `https://bit.ly/pyconUG-2024-diversi
 export const PYCONUGANDA_PROSPECTUS_2024 = `https://firebasestorage.googleapis.com/v0/b/pycon-uganda.appspot.com/o/PyCon-Uganda-2024-Prospectus.pdf?alt=media&token=052e8898-4041-4a46-a564-d45a3ce822e7`;
 export const DIVERSITY_TRAVEL_AID_LINK_2024 = `https://forms.gle/kgYRfgFHQxdmB61A9`;
 export const DJANGO_GIRLS_REG = "https://forms.gle/ZwTRAcYzRGXjskiN7";
-
+export const PYCONUGANDA_MERCH_2024 = `https://www.quicket.co.ug/events/254188-pycon-uganda-2024/?ref=algolia-search#/merchandise`;
 export const SPEAKERS_2024 = [
   // {
   //   name: "",
