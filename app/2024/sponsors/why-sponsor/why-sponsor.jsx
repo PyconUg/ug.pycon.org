@@ -64,29 +64,11 @@ export default function WhySponsor() {
                     Bronze
                   </p>
                   <h3 className="text-2xl mb-6">
-                    <strong>$ 1000</strong>
+                    <strong>$ 2,000</strong>
                   </h3>
                 </div>
                 <div className="p-6">
                   <ol className="list-inside">
-                    <li className="mb-4 flex items-center">
-                      <svg
-                        aria-hidden="true"
-                        focusable="false"
-                        data-prefix="fas"
-                        data-icon="check"
-                        className="text-green-600 w-4 h-4 mr-2"
-                        role="img"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 512 512"
-                      >
-                        <path
-                          fill="currentColor"
-                          d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
-                        ></path>
-                      </svg>
-                      In Press Releases
-                    </li>
                     <li className="mb-4 flex items-center">
                       <svg
                         aria-hidden="true"
@@ -139,25 +121,7 @@ export default function WhySponsor() {
                           d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
                         ></path>
                       </svg>
-                      Links in videos
-                    </li>
-                    <li className="mb-4 flex items-center">
-                      <svg
-                        aria-hidden="true"
-                        focusable="false"
-                        data-prefix="fas"
-                        data-icon="check"
-                        className="text-green-600 w-4 h-4 mr-2"
-                        role="img"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 512 512"
-                      >
-                        <path
-                          fill="currentColor"
-                          d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
-                        ></path>
-                      </svg>
-                      Free tickets
+                      5 Free tickets
                     </li>
                   </ol>
                 </div>
@@ -171,7 +135,7 @@ export default function WhySponsor() {
                     Silver
                   </p>
                   <h3 className="text-2xl mb-6">
-                    <strong>$ 2500</strong>
+                    <strong>$ 5,000</strong>
                   </h3>
                 </div>
                 <div className="p-6">
@@ -282,7 +246,7 @@ export default function WhySponsor() {
                           d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
                         ></path>
                       </svg>
-                      YouTube CTA links
+                      10 Free Tickets
                     </li>
                   </ol>
                 </div>
@@ -296,7 +260,7 @@ export default function WhySponsor() {
                     <strong>Gold</strong>
                   </p>
                   <h3 className="text-2xl mb-6">
-                    <strong>$ 4000</strong>
+                    <strong>$ 10,000</strong>
                   </h3>
                 </div>
                 <div className="p-6">
@@ -353,7 +317,7 @@ export default function WhySponsor() {
                           d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
                         ></path>
                       </svg>
-                      3-day offer period
+                      15 Free Tickets
                     </li>
                   </ol>
                 </div>
@@ -367,7 +331,7 @@ export default function WhySponsor() {
                     Platinum
                   </p>
                   <h3 className="text-2xl mb-6">
-                    <strong>$ 5000</strong>
+                    <strong>$ 15,000</strong>
                   </h3>
                 </div>
                 <div className="p-6">
@@ -498,6 +462,24 @@ export default function WhySponsor() {
                       </svg>
                       10-minute spot
                     </li>
+                    <li className="mb-4 flex items-center">
+                      <svg
+                        aria-hidden="true"
+                        focusable="false"
+                        data-prefix="fas"
+                        data-icon="check"
+                        className="text-green-600 w-4 h-4 mr-2"
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+                        ></path>
+                      </svg>
+                      20 Free Tickets
+                    </li>
                   </ol>
                 </div>
               </div>
@@ -511,10 +493,13 @@ export default function WhySponsor() {
             Expo Packages
           </h2>
           <p className="text-center font-bold">Explore our expo packages</p>
-          <div className="pt-6 grid lg:grid-cols-3 gap-6 xl:gap-x-12 grid-col-reverse">
+          <div className="pt-6 grid lg:grid-cols-3 gap-6 xl:gap-x-12">
             <div className="mb-6 lg:mb-0 order-2">
               <div className="block rounded-lg bg-white h-full border border-[#FFD700]">
                 <div className="p-6 border-b border-gray-300 text-center">
+                  <p className="uppercase mb-4 text-sm font-extrabold">
+                    Expo 2{" "}
+                  </p>
                   <h3 className="text-2xl mb-6">
                     <strong>UGX 500,000</strong>
                   </h3>
@@ -537,25 +522,7 @@ export default function WhySponsor() {
                           d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
                         ></path>
                       </svg>{" "}
-                      Double the space of the UGX250,000 package
-                    </li>
-                    <li className="mb-4 flex items-center">
-                      <svg
-                        aria-hidden="true"
-                        focusable="false"
-                        data-prefix="fas"
-                        data-icon="check"
-                        className="text-green-600 w-4 h-4 mr-2"
-                        role="img"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 512 512"
-                      >
-                        <path
-                          fill="currentColor"
-                          d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
-                        ></path>
-                      </svg>
-                      Allowance for 2 people
+                      Double the space of Expo 1
                     </li>
                     <li className="mb-4 flex items-center">
                       {" "}
@@ -591,24 +558,6 @@ export default function WhySponsor() {
                           fill="currentColor"
                           d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
                         ></path>
-                      </svg>
-                      Unlimited branding in the expo area
-                    </li>
-                    <li className="mb-4 flex items-center">
-                      <svg
-                        aria-hidden="true"
-                        focusable="false"
-                        data-prefix="fas"
-                        data-icon="check"
-                        className="text-green-600 w-4 h-4 mr-2"
-                        role="img"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 512 512"
-                      >
-                        <path
-                          fill="currentColor"
-                          d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
-                        ></path>
                       </svg>{" "}
                       Workshop session about products
                     </li>
@@ -647,7 +596,7 @@ export default function WhySponsor() {
                           d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
                         ></path>
                       </svg>
-                      Branding on swag
+                      2 Free Tickets
                     </li>
                   </ol>
                 </div>
@@ -657,6 +606,9 @@ export default function WhySponsor() {
             <div className="mb-6 lg:mb-0 order-first">
               <div className="block rounded-lg shadow-lg bg-white h-full border border-[#A0B2C6]">
                 <div className="p-6 border-b border-gray-300 text-center">
+                  <p className="uppercase mb-4 text-sm font-extrabold">
+                    Expo 1
+                  </p>
                   <h3 className="text-2xl mb-6">
                     <strong>UGX 250,000</strong>
                   </h3>
@@ -679,7 +631,7 @@ export default function WhySponsor() {
                           d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
                         ></path>
                       </svg>
-                      Desk in expo hall enough for 2 people
+                      Desk in expo hall
                     </li>
                     <li className="mb-4 flex items-center">
                       {" "}
@@ -700,6 +652,25 @@ export default function WhySponsor() {
                       </svg>
                       Pull-up banner
                     </li>
+                    <li className="mb-4 flex items-center">
+                      {" "}
+                      <svg
+                        aria-hidden="true"
+                        focusable="false"
+                        data-prefix="fas"
+                        data-icon="check"
+                        className="text-green-600 w-4 h-4 mr-2"
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+                        ></path>
+                      </svg>
+                      1 Free Ticket
+                    </li>
                   </ol>
                 </div>
               </div>
@@ -708,6 +679,9 @@ export default function WhySponsor() {
             <div className="mb-6 lg:mb-0 order-3">
               <div className="block rounded-lg shadow-lg bg-white h-full border border-[#C0C0C0]">
                 <div className="p-6 border-b border-gray-300 text-center">
+                  <p className="uppercase mb-4 text-sm font-extrabold">
+                    Expo 3
+                  </p>
                   <h3 className="text-2xl mb-6">
                     <strong>UGX 1,000,000</strong>
                   </h3>
@@ -730,8 +704,7 @@ export default function WhySponsor() {
                           d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
                         ></path>
                       </svg>{" "}
-                      Space for 4 people (3 times the space of the UGX250,000
-                      package)
+                      3 times the space of Expo 1
                     </li>
                     <li className="mb-4 flex items-center">
                       <svg
@@ -767,9 +740,8 @@ export default function WhySponsor() {
                           d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
                         ></path>
                       </svg>{" "}
-                      5-minute plenary session
+                      Logo on website{" "}
                     </li>
-                    <li className="mb-4 flex items-center">Logo on website</li>
                     <li className="mb-4 flex items-center">
                       <svg
                         aria-hidden="true"
@@ -823,7 +795,7 @@ export default function WhySponsor() {
                           d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
                         ></path>
                       </svg>
-                      Branding on swag
+                      3 Free Tickets{" "}
                     </li>
                   </ol>
                 </div>
