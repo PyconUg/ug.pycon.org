@@ -1,67 +1,70 @@
 import Image from "next/image";
 import Link from "next/link";
-import { DJANGO_GIRLS_REG } from "@/2024/utils/constants";
+import { PYLADIES_REG } from "@/2024/utils/constants";
 
 export default function DjangoGirls() {
-    return (
-      <>
-        {" "}
-        <section className="bg-fixed text-zinc-300" style={{backgroundImage: "url('/assets/images/djangogirls/dg1.png')"}}>
-          <div className="flex flex-col justify-center items-center h-[70vh]">
-            <div>
-              <h1 className="text-3xl font-extrabold sm:text-5xl text-white">
-                Django Girls Tutorial
-              </h1>
-            </div>
-
-            <div>
-              {" "}
-              <p className="text-white p-4 font-medium">
-                We are pleased to inform you that the Django girls will hold a tutorial during the Pycon Uganda 2024 conference.
-              </p>
-              <p className="text-white p-4 font-medium">
-                Kindly register here if you are interested in attending.
-              </p>
-            </div>
+  return (
+    <>
+      {" "}
+      {/* <section className="bg-fixed text-zinc-300" style={{ backgroundImage: "url('/assets/images/djangogirls/dg1.png')" }}> */}
+      <section className="bg-fixed text-zinc-300 bg-pyconug-lightBlue" style={{}}>
+        <div className="flex flex-col justify-center items-center h-[70vh]">
+          <div>
+            <h1 className="text-3xl font-extrabold sm:text-5xl text-white">
+              Pyladies Anniversary
+            </h1>
           </div>
+
+          <div>
+            {" "}
+            <p className="text-white p-4 font-medium w-[60vw] text-center">
+              We are pleased to inform you that the Pyladies will be celebrating their seventh Anniversary during the Pycon Uganda 2024 conference as a way to celebrate women and the achievements they've attained over time.
+            </p>
+            <p className="text-white p-4 font-medium text-center">
+              Kindly register here if you are interested in attending.
+            </p>
+          </div>
+        </div>
       </section>
-      <section className="my-10 text-justify text-lg">
+      <section className="my-10 justify-center items-center text-justify text-lg">
         <div class="mx-8 md:mx-28 max-w-screen-xl flex flex-col justify-center items-center mb-10">
           <Image
             width={150}
             height={75}
             alt=""
-            src={"/assets/images/djangogirls/djangogirls.png"}
+            src={"/assets/images/pyladies/pyladies.png"}
           />
         </div>
         <div className="mx-8 md:mx-28 max-w-screen-xl flex flex-col lg:flex-row mb-10">
           <div className="lg:w-1/2 p-4 w-full">
-            <h1 className="text-3xl">Django Girls Kampala</h1>
-            <p className="mt-3">If you are female and you want to learn how to build websites, we have good news for you! We are holding a one-day workshop for beginners!</p>
-              <p className="mt-3">It will take place during the PyCon Uganda conference, at NWSC International Resource Center. We would like to give you an opportunity to learn how to program and become one of us - female programmers!</p>
-            <p className="mt-3">The workshop is free of charge and if you are interested in being part of this training, you can apply for a pass now!!</p>
+            <h1 className="text-3xl">PyLadies Anniversary Celebration</h1>
+            <p className="mt-3">Attention all Python-loving women! As we celebrate PyLadies' anniversary, we invite you to join us for a special one-day workshop tailored for beginners!</p>
+            <p className="mt-3">This event will take place during the PyCon Uganda conference, at the National ICT Innovation Hub. It's an excellent opportunity to commemorate our achievements and foster a supportive community of female Python developers.</p>
+            <p className="mt-3">The workshop is free of charge, and if you're eager to participate, secure your spot now by applying for a pass!</p>
           </div>
           <div className="lg:w-1/2 p-4 w-full">
-            <h1 className="text-3xl">Apply for a pass!</h1>
-            <p className="mt-3">If you are a woman and you have a laptop - you can apply for a pass! You don&#39;t need to know any technical stuff - The workshop is for people who are new to programming.</p>
-            <p className="mt-3">As a workshop attendee you will:</p>
+            <h1 className="text-3xl">Apply for a Pass!</h1>
+            <p className="mt-3">Ladies, if you have a passion for Python and a laptop, you're eligible to apply for a pass to our anniversary workshop! Technical expertise is not required - this event is tailored for beginners.</p>
+            <p className="mt-3">As a workshop attendee, you'll:</p>
             <ul className="list-disc list-inside indent-4">
-              <li>Attend a one-day Django workshop during which you will create your first website</li>
-              <li>Get a chance to meet other ladies in the tech world</li>
-              <li>Interact with the organizers and some of the sponsors</li>
+              <li>Participate in a one-day Python workshop, where you'll dive into writing your first Python programs</li>
+              <li>Connect with fellow women in the tech community and share experiences</li>
+              <li>Engage with the organizers and sponsors to enhance your learning journey</li>
             </ul>
           </div>
         </div>
-        <div className="bg-fixed text-white" style={{backgroundImage: "url('/assets/images/djangogirls/dg2.png')"}}>
+
+        <div className="bg-fixed text-white bg-pyconug-lightBlue" style={{}}>
+          {/* <div className="bg-fixed text-white" style={{ backgroundImage: "url('/assets/images/djangogirls/dg2.png')" }}> */}
           <div className="mx-8 md:mx-28 max-w-screen-xl flex flex-col lg:flex-row mb-10">
             <div className="lg:w-full p-4">
               <h1 className="text-3xl">Become a participant</h1>
               <p className="mt-3">Feel free to apply and also tell a friend about this workshop. Let&apos;s dream, code and create.</p>
               <div className="flex justify-center md:justify-start">
                 <Link
-                  className="text-white bg-pyconug-lightBlue px-12 py-4 rounded-md w-50 mt-10"
+                  className="bg-white text-pyconug-lightBlue px-12 py-4 rounded-md w-50 mt-10"
                   target="_blank"
-                  href={DJANGO_GIRLS_REG}
+                  href={PYLADIES_REG}
                 >
                   Register here
                 </Link>
@@ -86,16 +89,7 @@ export default function DjangoGirls() {
         <div class="flex flex-col items-center space-x-4">
           <h1 className="text-3xl font-bold mb-10">Lead coach for the day:</h1>
         </div>
-        <div class="mx-8 md:mx-28 max-w-screen-xl flex flex-row justify-center items-center mb-10">
-          <div class="flex flex-col items-center space-x-4 mx-10">
-            <img class="w-100 h-100 rounded-full" src="/assets/images/djangogirls/Anne_Namuli.png" alt="Rounded avatar"></img>
-            <div class="font-medium dark:text-white">
-              <div>Anne Namuli</div>
-              <div class="text-sm text-gray-500 dark:text-gray-400"><a href="https://twitter.com/@annenamuli" class="no-underline hover:underline">@annenamuli</a></div>
-            </div>
-          </div>
-        </div>
-        <div className="bg-fixed text-white" style={{backgroundImage: "url('/assets/images/djangogirls/dg3.png')"}}>
+        <div className="bg-fixed text-white bg-pyconug-lightBlue" style={{}}>
           <div class="flex flex-col items-center space-x-4">
             <h1 className="text-3xl font-bold my-10">Agenda:</h1>
           </div>
@@ -126,7 +120,7 @@ export default function DjangoGirls() {
           </div>
         </div>
       </section>
-      </>
-    );
-  }
-  
+    </>
+  );
+}
+

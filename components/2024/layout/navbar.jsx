@@ -110,6 +110,16 @@ const NavbarLinks = [
             aria-hidden="true"
           />),
       },
+      {
+        path: "/2024/pyladies",
+        label: "Pyladies",
+        description: "Join us at PyCon Uganda for the PyLadies Anniversary, celebrating the achievements and contributions of female Python developers!",
+        icon: (
+          <UserGroupIcon
+            className="h-6 w-6 text-gray-600 group-hover:text-pyconug-lightBlue"
+            aria-hidden="true"
+          />),
+      },
     ],
   },
   {
@@ -304,9 +314,8 @@ export default function Example() {
                           <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-gray-50">
                             {link.label}
                             <ChevronDownIcon
-                              className={`${
-                                open ? "rotate-180" : ""
-                              } h-5 w-5 flex-none`}
+                              className={`${open ? "rotate-180" : ""
+                                } h-5 w-5 flex-none`}
                               aria-hidden="true"
                             />
                           </Disclosure.Button>
