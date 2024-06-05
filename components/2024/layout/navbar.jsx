@@ -113,7 +113,7 @@ const NavbarLinks = [
       {
         path: "/2024/pyladies",
         label: "Pyladies",
-        description: "Join us at PyCon Uganda for the PyLadies Anniversary, celebrating the achievements and contributions of female Python developers!",
+        description: "Join us at PyCon Uganda for the PyLadies Anniversary, celebrating female Python developers' achievements and contributions!",
         icon: (
           <UserGroupIcon
             className="h-6 w-6 text-gray-600 group-hover:text-pyconug-lightBlue"

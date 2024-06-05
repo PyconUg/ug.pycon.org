@@ -7,7 +7,7 @@ export default function DjangoGirls() {
     <>
       {" "}
       {/* <section className="bg-fixed text-zinc-300" style={{ backgroundImage: "url('/assets/images/djangogirls/dg1.png')" }}> */}
-      <section className="bg-fixed text-zinc-300 bg-pyconug-lightBlue" style={{}}>
+      {/* <section className="bg-fixed text-zinc-300 bg-pyconug-lightBlue" style={{}}>
         <div className="flex flex-col justify-center items-center h-[70vh]">
           <div>
             <h1 className="text-3xl font-extrabold sm:text-5xl text-white">
@@ -25,7 +25,7 @@ export default function DjangoGirls() {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
       <section className="my-10 justify-center items-center text-justify text-lg">
         <div class="mx-8 md:mx-28 max-w-screen-xl flex flex-col justify-center items-center mb-10">
           <Image
@@ -37,20 +37,27 @@ export default function DjangoGirls() {
         </div>
         <div className="mx-8 md:mx-28 max-w-screen-xl flex flex-col lg:flex-row mb-10">
           <div className="lg:w-1/2 p-4 w-full">
-            <h1 className="text-3xl">PyLadies Anniversary Celebration</h1>
-            <p className="mt-3">Attention all Python-loving women! As we celebrate PyLadies' anniversary, we invite you to join us for a special one-day workshop tailored for beginners!</p>
-            <p className="mt-3">This event will take place during the PyCon Uganda conference, at the National ICT Innovation Hub. It's an excellent opportunity to commemorate our achievements and foster a supportive community of female Python developers.</p>
-            <p className="mt-3">The workshop is free of charge, and if you're eager to participate, secure your spot now by applying for a pass!</p>
+            <h1 className="text-3xl">PyLadies Anniversary</h1>
+            <p className="mt-3">Join us in celebrating the PyLadies Anniversary Event at PyCon Uganda!
+              This special occasion marks a significant milestone for PyLadies, an
+              international mentorship group dedicated to empowering women to become
+              active participants and leaders in the Python open-source community. Our mission
+              is to promote, educate, and advance a diverse Python community through
+              outreach, education, conferences, events, and social gatherings.</p>
           </div>
           <div className="lg:w-1/2 p-4 w-full">
-            <h1 className="text-3xl">Apply for a Pass!</h1>
-            <p className="mt-3">Ladies, if you have a passion for Python and a laptop, you're eligible to apply for a pass to our anniversary workshop! Technical expertise is not required - this event is tailored for beginners.</p>
-            <p className="mt-3">As a workshop attendee, you'll:</p>
+            <h1 className="text-3xl">Join Our Anniversary Workshop!</h1>
+            <p className="mt-3">Don't miss this chance to start your Python journey and join a supportive
+              community. Apply now for the PyLadies Anniversary Workshop!</p>
+            <p className="mt-3">As a workshop attendee, you'll have the opportunity to:</p>
             <ul className="list-disc list-inside indent-4">
-              <li>Participate in a one-day Python workshop, where you'll dive into writing your first Python programs</li>
-              <li>Connect with fellow women in the tech community and share experiences</li>
-              <li>Engage with the organizers and sponsors to enhance your learning journey</li>
+              <li>Learn Python Basics: Start writing your first Python programs
+                with guidance from experienced mentors.</li>
+              <li>Network and Connect: Meet and connect with fellow women in tech and share your experiences.</li>
+              <li>Engage with Experts: Interact with organizers and sponsors to enhance your learning journey.</li>
             </ul>
+            <p className="mt-3 font-medium">Don't miss this fantastic opportunity to kickstart your Python journey and
+              become part of a supportive community. Apply now to join us at the PyLadies Anniversary Workshop!</p>
           </div>
         </div>
 
@@ -59,7 +66,7 @@ export default function DjangoGirls() {
           <div className="mx-8 md:mx-28 max-w-screen-xl flex flex-col lg:flex-row mb-10">
             <div className="lg:w-full p-4">
               <h1 className="text-3xl">Become a participant</h1>
-              <p className="mt-3">Feel free to apply and also tell a friend about this workshop. Let&apos;s dream, code and create.</p>
+              <p className="mt-3">Feel free to apply and spread the word about this workshop. Let's dream, code, and create together!</p>
               <div className="flex justify-center md:justify-start">
                 <Link
                   className="bg-white text-pyconug-lightBlue px-12 py-4 rounded-md w-50 mt-10"
@@ -75,46 +82,42 @@ export default function DjangoGirls() {
         <div className="mx-8 md:mx-28 max-w-screen-xl flex flex-col lg:flex-row mb-10">
           <div className="lg:w-1/2 p-4 w-full">
             <h3 className="text-xl font-bold">Do I need to know anything about websites or programming?</h3>
-            <p className="mt-3">No! This workshop is for beginners. You do not need to know anything about it. However, if you have a little bit of technical knowledge (i.e. you know what HTML or CSS are) you still can apply!</p>
+            <p className="mt-3">No! This workshop is for beginners. You don't need any prior knowledge. If you have some technical knowledge (like knowing what HTML or CSS are), you can still apply!</p>
             <h3 className="text-xl font-bold mt-5">Should I bring my own laptop?</h3>
-            <p className="mt-3">Yes. We have no hardware, so we expect you to bring your computer with you. It is also important for us that you will take home everything you will write and create during the workshop.</p>
+            <p className="mt-3">Yes, please bring your own laptop. We don't provide hardware, and it's important for you to have your
+              computer to take home everything you create during the workshop.</p>
           </div>
           <div className="lg:w-1/2 p-4 w-full">
-            <h3 className="text-xl font-bold">Do I need to have something installed on my laptop?</h3>
-            <p className="mt-3">It would be helpful to have Django installed before the workshop, but we wouldn&apos;t expect you to install anything on your own. We will have an installation party the evening before the workshop.</p>
-            <h3 className="text-xl font-bold mt-5">Do I need to be part of Django girls already?</h3>
-            <p className="mt-3">No. You need to sign up for the tutorial session and you will join the group for other activities if interested.</p>
+            <h3 className="text-xl font-bold">Do I need to install anything on my laptop beforehand?</h3>
+            <p className="mt-3">It would be helpful to have Python installed, but don't worry if you haven't done it yet.
+              We'll have an installation session before the workshop to help you get set up.</p>
+            <h3 className="text-xl font-bold mt-5">Do I need to be a PyLady already to attend?</h3>
+            <p className="mt-3">No. Simply sign up for the workshop session, and you're welcome to join other activities if you're interested.</p>
           </div>
         </div>
         <div class="flex flex-col items-center space-x-4">
-          <h1 className="text-3xl font-bold mb-10">Lead coach for the day:</h1>
+          <h1 className="text-3xl font-bold mb-10">Workshop chair:</h1>
         </div>
         <div className="bg-fixed text-white bg-pyconug-lightBlue" style={{}}>
           <div class="flex flex-col items-center space-x-4">
             <h1 className="text-3xl font-bold my-10">Agenda:</h1>
           </div>
-          <div className="mx-8 md:mx-28 max-w-screen-xl flex flex-col lg:flex-row mb-10">
-            <div className="lg:w-1/3 p-4">
+          <div className="mx-8 md:mx-28 max-w-screen-xl justify-center flex flex-col lg:flex-row mb-10">
+            <div className="lg:w-1/2 p-4">
               <ul className="list-disc list-inside indent-4">
-                <li>08:30 - 09:00 am    Registration & check in</li>
-                <li>09:00 - 09:10 am    Welcome Address</li>
-                <li>09:10 - 09:30 am    Keynote</li>
-                <li>09:30 - 10:45 am    Dive into Python</li>
+                <li>10:00 - 11:00 am    Welcome remarks and Introductions</li>
+                <li>11:00 - 12:00 am    Keynote Session</li>
+                <li>12:00 - 12:30 am    Women in STEM! Championing Diversity and Inclusion in the Tech Industry!</li>
+                <li>12:30 - 13:00 am    Teach me through Python</li>
               </ul>
             </div>
-            <div className="lg:w-1/3 p-4 w-full">
+            <div className="lg:w-1/2 p-4 w-full">
               <ul className="list-disc list-inside indent-4">
-                <li>10:45 - 11:00 am    Breakfast</li>
-                <li>11:00 - 13:00 pm    Dive into Django</li>
                 <li>13:00 - 14:00 pm    Lunch Break</li>
-                <li>14:00 - 16:45 pm    More Django and Deployment</li>
-              </ul>
-            </div>
-            <div className="lg:w-1/3 p-4 w-full">
-              <ul className="list-disc list-inside indent-4">
-                <li>16:45 - 17:00 pm   Break</li>
-                <li>17:00 - 17:30 pm   Fixing Bugs and AOB</li>
-                <li>17:30 - 18:00 pm   Wrap up and announcements and photoshoot</li>
+                <li>14:30 - 15:00 pm    Women Tech Makers in Kampala: Get Involved</li>
+                <li>15:00 - 15:30 pm   Harnessing Collective Intelligence : Developing and Utilizing Data Science Communities</li>
+                <li>15:30 - 16:00 pm   Advanced Django as a Professional</li>
+                <li>16:00 - 16:30 pm   Closing Remarks and End</li>
               </ul>
             </div>
           </div>
