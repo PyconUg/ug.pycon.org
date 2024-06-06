@@ -47,7 +47,7 @@ export default function DjangoGirls() {
           </div>
           <div className="lg:w-1/2 p-4 w-full">
             <h1 className="text-3xl">Join Our Anniversary Workshop!</h1>
-            <p className="mt-3">Don&pos;t miss this chance to start your Python journey and join a supportive
+            <p className="mt-3">Don&apos;t miss this chance to start your Python journey and join a supportive
               community. Apply now for the PyLadies Anniversary Workshop!</p>
             <p className="mt-3">As a workshop attendee, you&apos;ll have the opportunity to:</p>
             <ul className="list-disc list-inside indent-4">
