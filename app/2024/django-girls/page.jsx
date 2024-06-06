@@ -38,7 +38,7 @@ export default function DjangoGirls() {
           <div className="lg:w-1/2 p-4 w-full">
             <h1 className="text-3xl">Django Girls Kampala</h1>
             <p className="mt-3">If you are female and you want to learn how to build websites, we have good news for you! We are holding a one-day workshop for beginners!</p>
-            <p className="mt-3">It will take place during the PyCon Uganda conference, at National ICT Innovation Hub. We would like to give you an opportunity to learn how to program and become one of us - female programmers!</p>
+              <p className="mt-3">It will take place during the PyCon Uganda conference, at NWSC International Resource Center. We would like to give you an opportunity to learn how to program and become one of us - female programmers!</p>
             <p className="mt-3">The workshop is free of charge and if you are interested in being part of this training, you can apply for a pass now!!</p>
           </div>
           <div className="lg:w-1/2 p-4 w-full">
