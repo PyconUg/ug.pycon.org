@@ -19,6 +19,13 @@ export const SPEAKERS_2024 = [
 ];
 
 export const SPONSORS_2024 = {
+  gold: [
+    {
+      name: "Python Software Foundation",
+      href: "https://www.python.org/psf-landing/",
+      logo: "/assets/images/sponsors/psf-logo.png",
+    },
+  ],
   bronze: [
     {
       name: "Pulitzer Center",
