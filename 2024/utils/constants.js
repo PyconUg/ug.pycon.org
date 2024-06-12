@@ -23,7 +23,7 @@ export const SPONSORS_2024 = {
     {
       name: "Pulitzer Center",
       href: "https://pulitzercenter.org/",
-      logo: "/2024/sponsors/pulitzer-center-logo.jpg",
+      logo: "/2024/sponsors/pulitzer-center-logo.webp",
     },
   ],
   expo: [
