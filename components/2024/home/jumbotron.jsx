@@ -1,5 +1,9 @@
 import { QUICKET_LINK } from "@/2023/utils/constants";
-import { CFP_LINK, CONFERENCE_DATE, VENUE } from "@/2024/utils/constants";
+import {
+  CONFERENCE_DATE,
+  PYCONUGANDA_MERCH_2024,
+  VENUE,
+} from "@/2024/utils/constants";
 import Link from "next/link";
 
 export default function Jumbotron() {
@@ -31,7 +35,14 @@ export default function Jumbotron() {
             target="_blank"
             href={QUICKET_LINK}
           >
-            Early Bird Ticket
+            Buy Tickets
+          </Link>
+          <Link
+            className="uppercase text-white bg-pyconug-lightBlue border-2 hover:bg-white hover:text-pyconug-lightBlue hover:border-pyconug-lightBlue p-4 rounded-md w-56 font-bold flex items-center justify-center"
+            target="_blank"
+            href={PYCONUGANDA_MERCH_2024}
+          >
+            Buy Merch
           </Link>
           <Link
             className="uppercase text-white bg-pyconug-lightBlue border-2 hover:bg-white hover:text-pyconug-lightBlue hover:border-pyconug-lightBlue p-4 rounded-md w-56 font-bold flex items-center justify-center"
