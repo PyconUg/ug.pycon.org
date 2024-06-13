@@ -1,5 +1,9 @@
 import { QUICKET_LINK } from "@/2023/utils/constants";
-import { CFP_LINK, CONFERENCE_DATE, VENUE } from "@/2024/utils/constants";
+import {
+  CONFERENCE_DATE,
+  PYCONUGANDA_MERCH_2024,
+  VENUE,
+} from "@/2024/utils/constants";
 import Link from "next/link";
 
 export default function Jumbotron() {
