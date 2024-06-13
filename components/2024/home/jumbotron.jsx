@@ -31,7 +31,14 @@ export default function Jumbotron() {
             target="_blank"
             href={QUICKET_LINK}
           >
-            Early Bird Ticket
+            Buy Tickets
+          </Link>
+          <Link
+            className="uppercase text-white bg-pyconug-lightBlue border-2 hover:bg-white hover:text-pyconug-lightBlue hover:border-pyconug-lightBlue p-4 rounded-md w-56 font-bold flex items-center justify-center"
+            target="_blank"
+            href={PYCONUGANDA_MERCH_2024}
+          >
+            Buy Merch
           </Link>
           <Link
             className="uppercase text-white bg-pyconug-lightBlue border-2 hover:bg-white hover:text-pyconug-lightBlue hover:border-pyconug-lightBlue p-4 rounded-md w-56 font-bold flex items-center justify-center"

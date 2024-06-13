@@ -278,7 +278,13 @@ export default function Example() {
             href="https://www.quicket.co.ug/events/254188-pycon-uganda-2024?preview=t#/tickets"
             className="hidden md:block rounded-lg border border-black px-3 py-2 font-semibold text-black text-center h-10 truncate ..."
           >
-            Get Early Bird Ticket
+            Buy Tickets
+          </a>
+          <a
+            href="https://ug.pycon.org/2024/shop"
+            className="hidden md:block rounded-lg border border-black px-3 py-2 font-semibold text-black text-center h-10 truncate ..."
+          >
+            Buy Merch
           </a>
           <a
             href="/2024/sponsors/why-sponsor"
