@@ -95,9 +95,9 @@ export default function DjangoGirls() {
             <p className="mt-3">No. Simply sign up for the workshop session, and you&apos;re welcome to join other activities if you&apos;re interested.</p>
           </div>
         </div>
-        <div class="flex flex-col items-center space-x-4">
+        {/* <div class="flex flex-col items-center space-x-4">
           <h1 className="text-3xl font-bold mb-10">Workshop chair:</h1>
-        </div>
+        </div> */}
         <div className="bg-fixed text-white bg-pyconug-lightBlue" style={{}}>
           <div class="flex flex-col items-center space-x-4">
             <h1 className="text-3xl font-bold my-10">Agenda:</h1>

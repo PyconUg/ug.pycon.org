@@ -140,6 +140,10 @@ const NavbarLinks = [
     ],
   },
   {
+    path: "https://pyconug.blogspot.com",
+    label: "Blog",
+  },
+  {
     path: "#",
     label: "Attendee Guide",
     subLinks: [
