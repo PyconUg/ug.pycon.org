@@ -142,6 +142,7 @@ const NavbarLinks = [
   {
     path: "https://pyconug.blogspot.com",
     label: "Blog",
+    external: true,
   },
   {
     path: "#",
@@ -272,6 +273,7 @@ export default function Example() {
               <a
                 key={link.label}
                 href={link.path}
+                target={link?.external ? `_blank` : `_self`}
                 className="text-sm font-semibold leading-6 text-gray-900  hover:text-pyconug-lightBlue"
               >
                 {link.label}
