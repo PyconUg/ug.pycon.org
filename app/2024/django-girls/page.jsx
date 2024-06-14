@@ -83,7 +83,7 @@ export default function DjangoGirls() {
             <p className="mt-3">No. You need to sign up for the tutorial session and you will join the group for other activities if interested.</p>
           </div>
         </div>
-        <div class="flex flex-col items-center space-x-4">
+        {/* <div class="flex flex-col items-center space-x-4">
           <h1 className="text-3xl font-bold mb-10">Lead coach for the day:</h1>
         </div>
         <div class="mx-8 md:mx-28 max-w-screen-xl flex flex-row justify-center items-center mb-10">
@@ -94,7 +94,7 @@ export default function DjangoGirls() {
               <div class="text-sm text-gray-500 dark:text-gray-400"><a href="https://twitter.com/@annenamuli" class="no-underline hover:underline">@annenamuli</a></div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="bg-fixed text-white" style={{backgroundImage: "url('/assets/images/djangogirls/dg3.png')"}}>
           <div class="flex flex-col items-center space-x-4">
             <h1 className="text-3xl font-bold my-10">Agenda:</h1>
