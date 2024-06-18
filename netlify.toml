@@ -3,19 +3,19 @@
     publish = "public"
 
 [[redirects]]
-    from = "/2023/.next/"
+    from = "/2023/"
     to = "https://pycon-turborepo.netlify.app/2023"
     status = 200
     force = true
 
 [[redirects]]
-    from = "/2024/.next/"
+    from = "/2024/"
     to = "https://pycon-turborepo.netlify.app"
     status = 200
     force = true
 
 [[redirects]]
-    from = "/2024/.next/"
+    from = "/2024/"
     to = "https://pycon-turborepo.netlify.app"
     status = 200
     force = true
