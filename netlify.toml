@@ -4,18 +4,18 @@
 
 [[redirects]]
     from = "/2023/*"
-    to = "https://pycon-turborepo.netlify.app/2023"
+    to = "https://pycon-turborepo.netlify.app/2023/:splat"
     status = 200
     force = true
 
 [[redirects]]
     from = "/2024/*"
-    to = "https://pycon-turborepo.netlify.app"
+    to = "https://pycon-turborepo.netlify.app/:splat"
     status = 200
     force = true
 
 [[redirects]]
     from = "/2024/*"
-    to = "https://pycon-turborepo.netlify.app"
+    to = "https://pycon-turborepo.netlify.app/:splat"
     status = 200
     force = true
