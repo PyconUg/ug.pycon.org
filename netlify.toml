@@ -1,23 +1,24 @@
 [[plugins]]
-  package = "@netlify/plugin-nextjs"
+    package = "@netlify/plugin-nextjs"
 
 [build]
-  command = "npm run build"  # Use the custom build command from package.json
-  publish = "/opt/build/repo/public"         # The directory where you copy your built outputs
+    command = "npm run build"  # Use the custom build command from package.json
+    publish = "public"  # Adjusted to the correct build output directory for 2023
 
 [[redirects]]
-  from = "/2023/*"
-  to = "pycon-turborepo.netlify.app/2023/:splat"
-  status = 200
-  force = true
+    from = "/2023/.next/*"
+    to = "/2023/:splat"
+    status = 200
+    force = true
 
 [[redirects]]
-  from = "/2024/*"
-  to = "pycon-turborepo.netlify.app/2024/:splat"
-  status = 200
-  force = true
+    from = "/2024/.next/*"
+    to = "/2024/:splat"
+    status = 200
+    force = true
 
 [[redirects]]
-  from = "/*"
-  to = "pycon-turborepo.netlify.app/:splat"
-  status = 200
+    from = "/2024/.next/*"
+    to = "/:splat"
+    status = 200
+    force = true
