@@ -7,10 +7,6 @@ settings:
 importers:
 
   .:
-    dependencies:
-      '@netlify/plugin-nextjs':
-        specifier: ^5.3.3
-        version: 5.3.3
     devDependencies:
       '@repo/eslint-config':
         specifier: workspace:*
@@ -411,10 +407,6 @@ packages:
 
   '@microsoft/tsdoc@0.14.2':
     resolution: {integrity: sha512-9b8mPpKrfeGRuhFH5iO1iwCLeIIsV6+H1sRfxbkoGXIyQE2BTsPd9zqSqQJ+pv5sJ/hT5M1zvOFL02MnEezFug==}
-
-  '@netlify/plugin-nextjs@5.3.3':
-    resolution: {integrity: sha512-QhvZLOHhPuTnh6TZ5G0/jtjAJ1Y52A67b39eygKv6znQUPti8p+8y2WulcntpCRzVp2stzEULMNPlnptna1ikg==}
-    engines: {node: '>=18.0.0'}
 
   '@next/env@14.2.3':
     resolution: {integrity: sha512-W7fd7IbkfmeeY2gXrzJYDx8D2lWKbVoTIj1o1ScPHNzvp30s1AuoEFSdr39bC5sjxJaxTtq3OTCZboNp0lNWHA==}
@@ -2645,8 +2637,6 @@ snapshots:
       resolve: 1.19.0
 
   '@microsoft/tsdoc@0.14.2': {}
-
-  '@netlify/plugin-nextjs@5.3.3': {}
 
   '@next/env@14.2.3': {}
 
