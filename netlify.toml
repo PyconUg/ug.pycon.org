@@ -1,21 +1,21 @@
 [build]
     command = "npm run build"  # Use the custom build command from package.json
-    publish = "public/2023/.next"
+    publish = "public"
 
 [[redirects]]
-    from = "/2023/.next/*"
+    from = "/2023/.next/"
     to = "/2023/:splat"
     status = 200
     force = true
 
 [[redirects]]
-    from = "/2024/.next/*"
+    from = "/2024/.next/"
     to = "/2024/:splat"
     status = 200
     force = true
 
 [[redirects]]
-    from = "/2024/.next/*"
+    from = "/2024/.next/"
     to = "/:splat"
     status = 200
     force = true
