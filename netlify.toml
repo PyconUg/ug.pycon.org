@@ -3,18 +3,18 @@
   publish = "public"
 
 [[redirects]]
-  from = "/2023/*"
+  from = "/public/2023/*"
   to = "/2023/:splat"
   status = 200
   force = true
 
 [[redirects]]
-  from = "/2024/*"
-  to = "/2024/:splat"
+  from = "/public/2024/*"
+  to = "/:splat"
   status = 200
   force = true
 
 [[redirects]]
-  from = "/*"
+  from = "/public/*"
   to = "/:splat"
   status = 200
