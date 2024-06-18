@@ -4,7 +4,9 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "build": "turbo build",
+    "build": "npm run build:2023 && npm run build:2024",
+    "build:2023": "cd apps/2023 && next build && mkdir -p ../../public/2023 && cp -r .next ../../public/2023",
+    "build:2024": "cd apps/2024 && next build && cp -r .next ../../public/2024",
     "dev": "turbo dev",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,jsx,md}\"",
@@ -13,6 +15,7 @@
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
+    "next": "^14.0.4",
     "prettier": "^3.1.1",
     "turbo": "latest"
   },
