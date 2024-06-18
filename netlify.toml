@@ -1,9 +1,6 @@
-[[plugins]]
-    package = "@netlify/plugin-nextjs"
-
 [build]
     command = "npm run build"  # Use the custom build command from package.json
-    publish = "public"  # Adjusted to the correct build output directory for 2023
+    publish = "public/2023/.next"
 
 [[redirects]]
     from = "/2023/.next/*"
