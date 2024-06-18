@@ -6,8 +6,8 @@
   "scripts": {
     "build": "npm run build:2023 && npm run build:2024",
     "build:test": "cd apps/2023 && next build && mkdir -p ../../public/2023 && cp -r .next ../../public/2023",
-    "build:2023": "cd apps/2024 && next build && mkdir -p ../../public/2024/2023 && cp -a .next/* ../../public/2024/2023",
-    "build:2024": "cd apps/2024 && next build && mkdir -p ../../public/2024 && cp -a .next/* ../../public/2024",
+   "build:2023": "cd apps/2023 && next build",
+    "build:2024": "cd apps/2024 && next build",
     "dev": "turbo dev",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,jsx,md}\"",
