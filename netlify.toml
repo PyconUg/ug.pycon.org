@@ -5,12 +5,12 @@
 
 [[redirects]]
   from = "public/2023/*"
-  to = "https://pycon-turborepo.netlify.app/2023/:splat"
+  to = "/2023/:splat"
   status = 200
   force = true
 
 [[redirects]]
   from = "public/2024/*"
-  to = "https://pycon-turborepo.netlify.app/:splat"
+  to = "/:splat"
   status = 200
   force = true
