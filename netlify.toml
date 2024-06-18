@@ -1,11 +1,4 @@
 [build]
   command = "npm run build"
-  publish = "/"
-
-
-[[redirects]]
-  from = "/public/2023"
-  tto = "/"
-  status = 200
-  force = true
+  publish = "public/2024"
 
