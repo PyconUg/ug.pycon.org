@@ -2,22 +2,22 @@
   package = "@netlify/plugin-nextjs"
 
 [build]
-    publish = ".next"
-    command = "npm run build"
-    
-[[redirects]]
-    from = "/2023/*"
-    to = "pycon-turborepo.netlify.app/2023/:splat"
-    status = 200
-    force = true
+  command = "npm run build"  # Use the custom build command from package.json
+  publish = "public"         # The directory where you copy your built outputs
 
 [[redirects]]
-    from = "/2024/*"
-    to = "pycon-turborepo.netlify.app/:splat"
-    status = 200
-    force = true
+  from = "/2023/*"
+  to = "pycon-turborepo.netlify.app/2023/:splat"
+  status = 200
+  force = true
 
 [[redirects]]
-    from = "/*"
-    to = "pycon-turborepo.netlify.app/:splat"
-    status = 200
+  from = "/2024/*"
+  to = "pycon-turborepo.netlify.app/2024/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "pycon-turborepo.netlify.app/:splat"
+  status = 200
