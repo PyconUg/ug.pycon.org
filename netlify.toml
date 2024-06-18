@@ -1,4 +1,10 @@
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
 
+[build]
+    command = "npm run build"
+    publish = "public"
+    
 [[redirects]]
     from = "/2023/*"
     to = "pycon-turborepo.netlify.app/2023/:splat"
