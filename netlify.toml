@@ -1,6 +1,6 @@
 [build]
     command = "npm run build"  # Use the custom build command from package.json
-    publish = "public/2024"
+    publish = "public/2023"
 
 [[redirects]]
     from = "/2023/"
