@@ -4,8 +4,8 @@
 
 
 [[redirects]]
-  from = "/2023/*"
-  tto = "https://pycon-turborepo.netlify.app/2023/:splat"
+  from = "/2023"
+  tto = "/"
   status = 200
   force = true
 
