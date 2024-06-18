@@ -1,7 +1,3 @@
-[build]
-    command = "npm run build"  # Use the custom build command from package.json
-    publish = "public"
-
 [[redirects]]
     from = "/2023/*"
     to = "https://pycon-turborepo.netlify.app/2023/:splat"
