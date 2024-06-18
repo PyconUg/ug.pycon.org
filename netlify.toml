@@ -1,23 +1,23 @@
 [build]
     command = "npm run build"
     publish = "out"
-    
+
 # Redirects for App 1
 [[redirects]]
-    from = "/app1/*"
-    to = "https://app1-example.netlify.app/:splat"
+    from = "/2023/*"
+    to = "pycon-turborepo.netlify.app/2023/:splat"
     status = 200
     force = true
 
 # Redirects for App 2
 [[redirects]]
-    from = "/app2/*"
-    to = "https://app2-example.netlify.app/:splat"
+    from = "/2024/*"
+    to = "pycon-turborepo.netlify.app/:splat"
     status = 200
     force = true
 
 # Fallback for the main site
 [[redirects]]
     from = "/*"
-    to = "/index.html"
+    to = "pycon-turborepo.netlify.app/:splat"
     status = 200
