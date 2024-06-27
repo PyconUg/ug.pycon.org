@@ -2,7 +2,7 @@ export const VENUE = `NWSC International Resource Centre (IREC)`;
 export const CONFERENCE_DATE = `9th - 13th October, 2024`;
 export const CFP_LINK = `https://www.papercall.io/pyconug`;
 export const DIVERSITY_FINANCIAL_AID_LINK = `https://bit.ly/pyconUG-2024-diversity-aid`;
-export const PYCONUGANDA_PROSPECTUS_2024 = `https://firebasestorage.googleapis.com/v0/b/pycon-uganda.appspot.com/o/PyCon-Uganda-2024-Prospectus.pdf?alt=media&token=052e8898-4041-4a46-a564-d45a3ce822e7`;
+export const PYCONUGANDA_PROSPECTUS_2024 = `https://firebasestorage.googleapis.com/v0/b/pycon-uganda.appspot.com/o/PyCon-Uganda-2024-Prospectus.pdf?alt=media&token=df910dbe-2b8b-4d0e-b692-370a7c73b67c`;
 export const DIVERSITY_TRAVEL_AID_LINK_2024 = `https://forms.gle/kgYRfgFHQxdmB61A9`;
 export const DJANGO_GIRLS_REG = "https://forms.gle/ZwTRAcYzRGXjskiN7";
 export const PYLADIES_REG = "https://forms.gle/yB3yTcnpH6yQuYSH6";
