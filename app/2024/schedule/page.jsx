@@ -10,7 +10,7 @@ export default function SchedulePage() {
         <div className="flex flex-col justify-center items-center h-[35vh]">
           <div>
             <h1 className="text-3xl font-extrabold sm:text-5xl text-white">
-              PyCon Ug Schedule
+              PyCon Uganda Schedule
             </h1>
           </div>
 

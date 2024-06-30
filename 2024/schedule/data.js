@@ -1,117 +1,101 @@
 export const Tabs = [
-  { id: 1, title: "Day 1 (21st September)" },
-  { id: 2, title: "Day 2 (22nd September)" },
-  { id: 3, title: "Day 3 (23rd September)" },
+  { id: 1, title: "Day 1 (9th October)" },
+  { id: 2, title: "Day 2 (10th October)" },
+  { id: 3, title: "Day 3 (11th October)" },
+  { id: 4, title: "Day 4 (12th October)" },
+  { id: 5, title: "Day 5 (13th October)" },
 ];
 
 export const PYCON_DAY1_SCHEDULE = [
   {
-    title: "Registration",
-    duration: "08:00 - 09:00",
+    title: "Breakfast and Expo time",
+    duration: "7:00 - 10:00",
+    room: "Innovation Floor",
   },
   {
-    title: "Opening session for the first PyCon Uganda Conference",
-    duration: "09:00 - 9:30",
-    speaker: "Elijah Okello",
+    title: "Welcome and PyCon Official Opening Address",
+    duration: "10:00 - 11:00",
+    room: "Innovation Floor",
   },
   {
-    title: "Breakfast",
-    duration: "9:30 - 10:30",
-    speaker: "",
+    title: "Plenary Address from Government Official",
+    duration: "11:00 - 12:00",
+    room: "Innovation Floor",
   },
   {
-    title: "Opening Keynote",
-    duration: "10:30 - 11:30",
-    speaker: "Anthony Shaw",
+    duration: "12:00 - 13:00",
+    hasMany: true,
+    sessions: [
+      {
+        title: "Pulitzer Center Sponsor Talk",
+        room: "Pacific Hall",
+      },
+      {
+        title: "Chaos Africa Sponsor Talk",
+        room: "Innovation Floor",
+      },
+      {
+        title:
+          "Community Summit - Harnessing Collective Intelligence : Developing and Utilizing Data Science Communities. (Bernice Omiunu)",
+        room: "Volta Room",
+      },
+      {
+        title: "Open Source Sprints",
+        room: "Video Conference Room",
+      },
+    ],
   },
-  {
-    title:
-      "Introduction to Data Science with Python: Unleashing the Power of Data",
-    duration: "11:30 - 12:00",
-    speaker: "Emmanuel Okiria",
-    workshopTitle:
-      "Harness the Power of LLMs (and python?) for In-depth Document analysis",
-    workshopSpeaker: "Bethany Jepchumba, Josh Ndemenge, Joylynn Kirui",
-  },
-  {
-    title: "Cultivating Excellence: Nurturing Growth as a Web Developer",
-    duration: "12:00 - 12:30",
-    speaker: "Abudi Mutamba",
-    workshopTitle:
-      "Harness the Power of LLMs (and python?) for In-depth Document analysis",
-    workshopSpeaker: "Bethany Jepchumba, Josh Ndemenge, Joylynn Kirui",
-  },
-  {
-    title: "AI recommender systems to improve customer personalization",
-    duration: "12:00 - 12:30",
-    speaker: "Yvvon Jemmy",
-    workshopTitle:
-      "Harness the Power of LLMs (and python?) for In-depth Document analysis",
-    workshopSpeaker: "Bethany Jepchumba, Josh Ndemenge, Joylynn Kirui",
-  },
-  {
-    title: "A word about our sponsor (PSF)",
-    duration: "12:30 - 13:00",
-    speaker: "Joannah Nanjekye",
-    workshopTitle:
-      "Harness the Power of LLMs (and python?) for In-depth Document analysis",
-    workshopSpeaker: "Bethany Jepchumba, Josh Ndemenge, Joylynn Kirui",
-  },
-  // {
-  //   title: "AI recommender systems to improve customer personalization",
-  //   duration: "12:00 - 12:30",
-  //   speaker: "Yvvon Jemmy",
-  // },
-  // {
-  //   title:
-  //     "Python Custom Visuals in Power BI: Unleashing the Power of Data Visualization",
-  //   duration: "12:30 - 13:00",
-  //   speaker: "Allan Kiche",
-  // },
   {
     title: "Lunch Break",
     duration: "13:00 - 14:00",
-    speaker: "",
   },
   {
-    title: "Developing IoT Applications with Python Microcontrollers",
+    title: "Official Expo Hall Time",
+    duration: "13:00 - 14:00",
+  },
+  {
+    title: "Official Expo Hall Time",
+    duration: "13:00 - 14:00",
+  },
+  {
+    title: "Open Source Panel Session",
     duration: "14:00 - 15:00",
-    speaker: "Adewale Olaniyan",
-    workshopTitle: "Comunity Summit",
-    workshopSpeaker: "Halima Bukirwa",
   },
   {
-    title:
-      "SIGN-TO-TEXT:Unleashing the Power of Google AI for real time ASL transcription",
-    duration: "15:00 - 15:30",
-    speaker: "Atieno Ouma",
-    workshopTitle: "Comunity Summit",
-    workshopSpeaker: "Halima Bukirwa",
+    duration: "15:00 - 16:00",
+    hasMany: true,
+    sessions: [
+      { title: "Crane Cloud Workshop", room: "Pacific Hall" },
+      { title: "MTN MoMo Workshop", room: "Innovation Floor" },
+      {
+        title:
+          "From Workshops to Masterminds: Building a thriving Python Community with the Python Ho User Group.",
+        speaker: "Kafui Alordo",
+        room: "Volta Room",
+      },
+    ],
   },
   {
-    title: "Speeding operations at MTN",
-    duration: "15:30 - 16:00",
+    duration: "16:00 - 17:00",
+    hasMany: true,
+    sessions: [
+      { title: "CEDAT Workshop", room: "Pacific Hall" },
+      { title: "Stanbic Workshop", room: "Innovation Floor" },
+      {
+        title:
+          "Empowering Diverse Communities with Python: Insights from Mombasa, Kenya.",
+        speaker: "Chris N. Achinga",
+        room: "Volta Room",
+      },
+    ],
   },
   {
     title: "Closing Keynote",
-    duration: "16:00 - 17:00",
-    speaker: "",
-    workshopTitle: "Comunity Summit",
-    workshopSpeaker: "Halima Bukirwa",
+    duration: "17:00 - 18:00",
   },
-  // {
-  //   title: "Closing Keynote",
-  //   duration: "16:00 - 17:00",
-  //   speaker: "",
-  //   workshopTitle: "Comunity Summit",
-  //   workshopSpeaker: "Halima Bukirwa",
-  // },
   {
-    title: "Lightning Talks",
-    duration: "17:00 - 17:30",
-    speaker: "",
-    workshopTitle: "Comunity Summit",
-    workshopSpeaker: "Halima Bukirwa",
+    title: "Announcements and Closing",
+    duration: "18:00 - 18:30",
   },
 ];
 
@@ -170,7 +154,8 @@ export const PYCON_DAY2_SCHEDULE = [
     workshopSpeaker: "Dorothy Kabarozi .B. and Eva Nanyonga",
   },
   {
-    title: "Using Python and Dash plotly to make interactive dashboard (virtual)",
+    title:
+      "Using Python and Dash plotly to make interactive dashboard (virtual)",
     duration: "15:00 - 15:30",
     speaker: "Abdulhaq Adetunji Salako",
     workshopTitle: "Django Girls Workshop",
@@ -285,3 +270,6 @@ export const PYCON_DAY3_SCHEDULE = [
     speaker: "Elijah Okello",
   },
 ];
+
+export const PYCON_DAY4_SCHEDULE = [];
+export const PYCON_DAY5_SCHEDULE = [];
