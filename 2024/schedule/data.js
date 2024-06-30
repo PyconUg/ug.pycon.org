@@ -112,7 +112,7 @@ export const PYCON_DAY2_SCHEDULE = [
   },
   {
     title: "State of the Community Address",
-    duration: "10:00 - 11: 00",
+    duration: "10:00 - 11:00",
     room: "Innovation Floor",
   },
   {
@@ -180,86 +180,71 @@ export const PYCON_DAY2_SCHEDULE = [
 
 export const PYCON_DAY3_SCHEDULE = [
   {
-    title: "Community Spotlight",
-    duration: "09:00 - 10:00",
-    speaker: "",
+    title: "Breakfast and Registration",
+    duration: "7:00 - 10:00",
+    room: "Innovation Floor",
   },
   {
-    title: "Breakfast",
+    title: "Opening Keynote",
     duration: "10:00 - 11:00",
-    speaker: "",
+    room: "Innovation Floor",
   },
   {
-    title:
-      "Empowering Data Scientists: Unleashing the Potential of Azure Cloud Services (Virtual)",
     duration: "11:00 - 11:30",
-    speaker: "Lorna Aine",
-    workshopTitle:
-      "Python for Robust Data Infrastructure: AirQo's Air Quality Monitoring in Africa",
-    workshopSpeaker: "Noble Mutabazi, Richard Sserunjogi, Noah Nsimbe",
+    hasMany: true,
+    sessions: [
+      {
+        title:
+          "Web: FastDjango: Conjuring Powerful APIs with the Sorcery of Django Ninja",
+        room: "Pacific Hall",
+        speaker: "Julius Boakye",
+      },
+      {
+        title:
+          "Building SMART Recommendation Systems in Python (Using intellikit)",
+        room: "Innovation Floor",
+        speaker: "Arthur Kakande",
+      },
+      {
+        title: "Serving TensorFlow Models with FastAPI",
+        room: "Volta Room",
+        speaker: "Wesley Kambale",
+      },
+    ],
   },
   {
-    title: "Machine Learning Experimentation with DVC and VS Code",
     duration: "11:30 - 12:00",
-    speaker: "Gift Ojeabulu",
-    workshopTitle:
-      "Python for Robust Data Infrastructure: AirQo's Air Quality Monitoring in Africa",
-    workshopSpeaker: "Noble Mutabazi, Richard Sserunjogi, Noah Nsimbe",
+    hasMany: true,
+    sessions: [
+      {
+        title: "Full Stack Python Web Dev? Introducing Reflex",
+        room: "Pacific Hall",
+        speaker: "Ssali Jonathan Kiggundu",
+      },
+    ],
   },
   {
-    title:
-      "Python Custom Visuals in Power BI: Unleashing the Power of Data Visualization",
     duration: "12:00 - 12:30",
-    speaker: "Allan Kiche",
-    workshopTitle:
-      "Python for Robust Data Infrastructure: AirQo's Air Quality Monitoring in Africa",
-    workshopSpeaker: "Noble Mutabazi, Richard Sserunjogi, Noah Nsimbe",
-  },
-  {
-    title: "The Art of Defensive programming",
-    duration: "12:30 - 13:00",
-    speaker: "Joylynn Kirui",
-    workshopTitle:
-      "Python for Robust Data Infrastructure: AirQo's Air Quality Monitoring in Africa",
-    workshopSpeaker: "Noble Mutabazi, Richard Sserunjogi, Noah Nsimbe",
-  },
-  {
-    title: "Lunch break",
-    duration: "13:00 - 14:00",
-    speaker: "",
-    workshopTitle: "Pyladies Luncheon",
-    workshopSpeaker: "Monica Iyabo",
-  },
-  {
-    title: "Panel Session (Career Panel)",
-    duration: "14:00 - 15:00",
-    speaker: "",
-  },
-  {
-    title: "Building and Influencing the Open Source Ecosystem",
-    duration: "15:00 - 15:30",
-    speaker: "Omotola Omotayo",
-    workshopTitle: "How to create your own secure chat application",
-    workshopSpeaker: "Bethany Jepchumba, Josh Ndemenge, Joylynn Kirui",
-  },
-  {
-    title: "State of the Community Address",
-    duration: "15:30 - 16:00",
-    speaker: "Sumaiya Nalukwago and Lincoln Angufibo",
-    workshopTitle: "How to create your own secure chat application",
-    workshopSpeaker: "Bethany Jepchumba, Josh Ndemenge, Joylynn Kirui",
-  },
-  {
-    title: "AI recommender systems to improve customer personalization",
-    duration: "16:00 - 16:30",
-    speaker: "Yvvon Jemmy",
-    workshopTitle: "How to create your own secure chat application",
-    workshopSpeaker: "Bethany Jepchumba, Josh Ndemenge, Joylynn Kirui",
-  },
-  {
-    title: "Closing session for the Inaugural PyCon Uganda Conference",
-    duration: "16:30 - 17:30",
-    speaker: "Elijah Okello",
+    hasMany: true,
+    sessions: [
+      {
+        title:
+          "Core Principles: Exploring Asynchronous IO Patterns in Python: Strategies for Enhanced Performance and Scalability.",
+        room: "Pacific Hall",
+        speaker: "Angufibo Lincoln",
+      },
+      {
+        title: "Explainable AI with Python",
+        room: "Innovation Floor",
+        speaker: "Brayan Mwanyumba",
+      },
+      {
+        title:
+          "Python with Kafka: Get started on modern stream processing with Python",
+        room: "Volta Room",
+        speaker: "Mark Lubega",
+      },
+    ],
   },
 ];
 

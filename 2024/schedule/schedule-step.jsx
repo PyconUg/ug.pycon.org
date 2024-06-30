@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function ScheduleStep({ stepData }) {
   return (
     <li className="mb-10 mt-5 ml-6">
@@ -52,43 +54,47 @@ export default function ScheduleStep({ stepData }) {
       </span>
       <div className="space-y-2">
         {" "}
-        <p className="text-gray-400">{stepData?.duration}</p>
+        <p className="text-gray-500">{stepData?.duration}</p>
         <section className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>
             {stepData?.title && (
-              <h3 className=" font-bold leading-tight capitalize">
+              <h3 className=" font-bold leading-tight capitalize text-pyconug-darkBlue">
                 {stepData?.title}
               </h3>
             )}
             {stepData?.speaker && (
-              <p className="text-gray-600">
+              <p className="capitalize text-gray-500">
                 {" "}
-                <span className="font-bold capitalize pr-2">
+                <span className=" pr-2 text-gray-500">
                   Speaker(s)/Facilitator(s):{" "}
                 </span>
-                {stepData?.speaker}
+                <span className="underline"> {stepData?.speaker}</span>
               </p>
             )}
             {stepData?.room && (
-              <p className="text-gray-600">
+              <p className="capitalize text-gray-500">
                 {" "}
-                <span className="font-bold capitalize pr-2">Room:</span>
+                <span className=" pr-2 text-gray-500">Room:</span>
                 {stepData?.room}
               </p>
             )}
           </div>
           {stepData?.workshopSpeaker && (
             <div>
-              <h3 className=" font-bold leading-tight capitalize">
+              <h3 className=" font-bold leading-tight capitalize ">
                 {stepData?.workshopTitle}
               </h3>
+
               {stepData?.workshopSpeaker && (
-                <p className="text-gray-600">
+                <p className="capitalize text-gray-500">
                   {" "}
-                  <span className="font-bold capitalize pr-2">
+                  <span className=" pr-2 text-gray-500">
                     Speaker(s)/Facilitator(s):{" "}
                   </span>
-                  {stepData?.workshopSpeaker}
+                  <span className="underline">
+                    {" "}
+                    {stepData?.workshopSpeaker}
+                  </span>
                 </p>
               )}
             </div>
@@ -100,23 +106,23 @@ export default function ScheduleStep({ stepData }) {
               return (
                 <div key={session?.room}>
                   {session?.title && (
-                    <h3 className=" font-bold leading-tight capitalize">
+                    <h3 className=" font-bold leading-tight capitalize text-pyconug-darkBlue">
                       {session?.title}
                     </h3>
                   )}
                   {session?.speaker && (
-                    <p className="text-gray-600">
+                    <p className="capitalize text-gray-500">
                       {" "}
-                      <span className="font-bold capitalize pr-2">
+                      <span className=" pr-2 text-gray-500">
                         Speaker(s)/Facilitator(s):{" "}
                       </span>
-                      {session?.speaker}
+                      <span className="underline"> {session?.speaker}</span>
                     </p>
                   )}
                   {session?.room && (
-                    <p className="text-gray-600">
+                    <p className="capitalize text-gray-500">
                       {" "}
-                      <span className="font-bold capitalize pr-2">Room:</span>
+                      <span className=" pr-2 text-gray-500">Room:</span>
                       {session?.room}
                     </p>
                   )}
