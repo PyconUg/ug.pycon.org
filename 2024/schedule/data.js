@@ -47,6 +47,7 @@ export const PYCON_DAY1_SCHEDULE = [
   },
   {
     title: "Lunch Break",
+    room: "Innovation Floor",
     duration: "13:00 - 14:00",
   },
   {
@@ -55,10 +56,12 @@ export const PYCON_DAY1_SCHEDULE = [
   },
   {
     title: "Official Expo Hall Time",
+    room: "Innovation Floor",
     duration: "13:00 - 14:00",
   },
   {
     title: "Open Source Panel Session",
+    room: "Innovation Floor",
     duration: "14:00 - 15:00",
   },
   {
@@ -91,98 +94,87 @@ export const PYCON_DAY1_SCHEDULE = [
   },
   {
     title: "Closing Keynote",
+    room: "Innovation Floor",
     duration: "17:00 - 18:00",
   },
   {
     title: "Announcements and Closing",
+    room: "Innovation Floor",
     duration: "18:00 - 18:30",
   },
 ];
 
 export const PYCON_DAY2_SCHEDULE = [
   {
+    title: "Breakfast and Expo time",
+    duration: "7:00 - 10:00",
+    room: "Innovation Floor",
+  },
+  {
+    title: "State of the Community Address",
+    duration: "10:00 - 11: 00",
+    room: "Innovation Floor",
+  },
+  {
     title: "Opening Keynote",
-    duration: "09:00 - 10:00",
-    speaker: "Stephen Senkomago Musoke",
+    duration: "11:00 - 12:00",
+    room: "Innovation Floor",
   },
   {
-    title: "Breakfast",
-    duration: "10:00 - 11:00",
-    speaker: "",
+    duration: "12:00 - 13:00",
+    hasMany: true,
+    sessions: [
+      {
+        title: "Microsoft  Sponsor Talk",
+        room: "Pacific Hall",
+      },
+      {
+        title: "All Open Source Africa Workshop",
+        room: "Innovation Floor",
+      },
+    ],
   },
   {
-    title:
-      "Python for Open Source Machine Learning Projects: Insights from Outreachy Internships",
-    duration: "11:00 - 11:30",
-    speaker: "Hellen Namulinda and Kirabo Kakopo Atuhurira",
-    workshopTitle: "Django Girls Workshop",
-    workshopSpeaker: "Dorothy Kabarozi .B. and Eva Nanyonga",
-  },
-  {
-    title: "Word Embeddings: A Pythonic Delight",
-    duration: "11:30 - 12:00",
-    speaker: "Brayan Kai Mwanyumba",
-    workshopTitle: "Django Girls Workshop",
-    workshopSpeaker: "Dorothy Kabarozi .B. and Eva Nanyonga",
-  },
-  {
-    title:
-      "Harnessing the Power of Real-time Data Processing with Apache Beam and Python",
-    duration: "12:00 - 12:30",
-    speaker: "Mwangi Kabiru",
-    workshopTitle: "Django Girls Workshop",
-    workshopSpeaker: "Dorothy Kabarozi .B. and Eva Nanyonga",
-  },
-  {
-    title: "Automation & Integration Using Python",
-    duration: "12:30 - 13:00",
-    speaker: "Wesley Kambale",
-    workshopTitle: "Django Girls Workshop",
-    workshopSpeaker: "Dorothy Kabarozi .B. and Eva Nanyonga",
-  },
-
-  {
-    title: "Lunch break",
+    title: "Lunch Break",
+    room: "Innovation Floor",
     duration: "13:00 - 14:00",
-    speaker: "",
   },
   {
-    title: "Panel Session (Diversity and Inclusion)",
+    title: "Diversity and Inclusion Panel",
+    room: "Innovation Floor",
     duration: "14:00 - 15:00",
-    speaker: "",
-    workshopTitle: "Django Girls Workshop",
-    workshopSpeaker: "Dorothy Kabarozi .B. and Eva Nanyonga",
   },
   {
-    title:
-      "Using Python and Dash plotly to make interactive dashboard (virtual)",
-    duration: "15:00 - 15:30",
-    speaker: "Abdulhaq Adetunji Salako",
-    workshopTitle: "Django Girls Workshop",
-    workshopSpeaker: "Dorothy Kabarozi .B. and Eva Nanyonga",
+    hasMany: true,
+    duration: "15:00 - 16:00",
+    sessions: [
+      {
+        room: "Pacific Hall",
+        title: "Posit Workshop",
+      },
+      { title: "FundiBots Workshop", room: "Innovation Floor" },
+    ],
   },
   {
-    title:
-      "Revolutionize Your Python Development with GitHub Copilot: Tips, Tricks, and Best Practices",
-    duration: "15:30 - 16:00",
-    speaker: "Olayinka Atobiloye",
-    workshopTitle: "Django Girls Workshop",
-    workshopSpeaker: "Dorothy Kabarozi .B. and Eva Nanyonga",
-  },
-  {
-    title: "Closing Keynote",
+    hasMany: true,
     duration: "16:00 - 17:00",
-    speaker: " Monica Oyugi",
+    sessions: [
+      {
+        room: "Pacific Hall",
+        title: "Policy Workshop",
+      },
+      { title: "DataLadies Workshop", room: "Innovation Floor" },
+    ],
   },
   {
-    title: "Lightning Talks",
-    duration: "17:00 - 17:30",
-    speaker: "",
+    title: "Career Panel",
+    duration: "17:00 - 18:00",
+    room: "Innovation Floor",
   },
   {
-    title: "Outreachy 1000 Intern Celebrations",
-    duration: "17:30 - 20:00",
-    speaker: "",
+    title: "Announcements and Closing",
+    room: "Innovation Floor",
+    duration: "18:00 - 18:30",
   },
 ];
 
