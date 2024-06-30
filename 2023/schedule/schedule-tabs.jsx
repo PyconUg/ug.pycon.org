@@ -1,12 +1,12 @@
+import { Tab } from "@headlessui/react";
+import ScheduleTab from "./schedule-tab";
+import SchedulePanel from "./schedule-panel";
 import {
   PYCON_DAY1_SCHEDULE,
   PYCON_DAY2_SCHEDULE,
   PYCON_DAY3_SCHEDULE,
   Tabs,
-} from "@/components/schedule/data";
-import ScheduleTab from "@/components/schedule/schedule-tab";
-import SchedulePanel from "@/components/schedule/schedule-panel";
-import { Tab } from "@headlessui/react";
+} from "./data";
 
 export default function ScheduleTabs() {
   return (

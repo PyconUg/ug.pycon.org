@@ -20,10 +20,10 @@ import {
 import Banner from "@/components/banner";
 import { PYCONUGANDA_PROSPECTUS_2024 } from "@/2024/utils/constants";
 const NavbarLinks = [
-  // {
-  //   path: "/2024/schedule",
-  //   label: "Schedule",
-  // },
+  {
+    path: "/2024/schedule",
+    label: "Schedule",
+  },
   {
     path: "#",
     label: "Sponsors",
@@ -140,11 +140,6 @@ const NavbarLinks = [
     ],
   },
   {
-    path: "https://pyconug.blogspot.com",
-    label: "Blog",
-    external: true,
-  },
-  {
     path: "#",
     label: "Attendee Guide",
     subLinks: [
@@ -181,11 +176,12 @@ const NavbarLinks = [
           />
         ),
       },
-      // {
-      //   path: "/contact",
-      //   label: "Contact Us",
-      // },
     ],
+  },
+  {
+    path: "https://pyconug.blogspot.com",
+    label: "Blog",
+    external: true,
   },
 ];
 
@@ -206,7 +202,7 @@ export default function Example() {
         <div className="flex lg:flex-1">
           <Logo />
         </div>
-        <div className="hidden lg:flex lg:gap-x-12">
+        <div className="hidden lg:flex lg:gap-x-4">
           {NavbarLinks.map((link, index) =>
             link?.subLinks?.length ? (
               <Popover.Group className="hidden lg:flex lg:gap-x-12" key={index}>
