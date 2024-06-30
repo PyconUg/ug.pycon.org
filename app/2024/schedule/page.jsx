@@ -1,5 +1,6 @@
 "use client";
-import ScheduleTabs from "@/components/schedule/schedule-tabs";
+
+import ScheduleTabs from "@/2024/schedule/schedule-tabs";
 
 export default function SchedulePage() {
   return (
