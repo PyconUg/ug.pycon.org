@@ -28,7 +28,7 @@ stepData
             y2="30"
             stroke="black"
             strokeWidth="4"
-            stroke-linecap="round"
+            strokeLinecap="round"
           />
 
           <line
@@ -38,7 +38,7 @@ stepData
             y2="50"
             stroke="black"
             strokeWidth="3"
-            stroke-linecap="round"
+            strokeLinecap="round"
           />
 
           <line
@@ -48,7 +48,7 @@ stepData
             y2="70"
             stroke="red"
             strokeWidth="2"
-            stroke-linecap="round"
+            strokeLinecap="round"
           />
         </svg>
       </span>
