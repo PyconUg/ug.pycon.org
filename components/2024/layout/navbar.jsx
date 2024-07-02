@@ -20,10 +20,10 @@ import {
 import Banner from "@/components/banner";
 import { PYCONUGANDA_PROSPECTUS_2024 } from "@/2024/utils/constants";
 const NavbarLinks = [
-  {
-    path: "/2024/schedule",
-    label: "Schedule",
-  },
+  // {
+  //   path: "/2024/schedule",
+  //   label: "Schedule",
+  // },
   {
     path: "#",
     label: "Sponsors",
