@@ -137,6 +137,18 @@ const NavbarLinks = [
           />
         ),
       },
+      {
+        path: "/2024/community-summit",
+        label: "Community Summit",
+        description:
+          "Community summit schedule for the event",
+        icon: (
+          <UserGroupIcon
+            className="h-6 w-6 text-gray-600 group-hover:text-pyconug-lightBlue"
+            aria-hidden="true"
+          />
+        ),
+      },
     ],
   },
   {
