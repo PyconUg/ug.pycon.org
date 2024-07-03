@@ -166,7 +166,7 @@ export default function CommunitySummit() {
               <tr>
                 <td class="rounded shadow bg-cyan-700">
                   <div class="rounded text-center text-white p-2">
-                    <h4>15:00 to 15:30</h4>
+                    <h4>15:30 to 16:00</h4>
                   </div>
                 </td>
                 <td class="rounded shadow bg-white">
@@ -183,7 +183,7 @@ export default function CommunitySummit() {
               <tr>
                 <td class="rounded shadow bg-cyan-700">
                   <div class="rounded text-center text-white p-2">
-                    <h4>15:00 to 15:30</h4>
+                    <h4>16:00 to 16:30</h4>
                   </div>
                 </td>
                 <td class="rounded shadow bg-white" colSpan={'2'}>
