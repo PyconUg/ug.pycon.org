@@ -22,6 +22,8 @@ module.exports = {
         "pyconug-lightBlue": "#177E89",
         "pyconug-darkBlue": "#094C61",
         "pyconug-red": "#E32E26",
+        "muted-foreground": "#6E6E77",
+        muted: "#F4F4F5",
       },
     },
   },
