@@ -20,8 +20,21 @@ export default function CommunitySummit() {
         </div>
       </section>
 
-      <section className="mx-8 md:mx-28 max-w-screen-xl my-10 text-justify text-lg">
 
+      <section className="mx-8 md:mx-28 max-w-screen-xl my-10 text-justify text-lg">
+        <div class="container mx-auto">
+          <h2 className="text-3xl font-bold sm:text-5xl text-black">
+            About Python Community Summit
+          </h2>
+          <p className="mt-4 sm:text-xl mx-5">
+            The Python Community Summit is an annual event that brings together Python enthusiasts from around the world. It provides a platform for community members to connect, share knowledge, and collaborate on various Python-related topics. The summit features keynote sessions, workshops, panel discussions, and networking opportunities. Whether you are a beginner or an experienced Python developer, the Python Community Summit offers something for everyone. Join us and be a part of this vibrant and inclusive community!
+          </p>
+        </div>
+      </section>
+
+
+
+      <section className="mx-8 md:mx-28 max-w-screen-xl my-10 text-justify text-lg">
         <div class="container mx-auto">
           <table class="border-separate w-full mt-4" style={{ borderSpacing: '0.5rem' }}>
             <thead>
@@ -45,7 +58,7 @@ export default function CommunitySummit() {
                 </td>
                 <td class="rounded shadow bg-white">
                   <div class="p-2 text-black">
-                    <h4>Jerry Kakoza</h4>
+                    <h4>Deborah Lanyero</h4>
                   </div>
                 </td>
               </tr>
@@ -62,7 +75,7 @@ export default function CommunitySummit() {
                 </td>
                 <td class="rounded shadow bg-white">
                   <div class="p-2 text-black">
-                    <h4>Jerry Kakoza1</h4>
+                    <h4>Deborah Lanyero</h4>
                   </div>
                 </td>
               </tr>
@@ -159,7 +172,7 @@ export default function CommunitySummit() {
                 </td>
                 <td class="rounded shadow bg-white">
                   <div class="p-2 text-black">
-                    <h4>Jerry Kakoza</h4>
+                    <h4>Deborah Lanyero</h4>
                   </div>
                 </td>
               </tr>
@@ -176,7 +189,7 @@ export default function CommunitySummit() {
                 </td>
                 <td class="rounded shadow bg-white">
                   <div class="p-2 text-black">
-                    <h4>Jerry Kakoza</h4>
+                    <h4>Deborah Lanyero</h4>
                   </div>
                 </td>
               </tr>
