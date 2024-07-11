@@ -4,7 +4,7 @@ import ScheduleTabs from "@/2024/schedule/schedule-tabs";
 
 export default function SchedulePage() {
   return (
-    <main>
+    <main className="">
       {" "}
       <section className=" bg-cyan-900 text-zinc-300">
         <div className="flex flex-col justify-center items-center h-[35vh]">
@@ -15,14 +15,13 @@ export default function SchedulePage() {
           </div>
 
           <div>
-            {" "}
             <p className="text-base p-4 font-medium">
               Timetable of sessions for Pycon Uganda 2024
             </p>
           </div>
         </div>
       </section>
-      <section className="lg:mx-36 mx-4 my-16">
+      <section className="lg:px-36 px-4 py-16">
         <ScheduleTabs />
       </section>
     </main>

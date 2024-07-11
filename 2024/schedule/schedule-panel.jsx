@@ -1,14 +1,10 @@
 import { Tab } from "@headlessui/react";
-import ScheduleStep from "./schedule-step";
+import Schedule2024 from "@/components/2024/schedule";
 
 export default function SchedulePanel({ data }) {
   return (
     <Tab.Panel className="ml-4 pt-8">
-      <ol className="relative border-l border-gray-200 dark:border-gray-700 dark:text-gray-400 ">
-        {data?.map((step, index) => (
-          <ScheduleStep key={index} stepData={step} />
-        ))}
-      </ol>
+     <Schedule2024 data={data}/>
     </Tab.Panel>
   );
 }
