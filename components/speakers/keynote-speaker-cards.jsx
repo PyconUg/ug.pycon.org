@@ -9,6 +9,7 @@ export default function KeynoteSpeakers() {
 						<li key={i} className="flex flex-col items-center text-center">
 							<img className=" size-64 rounded-full object-cover" src={speaker.image} alt="" />
 							<h2 className="mt-2 text-xl font-semibold leading-8 tracking-tight text-gray-900">{speaker.name}</h2>
+							<p className="text-base leading-7 text-gray-600">{speaker.description}</p>
 							<ul role="list" className="flex gap-x-6">
 								<li>
 									<a href={speaker?.twitterUrl} className="text-gray-400 hover:text-gray-500 cursor-pointer">
