@@ -21,7 +21,7 @@ export default function SpeakersPage() {
         </div>
       </section>
       <KeynoteSpeakerCards />
-      <section className="flex md:flex-row  flex-col md:space-x-4 space-y-16 text-center md:space-y-0 justify-center mb-10">
+      <section className="flex md:flex-row  flex-col md:space-x-4 space-y-16 text-center md:space-y-0 justify-center my-10">
         <div>
           <Link
             className=" uppercase text-white bg-pyconug-lightBlue border-2 hover:bg-white hover:text-pyconug-lightBlue hover:border-pyconug-lightBlue px-12 py-4 rounded-md w-64 font-bold "
