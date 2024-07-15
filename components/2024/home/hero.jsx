@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function HeroSection() {
   return (
-    <main className="flex flex-col   md:flex-row    h-[90vh]">
+    <main className="flex flex-col   md:flex-row bg-white   h-[90vh]">
       <section className="md:w-1/2 w-full">
         <Jumbotron />
       </section>

@@ -3,7 +3,7 @@ import ToBeAnnounced from "@/components/to-be-announced";
 
 export default function Venue() {
   return (
-    <section className="my-14 ">
+    <section className="">
       <div className="py-[60px]">
         <div className=" px-4 py-4 items-center">
           <div className="mx-auto max-w-xl text-center space-y-4">

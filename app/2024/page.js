@@ -9,11 +9,11 @@ import Newsletter from "@/components/2023/home/sections/newsletter";
 
 export default function HomePage() {
   return (
-    <>
+    <div className="space-y-16 bg-[#f6f7fd]">
       <HeroSection />
       <About />
       <Tickets />
-      <div className="w-full h-[80vh] px-4">
+      {/* <div className="w-full h-[80vh] px-4">
         <iframe
           className="w-full h-full"
           width="560"
@@ -24,13 +24,13 @@ export default function HomePage() {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen
         ></iframe>
-      </div>
-      {/* <KeyNotes /> */}
+      </div> */}
+      <KeyNotes />
       {/* <ScheduleSection /> */}
       <Sponsors />
       <Venue />
       <Newsletter />
       <Contact />{" "}
-    </>
+    </div>
   );
 }

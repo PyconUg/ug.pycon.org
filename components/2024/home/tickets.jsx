@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Tickets() {
   return (
-    <section className="py-[60px] bg-[#f6f7fd]">
+    <section className=" bg-[#f6f7fd]">
       <div className="mx-auto max-w-screen-xl px-4 py-16 lg:flex lg:h-60 lg:items-center">
         <div className="mx-auto max-w-xl text-center">
           <h2 className="text-4xl text-[#0e1b4d] font-bold uppercase">
