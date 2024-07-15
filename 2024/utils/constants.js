@@ -6,6 +6,7 @@ export const PYCONUGANDA_PROSPECTUS_2024 = `https://firebasestorage.googleapis.c
 export const DIVERSITY_TRAVEL_AID_LINK_2024 = `https://forms.gle/kgYRfgFHQxdmB61A9`;
 export const DJANGO_GIRLS_REG = "https://forms.gle/ZwTRAcYzRGXjskiN7";
 export const PYLADIES_REG = "https://forms.gle/yB3yTcnpH6yQuYSH6";
+export const PYDATA_REG = "https://docs.google.com/forms/d/e/1FAIpQLSd18UYEkWRLtFgRIXgTqwvSInxoHPwdNSAUioVEY_H8piqNww/viewform?usp=sf_link";
 
 export const PYCONUGANDA_MERCH_2024 = `https://www.quicket.co.ug/events/254188-pycon-uganda-2024/?ref=algolia-search#/merchandise`;
 export const SPEAKERS_2024 = [
