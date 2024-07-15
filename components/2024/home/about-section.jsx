@@ -2,8 +2,8 @@ import { CONFERENCE_DATE, VENUE } from "@/2024/utils/constants";
 
 export default function About() {
   return (
-    <section className="bg-gray-800">
-      <div className="mx-auto max-w-screen-xl px-4 py-28 lg:flex">
+    <section className="py-10 bg-gray-800">
+      <div className="mx-auto max-w-screen-xl px-4 lg:flex">
         <div className="mx-auto max-w-xl text-white">
           <h2 className="text-3xl font-extrabold sm:text-4xl">
             About The Conference
@@ -17,7 +17,14 @@ export default function About() {
           <div className="flex flex-col md:flex-row justify-between my-8">
             <div>
               <h3 className="mt-4 text-2xl font-bold sm:text-xl">WHERE</h3>
-              <p className="mt-2 sm:leadung-relaxed max-w-md">NWSC International Resource Center<br/>Bugolobi (IREC)<br/>Plot M11 Old Portbell Road, Bugolobi<br/> P. O. Box 7053, Kampala, Uganda</p>
+              <p className="mt-2 sm:leadung-relaxed max-w-md">
+                NWSC International Resource Center
+                <br />
+                Bugolobi (IREC)
+                <br />
+                Plot M11 Old Portbell Road, Bugolobi
+                <br /> P. O. Box 7053, Kampala, Uganda
+              </p>
             </div>
             <div>
               <h3 className="mt-4 text-2xl font-bold sm:text-xl">WHEN</h3>
