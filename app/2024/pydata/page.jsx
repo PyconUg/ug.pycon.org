@@ -24,14 +24,14 @@ export default function PyData() {
           </div>
           <div className="lg:w-1/2 p-4 w-full">
             <h1 className="text-3xl">Join Our Conference!</h1>
-            <p className="mt-3">Don't miss this opportunity to expand your knowledge and connect with the data community. Register now for the PyData Conference!</p>
-            <p className="mt-3">As a conference attendee, you'll have the opportunity to:</p>
+            <p className="mt-3">Don&apos;t miss this opportunity to expand your knowledge and connect with the data community. Register now for the PyData Conference!</p>
+            <p className="mt-3">As a conference attendee, you&apos;ll have the opportunity to:</p>
             <ul className="list-disc list-inside indent-4">
               <li>Attend Keynote Sessions: Learn from industry experts and thought leaders in the field of data science.</li>
               <li>Participate in Workshops: Gain hands-on experience and practical skills in data analysis and machine learning.</li>
               <li>Network with Peers: Connect with fellow data enthusiasts and professionals to exchange ideas and collaborate on projects.</li>
             </ul>
-            <p className="mt-3 font-medium">Don't miss this fantastic opportunity to expand your knowledge and be part of the vibrant data community. Register now to join us at the PyData Conference!</p>
+            <p className="mt-3 font-medium">Don&apos;t miss this fantastic opportunity to expand your knowledge and be part of the vibrant data community. Register now to join us at the PyData Conference!</p>
           </div>
         </div>
 
@@ -39,7 +39,7 @@ export default function PyData() {
           <div className="mx-8 md:mx-28 max-w-screen-xl flex flex-col lg:flex-row mb-10">
             <div className="lg:w-full p-4">
               <h1 className="text-3xl">Become a Participant</h1>
-              <p className="mt-3">Feel free to apply and spread the word about this conference. Let's explore, analyze, and innovate together!</p>
+              <p className="mt-3">Feel free to apply and spread the word about this conference. Let&apos;s explore, analyze, and innovate together!</p>
               <div className="flex justify-center md:justify-start">
                 <Link
                   className="bg-white text-pyconug-lightBlue px-12 py-4 rounded-md w-50 mt-10"
@@ -55,15 +55,15 @@ export default function PyData() {
         <div className="mx-8 md:mx-28 max-w-screen-xl flex flex-col lg:flex-row mb-10">
           <div className="lg:w-1/2 p-4 w-full">
             <h3 className="text-xl font-bold">Do I need to know anything about data science or programming?</h3>
-            <p className="mt-3">No! This conference is for everyone interested in data science, regardless of their background. Whether you're a beginner or an experienced professional, there will be sessions and workshops suitable for all levels.</p>
+            <p className="mt-3">No! This conference is for everyone interested in data science, regardless of their background. Whether you&apos;re a beginner or an experienced professional, there will be sessions and workshops suitable for all levels.</p>
             <h3 className="text-xl font-bold mt-5">Should I bring my own laptop?</h3>
-            <p className="mt-3">It's recommended to bring your own laptop for the workshops and hands-on sessions. However, if you don't have one, there will be shared resources available for you to use.</p>
+            <p className="mt-3">It&apos;s recommended to bring your own laptop for the workshops and hands-on sessions. However, if you don&apos;t have one, there will be shared resources available for you to use.</p>
           </div>
           <div className="lg:w-1/2 p-4 w-full">
             <h3 className="text-xl font-bold">Do I need to install any software or tools beforehand?</h3>
             <p className="mt-3">Some workshops may require specific software or tools. Prior to the conference, you will receive detailed instructions on any necessary installations or preparations.</p>
             <h3 className="text-xl font-bold mt-5">Can I present my own work or research at the conference?</h3>
-            <p className="mt-3">Yes! We encourage participants to submit their work and research for presentation at the conference. It's a great opportunity to showcase your expertise and contribute to the data science community.</p>
+            <p className="mt-3">Yes! We encourage participants to submit their work and research for presentation at the conference. It&apos;s a great opportunity to showcase your expertise and contribute to the data science community.</p>
           </div>
         </div>
         {/* <div className="bg-fixed text-white bg-pyconug-lightBlue" style={{}}>
