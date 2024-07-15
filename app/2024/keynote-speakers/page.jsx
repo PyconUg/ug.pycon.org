@@ -1,4 +1,5 @@
 "use client";
+import { KEYNOTESPEAKERS_2024 } from "@/2024/speakers/keynote-speakers-data";
 import KeynoteSpeakerCards from "@/components/speakers/keynote-speaker-cards";
 import Link from "next/link";
 
@@ -20,7 +21,7 @@ export default function SpeakersPage() {
           </div>
         </div>
       </section>
-      <KeynoteSpeakerCards />
+      <KeynoteSpeakerCards data={KEYNOTESPEAKERS_2024} />
       <section className="flex md:flex-row  flex-col md:space-x-4 space-y-16 text-center md:space-y-0 justify-center my-10">
         <div>
           <Link
