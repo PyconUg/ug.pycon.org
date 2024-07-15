@@ -25,7 +25,7 @@ export default function HomePage() {
           allowFullScreen
         ></iframe>
       </div>
-      {/* <KeyNotes /> */}
+      <KeyNotes />
       {/* <ScheduleSection /> */}
       <Sponsors />
       <Venue />
