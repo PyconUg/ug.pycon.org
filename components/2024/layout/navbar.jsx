@@ -68,9 +68,9 @@ const NavbarLinks = [
     label: "Speakers",
     subLinks: [
       {
-        path: "/2024/speakers",
-        label: "PyCon Uganda 2024 Speakers",
-        description: "Get to know the speakers at PyCon Uganda 2024.",
+        path: "/2024/keynote-speakers",
+        label: "PyCon Uganda 2024 Keynote Speakers",
+        description: "Get to know the keynote speakers at PyCon Uganda 2024.",
         icon: (
           <UserGroupIcon
             className="h-6 w-6 text-gray-600 group-hover:text-pyconug-lightBlue"
@@ -78,6 +78,17 @@ const NavbarLinks = [
           />
         ),
       },
+      // {
+      //   path: "/2024/speakers",
+      //   label: "PyCon Uganda 2024 Speakers",
+      //   description: "Get to know the speakers at PyCon Uganda 2024.",
+      //   icon: (
+      //     <UserGroupIcon
+      //       className="h-6 w-6 text-gray-600 group-hover:text-pyconug-lightBlue"
+      //       aria-hidden="true"
+      //     />
+      //   ),
+      // },
     ],
   },
   {

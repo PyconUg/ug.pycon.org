@@ -23,14 +23,14 @@ export default function SpeakersPage() {
       </section>
       <KeynoteSpeakerCards data={KEYNOTESPEAKERS_2024} />
       <section className="flex md:flex-row  flex-col md:space-x-4 space-y-16 text-center md:space-y-0 justify-center my-10">
-        <div>
+        {/* <div>
           <Link
             className=" uppercase text-white bg-pyconug-lightBlue border-2 hover:bg-white hover:text-pyconug-lightBlue hover:border-pyconug-lightBlue px-12 py-4 rounded-md w-64 font-bold "
             href={"/speakers"}
           >
             View all speakers
           </Link>
-        </div>
+        </div> */}
       </section>
     </>
   );
