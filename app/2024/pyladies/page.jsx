@@ -2,30 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { PYLADIES_REG } from "@/2024/utils/constants";
 
-export default function DjangoGirls() {
+export default function PyLadies() {
   return (
     <>
-      {" "}
-      {/* <section className="bg-fixed text-zinc-300" style={{ backgroundImage: "url('/assets/images/djangogirls/dg1.png')" }}> */}
-      {/* <section className="bg-fixed text-zinc-300 bg-pyconug-lightBlue" style={{}}>
-        <div className="flex flex-col justify-center items-center h-[70vh]">
-          <div>
-            <h1 className="text-3xl font-extrabold sm:text-5xl text-white">
-              Pyladies Anniversary
-            </h1>
-          </div>
-
-          <div>
-            {" "}
-            <p className="text-white p-4 font-medium w-[60vw] text-center">
-              We are pleased to inform you that the Pyladies will be celebrating their seventh Anniversary during the Pycon Uganda 2024 conference as a way to celebrate women and the achievements they've attained over time.
-            </p>
-            <p className="text-white p-4 font-medium text-center">
-              Kindly register here if you are interested in attending.
-            </p>
-          </div>
-        </div>
-      </section> */}
       <section className="my-10 justify-center items-center text-justify text-lg">
         <div className="mx-8 md:mx-28 max-w-screen-xl flex flex-col justify-center items-center mb-10">
           <Image
