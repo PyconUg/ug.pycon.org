@@ -7,7 +7,7 @@
 This is Turborepo starter with shadcn/ui pre-configured.
 
 > [!NOTE]
-> This example uses `pnpm` as package manager.
+> This example uses `yarn` as package manager.
 
 [npm version](https://github.com/dan5py/ug.pycon.org/tree/npm)
 
@@ -23,7 +23,7 @@ Install dependencies:
 
 ```sh
 cd ug.pycon.org
-pnpm install
+yarn install
 ```
 
 ### Add ui components
@@ -31,7 +31,7 @@ pnpm install
 Use the pre-made script:
 
 ```sh
-pnpm ui:add <component-name>
+yarn ui:add <component-name>
 ```
 
 > This works just like the add command in the `shadcn/ui` CLI.
@@ -41,7 +41,7 @@ pnpm ui:add <component-name>
 Turborepo offer a simple command to add a new app:
 
 ```sh
-pnpm turbo gen workspace --name <app-name>
+yarn turbo gen workspace --name <app-name>
 ```
 
 This will create a new empty app in the `apps` directory.
@@ -49,11 +49,11 @@ This will create a new empty app in the `apps` directory.
 If you want, you can copy an existing app with:
 
 ```sh
-pnpm turbo gen workspace --name <app-name> --copy
+yarn turbo gen workspace --name <app-name> --copy
 ```
 
 > [!NOTE]
-> Remember to run `pnpm install` after copying an app.
+> Remember to run `yarn install` after copying an app.
 
 ## What's inside?
 
@@ -83,7 +83,7 @@ To build all apps and packages, run the following command:
 
 ```sh
 cd ug.pycon.org
-pnpm build
+yarn build
 ```
 
 ### Develop
@@ -92,7 +92,7 @@ To develop all apps and packages, run the following command:
 
 ```sh
 cd ug.pycon.org
-pnpm dev
+yarn dev
 ```
 
 ### Remote Caching
