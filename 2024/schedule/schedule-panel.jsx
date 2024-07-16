@@ -1,10 +1,10 @@
 import { Tab } from "@headlessui/react";
-import Schedule2024 from "@/components/2024/schedule";
+import ScheduleCalendar from "../../components/2024/schedule-calendar";
 
-export default function SchedulePanel({ data }) {
+export default function SchedulePanel({ rooms, sessions }) {
   return (
-    <Tab.Panel className="ml-4 pt-8">
-     <Schedule2024 data={data}/>
+    <Tab.Panel className="lg:-ml-44 pt-8"> 
+      <ScheduleCalendar rooms={rooms} sessions={sessions} />
     </Tab.Panel>
   );
 }

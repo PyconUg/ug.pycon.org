@@ -1,6 +1,5 @@
 "use client";
-
-import ScheduleTabs from "@/2024/schedule/schedule-tabs";
+import ScheduleTabs from '../../../2024/schedule/schedule-tabs.jsx'
 
 export default function SchedulePage() {
   return (
