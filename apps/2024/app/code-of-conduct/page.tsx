@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function CodeOfConduct() {
   return (
     <>
@@ -39,15 +41,14 @@ export default function CodeOfConduct() {
             whether it&#39;s on PEPs, patches, problems, or otherwise.
           </li>
           <li>
-            Focusing on what is best for the community. We&#39;re respectful of
-            the processes set forth in the community, and we work within them.
+            Focusing on what is best for the community. We&#39;re respectful of the
+            processes set forth in the community, and we work within them.
           </li>
           <li>
             Acknowledging time and effort. We&#39;re respectful of the volunteer
-            efforts that permeate the Python community. We&#39;re thoughtful
-            when addressing the efforts of others, keeping in mind that
-            oftentimes the labor was completed simply for the good of the
-            community.
+            efforts that permeate the Python community. We&#39;re thoughtful when
+            addressing the efforts of others, keeping in mind that oftentimes
+            the labor was completed simply for the good of the community.
           </li>
           <li>
             Being respectful of differing viewpoints and experiences. We&#39;re
@@ -56,17 +57,17 @@ export default function CodeOfConduct() {
             efforts.
           </li>
           <li>
-            Showing empathy towards other community members. We&#39;re attentive
-            in our communications, whether in person or online, and we&#39;re
-            tactful when approaching differing views.
+            Showing empathy towards other community members. We&#39;re attentive in
+            our communications, whether in person or online, and we&#39;re tactful
+            when approaching differing views.
           </li>
           <li>
             Being considerate. Members of the community are considerate of their
             peers – other Python users.
           </li>
           <li>
-            Being respectful. We&#39;re respectful of others, their positions,
-            their skills, their commitments, and their efforts.
+            Being respectful. We&#39;re respectful of others, their positions, their
+            skills, their commitments, and their efforts.
           </li>
           <li>
             Gracefully accepting constructive criticism. When we disagree, we
@@ -87,9 +88,9 @@ export default function CodeOfConduct() {
         <p>
           Every member of our community has the right to have their identity
           respected. The Python community is dedicated to providing a positive
-          experience for everyone, regardless of age, disability, physical
-          appearance, body size, ethnicity, nationality, race, religion (or lack
-          thereof), education, or socioeconomic status.
+          experience for everyone, regardless of age, disability, physical appearance, body
+          size, ethnicity, nationality, race, religion (or lack thereof),
+          education, or socioeconomic status.
         </p>
 
         <br />
@@ -255,8 +256,14 @@ export default function CodeOfConduct() {
           contact:
         </p>
         <ul className="list-disc list-inside md:list-inside">
-          <li>Lubega Mark, Chairperson - 0701 599 722</li>
-          <li>Bukirwa Halimah, Chairperson - 0789 189 583</li>
+          <li>
+            Hassan Kibirige, Chairperson -{" "}
+              <Link className="font-bold hover:underline" href="mailto:has2k1@gmail.com">has2k1@gmail.com</Link>
+          </li>
+          <li>
+            Kirabo Atuhurira, Chairperson -{" "}
+            <Link className="font-bold hover:underline" href="mailto:kiraboismyname@gmail.com">kiraboismyname@gmail.com</Link>
+          </li>
         </ul>
         <p>
           Conference staff will be happy to help participants contact
@@ -266,13 +273,13 @@ export default function CodeOfConduct() {
         </p>
         <br />
         <p>
-          <b>LICENSE:</b> This Code of Conduct is licensed under the Creative
-          Commons Attribution-ShareAlike 3.0 Unported License.
+          <b>LICENSE:</b> This Code of Conduct is licensed under the Creative Commons
+          Attribution-ShareAlike 3.0 Unported License.
         </p>
         <p>
-          <b>ATTRIBUTIONS:</b> This Code of Conduct was forked from the example
-          policy from the Geek Feminism wiki, created by the Ada Initiative and
-          other volunteers, which is under a Creative Commons Zero license
+          <b>ATTRIBUTIONS:</b> This Code of Conduct was forked from the example policy
+          from the Geek Feminism wiki, created by the Ada Initiative and other
+          volunteers, which is under a Creative Commons Zero license
         </p>
         <br />
         <p className="italic font-sans text-xl font-medium sm:text-2xl">

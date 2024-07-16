@@ -1,6 +1,4 @@
-
-import { PYCONUG_EMAIL } from "../../utils/constants";
-
+import { PYCONUG_EMAIL } from "@pycon/ui/src/2023/utils/constants";
 
 export default function ContactPage() {
   return (
@@ -20,6 +18,7 @@ export default function ContactPage() {
       </section>
       <section className="mx-8 md:mx-28 max-w-screen-xl my-10 text-justify text-lg">
         <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+          
           <form
             action={`mailto:${PYCONUG_EMAIL}`}
             method="post"

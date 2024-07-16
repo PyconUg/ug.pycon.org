@@ -1,3 +1,4 @@
+// import { DIVERSITY_FINANCIAL_AID_LINK } from "@/2024/utils/constants";
 import Link from "next/link";
 
 export default function DiversityPage() {

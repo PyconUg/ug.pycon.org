@@ -1,10 +1,11 @@
 "use client";
 import Image from "next/image";
+import TitleSection from "@pycon/ui/src/components/speakers/title-section";
+// import PageSection from "@/components/ui/sections/page-section";
+import PageSection from "@pycon/ui/src/components/sections/page-section";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import TitleSection from "@repo/ui/components/shared/speakers/title-section";
-import {KEYNOTESPEAKERS} from "@repo/ui/components/shared/speakers/keynote-speakers-data";
-import PageSection from "@repo/ui/components/shared/sections/page-section";
+import { KEYNOTESPEAKERS } from "@pycon/ui/src/components/speakers/keynote-speakers-data";
 
 export default function SpeakersPage() {
   const pathname = usePathname();
@@ -15,9 +16,7 @@ export default function SpeakersPage() {
     const speakerName = decodeURI(pathname.split("/").pop()); // Extract the speaker name from the pathname
 
     if (speakerName) {
-      const speaker = KEYNOTESPEAKERS.find(
-        (speaker) => speaker.name === speakerName,
-      );
+      const speaker = KEYNOTESPEAKERS.find((speaker) => speaker.name === speakerName);
       setSpeaker(speaker);
     }
   }, []);
@@ -35,7 +34,7 @@ export default function SpeakersPage() {
           <div>
             {" "}
             <p className="text-base p-4 font-medium">
-              View our exciting Keynote Speakers at PyCon Uganda 2023!
+            View our exciting Keynote Speakers at PyCon Uganda 2023!
             </p>
           </div>
         </div>

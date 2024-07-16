@@ -1,7 +1,7 @@
 "use client";
+import { SPEAKERS_2024 } from "@pycon/ui/src/2024/utils/constants";
+import SpeakerCard from "@pycon/ui/src/components/speakers/speaker-card";
 import Link from "next/link";
-import { SPEAKERS_2024 } from "../../utils/constants";
-import SpeakerCard from "@repo/ui/components/shared/speakers/speaker-card";
 
 export default function Speakers() {
   return (
@@ -26,9 +26,7 @@ export default function Speakers() {
       <section>
         {SPEAKERS_2024?.length == 0 ? (
           <div className="my-14 mx-8">
-            <span className="">
-              We shall be releasing the list of speakers soon!
-            </span>
+            <span className="">We shall be releasing the list of speakers soon!</span>
           </div>
         ) : (
           <>

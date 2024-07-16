@@ -1,5 +1,5 @@
 {
-  "extends": "@repo/typescript-config/nextjs.json",
+  "extends": "@pycon/typescript-config/nextjs.json",
   "compilerOptions": {
     "plugins": [
       {
@@ -10,11 +10,9 @@
   "include": [
     "next-env.d.ts",
     "next.config.js",
-    "**/*.js",
     "**/*.ts",
     "**/*.tsx",
-    "**/*.jsx",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts", "tailwind.config.js",
   ],
   "exclude": ["node_modules"]
 }

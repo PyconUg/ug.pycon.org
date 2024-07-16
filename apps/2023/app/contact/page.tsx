@@ -1,4 +1,4 @@
-import { PYCONUG_EMAIL } from "../../utils/constants";
+import { PYCONUG_EMAIL } from '@pycon/ui/src/2023/utils/constants'
 
 export default function ContactPage() {
   return (
@@ -18,6 +18,7 @@ export default function ContactPage() {
       </section>
       <section className="mx-8 md:mx-28 max-w-screen-xl my-10 text-justify text-lg">
         <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+          
           <form
             action={`mailto:${PYCONUG_EMAIL}`}
             method="post"
@@ -61,7 +62,7 @@ export default function ContactPage() {
               </label>
               <textarea
                 id="message"
-                rows={6}
+                rows="6"
                 className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
                 placeholder="Make your interest known..."
               ></textarea>

@@ -1,12 +1,10 @@
 "use client";
 import Image from "next/image";
-// import TitleSection from "@/components/speakers/title-section";
-// import PageSection from "@/components/ui/sections/page-section";
+import TitleSection from "@pycon/ui/src/components/speakers/title-section";
+import PageSection from "@pycon/ui/src/components/sections/page-section";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { SPEAKERS }  from "@repo/ui/components/shared/speakers/speakers-data";
-import TitleSection from "@repo/ui/components/shared/speakers/title-section";
-import PageSection from "@repo/ui/components/shared/sections/page-section";
+import { SPEAKERS } from "@pycon/ui/src/components/speakers/speakers-data";
 
 export default function SpeakersPage() {
   const pathname = usePathname();

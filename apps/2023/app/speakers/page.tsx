@@ -1,9 +1,6 @@
 "use client";
-import SpeakerCard from "@repo/ui/components/shared/speakers/speaker-card";
-// import SpeakerCard from "@/components/speakers/speaker-card";
-// import { SPEAKERS } from "@/components/speakers/speakers-data";
-import { SPEAKERS }  from "@repo/ui/components/shared/speakers/speakers-data";
-
+import SpeakerCard from "@pycon/ui/src/components/speakers/speaker-card";
+import { SPEAKERS } from "@pycon/ui/src/components/speakers/speakers-data";
 import Link from "next/link";
 
 export default function SpeakersPage() {

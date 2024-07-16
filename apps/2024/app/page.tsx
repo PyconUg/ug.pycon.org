@@ -1,45 +1,36 @@
-// import About from "@/components/2024/home/about-section";
-// import HeroSection from "@/components/2024/home/hero";
-// import KeyNotes from "@/components/2024/home/key-notes";
-// import Sponsors from "@/components/2024/home/sponsors";
-// import Tickets from "@/components/2024/home/tickets";
-// import Venue from "@/components/2024/home/venue";
-// import Contact from "@/components/2023/home/sections/contact";
-// import Newsletter from "@/components/2023/home/sections/newsletter";
-
-import Contact from "@repo/ui/components/shared/2023/home/sections/contact";
-import Newsletter from "@repo/ui/components/shared/2023/home/sections/newsletter";
-import About from "@repo/ui/components/shared/2024/home/about-section";
-import HeroSection from "@repo/ui/components/shared/2024/home/hero";
-import Sponsors from "@repo/ui/components/shared/2024/home/sponsors";
-import Tickets from "@repo/ui/components/shared/2024/home/tickets";
-import Venue from "@repo/ui/components/shared/2024/home/venue";
+import Contact from "@pycon/ui/src/2024/components/home/about-section"
+import HeroSection from "@pycon/ui/src/2024/components/home/hero";
+import KeyNotes from "@pycon/ui/src/2024/components/home/key-notes";
+import Sponsors from "@pycon/ui/src/2024/components/home/sponsors";
+import Tickets from "@pycon/ui/src/2024/components/home/tickets";
+import Venue from "@pycon/ui/src/2024/components/home/venue";
+import About from "@pycon/ui/src/2023/components/home/sections/contact";
+import Newsletter from "@pycon/ui/src/2023/components/home/sections/newsletter";
 
 export default function HomePage() {
   return (
-    <>
+    <div className="space-y-16 bg-[#f6f7fd]">
       <HeroSection />
       <About />
       <Tickets />
-      <div className="w-full h-[80vh] px-4">
+      {/* <div className="w-full h-[80vh] px-4">
         <iframe
           className="w-full h-full"
           width="560"
           height="315"
           src="https://www.youtube.com/embed/CaxkWrZcdQU?si=HS54xGq4b-k5gCCc&amp;controls=0"
           title="YouTube video player"
-          // frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          // allowfullscreen
           allowFullScreen
         ></iframe>
-      </div>
-      {/* <KeyNotes /> */}
+      </div> */}
+      <KeyNotes />
       {/* <ScheduleSection /> */}
       <Sponsors />
       <Venue />
       <Newsletter />
-      <Contact />
-    </>
+      <Contact />{" "}
+    </div>
   );
 }

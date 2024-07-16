@@ -1,8 +1,7 @@
 "use client";
 
-import ScheduleTabs from "@repo/ui/components/shared/schedule/schedule-tabs";
-
-// import ScheduleTabs from "@/components/schedule/schedule-tabs";
+// import ScheduleTabs from "@/2023/schedule/schedule-tabs";
+import ScheduleTabs from "@pycon/ui/src/2023/schedule/schedule-tabs";
 
 export default function SchedulePage() {
   return (
