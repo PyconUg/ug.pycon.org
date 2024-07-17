@@ -1,8 +1,9 @@
 {
     "rewrites": [
-        {"source": "/2023", "destination": "https://pyconug-turbo-2023.vercel.app"},
-        {"source": "/2023/:match*", "destination": "https://pyconug-turbo-2023.vercel.app/:match*"},
-        {"source": "/", "destination": "https://pyconug-turbo-2024.vercel.app/"},
-        {"source": "/:match*", "destination": "https://pyconug-turbo-2024.vercel.app/:match*"}
+        {"source": "/2023", "destination": "${PYCON_2023_URL}"},
+        {"source": "/2023/:match*", "destination": "${PYCON_2023_URL}/:match*"},
+        {"source": "/2024/:match*", "destination": "${PYCON_2024_URL}/:match*"},
+        {"source": "/", "destination": "${PYCON_MAIN_URL}"},
+        {"source": "/:match*", "destination": "${PYCON_2024_URL}/:match*"}
     ]
 }

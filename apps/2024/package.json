@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbo",
-    "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "build:vercel": "node generate-vercel-config.js",
+    "build": "npm run build:vercel && next build"
   },
   "dependencies": {
     "@pycon/ui": "*",
