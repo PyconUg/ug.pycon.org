@@ -40,7 +40,7 @@ export const SPEAKERS_2024 = [
 		image: "/2024/speakers/Felix Jumason.png",
 	},
 	{
-		name: "HAssan Bahati",
+		name: "Hassan Bahati",
 		image: "/2024/speakers/HAssan Bahati.png",
 	},
 	{
