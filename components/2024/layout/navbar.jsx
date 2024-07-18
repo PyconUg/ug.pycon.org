@@ -68,7 +68,7 @@ const NavbarLinks = [
     label: "Speakers",
     subLinks: [
       {
-        path: "/2024/keynote-speakers",
+        path: "/2024/speakers",
         label: "PyCon Uganda 2024 Keynote Speakers",
         description: "Get to know the keynote speakers at PyCon Uganda 2024.",
         icon: (

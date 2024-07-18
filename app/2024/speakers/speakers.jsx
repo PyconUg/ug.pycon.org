@@ -1,7 +1,7 @@
 "use client";
-import { SPEAKERS_2024 } from "@/2024/utils/constants";
-import SpeakerCard from "@/components/speakers/speaker-card";
-import Link from "next/link";
+import { SPEAKERS_2024 } from "@/2024/speakers/speakers-data";
+import SpeakerCards from "@/components/speakers/keynote-speaker-cards";
+import { KEYNOTESPEAKERS_2024 } from "@/2024/speakers/keynote-speakers-data";
 
 export default function Speakers() {
   return (
@@ -15,7 +15,6 @@ export default function Speakers() {
           </div>
 
           <div>
-            {" "}
             <p className="text-base p-4 font-medium">
               Discover the Voices of PyCon Uganda 2024!
             </p>
@@ -30,22 +29,24 @@ export default function Speakers() {
           </div>
         ) : (
           <>
-            {" "}
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 my-16 grid-cols-1 mx-10 gap-y-10">
-              {SPEAKERS_2024?.map((speaker, index) => {
-                return <SpeakerCard speaker={speaker} key={index} />;
-              })}
+            <div className="relative mt-4">
+                <div className="absolute inset-0 flex items-center" aria-hidden="true">
+                  <div className="w-full" />
+                </div>
+                <div className="relative flex justify-center">
+                  <span className="px-3 text-3xl font-semibold leading-6 text-pyconug-lightBlue">KEYNOTE SPEAKERS</span>
+                </div>
             </div>
-            <div className="flex md:flex-row  flex-col md:space-x-4 space-y-16 text-center md:space-y-0 justify-center mb-10">
-              <div>
-                <Link
-                  className=" uppercase text-white bg-pyconug-lightBlue border-2 hover:bg-white hover:text-pyconug-lightBlue hover:border-pyconug-lightBlue px-12 py-4 rounded-md w-64 font-bold "
-                  href={"/keynote-speakers"}
-                >
-                  View Keynote speakers
-                </Link>
-              </div>
+            <SpeakerCards data={KEYNOTESPEAKERS_2024}/>
+            <div className="relative mt-4">
+                <div className="absolute inset-0 flex items-center" aria-hidden="true">
+                  <div className="w-full border-t border-pyconug-darkBlue border-8" />
+                </div>
+                <div className="relative flex justify-center">
+                  <span className="bg-white px-3 text-3xl font-semibold leading-6 text-pyconug-lightBlue">MORE SPEAKERS</span>
+                </div>
             </div>
+            <SpeakerCards data={SPEAKERS_2024} />
           </>
         )}
       </section>
