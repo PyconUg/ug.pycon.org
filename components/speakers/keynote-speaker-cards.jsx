@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function KeynoteSpeakers({ data }) {
   return (
     <div className="py-4">
@@ -8,10 +9,12 @@ export default function KeynoteSpeakers({ data }) {
         >
           {data?.map((speaker, i) => (
             <li key={i} className="flex flex-col items-center text-center">
-              <img
-                className=" size-64 rounded-full object-cover"
+              <Image
+                className="rounded-full object-cover"
                 src={speaker.image}
                 alt=""
+                width={200}
+                height={200}
               />
               <h2 className="mt-2 text-xl font-semibold leading-8 tracking-tight text-gray-900">
                 {speaker.name}
