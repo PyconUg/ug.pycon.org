@@ -8,663 +8,1050 @@ export const Tabs = [
 
 export const PYCON_DAY1_SCHEDULE = [
   {
-    time: "7:00 - 10:00",
-    sessions: {
-      innovationFloor: {
-        title: "Breakfast and Expo time",
-      },
-    },
+    id: 1,
+    title: "Breakfast and Expo time",
+    room: [
+      "innovationFloor",
+      "voltaRoom",
+      "pacificHall",
+      "videoConferenceRoom",
+    ],
+    start: "7:00",
+    end: "10:00",
+    tag: "break",
   },
   {
-    time: "10:00 - 11:00",
-    sessions: {
-      innovationFloor: {
-        title: "Welcome and PyCon Official Opening Address",
-      },
-    },
+    id: 2,
+    title: "Welcome and PyCon Official Opening Address",
+    room: "innovationFloor",
+    start: "10:00",
+    end: "11:00",
   },
   {
-    time: "11:00 - 12:00",
-    sessions: {
-      innovationFloor: {
-        title: "Plenary Address from Government Official",
-      },
-    },
+    id: 3,
+    title: "Plenary Address from Government Official",
+    room: "innovationFloor",
+    start: "11:00",
+    end: "12:00",
   },
   {
-    time: "12:00 - 13:00",
-    sessions: {
-      pacificHall: {
-        title: "Pulitzer Center Sponsor Talk",
-      },
-      innovationFloor: {
-        title: "Chaos Africa Sponsor Talk",
-      },
-      voltaRoom: {
-        title:
-          "Community Summit - Harnessing Collective Intelligence: Developing and Utilizing Data Science Communities.",
-        speaker: "Bernice Omiunu",
-      },
-      videoConferenceRoom: {
-        title: "Open Source Sprints",
-      },
-    },
+    id: 4,
+    title: "Pulitzer Center Sponsor Talk",
+    room: "pacificHall",
+    start: "12:00",
+    end: "13:00",
   },
   {
-    time: "13:00 - 14:00",
-    sessions: {
-      innovationFloor: {
-        title: "Lunch Break",
-      },
-      pacificHall: {
-        title: "Official Expo Hall Time",
-      },
-    },
+    id: 5,
+    title: "Chaos Africa Sponsor Talk",
+    room: "innovationFloor",
+    start: "12:00",
+    end: "13:00",
   },
   {
-    time: "14:00 - 15:00",
-    sessions: {
-      innovationFloor: {
-        title: "Open Source Panel Session",
-      },
-    },
+    id: 6,
+    title: "Open Source Sprints",
+    room: "videoConferenceRoom",
+    start: "10:00",
+    end: "13:00",
+    tag: "opensource-sprints",
   },
   {
-    time: "15:00 - 16:00",
-    sessions: {
-      pacificHall: {
-        title: "Crane Cloud Workshop",
-      },
-      innovationFloor: {
-        title: "MTN MoMo Workshop",
-      },
-      voltaRoom: {
-        title:
-          "From Workshops to Masterminds: Building a thriving Python Community with the Python Ho User Group.",
-        speaker: "Kafui Alordo",
-      },
-    },
+    id: 7,
+    title: "Open Source Sprints",
+    room: "videoConferenceRoom",
+    start: "14:00",
+    end: "17:00",
+    tag: "opensource-sprints",
   },
   {
-    time: "16:00 - 17:00",
-    sessions: {
-      pacificHall: {
-        title: "CEDAT Workshop",
-      },
-      innovationFloor: {
-        title: "Stanbic Workshop",
-      },
-      voltaRoom: {
-        title:
-          "Empowering Diverse Communities with Python: Insights from Mombasa, Kenya.",
-        speaker: "Chris N. Achinga",
-      },
-    },
+    id: 8,
+    title: "Lunch Break",
+    room: [
+      "innovationFloor",
+      "voltaRoom",
+      "pacificHall",
+      "videoConferenceRoom",
+    ],
+    start: "13:00",
+    end: "14:00",
+  },
+
+  {
+    id: 10,
+    title: "Open Source Panel Session",
+    room: "innovationFloor",
+    start: "14:00",
+    end: "15:00",
   },
   {
-    time: "17:00 - 18:00",
-    sessions: {
-      innovationFloor: {
-        title: "Closing Keynote",
-      },
-    },
+    id: 11,
+    title: "Crane Cloud Workshop",
+    room: "pacificHall",
+    start: "15:00",
+    end: "16:00",
   },
   {
-    time: "18:00 - 18:30",
-    sessions: {
-      innovationFloor: {
-        title: "Announcements and Closing",
-      },
-    },
+    id: 12,
+    title: "MTN MoMo Workshop",
+    room: "innovationFloor",
+    start: "15:00",
+    end: "16:00",
+  },
+  {
+    id: 13,
+    title:
+      "From Workshops to Masterminds: Building a thriving Python Community with the Python Ho User Group.",
+    room: "voltaRoom",
+    start: "15:00",
+    end: "16:00",
+    speaker: "Kafui Alordo",
+  },
+  {
+    id: 14,
+    title: "CEDAT Workshop",
+    room: "pacificHall",
+    start: "16:00",
+    end: "17:00",
+  },
+  {
+    id: 15,
+    title: "Stanbic Workshop",
+    room: "innovationFloor",
+    start: "16:00",
+    end: "17:00",
+  },
+
+  {
+    id: 17,
+    title: "Closing Keynote",
+    room: "innovationFloor",
+    start: "17:00",
+    end: "18:00",
+  },
+  {
+    id: 18,
+    title: "Announcements and Closing",
+    room: "innovationFloor",
+    start: "18:00",
+    end: "18:30",
+  },
+  {
+    id: 18,
+    title: "Welcome remarks and Introductions",
+    room: "voltaRoom",
+    start: "10:00",
+    end: "11:00",
+    speaker: "Deborah Lanyero",
+    tag: "community-summit",
+  },
+  {
+    id: 19,
+    title: "Keynote Session",
+    room: "voltaRoom",
+    start: "11:00",
+    end: "12:00",
+    speaker: "Deborah Lanyero",
+    tag: "community-summit",
+  },
+  {
+    id: 20,
+    title:
+      "From Workshops to Masterminds: Building a thriving Python Community with the Python Ho User Group.",
+    room: "voltaRoom",
+    start: "12:00",
+    end: "12:30",
+    speaker: "Kafui Alordo",
+    tag: "community-summit",
+  },
+  {
+    id: 21,
+    title:
+      "Empowering Diverse Communities with Python: Insights from Mombasa, Kenya.",
+    room: "voltaRoom",
+    start: "12:30",
+    end: "13:00",
+    speaker: "Chris N. Achinga",
+    tag: "community-summit",
+  },
+  {
+    id: 22,
+    title:
+      "Harnessing Collective Intelligence: Developing and Utilizing Data Science Communities",
+    room: "voltaRoom",
+    start: "14:00",
+    end: "14:30",
+    speaker: "Bernice Omiunu",
+    tag: "community-summit",
+  },
+  {
+    id: 23,
+    title: "OpenSource at Pykampala community",
+    room: "voltaRoom",
+    start: "14:30",
+    end: "15:00",
+    speaker: "Tobias Higenyi",
+    tag: "community-summit",
+  },
+  {
+    id: 24,
+    title: "Discussion on Community way forward",
+    room: "voltaRoom",
+    start: "15:00",
+    end: "16:00",
+    speaker: "Deborah Lanyero",
+    tag: "community-summit",
+  },
+  {
+    id: 25,
+    title: "Closing Remarks and End",
+    room: "voltaRoom",
+    start: "16:00",
+    end: "16:30",
+    tag: "community-summit",
+  },
+  {
+    id: 26,
+    title: "Microsoft Sponsor Talk",
+    room: "pacificHall",
+    start: "11:00",
+    end: "12:00",
+  },
+  {
+    id: 27,
+    title: "Posit Workshop",
+    room: "pacificHall",
+    start: "14:00",
+    end: "15:00",
   },
 ];
 
 export const PYCON_DAY2_SCHEDULE = [
   {
-    time: "7:00 - 10:00",
-    sessions: {
-      innovationFloor: {
-        title: "Breakfast and Expo time",
-      },
-    },
+    id: 1,
+    title: "Breakfast and Expo time",
+    room: [
+      "innovationFloor",
+      "voltaRoom",
+      "pacificHall",
+      "videoConferenceRoom",
+    ],
+    start: "7:00",
+    end: "10:00",
   },
   {
-    time: "10:00 - 11:00",
-    sessions: {
-      innovationFloor: {
-        title: "State of the Community Address",
-      },
-    },
+    id: 2,
+    title: "State of the Community Address",
+    room: "innovationFloor",
+    start: "10:00",
+    end: "11:00",
   },
   {
-    time: "11:00 - 12:00",
-    sessions: {
-      innovationFloor: {
-        title: "Opening Keynote",
-      },
-    },
+    id: 3,
+    title: "Opening Keynote",
+    room: "innovationFloor",
+    start: "11:00",
+    end: "12:00",
+  },
+
+  {
+    id: 5,
+    title: "All Open Source Africa Workshop",
+    room: "innovationFloor",
+    start: "12:00",
+    end: "13:00",
   },
   {
-    time: "12:00 - 13:00",
-    sessions: {
-      pacificHall: {
-        title: "Microsoft Sponsor Talk",
-      },
-      innovationFloor: {
-        title: "All Open Source Africa Workshop",
-      },
-    },
+    id: 6,
+    title: "Lunch Break",
+    room: [
+      "innovationFloor",
+      "voltaRoom",
+      "pacificHall",
+      "videoConferenceRoom",
+    ],
+    start: "13:00",
+    end: "14:00",
   },
   {
-    time: "13:00 - 14:00",
-    sessions: {
-      innovationFloor: {
-        title: "Lunch Break",
-      },
-    },
+    id: 7,
+    title: "Diversity and Inclusion Panel",
+    room: "innovationFloor",
+    start: "14:00",
+    end: "15:00",
+  },
+
+  {
+    id: 9,
+    title: "FundiBots Workshop",
+    room: "innovationFloor",
+    start: "15:00",
+    end: "16:00",
   },
   {
-    time: "14:00 - 15:00",
-    sessions: {
-      innovationFloor: {
-        title: "Diversity and Inclusion Panel",
-      },
-    },
+    id: 10,
+    title: "Policy Workshop",
+    room: "pacificHall",
+    start: "16:00",
+    end: "17:00",
   },
   {
-    time: "15:00 - 16:00",
-    sessions: {
-      pacificHall: {
-        title: "Posit Workshop",
-      },
-      innovationFloor: {
-        title: "FundiBots Workshop",
-      },
-    },
+    id: 11,
+    title: "DataLadies Workshop",
+    room: "innovationFloor",
+    start: "16:00",
+    end: "17:00",
   },
   {
-    time: "16:00 - 17:00",
-    sessions: {
-      pacificHall: {
-        title: "Policy Workshop",
-      },
-      innovationFloor: {
-        title: "DataLadies Workshop",
-      },
-    },
+    id: 12,
+    title: "Career Panel",
+    room: "innovationFloor",
+    start: "17:00",
+    end: "18:00",
   },
   {
-    time: "17:00 - 18:00",
-    sessions: {
-      innovationFloor: {
-        title: "Career Panel",
-      },
-    },
+    id: 13,
+    title: "Announcements and Closing",
+    room: "innovationFloor",
+    start: "18:00",
+    end: "18:30",
+  },
+
+  {
+    id: 15,
+    title: "Welcome Address",
+    room: "voltaRoom",
+    start: "9:00",
+    end: "9:30",
+    tag: "django-girls",
   },
   {
-    time: "18:00 - 18:30",
-    sessions: {
-      innovationFloor: {
-        title: "Announcements and Closing",
-      },
-    },
+    id: 16,
+    title: "Keynote",
+    room: "voltaRoom",
+    start: "9:30",
+    end: "10:00",
+    tag: "django-girls",
+  },
+  {
+    id: 17,
+    title: "Dive into Python",
+    room: "voltaRoom",
+    start: "10:00",
+    end: "11:00",
+    tag: "django-girls",
+  },
+
+  {
+    id: 19,
+    title: "Dive into Django",
+    room: "voltaRoom",
+    start: "11:00",
+    end: "13:00",
+    tag: "django-girls",
+  },
+  {
+    id: 20,
+    title: "Lunch Break",
+    room: [
+      "innovationFloor",
+      "voltaRoom",
+      "pacificHall",
+      "videoConferenceRoom",
+    ],
+    start: "13:00",
+    end: "14:00",
+    tag: "django-girls",
+  },
+  {
+    id: 21,
+    title: "More Django and Deployment",
+    room: "voltaRoom",
+    start: "14:00",
+    end: "16:45",
+    tag: "django-girls",
+  },
+  {
+    id: 22,
+    title: "Break",
+    room: "voltaRoom",
+    start: "16:45",
+    end: "17:00",
+    tag: "django-girls",
+  },
+  {
+    id: 23,
+    title: "Fixing Bugs and AOB",
+    room: "voltaRoom",
+    start: "17:00",
+    end: "17:30",
+    tag: "django-girls",
+  },
+  {
+    id: 24,
+    title: "Wrap up and announcements and photoshoot",
+    room: "voltaRoom",
+    start: "17:30",
+    end: "18:00",
+    tag: "django-girls",
+  },
+  {
+    id: 24,
+    title: "PyData Workshops",
+    room: "pacificHall",
+    start: "10:00",
+    end: "13:00",
+    tag: "pydata",
+  },
+  {
+    id: 24,
+    title: "PyData Workshops",
+    room: "pacificHall",
+    start: "14:00",
+    end: "16:00",
+    tag: "pydata",
   },
 ];
 
 export const PYCON_DAY3_SCHEDULE = [
   {
-    time: "7:00 - 10:00",
-    sessions: {
-      innovationFloor: {
-        title: "Breakfast and Expo time",
-      },
-    },
+    id: 1,
+    title: "Registration and Expo time",
+    room: [
+      "innovationFloor",
+      "voltaRoom",
+      "pacificHall",
+      "videoConferenceRoom",
+    ],
+    start: "8:00",
+    end: "9:00",
+    speaker: null,
   },
   {
-    time: "10:00 - 11:00",
-    sessions: {
-      innovationFloor: {
-        title: "Opening Keynote",
-      },
-    },
+    id: 2,
+    title: "Opening Keynote",
+    room: "innovationFloor",
+    start: "9:00",
+    end: "10:00",
+    speaker: null,
   },
   {
-    time: "11:00 - 11:30",
-    sessions: {
-      pacificHall: {
-        title:
-          "Web: FastDjango: Conjuring Powerful APIs with the Sorcery of Django Ninja",
-        speaker: "Julius Boakye",
-      },
-      innovationFloor: {
-        title:
-          "Building SMART Recommendation Systems in Python (Using intellikit)",
-        speaker: "Arthur Kakande",
-      },
-      voltaRoom: {
-        title: "Serving TensorFlow Models with FastAPI",
-        speaker: "Wesley Kambale",
-      },
-    },
+    id: 101,
+    title: "Break tea",
+    room: [
+      "innovationFloor",
+      "voltaRoom",
+      "pacificHall",
+      "videoConferenceRoom",
+    ],
+    start: "10:00",
+    end: "11:00",
+    speaker: null,
   },
   {
-    time: "11:30 - 12:00",
-    sessions: {
-      pacificHall: {
-        title: "Full Stack Python Web Dev? Introducing Reflex",
-        speaker: "Ssali Jonathan Kiggundu",
-      },
-    },
+    id: 3,
+    title:
+      "Web: FastDjango: Conjuring Powerful APIs with the Sorcery of Django Ninja",
+    room: "pacificHall",
+    start: "11:00",
+    end: "11:30",
+    speaker: "Julius Boakye",
   },
   {
-    time: "12:00 - 12:30",
-    sessions: {
-      pacificHall: {
-        title:
-          "Core Principles: Exploring Asynchronous IO Patterns in Python: Strategies for Enhanced Performance and Scalability",
-        speaker: "Angufibo Lincoln",
-      },
-      innovationFloor: {
-        title: "Explainable AI with Python",
-        speaker: "Brayan Mwanyumba",
-      },
-      voltaRoom: {
-        title:
-          "Python with Kafka: Get started on modern stream processing with Python",
-        speaker: "Mark Lubega",
-      },
-    },
+    id: 4,
+    title: "Building SMART Recommendation Systems in Python (Using intellikit)",
+    room: "innovationFloor",
+    start: "11:00",
+    end: "11:30",
+    speaker: "Arthur Kakande",
   },
   {
-    time: "12:30 - 13:00",
-    sessions: {
-      pacificHall: {
-        title: "End-to-end testing with Selenium and Python",
-        speaker: "Victoria Mutai",
-      },
-    },
+    id: 5,
+    title: "Serving TensorFlow Models with FastAPI",
+    room: "voltaRoom",
+    start: "11:00",
+    end: "12:00",
+    speaker: "Wesley Kambale",
   },
   {
-    time: "13:00 - 14:00",
-    sessions: {
-      innovationFloor: {
-        title: "Lunch Break",
-      },
-    },
+    id: 6,
+    title: "Full Stack Python Web Dev? Introducing Reflex",
+    room: "pacificHall",
+    start: "11:30",
+    end: "12:00",
+    speaker: "Ssali Jonathan Kiggundu",
   },
   {
-    time: "14:00 - 14:30",
-    sessions: {
-      innovationFloor: {
-        title: "Official Expo Hall Time",
-      },
-    },
+    id: 7,
+    title:
+      "Core Principles: Exploring Asynchronous IO Patterns in Python: Strategies for Enhanced Performance and Scalability",
+    room: "pacificHall",
+    start: "12:00",
+    end: "12:30",
+    speaker: "Angufibo Lincoln",
   },
   {
-    time: "14:30 - 15:00",
-    sessions: {
-      pacificHall: {
-        title:
-          "Dive into the world of Explainable AI (XAI) with Python, exploring how to make AI models transparent and understandable, fostering trust and ethical use in AI applications",
-        speaker: "Brayan Mwanyumba",
-      },
-      innovationFloor: {
-        title: "Click It & Script It: Automating Your Desktop with PyAutoGUI",
-        speaker: "Collins Mesue",
-      },
-      voltaRoom: {
-        title: "Data to Dialogue: develop an end-to-end RAG application",
-        speaker: "Bethany Jepchumba",
-      },
-      videoConferenceRoom: {
-        title: "Pulitzer Center Sponsor Workshop",
-      },
-    },
+    id: 8,
+    title: "Explainable AI with Python",
+    room: "innovationFloor",
+    start: "12:00",
+    end: "12:30",
+    speaker: "Brayan Mwanyumba",
   },
   {
-    time: "15:00 - 15:30",
-    sessions: {
-      pacificHall: {
-        title: "Efficient Integration Testing using TestContainers",
-        speaker: "Sameer Shukla",
-      },
-    },
+    id: 9,
+    title:
+      "Python with Kafka: Get started on modern stream processing with Python",
+    room: "voltaRoom",
+    start: "12:00",
+    end: "13:00",
+    speaker: "Mark Lubega",
   },
   {
-    time: "15:30 - 16:00",
-    sessions: {
-      pacificHall: {
-        title: "Revolutioned. Whats New in Python 3.10",
-        speaker: "Allan Kiche",
-      },
-      innovationFloor: {
-        title:
-          "Leveraging Kafka Streams: Real-time Logging and Monitoring for Django Application",
-        speaker: "Okot Daniel",
-      },
-      voltaRoom: {
-        title: "Introduction to Computer Vision in Python",
-        speaker: "Baker Sentamu",
-      },
-    },
+    id: 10,
+    title: "End-to-end testing with Selenium and Python",
+    room: "pacificHall",
+    start: "12:30",
+    end: "13:00",
+    speaker: "Victoria Mutai",
   },
   {
-    time: "16:00 - 16:30",
-    sessions: {
-      pacificHall: {
-        title: "Beginner's Guide to Data Orchestration with Apache Airflow",
-        speaker: "Okumu Justine",
-      },
-    },
+    id: 11,
+    title: "Lunch Break",
+    room: [
+      "innovationFloor",
+      "voltaRoom",
+      "pacificHall",
+      "videoConferenceRoom",
+    ],
+    start: "13:00",
+    end: "14:00",
+    speaker: null,
   },
   {
-    time: "16:30 - 17:30",
-    sessions: {
-      innovationFloor: {
-        title: "Closing Keynote",
-      },
-    },
+    id: 12,
+    title: "Official Expo Hall Time",
+    room: "innovationFloor",
+    start: "14:00",
+    end: "14:30",
+    speaker: null,
   },
   {
-    time: "17:30 - 18:00",
-    sessions: {
-      innovationFloor: {
-        title: "Announcements and Closing",
-      },
-    },
+    id: 13,
+    title:
+      "Dive into the world of Explainable AI (XAI) with Python, exploring how to make AI models transparent and understandable, fostering trust and ethical use in AI applications",
+    room: "pacificHall",
+    start: "14:30",
+    end: "15:00",
+    speaker: "Brayan Mwanyumba",
+  },
+  {
+    id: 14,
+    title: "Click It & Script It: Automating Your Desktop with PyAutoGUI",
+    room: "innovationFloor",
+    start: "14:30",
+    end: "15:00",
+    speaker: "Collins Mesue",
+  },
+  {
+    id: 15,
+    title: "Data to Dialogue: develop an end-to-end RAG application",
+    room: "voltaRoom",
+    start: "14:00",
+    end: "15:00",
+    speaker: "Bethany Jepchumba",
+  },
+  {
+    id: 16,
+    title: "Pulitzer Center Sponsor Workshop",
+    room: "videoConferenceRoom",
+    start: "14:30",
+    end: "15:00",
+    speaker: null,
+  },
+  {
+    id: 17,
+    title: "Efficient Integration Testing using TestContainers",
+    room: "pacificHall",
+    start: "15:00",
+    end: "15:30",
+    speaker: "Sameer Shukla",
+  },
+  {
+    id: 18,
+    title: "Revolutioned. Whats New in Python 3.10",
+    room: "pacificHall",
+    start: "15:30",
+    end: "16:00",
+    speaker: "Allan Kiche",
+  },
+  {
+    id: 19,
+    title:
+      "Leveraging Kafka Streams: Real-time Logging and Monitoring for Django Application",
+    room: "innovationFloor",
+    start: "15:30",
+    end: "16:00",
+    speaker: "Okot Daniel",
+  },
+  {
+    id: 20,
+    title: "Introduction to Computer Vision in Python",
+    room: "voltaRoom",
+    start: "15:00",
+    end: "16:00",
+    speaker: "Baker Sentamu",
+  },
+  {
+    id: 21,
+    title: "Beginner's Guide to Data Orchestration with Apache Airflow",
+    room: "pacificHall",
+    start: "16:00",
+    end: "16:30",
+    speaker: "Okumu Justine",
+  },
+  {
+    id: 22,
+    title: "Closing Keynote",
+    room: "innovationFloor",
+    start: "16:30",
+    end: "17:30",
+    speaker: null,
+  },
+  {
+    id: 23,
+    title: "Announcements and Closing",
+    room: "innovationFloor",
+    start: "17:30",
+    end: "18:00",
+    speaker: null,
   },
 ];
 
 export const PYCON_DAY4_SCHEDULE = [
   {
-    time: "7:00 - 10:00",
-    sessions: {
-      innovationFloor: {
-        title: "Breakfast and Expo time",
-      },
-    },
+    id: 1,
+    title: "Registration and Expo time",
+    room: [
+      "innovationFloor",
+      "voltaRoom",
+      "pacificHall",
+      "videoConferenceRoom",
+    ],
+    start: "8:00",
+    end: "9:00",
+    speaker: null,
   },
   {
-    time: "10:00 - 11:00",
-    sessions: {
-      innovationFloor: {
-        title: "Opening Keynote",
-      },
-    },
+    id: 2,
+    title: "Opening Keynote",
+    room: "innovationFloor",
+    start: "9:00",
+    end: "10:00",
+    speaker: null,
   },
   {
-    time: "11:00 - 11:30",
-    sessions: {
-      pacificHall: {
-        title: "Deploying Python on Serverless Infrastructure for Free",
-        speaker: "Kayondo Edward",
-      },
-      innovationFloor: {
-        title: "Build LLM-powered Web Apps with Django and Gemini API",
-        speaker: "Wesley Kambale",
-      },
-      voltaRoom: {
-        title: "Guide to Test-Driven Development using PyTest",
-        speaker: "Doki Golder Sylivia",
-      },
-    },
+    id: 101,
+    title: "Break tea",
+    room: [
+      "innovationFloor",
+      "voltaRoom",
+      "pacificHall",
+      "videoConferenceRoom",
+    ],
+    start: "10:00",
+    end: "11:00",
+    speaker: null,
   },
   {
-    time: "11:30 - 12:00",
-    sessions: {
-      pacificHall: {
-        title:
-          "Exploring Conversational AI: Crafting AI-Powered Django Apps with Gemini",
-        speaker: "Hassan Bahati",
-      },
-    },
+    id: 3,
+    title: "Deploying Python on Serverless Infrastructure for Free",
+    room: "pacificHall",
+    start: "11:00",
+    end: "11:30",
+    speaker: "Kayondo Edward",
   },
   {
-    time: "12:00 - 12:30",
-    sessions: {
-      pacificHall: {
-        title:
-          "From Syntax to Solutions: Mastering Technical Writing for Developers",
-        speaker: "Fanny Nyayic",
-      },
-      innovationFloor: {
-        title: "API 101 API fundamentals",
-        speaker: "Felix Jumason",
-      },
-      voltaRoom: {
-        title:
-          "Integrating Python and Google Gemini: Crafting Cutting-Edge AI Applications",
-        speaker: "Julius Boakye",
-      },
-    },
+    id: 4,
+    title: "Build LLM-powered Web Apps with Django and Gemini API",
+    room: "innovationFloor",
+    start: "11:00",
+    end: "11:30",
+    speaker: "Wesley Kambale",
   },
   {
-    time: "12:30 - 13:00",
-    sessions: {
-      pacificHall: {
-        title:
-          "Python in Web3: Libraries, Techniques, and Local Dev Challenges",
-        speaker: "Oliseh Genesis",
-      },
-    },
+    id: 5,
+    title: "Guide to Test-Driven Development using PyTest",
+    room: "voltaRoom",
+    start: "11:00",
+    end: "12:00",
+    speaker: "Doki Golder Sylivia",
   },
   {
-    time: "13:00 - 14:00",
-    sessions: {
-      innovationFloor: {
-        title: "Lunch Break",
-      },
-    },
+    id: 6,
+    title:
+      "Exploring Conversational AI: Crafting AI-Powered Django Apps with Gemini",
+    room: "pacificHall",
+    start: "11:30",
+    end: "12:00",
+    speaker: "Hassan Bahati",
   },
   {
-    time: "14:00 - 14:30",
-    sessions: {
-      innovationFloor: {
-        title: "Official Expo Hall Time",
-      },
-    },
+    id: 7,
+    title:
+      "From Syntax to Solutions: Mastering Technical Writing for Developers",
+    room: "pacificHall",
+    start: "12:00",
+    end: "12:30",
+    speaker: "Fanny Nyayic",
   },
   {
-    time: "14:30 - 15:00",
-    sessions: {
-      pacificHall: {
-        title: "Python for C2 (Command and Control) Operations",
-        speaker: "Salim Abdella",
-      },
-      innovationFloor: {
-        title: "Crafting Ubiquity: A Model's Odyssey",
-        speaker: "Kayongo Johnson Brian",
-      },
-      voltaRoom: {
-        title: "Behind the scenes of an Ads Prediction System",
-        speaker: "Bunmi Akinremi",
-      },
-    },
+    id: 8,
+    title: "API 101 API fundamentals",
+    room: "innovationFloor",
+    start: "12:00",
+    end: "12:30",
+    speaker: "Felix Jumason",
   },
   {
-    time: "15:00 - 15:30",
-    sessions: {
-      pacificHall: {
-        title: "Building and Consuming APIs with Python",
-        speaker: "Felix Jumason",
-      },
-    },
+    id: 9,
+    title:
+      "Integrating Python and Google Gemini: Crafting Cutting-Edge AI Applications",
+    room: "voltaRoom",
+    start: "12:00",
+    end: "13:00",
+    speaker: "Julius Boakye",
   },
   {
-    time: "15:30 - 16:00",
-    sessions: {
-      pacificHall: {
-        title: "Django Rest Framework with J2J architecture",
-        speaker: "Tumusiime Ezra",
-      },
-      innovationFloor: {
-        title: "Train & Debug A model with Responsible AI Dashboard",
-        speaker: "Anthony Byansi",
-      },
-      voltaRoom: {
-        title: "GitHub Sponsor Student Workshop",
-        speaker: "Allan Kiche and Brayan Kai Mwanyumba",
-      },
-    },
+    id: 10,
+    title: "Python in Web3: Libraries, Techniques, and Local Dev Challenges",
+    room: "pacificHall",
+    start: "12:30",
+    end: "13:00",
+    speaker: "Oliseh Genesis",
   },
   {
-    time: "16:00 - 16:30",
-    sessions: {
-      pacificHall: {
-        title: "Unlock Python's Potential: Serverless for Speed and Security",
-        speaker: "Mirembe Rebecca Peace",
-      },
-    },
+    id: 11,
+    title: "Lunch Break",
+    room: [
+      "innovationFloor",
+      "voltaRoom",
+      "pacificHall",
+      "videoConferenceRoom",
+    ],
+    start: "13:00",
+    end: "14:00",
+    speaker: null,
   },
   {
-    time: "16:30 - 17:30",
-    sessions: {
-      innovationFloor: {
-        title: "Closing Keynote",
-      },
-    },
+    id: 12,
+    title: "Official Expo Hall Time",
+    room: "innovationFloor",
+    start: "14:00",
+    end: "14:30",
+    speaker: null,
   },
   {
-    time: "17:30 - 18:00",
-    sessions: {
-      innovationFloor: {
-        title: "Announcements and Closing",
-      },
-    },
+    id: 13,
+    title: "Python for C2 (Command and Control) Operations",
+    room: "pacificHall",
+    start: "14:00",
+    end: "15:00",
+    speaker: "Salim Abdella",
+  },
+  {
+    id: 14,
+    title: "Crafting Ubiquity: A Model's Odyssey",
+    room: "innovationFloor",
+    start: "14:30",
+    end: "15:00",
+    speaker: "Kayongo Johnson Brian",
+  },
+  {
+    id: 15,
+    title: "Behind the scenes of an Ads Prediction System",
+    room: "voltaRoom",
+    start: "14:00",
+    end: "15:00",
+    speaker: "Bunmi Akinremi",
+  },
+  {
+    id: 16,
+    title: "Building and Consuming APIs with Python",
+    room: "pacificHall",
+    start: "15:00",
+    end: "15:30",
+    speaker: "Felix Jumason",
+  },
+  {
+    id: 17,
+    title: "Django Rest Framework with J2J architecture",
+    room: "pacificHall",
+    start: "15:30",
+    end: "16:00",
+    speaker: "Tumusiime Ezra",
+  },
+  {
+    id: 18,
+    title: "Train & Debug A model with Responsible AI Dashboard",
+    room: "innovationFloor",
+    start: "15:30",
+    end: "16:00",
+    speaker: "Anthony Byansi",
+  },
+  {
+    id: 19,
+    title: "GitHub Sponsor Student Workshop",
+    room: "voltaRoom",
+    start: "15:00",
+    end: "16:00",
+    speaker: "Allan Kiche and Brayan Kai Mwanyumba",
+  },
+  {
+    id: 20,
+    title: "Unlock Python's Potential: Serverless for Speed and Security",
+    room: "pacificHall",
+    start: "16:00",
+    end: "17:00",
+    speaker: "Mirembe Rebecca Peace",
+  },
+  {
+    id: 21,
+    title: "Closing Keynote",
+    room: "innovationFloor",
+    start: "16:30",
+    end: "17:30",
+    speaker: null,
+  },
+  {
+    id: 22,
+    title: "Announcements and Closing",
+    room: "innovationFloor",
+    start: "17:30",
+    end: "18:00",
+    speaker: null,
   },
 ];
 
 export const PYCON_DAY5_SCHEDULE = [
   {
-    time: "7:00 - 10:00",
-    sessions: {
-      innovationFloor: {
-        title: "Breakfast and Expo time",
-      },
-    },
+    id: 1,
+    title: "Registration and Expo time",
+    room: [
+      "innovationFloor",
+      "voltaRoom",
+      "pacificHall",
+      "videoConferenceRoom",
+    ],
+    start: "8:00",
+    end: "9:00",
+    speaker: null,
   },
   {
-    time: "10:00 - 11:00",
-    sessions: {
-      innovationFloor: {
-        title: "Opening Keynote",
-      },
-    },
+    id: 2,
+    title: "Opening Keynote",
+    room: "innovationFloor",
+    start: "9:00",
+    end: "10:00",
+    speaker: null,
   },
   {
-    time: "11:00 - 11:30",
-    sessions: {
-      pacificHall: {
-        title: "Python in Smart Contract development",
-        speaker: "Jovan Mwesigwa",
-      },
-      innovationFloor: {
-        title: "Django Girls Workshop",
-        speaker: "Ann Namuli, Dorothy Kabarozi and Eva Nanyonga",
-      },
-      voltaRoom: {
-        title: "PyLadies Kampala Anniversary Workshop",
-        speaker: "Deoborah Lanyero and Monica Iyabo",
-      },
-    },
+    id: 101,
+    title: "Break tea",
+    room: [
+      "innovationFloor",
+      "voltaRoom",
+      "pacificHall",
+      "videoConferenceRoom",
+    ],
+    start: "10:00",
+    end: "11:00",
+    speaker: null,
   },
   {
-    time: "11:30 - 12:00",
-    sessions: {
-      pacificHall: {
-        title: "Python For The Web?",
-        speaker: "Hussein Kizz",
-      },
-    },
+    id: 3,
+    title: "Python in Smart Contract development",
+    room: "pacificHall",
+    start: "11:00",
+    end: "11:30",
+    speaker: "Jovan Mwesigwa",
+  },
+  // {
+  //   id: 4,
+  //   title: "Django Girls Workshop",
+  //   room: "innovationFloor",
+  //   start: "11:00",
+  //   end: "11:30",
+  //   speaker: "Ann Namuli, Dorothy Kabarozi and Eva Nanyonga",
+  // },
+  {
+    id: 5,
+    title: "Welcome remarks and Introductions",
+    room: "voltaRoom",
+    start: "10:00",
+    end: "11:00",
+    speaker: "Deoborah Lanyero and Monica Iyabo",
+    tag: "pyladies",
   },
   {
-    time: "12:00 - 12:30",
-    sessions: {
-      pacificHall: {
-        title:
-          "Two of Yourself😃: How to Create a Digital A.I Clone to Double Your output!",
-        speaker: "Ssemujju Sharif",
-      },
-    },
+    id: 6,
+    title: "Python For The Web?",
+    room: "pacificHall",
+    start: "11:30",
+    end: "12:00",
+    speaker: "Hussein Kizz",
   },
   {
-    time: "12:30 - 13:00",
-    sessions: {
-      pacificHall: {
-        title:
-          "Building the Future: Leveraging Tech Talent & AI for Sustainable Growth in Africa",
-        speaker: "Sodiq Akinjobi",
-      },
-    },
+    id: 7,
+    title:
+      "Two of Yourself😃: How to Create a Digital A.I Clone to Double Your output!",
+    room: "pacificHall",
+    start: "12:00",
+    end: "12:30",
+    speaker: "Ssemujju Sharif",
   },
   {
-    time: "13:00 - 14:00",
-    sessions: {
-      innovationFloor: {
-        title: "Lunch Break",
-      },
-    },
+    id: 8,
+    title:
+      "Building the Future: Leveraging Tech Talent & AI for Sustainable Growth in Africa",
+    room: "pacificHall",
+    start: "12:30",
+    end: "13:00",
+    speaker: "Sodiq Akinjobi",
   },
   {
-    time: "14:00 - 14:30",
-    sessions: {
-      pacificHall: {
-        title: "Using the Power of AI in web applications",
-        speaker: "Ariyo Ahumuza",
-      },
-    },
+    id: 9,
+    title: "Lunch Break",
+    room: [
+      "innovationFloor",
+      "voltaRoom",
+      "pacificHall",
+      "videoConferenceRoom",
+    ],
+    start: "13:00",
+    end: "14:00",
+    speaker: null,
   },
   {
-    time: "14:30 - 15:00",
-    sessions: {
-      pacificHall: {
-        title: "Learning Python by solving programming problems",
-        speaker: "Zain Shabbir",
-      },
-    },
+    id: 10,
+    title: "Using the Power of AI in web applications",
+    room: "pacificHall",
+    start: "14:00",
+    end: "14:30",
+    speaker: "Ariyo Ahumuza",
   },
   {
-    time: "15:00 - 15:30",
-    sessions: {
-      pacificHall: {
-        title: "Analytics using Natural Language and LLMs",
-        speaker: "Josh Ndemenge",
-      },
-    },
+    id: 11,
+    title: "Learning Python by solving programming problems",
+    room: "pacificHall",
+    start: "14:30",
+    end: "15:00",
+    speaker: "Zain Shabbir",
   },
   {
-    time: "15:30 - 16:00",
-    sessions: {
-      pacificHall: {
-        title: "Inside multimodal models",
-        speaker: "Bethany Jepchumba",
-      },
-    },
+    id: 12,
+    title: "Analytics using Natural Language and LLMs",
+    room: "pacificHall",
+    start: "15:00",
+    end: "15:30",
+    speaker: "Josh Ndemenge",
   },
   {
-    time: "16:00 - 16:30",
-    sessions: {
-      pacificHall: {
-        title:
-          "Python for Financial Data Analysis: Predicting Market Trends and Optimizing Investments",
-        speaker: "Abraham Imani Bahati",
-      },
-    },
+    id: 13,
+    title: "Inside multimodal models",
+    room: "pacificHall",
+    start: "15:30",
+    end: "16:00",
+    speaker: "Bethany Jepchumba",
   },
   {
-    time: "16:30 - 17:30",
-    sessions: {
-      innovationFloor: {
-        title: "Closing Keynote",
-      },
-    },
+    id: 14,
+    title:
+      "Python for Financial Data Analysis: Predicting Market Trends and Optimizing Investments",
+    room: "pacificHall",
+    start: "16:00",
+    end: "16:30",
+    speaker: "Abraham Imani Bahati",
   },
   {
-    time: "17:30 - 18:00",
-    sessions: {
-      innovationFloor: {
-        title: "Announcements and Closing",
-      },
-    },
+    id: 15,
+    title: "Closing Keynote",
+    room: "innovationFloor",
+    start: "16:30",
+    end: "17:30",
+    speaker: null,
+  },
+  {
+    id: 16,
+    title: "Announcements and Closing",
+    room: "innovationFloor",
+    start: "17:30",
+    end: "18:00",
+    speaker: null,
+  },
+  {
+    id: 17,
+    title: "Keynote Session",
+    room: "voltaRoom",
+    start: "11:00",
+    end: "12:00",
+    speaker: "Deoborah Lanyero and Monica Iyabo",
+    tag: "pyladies",
+  },
+  {
+    id: 18,
+    title:
+      "Women in STEM! Championing Diversity and Inclusion in the Tech Industry!",
+    room: "voltaRoom",
+    start: "12:00",
+    end: "12:30",
+    speaker: "Deoborah Lanyero and Monica Iyabo",
+    tag: "pyladies",
+  },
+  {
+    id: 19,
+    title: "Teach me through Python",
+    room: "voltaRoom",
+    start: "12:30",
+    end: "13:00",
+    speaker: "Deoborah Lanyero and Monica Iyabo",
+    tag: "pyladies",
+  },
+  {
+    id: 20,
+    title: "Women Tech Makers in Kampala: Get Involved",
+    room: "voltaRoom",
+    start: "14:30",
+    end: "15:00",
+    speaker: "Deoborah Lanyero and Monica Iyabo",
+    tag: "pyladies",
+  },
+  {
+    id: 21,
+    title:
+      "Harnessing Collective Intelligence : Developing and Utilizing Data Science Communities",
+    room: "voltaRoom",
+    start: "15:00",
+    end: "15:30",
+    speaker: "Deoborah Lanyero and Monica Iyabo",
+    tag: "pyladies",
+  },
+  {
+    id: 22,
+    title: "Advanced Django as a Professional",
+    room: "voltaRoom",
+    start: "15:30",
+    end: "16:00",
+    speaker: "Deoborah Lanyero and Monica Iyabo",
+    tag: "pyladies",
+  },
+  {
+    id: 23,
+    title: "Closing Remarks and End",
+    room: "voltaRoom",
+    start: "16:00",
+    end: "16:30",
+    speaker: "Deoborah Lanyero and Monica Iyabo",
+    tag: "pyladies",
   },
 ];
