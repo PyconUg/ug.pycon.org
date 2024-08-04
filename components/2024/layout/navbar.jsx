@@ -16,6 +16,7 @@ import {
   TruckIcon,
   UserGroupIcon,
   QuestionMarkCircleIcon,
+  CalendarDaysIcon,
 } from "@heroicons/react/24/outline";
 import Banner from "@/components/banner";
 import { PYCONUGANDA_PROSPECTUS_2024 } from "@/2024/utils/constants";
@@ -65,7 +66,7 @@ const NavbarLinks = [
   },
   {
     path: "#",
-    label: "Speakers",
+    label: "Program",
     subLinks: [
       {
         path: "/2024/keynote-speakers",
@@ -78,17 +79,17 @@ const NavbarLinks = [
           />
         ),
       },
-      // {
-      //   path: "/2024/speakers",
-      //   label: "PyCon Uganda 2024 Speakers",
-      //   description: "Get to know the speakers at PyCon Uganda 2024.",
-      //   icon: (
-      //     <UserGroupIcon
-      //       className="h-6 w-6 text-gray-600 group-hover:text-pyconug-lightBlue"
-      //       aria-hidden="true"
-      //     />
-      //   ),
-      // },
+      {
+        path: "/2024/schedule",
+        label: "PyCon Uganda 2024 Schedule",
+        description: "Get to view the schedule of PyCon Uganda 2024.",
+        icon: (
+          <CalendarDaysIcon
+            className="h-6 w-6 text-gray-600 group-hover:text-pyconug-lightBlue"
+            aria-hidden="true"
+          />
+        ),
+      },
     ],
   },
   {
@@ -151,8 +152,7 @@ const NavbarLinks = [
       {
         path: "/2024/community-summit",
         label: "Community Summit",
-        description:
-          "Community summit schedule for the event",
+        description: "Community summit schedule for the event",
         icon: (
           <UserGroupIcon
             className="h-6 w-6 text-gray-600 group-hover:text-pyconug-lightBlue"
@@ -224,7 +224,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function Example() {
+export default function Navbar2024() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
