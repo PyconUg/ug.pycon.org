@@ -10,16 +10,23 @@ import {
   Tabs,
 } from "./data";
 
+const rooms = [
+  "innovationFloor",
+  "pacificHall",
+  "voltaRoom",
+  "videoConferenceRoom",
+];
+
 export default function ScheduleTabs() {
   return (
     <Tab.Group>
       <ScheduleTab data={Tabs} />
       <Tab.Panels className="">
-        <SchedulePanel data={PYCON_DAY1_SCHEDULE} />
-        <SchedulePanel data={PYCON_DAY2_SCHEDULE} />
-        <SchedulePanel data={PYCON_DAY3_SCHEDULE} />
-        <SchedulePanel data={PYCON_DAY4_SCHEDULE} />
-        <SchedulePanel data={PYCON_DAY5_SCHEDULE} />
+        <SchedulePanel rooms={rooms} sessions={PYCON_DAY1_SCHEDULE} />
+        <SchedulePanel rooms={rooms} sessions={PYCON_DAY2_SCHEDULE} />
+        <SchedulePanel rooms={rooms} sessions={PYCON_DAY3_SCHEDULE} />
+        <SchedulePanel rooms={rooms} sessions={PYCON_DAY4_SCHEDULE} />
+        <SchedulePanel rooms={rooms} sessions={PYCON_DAY5_SCHEDULE} />
       </Tab.Panels>
     </Tab.Group>
   );
