@@ -58,7 +58,7 @@ export default function CommunitySummit() {
                 </td>
                 <td class="rounded shadow bg-white">
                   <div class="p-2 text-black">
-                    <h4>Deborah Lanyero</h4>
+                    <h4>Sumaiya Nalukwago</h4>
                   </div>
                 </td>
               </tr>
@@ -75,7 +75,7 @@ export default function CommunitySummit() {
                 </td>
                 <td class="rounded shadow bg-white">
                   <div class="p-2 text-black">
-                    <h4>Deborah Lanyero</h4>
+                    <h4>Sumaiya Nalukwago</h4>
                   </div>
                 </td>
               </tr>
@@ -172,7 +172,7 @@ export default function CommunitySummit() {
                 </td>
                 <td class="rounded shadow bg-white">
                   <div class="p-2 text-black">
-                    <h4>Deborah Lanyero</h4>
+                    <h4>Sumaiya Nalukwago</h4>
                   </div>
                 </td>
               </tr>
@@ -189,7 +189,7 @@ export default function CommunitySummit() {
                 </td>
                 <td class="rounded shadow bg-white">
                   <div class="p-2 text-black">
-                    <h4>Deborah Lanyero</h4>
+                    <h4>Sumaiya Nalukwago</h4>
                   </div>
                 </td>
               </tr>
