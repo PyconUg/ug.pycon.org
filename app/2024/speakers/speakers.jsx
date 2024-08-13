@@ -29,7 +29,7 @@ export default function Speakers() {
           </div>
         ) : (
           <>
-            <div className="relative mt-4">
+            <div className="relative mt-6">
                 <div className="absolute inset-0 flex items-center" aria-hidden="true">
                   <div className="w-full" />
                 </div>
