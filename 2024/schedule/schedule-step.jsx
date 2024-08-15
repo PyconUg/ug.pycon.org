@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function ScheduleStep({ stepData }) {
@@ -52,85 +53,95 @@ export default function ScheduleStep({ stepData }) {
           />
         </svg>
       </span>
-      <div className="space-y-2">
+      <div className="space-y-0 md:space-y-2 items-center flex space-x-8">
         {" "}
-        <p className="text-gray-500">{stepData?.duration}</p>
-        <section className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div>
-            {stepData?.title && (
-              <h3 className=" font-bold leading-tight capitalize text-pyconug-darkBlue">
-                {stepData?.title}
-              </h3>
-            )}
-            {stepData?.speaker && (
-              <p className="capitalize text-gray-500">
-                {" "}
-                <span className=" pr-2 text-gray-500">
-                  Speaker(s)/Facilitator(s):{" "}
-                </span>
-                <span className="underline"> {stepData?.speaker}</span>
-              </p>
-            )}
-            {stepData?.room && (
-              <p className="capitalize text-gray-500">
-                {" "}
-                <span className=" pr-2 text-gray-500">Room:</span>
-                {stepData?.room}
-              </p>
-            )}
-          </div>
-          {stepData?.workshopSpeaker && (
+        {stepData?.speakerAvatar && (
+          <Image
+            src={stepData?.speakerAvatar}
+            width={50}
+            height={50}
+            className="w-20 h-20"
+          />
+        )}
+        <div>
+          <p className="text-gray-500">{stepData?.duration}</p>
+          <section className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
-              <h3 className=" font-bold leading-tight capitalize ">
-                {stepData?.workshopTitle}
-              </h3>
-
-              {stepData?.workshopSpeaker && (
+              {stepData?.title && (
+                <h3 className=" font-bold leading-tight capitalize text-pyconug-darkBlue">
+                  {stepData?.title}
+                </h3>
+              )}
+              {stepData?.speaker && (
                 <p className="capitalize text-gray-500">
                   {" "}
                   <span className=" pr-2 text-gray-500">
                     Speaker(s)/Facilitator(s):{" "}
                   </span>
-                  <span className="underline">
-                    {" "}
-                    {stepData?.workshopSpeaker}
-                  </span>
+                  <span className="underline"> {stepData?.speaker}</span>
+                </p>
+              )}
+              {stepData?.room && (
+                <p className="capitalize text-gray-500">
+                  {" "}
+                  <span className=" pr-2 text-gray-500">Room:</span>
+                  {stepData?.room}
                 </p>
               )}
             </div>
-          )}
-        </section>
-        {stepData?.hasMany && (
-          <section className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {stepData?.sessions?.map((session) => {
-              return (
-                <div key={session?.room}>
-                  {session?.title && (
-                    <h3 className=" font-bold leading-tight capitalize text-pyconug-darkBlue">
-                      {session?.title}
-                    </h3>
-                  )}
-                  {session?.speaker && (
-                    <p className="capitalize text-gray-500">
+            {stepData?.workshopSpeaker && (
+              <div>
+                <h3 className=" font-bold leading-tight capitalize ">
+                  {stepData?.workshopTitle}
+                </h3>
+
+                {stepData?.workshopSpeaker && (
+                  <p className="capitalize text-gray-500">
+                    {" "}
+                    <span className=" pr-2 text-gray-500">
+                      Speaker(s)/Facilitator(s):{" "}
+                    </span>
+                    <span className="underline">
                       {" "}
-                      <span className=" pr-2 text-gray-500">
-                        Speaker(s)/Facilitator(s):{" "}
-                      </span>
-                      <span className="underline"> {session?.speaker}</span>
-                    </p>
-                  )}
-                  {session?.room && (
-                    <p className="capitalize text-gray-500">
-                      {" "}
-                      <span className=" pr-2 text-gray-500">Room:</span>
-                      {session?.room}
-                    </p>
-                  )}
-                </div>
-              );
-            })}
+                      {stepData?.workshopSpeaker}
+                    </span>
+                  </p>
+                )}
+              </div>
+            )}
           </section>
-        )}
+          {stepData?.hasMany && (
+            <section className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {stepData?.sessions?.map((session) => {
+                return (
+                  <div key={session?.room}>
+                    {session?.title && (
+                      <h3 className=" font-bold leading-tight capitalize text-pyconug-darkBlue">
+                        {session?.title}
+                      </h3>
+                    )}
+                    {session?.speaker && (
+                      <p className="capitalize text-gray-500">
+                        {" "}
+                        <span className=" pr-2 text-gray-500">
+                          Speaker(s)/Facilitator(s):{" "}
+                        </span>
+                        <span className="underline"> {session?.speaker}</span>
+                      </p>
+                    )}
+                    {session?.room && (
+                      <p className="capitalize text-gray-500">
+                        {" "}
+                        <span className=" pr-2 text-gray-500">Room:</span>
+                        {session?.room}
+                      </p>
+                    )}
+                  </div>
+                );
+              })}
+            </section>
+          )}
+        </div>
       </div>
     </li>
   );
