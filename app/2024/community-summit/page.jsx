@@ -39,6 +39,7 @@ export default function CommunitySummit() {
         "Harnessing Collective Intelligence: Developing and Utilizing Data Science Communities",
       duration: "14:00 - 14:30",
       speaker: "Bernice Omiunu",
+      speakerAvatar: "/2024/speakers/Bernice Omiunu.png",
     },
     {
       title: "OpenSource at Pykampala community",
