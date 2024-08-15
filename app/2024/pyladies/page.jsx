@@ -154,7 +154,10 @@ export default function PyLadies() {
           </div>
         </div>
 
-        <section className="mx-8 md:mx-28 max-w-screen-xl my-10 text-justify text-lg">
+        <section
+          className="mx-8 md:mx-28 max-w-screen-xl my-10 text-justify text-lg"
+          id="sponsor-pyladies"
+        >
           {" "}
           <h2 className="text-3xl font-bold text-center mb-6 pt-8 sm:text-4xl">
             Become a Sponsor for PyLadies Workshops at PyCon Uganda 2024
