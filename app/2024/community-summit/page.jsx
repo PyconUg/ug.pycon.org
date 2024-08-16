@@ -7,14 +7,14 @@ export default function CommunitySummit() {
     {
       title: "Welcome remarks and Introductions",
       duration: "10:00 - 1:00",
-      speakerAvatar: "",
+      speakerAvatar: "/2024/speakers/Sumaiya Nalukwago.jpeg",
       speaker: "Sumaiya Nalukwago",
     },
     {
       title: "Keynote Session",
       duration: "11:00 - 12:00",
       speaker: "Sumaiya Nalukwago",
-      speakerAvatar: "",
+      speakerAvatar: "/2024/speakers/Sumaiya Nalukwago.jpeg",
     },
     {
       title:
@@ -50,7 +50,7 @@ export default function CommunitySummit() {
     {
       title: "Discussion on Community way forward",
       duration: "15:00 - 16:00",
-      speakerAvatar: "",
+      speakerAvatar: "/2024/speakers/Sumaiya Nalukwago.jpeg",
       speaker: "Sumaiya Nalukwago",
     },
     {
