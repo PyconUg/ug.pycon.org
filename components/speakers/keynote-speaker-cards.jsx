@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function KeynoteSpeakers({ data }) {
   return (
-    <div className="py-4">
+    <div className="py-10">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <ul
           role="list"

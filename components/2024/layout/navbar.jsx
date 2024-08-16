@@ -17,14 +17,11 @@ import {
   UserGroupIcon,
   QuestionMarkCircleIcon,
   CalendarDaysIcon,
+  ShoppingBagIcon,
 } from "@heroicons/react/24/outline";
 import Banner from "@/components/banner";
 import { PYCONUGANDA_PROSPECTUS_2024 } from "@/2024/utils/constants";
 const NavbarLinks = [
-  // {
-  //   path: "/2024/schedule",
-  //   label: "Schedule",
-  // },
   {
     path: "#",
     label: "Sponsors",
@@ -213,10 +210,21 @@ const NavbarLinks = [
       },
     ],
   },
+ 
   {
     path: "https://pyconug.blogspot.com",
     label: "Blog",
     external: true,
+  },
+  {
+    path: "/2024/shop",
+    label: " Buy Merch",
+    external: true,
+    icon: (
+      <ShoppingBagIcon className="h-6 w-6 -mt-1 mr-1  text-pyconug-lightBlue" />
+    ),
+    isActive: true,
+
   },
 ];
 
@@ -247,7 +255,7 @@ export default function Navbar2024() {
                       <Popover.Button
                         className={classNames(
                           open ? "text-pyconug-lightBlue" : "",
-                          "flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900  hover:text-pyconug-lightBlue outline-none"
+                          "flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900  group-hover:text-pyconug-lightBlue outline-none"
                         )}
                       >
                         {link.label}
@@ -305,8 +313,13 @@ export default function Navbar2024() {
                 key={link.label}
                 href={link.path}
                 target={link?.external ? `_blank` : `_self`}
-                className="text-sm font-semibold leading-6 text-gray-900  hover:text-pyconug-lightBlue"
+                className={
+                  link?.isActive === true
+                    ? "flex items-center text-sm font-semibold leading-6  text-pyconug-lightBlue"
+                    : "flex items-center text-sm font-semibold leading-6 text-gray-900  hover:text-pyconug-lightBlue"
+                }
               >
+                {link.icon && link.icon}
                 {link.label}
               </a>
             )
@@ -319,12 +332,7 @@ export default function Navbar2024() {
           >
             Buy Tickets
           </a>
-          <a
-            href="/2024/shop"
-            className="hidden md:block rounded-lg border border-black px-3 py-2 font-semibold text-black text-center h-10 truncate ..."
-          >
-            Buy Merch
-          </a>
+
           <a
             href="/2024/sponsors/why-sponsor"
             className="rounded-lg bg-black px-3 py-2 font-semibold text-white inline-flex items-center"
