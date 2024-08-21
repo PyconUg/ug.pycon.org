@@ -64,8 +64,15 @@ export default function PyLadies() {
           {/* <div className="bg-fixed text-white" style={{ backgroundImage: "url('/assets/images/djangogirls/dg2.png')" }}> */}
           <div className="mx-8 md:mx-28 max-w-screen-xl flex flex-col lg:flex-row mb-10">
             <div className="lg:w-full p-4">
-              <h1 className="text-3xl">Did you register for PyLadies workshop at PyCon Uganda 2024 ?</h1>
-              <p className="mt-3">Please check your email and redeem your attendee ticket. Let&apos;s dream, code and create.</p>
+              <h1 className="text-3xl">
+                Did you register for the Django Girls workshop at PyCon Uganda
+                2024?
+              </h1>
+              <p className="mt-3">
+                Please check your email to see if you've been selected and, if
+                so, redeem your attendee ticket. Let's dream, code, and create
+                together! .
+              </p>
               {/* <div className="flex justify-center md:justify-start">
                 <Link
                   className="bg-white text-pyconug-lightBlue px-12 py-4 rounded-md w-50 mt-10"
