@@ -60,8 +60,8 @@ export default function DjangoGirls() {
                 2024?
               </h1>
               <p className="mt-3">
-                Please check your email to see if you've been selected and, if
-                so, redeem your attendee ticket. Let's dream, code, and create
+                Please check your email to see if you`&#39;ve been selected and, if
+                so, redeem your attendee ticket. Let`&#39;s dream, code, and create
                 together! .
               </p>
               {/* <div className="flex justify-center md:justify-start">
