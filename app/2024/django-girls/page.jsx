@@ -83,20 +83,20 @@ export default function DjangoGirls() {
             <p className="mt-3">No. You need to sign up for the tutorial session and you will join the group for other activities if interested.</p>
           </div>
         </div>
-        {/* <div class="flex flex-col items-center space-x-4">
+        {/* <div className="flex flex-col items-center space-x-4">
           <h1 className="text-3xl font-bold mb-10">Lead coach for the day:</h1>
         </div>
-        <div class="mx-8 md:mx-28 max-w-screen-xl flex flex-row justify-center items-center mb-10">
-          <div class="flex flex-col items-center space-x-4 mx-10">
-            <img class="w-100 h-100 rounded-full" src="/assets/images/djangogirls/Anne_Namuli.png" alt="Rounded avatar"></img>
-            <div class="font-medium dark:text-white">
+        <div className="mx-8 md:mx-28 max-w-screen-xl flex flex-row justify-center items-center mb-10">
+          <div className="flex flex-col items-center space-x-4 mx-10">
+            <img className="w-100 h-100 rounded-full" src="/assets/images/djangogirls/Anne_Namuli.png" alt="Rounded avatar"></img>
+            <div className="font-medium dark:text-white">
               <div>Anne Namuli</div>
-              <div class="text-sm text-gray-500 dark:text-gray-400"><a href="https://twitter.com/@annenamuli" class="no-underline hover:underline">@annenamuli</a></div>
+              <div className="text-sm text-gray-500 dark:text-gray-400"><a href="https://twitter.com/@annenamuli" className="no-underline hover:underline">@annenamuli</a></div>
             </div>
           </div>
         </div> */}
         <div className="bg-fixed text-white" style={{backgroundImage: "url('/assets/images/djangogirls/dg3.png')"}}>
-          <div class="flex flex-col items-center space-x-4">
+          <div className="flex flex-col items-center space-x-4">
             <h1 className="text-3xl font-bold my-10">Agenda:</h1>
           </div>
           <div className="mx-8 md:mx-28 max-w-screen-xl flex flex-col lg:flex-row mb-10">
