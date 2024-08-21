@@ -64,12 +64,16 @@ export default function PyLadies() {
           {/* <div className="bg-fixed text-white" style={{ backgroundImage: "url('/assets/images/djangogirls/dg2.png')" }}> */}
           <div className="mx-8 md:mx-28 max-w-screen-xl flex flex-col lg:flex-row mb-10">
             <div className="lg:w-full p-4">
-              <h1 className="text-3xl">Become a participant</h1>
+              <h1 className="text-3xl">
+                Did you register for the Django Girls workshop at PyCon Uganda
+                2024?
+              </h1>
               <p className="mt-3">
-                Feel free to apply and spread the word about this workshop.
-                Let&apos;s dream, code, and create together!
+                Please check your email to see if you`&#39;ve been selected and, if
+                so, redeem your attendee ticket. Let`&#39;s dream, code, and create
+                together! .
               </p>
-              <div className="flex justify-center md:justify-start">
+              {/* <div className="flex justify-center md:justify-start">
                 <Link
                   className="bg-white text-pyconug-lightBlue px-12 py-4 rounded-md w-50 mt-10"
                   target="_blank"
@@ -77,7 +81,7 @@ export default function PyLadies() {
                 >
                   Register here
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
