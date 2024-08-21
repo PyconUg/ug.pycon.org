@@ -55,9 +55,9 @@ export default function DjangoGirls() {
         <div className="bg-fixed text-white" style={{backgroundImage: "url('/assets/images/djangogirls/dg2.png')"}}>
           <div className="mx-8 md:mx-28 max-w-screen-xl flex flex-col lg:flex-row mb-10">
             <div className="lg:w-full p-4">
-              <h1 className="text-3xl">Become a participant</h1>
-              <p className="mt-3">Feel free to apply and also tell a friend about this workshop. Let&apos;s dream, code and create.</p>
-              <div className="flex justify-center md:justify-start">
+              <h1 className="text-3xl">Did you register for django girls workshop at PyCon Uganda 2024 ?</h1>
+              <p className="mt-3">Please check your email and redeem your attendee ticket. Let&apos;s dream, code and create.</p>
+              {/* <div className="flex justify-center md:justify-start">
                 <Link
                   className="text-white bg-pyconug-lightBlue px-12 py-4 rounded-md w-50 mt-10"
                   target="_blank"
@@ -65,7 +65,7 @@ export default function DjangoGirls() {
                 >
                   Register here
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
