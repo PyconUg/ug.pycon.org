@@ -20,7 +20,7 @@ export default function SchedulePage() {
           </div>
         </div>
       </section>
-      <section className="">
+      <section className="w-full">
         <ScheduleTabs />
       </section>
     </main>
