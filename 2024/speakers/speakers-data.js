@@ -103,4 +103,12 @@ export const SPEAKERS_2024 = [
 		name: "Musitwa Edmond",
 		image: "/2024/speakers/musitwa edmond.png",
 	},
+	{
+		name: "Oliseh Genesis",
+		image: "/2024/speakers/Genesis.png",
+	},
+	{
+		name: "Zain Shabbir",
+		image: "/2024/speakers/Zain.png",
+	},
 ];
