@@ -111,4 +111,8 @@ export const SPEAKERS_2024 = [
 		name: "Zain Shabbir",
 		image: "/2024/speakers/Zain.png",
 	},
+	{
+		name: "Hussein Kizz",
+		image: "/2024/speakers/Hussein_Kizz.jpg",
+	},
 ];
