@@ -2,162 +2,139 @@ import Image from "next/image";
 import Link from "next/link";
 import { PYLADIES_REG } from "@/2024/utils/constants";
 import { PYCONUG_EMAIL } from "@/2023/utils/constants";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "../../../components/ui/accordion.jsx";
+import PyLadiesSchedule from "./pyladies-schedule.jsx";
 
 export default function PyLadies() {
   return (
-    <>
-      <section className="my-10 justify-center items-center text-justify text-lg">
-        <div className="mx-8 md:mx-28 max-w-screen-xl flex flex-col justify-center items-center mb-10">
+    <main className="flex-grow space-y-6 mb-10">
+      <section className="relative h-[500px] bg-cover bg-center flex items-center justify-center text-white bg-cyan-900">
+        <div className="relative text-center space-y-3">
           <Image
-            width={150}
-            height={75}
+            width={300}
+            height={200}
             alt=""
+            className="mx-auto"
             src={"/assets/images/pyladies/pyladies.png"}
           />
+          <p className="text-xl mb-8">at PyCon Uganda 2024</p>
         </div>
-        <div className="mx-8 md:mx-28 max-w-screen-xl flex flex-col lg:flex-row mb-10">
-          <div className="lg:w-1/2 p-4 w-full">
-            <h1 className="text-3xl">PyLadies Anniversary</h1>
-            <p className="mt-3">
+      </section>
+
+      <div className="md:container mx-auto px-4 py-12">
+        <div className="grid md:grid-cols-2 gap-12">
+          <div className="shadow-lg p-4 md:p-8 rounded-lg hover:shadow-none">
+            <h2 className="text-3xl font-bold mb-4">PyLadies Anniversary</h2>
+
+            <p className="mb-4">
               Join us in celebrating the PyLadies Anniversary Event at PyCon
               Uganda! This special occasion marks a significant milestone for
               PyLadies, an international mentorship group dedicated to
               empowering women to become active participants and leaders in the
-              Python open-source community. Our mission is to promote, educate,
-              and advance a diverse Python community through outreach,
-              education, conferences, events, and social gatherings.
+              Python open-source community.
             </p>
+            <p className="mb-4">
+              Our mission is to promote, educate, and advance a diverse Python
+              community through outreach, education, conferences, events, and
+              social gatherings.
+            </p>
+            <Image
+              width={150}
+              height={75}
+              alt=""
+              className="mx-auto"
+              src={"/assets/images/pyladies/pyladies.png"}
+            />
           </div>
-          <div className="lg:w-1/2 p-4 w-full">
-            <h1 className="text-3xl">Join Our Anniversary Workshop!</h1>
-            <p className="mt-3">
-              Don&apos;t miss this chance to start your Python journey and join
-              a supportive community. Apply now for the PyLadies Anniversary
+          <div className="shadow-lg p-8 rounded-lg hover:shadow-none">
+            <h2 className="text-3xl font-bold mb-4">
+              Join Our Anniversary Workshop!
+            </h2>
+            <p className="mb-4">
+              Don't miss this chance to start your Python journey and join a
+              supportive community. Apply now for the PyLadies Anniversary
               Workshop!
             </p>
-            <p className="mt-3">
-              As a workshop attendee, you&apos;ll have the opportunity to:
+            <p className="mb-4">
+              As a workshop attendee, you'll have the opportunity to:
+              <ul class="list-disc">
+                <li>
+                  Learn Python Basics: Start writing your first Python programs
+                  with guidance from experienced mentors.
+                </li>
+                <li>
+                  Network and Connect: Meet and connect with fellow women in
+                  tech and share your experiences.
+                </li>
+                <li>
+                  {" "}
+                  Engage with Experts: Interact with organizers and sponsors to
+                  enhance your learning journey.
+                </li>
+              </ul>
             </p>
-            <ul className="list-disc list-inside indent-4">
-              <li>
-                Learn Python Basics: Start writing your first Python programs
-                with guidance from experienced mentors.
-              </li>
-              <li>
-                Network and Connect: Meet and connect with fellow women in tech
-                and share your experiences.
-              </li>
-              <li>
-                Engage with Experts: Interact with organizers and sponsors to
-                enhance your learning journey.
-              </li>
-            </ul>
-            <p className="mt-3 font-medium">
-              Don&apos;t miss this fantastic opportunity to kickstart your
-              Python journey and become part of a supportive community. Apply
-              now to join us at the PyLadies Anniversary Workshop!
+            <p className="mb-4">
+              Don't miss this fantastic opportunity to kickstart your Python
+              journey and become part of a supportive community. Apply now to
+              join us at the PyLadies Anniversary Workshop!
             </p>
           </div>
         </div>
+      </div>
 
-        <div className="bg-fixed text-white bg-pyconug-lightBlue" style={{}}>
-          {/* <div className="bg-fixed text-white" style={{ backgroundImage: "url('/assets/images/djangogirls/dg2.png')" }}> */}
-          <div className="mx-8 md:mx-28 max-w-screen-xl flex flex-col lg:flex-row mb-10">
-            <div className="lg:w-full p-4">
-              <h1 className="text-3xl">
-                Did you register for the Django Girls workshop at PyCon Uganda
-                2024?
-              </h1>
-              <p className="mt-3">
-                Please check your email to see if you`&#39;ve been selected and, if
-                so, redeem your attendee ticket. Let`&#39;s dream, code, and create
-                together! .
-              </p>
-              {/* <div className="flex justify-center md:justify-start">
-                <Link
-                  className="bg-white text-pyconug-lightBlue px-12 py-4 rounded-md w-50 mt-10"
-                  target="_blank"
-                  href={PYLADIES_REG}
-                >
-                  Register here
-                </Link>
-              </div> */}
-            </div>
-          </div>
-        </div>
-        <div className="mx-8 md:mx-28 max-w-screen-xl flex flex-col lg:flex-row mb-10">
-          <div className="lg:w-1/2 p-4 w-full">
-            <h3 className="text-xl font-bold">
+      <div className="max-w-4xl mx-auto p-4">
+        <h2 className="text-2xl font-bold mb-4">PyLadies Workshop FAQ</h2>
+        <Accordion type="single" collapsible className="w-full">
+          <AccordionItem value="item-1">
+            <AccordionTrigger>
               Do I need to know anything about websites or programming?
-            </h3>
-            <p className="mt-3">
-              No! This workshop is for beginners. You don&apos;t need any prior
+            </AccordionTrigger>
+            <AccordionContent>
+              No! This workshop is for beginners. You don't need any prior
               knowledge. If you have some technical knowledge (like knowing what
               HTML or CSS are), you can still apply!
-            </p>
-            <h3 className="text-xl font-bold mt-5">
-              Should I bring my own laptop?
-            </h3>
-            <p className="mt-3">
-              Yes, please bring your own laptop. We don&apos;t provide hardware,
-              and it&apos;s important for you to have your computer to take home
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-2">
+            <AccordionTrigger>Should I bring my own laptop?</AccordionTrigger>
+            <AccordionContent>
+              Yes, please bring your own laptop. We don't provide hardware, and
+              it's important for you to have your computer to take home
               everything you create during the workshop.
-            </p>
-          </div>
-          <div className="lg:w-1/2 p-4 w-full">
-            <h3 className="text-xl font-bold">
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-3">
+            <AccordionTrigger>
               Do I need to install anything on my laptop beforehand?
-            </h3>
-            <p className="mt-3">
-              It would be helpful to have Python installed, but don&apos;t worry
-              if you haven&apos;t done it yet. We&apos;ll have an installation
-              session before the workshop to help you get set up.
-            </p>
-            <h3 className="text-xl font-bold mt-5">
+            </AccordionTrigger>
+            <AccordionContent>
+              It would be helpful to have Python installed, but don't worry if
+              you haven't done it yet. We'll have an installation session before
+              the workshop to help you get set up.
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-4">
+            <AccordionTrigger>
               Do I need to be a PyLady already to attend?
-            </h3>
-            <p className="mt-3">
-              No. Simply sign up for the workshop session, and you&apos;re
-              welcome to join other activities if you&apos;re interested.
-            </p>
-          </div>
-        </div>
-        {/* <div class="flex flex-col items-center space-x-4">
-          <h1 className="text-3xl font-bold mb-10">Workshop chair:</h1>
-        </div> */}
-        <div className="bg-fixed text-white bg-pyconug-lightBlue" style={{}}>
-          <div class="flex flex-col items-center space-x-4">
-            <h1 className="text-3xl font-bold my-10">Agenda:</h1>
-          </div>
-          <div className="mx-8 md:mx-28 max-w-screen-xl justify-center flex flex-col lg:flex-row mb-10">
-            <div className="lg:w-1/2 p-4">
-              <ul className="list-disc list-inside indent-4">
-                <li>10:00 - 11:00 am Welcome remarks and Introductions</li>
-                <li>11:00 - 12:00 am Keynote Session</li>
-                <li>
-                  12:00 - 12:30 am Women in STEM! Championing Diversity and
-                  Inclusion in the Tech Industry!
-                </li>
-                <li>12:30 - 13:00 am Teach me through Python</li>
-              </ul>
-            </div>
-            <div className="lg:w-1/2 p-4 w-full">
-              <ul className="list-disc list-inside indent-4">
-                <li>13:00 - 14:00 pm Lunch Break</li>
-                <li>
-                  14:30 - 15:00 pm Women Tech Makers in Kampala: Get Involved
-                </li>
-                <li>
-                  15:00 - 15:30 pm Harnessing Collective Intelligence :
-                  Developing and Utilizing Data Science Communities
-                </li>
-                <li>15:30 - 16:00 pm Advanced Django as a Professional</li>
-                <li>16:00 - 16:30 pm Closing Remarks and End</li>
-              </ul>
-            </div>
-          </div>
-        </div>
+            </AccordionTrigger>
+            <AccordionContent>
+              No. Simply sign up for the workshop session, and you're welcome to
+              join other activities if you're interested.
+            </AccordionContent>
+          </AccordionItem>
+        </Accordion>
+      </div>
 
+      <div className="lg:mx-20 mx-4">
+        <PyLadiesSchedule />
+      </div>
+
+      <section className="my-10 justify-center items-center text-justify text-lg">
         <section
           className="mx-8 md:mx-28 max-w-screen-xl my-10 text-justify text-lg"
           id="sponsor-pyladies"
@@ -545,6 +522,6 @@ export default function PyLadies() {
           </div>
         </section>
       </section>
-    </>
+    </main>
   );
 }
