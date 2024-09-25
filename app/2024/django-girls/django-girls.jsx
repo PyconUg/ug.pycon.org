@@ -51,7 +51,7 @@ export default function DjangoGirls() {
             <h2 className="text-3xl font-bold mb-4">Apply for a pass!</h2>
             <p className="mb-4">
               If you are a woman and you have a laptop - you can apply for a
-              pass! You don't need to know any technical stuff - The workshop is
+              pass! You don&#39;t need to know any technical stuff - The workshop is
               for people who are new to programming.
             </p>
             <p className="mb-4">
