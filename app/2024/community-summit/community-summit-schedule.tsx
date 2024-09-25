@@ -6,34 +6,31 @@ const scheduleData = [
     time: "10:00 - 11:00",
     title: "Welcome remarks and Introductions",
     speaker: "Sumaiya Nalukwago",
-    speakerDetails:
-      "",
+    speakerDetails: "",
     avatar: "/2024/speakers/Sumaiya Nalukwago.jpeg",
   },
   {
     time: "11:00 - 12:00",
     title: "Keynote Session",
-    speaker: "Kavuma Lameck",
-    speakerDetails:
-      "He is an experienced data scientist with a strong bias in data visualization.",
-    avatar: "/2024/speakers/Kavuma Lameck.jpg",
+    speaker: "Sumaiya Nalukwago",
+    speakerDetails: "",
+    avatar: "/2024/speakers/Sumaiya Nalukwago.jpeg",
   },
   {
-    time: "11:00",
-    title: "Introduction to Python Data",
-    speaker: "Kakaire Steven",
-    speakerDetails:
-      "He is a software | Machine Learning engineer with a focus in the application of Machine Learning to software Security. He has active interests in open source contribution and communities.",
-    avatar: "/2024/speakers/Kakaire Steven.jpg",
-  },
-  {
-    time: "11:30",
+    time: "12:00 - 12:30",
     title:
-      "Live Project (Part 1): Simplifying to Amplify: Leveraging the Vizzes",
-    speaker: "Lameck Kavuma",
-    speakerDetails:
-      "He is an experienced data scientist with a strong bias in data visualization.",
-    avatar: "/2024/speakers/Kavuma Lameck.jpg",
+      "From Workshops to Masterminds: Building a thriving Python Community with the Python Ho User Group.",
+    speaker: "Kafui Alordo",
+    speakerDetails: "",
+    avatar: "/2024/speakers/KAFUI ALORDO.png",
+  },
+  {
+    time: "12:00 - 12:30",
+    title:
+      "Empowering Diverse Communities with Python: Insights from Mombasa, Kenya.",
+    speaker: "Chris N. Achinga",
+    speakerDetails: "",
+    avatar: "/2024/speakers/Chris N. Achinga.png",
   },
   {
     time: "13:00",
@@ -42,24 +39,30 @@ const scheduleData = [
     avatar: "",
   },
   {
-    time: "14:00",
-    title: "Live Project (Part 2): A grip on your data with Maths",
-    speaker: "Kakaire Steven",
-    speakerDetails:
-      "He is a software | Machine Learning engineer with a focus in the application of Machine Learning to software Security. He has active interests in open source contribution and communities.",
-    avatar: "/2024/speakers/Kakaire Steven.jpg",
+    time: "14:00 - 14:30",
+    title:
+      "Harnessing Collective Intelligence: Developing and Utilizing Data Science Communities",
+    speaker: "Bernice Omiunu",
+    speakerDetails: "",
+    avatar: "/2024/speakers/Bernice Omiunu.png",
   },
   {
-    time: "15:30",
-    title: "From here forth",
-    speaker: "Kakaire Steven",
-    speakerDetails:
-      "He is a software | Machine Learning engineer with a focus in the application of Machine Learning to software Security. He has active interests in open source contribution and communities.",
-    avatar: "/2024/speakers/Kakaire Steven.jpg",
+    time: "14:30 - 15:00",
+    title: "OpenSource at Pykampala community",
+    speaker: "Tobias Higenyi",
+    speakerDetails: "",
+    avatar: "/2024/speakers/Tobias-Higenyi.jpg",
   },
   {
-    time: "16:00",
-    title: "Networking Session",
+    time: "15:00 - 16:00",
+    title: "Discussion on Community way forward",
+    speaker: "Sumaiya Nalukwago",
+    speakerDetails: "",
+    avatar: "/2024/speakers/Sumaiya Nalukwago.jpeg",
+  },
+  {
+    time: "16:00 - 16:30",
+    title: "Closing Remarks and End",
     speaker: "All",
     avatar: "",
   },
