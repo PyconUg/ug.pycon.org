@@ -20,28 +20,14 @@ export default function CommunitySummit() {
             The Python Community Summit is an annual event that brings together
             Python enthusiasts from around the world. It provides a platform for
             community members to connect, share knowledge, and collaborate on
-            various Python-related topics. The summit features keynote sessions,
-            workshops, panel discussions, and networking opportunities. Whether
-            you are a beginner or an experienced Python developer, the Python
-            Community Summit offers something for everyone. Join us and be a
-            part of this vibrant and inclusive community!
+            various Python-related topics.
           </p>
           <p className="mb-4">
-            We are a part of the PyData Global network that promotes discussions
-            of the best practices, new approaches, and merging technologies for
-            data management, processing, analytics and visualization. PyData
-            Kampala approaches data science using many languages, including (but
-            not limited to) Python, Julia and R.
-          </p>
-          <p>
-            PyData Kampala follows the&nbsp;
-            <Link
-              target="_blank"
-              href="https://numfocus.org/code-of-conduct"
-              className="text-blue-600 hover:underline"
-            >
-              NumFocus code of conduct
-            </Link>
+            The summit features keynote sessions, workshops, panel discussions,
+            and networking opportunities. Whether you are a beginner or an
+            experienced Python developer, the Python Community Summit offers
+            something for everyone. Join us and be a part of this vibrant and
+            inclusive community!
           </p>
         </div>
       </div>
