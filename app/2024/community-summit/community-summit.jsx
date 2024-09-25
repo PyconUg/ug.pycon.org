@@ -11,8 +11,8 @@ export default function CommunitySummit() {
         </div>
       </section>
 
-      <div className="container mx-auto px-4 py-12">
-        <div className="shadow-lg p-8 rounded-lg hover:shadow-none">
+      <div className="md:container mx-auto px-4 py-12">
+        <div className="shadow-lg p-4 md:p-8 rounded-lg hover:shadow-none">
           <h2 className="text-3xl font-bold mb-4">
             About Python Community Summit{" "}
           </h2>
