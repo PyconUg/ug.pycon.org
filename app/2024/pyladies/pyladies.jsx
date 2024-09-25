@@ -55,12 +55,12 @@ export default function PyLadies() {
               Join Our Anniversary Workshop!
             </h2>
             <p className="mb-4">
-              Don't miss this chance to start your Python journey and join a
+              Don&#39;t miss this chance to start your Python journey and join a
               supportive community. Apply now for the PyLadies Anniversary
               Workshop!
             </p>
             <p className="mb-4">
-              As a workshop attendee, you'll have the opportunity to:
+              As a workshop attendee, you&#39;ll have the opportunity to:
               <ul class="list-disc">
                 <li>
                   Learn Python Basics: Start writing your first Python programs
@@ -78,7 +78,7 @@ export default function PyLadies() {
               </ul>
             </p>
             <p className="mb-4">
-              Don't miss this fantastic opportunity to kickstart your Python
+              Don&#39;t miss this fantastic opportunity to kickstart your Python
               journey and become part of a supportive community. Apply now to
               join us at the PyLadies Anniversary Workshop!
             </p>
@@ -94,7 +94,7 @@ export default function PyLadies() {
               Do I need to know anything about websites or programming?
             </AccordionTrigger>
             <AccordionContent>
-              No! This workshop is for beginners. You don't need any prior
+              No! This workshop is for beginners. You don&#39;t need any prior
               knowledge. If you have some technical knowledge (like knowing what
               HTML or CSS are), you can still apply!
             </AccordionContent>
@@ -102,8 +102,8 @@ export default function PyLadies() {
           <AccordionItem value="item-2">
             <AccordionTrigger>Should I bring my own laptop?</AccordionTrigger>
             <AccordionContent>
-              Yes, please bring your own laptop. We don't provide hardware, and
-              it's important for you to have your computer to take home
+              Yes, please bring your own laptop. We don&#39;t provide hardware, and
+              it&#39;s important for you to have your computer to take home
               everything you create during the workshop.
             </AccordionContent>
           </AccordionItem>
@@ -112,8 +112,8 @@ export default function PyLadies() {
               Do I need to install anything on my laptop beforehand?
             </AccordionTrigger>
             <AccordionContent>
-              It would be helpful to have Python installed, but don't worry if
-              you haven't done it yet. We'll have an installation session before
+              It would be helpful to have Python installed, but don&#39;t worry if
+              you haven&#39;t done it yet. We&#39;ll have an installation session before
               the workshop to help you get set up.
             </AccordionContent>
           </AccordionItem>
@@ -122,8 +122,8 @@ export default function PyLadies() {
               Do I need to be a PyLady already to attend?
             </AccordionTrigger>
             <AccordionContent>
-              No. Simply sign up for the workshop session, and you're welcome to
-              join other activities if you're interested.
+              No. Simply sign up for the workshop session, and you&#39;re welcome to
+              join other activities if you&#39;re interested.
             </AccordionContent>
           </AccordionItem>
         </Accordion>
