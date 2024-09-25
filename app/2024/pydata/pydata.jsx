@@ -22,9 +22,9 @@ export default function PyData() {
           <p className="text-xl mb-8">at PyCon Uganda 2024</p>
         </div>
       </section>
-      <div className="container mx-auto px-4 py-12">
+      <div className="md:container mx-auto px-4 py-12">
         <div className="grid md:grid-cols-2 gap-12">
-          <div className="shadow-lg p-8 rounded-lg hover:shadow-none">
+          <div className="shadow-lg p-4 md:p-8 rounded-lg hover:shadow-none">
             <h2 className="text-3xl font-bold mb-4">PyData Kampala Workshop</h2>
             <p className="mb-4">
               Join PyData Kampala for a hands-on workshop on data, science and
