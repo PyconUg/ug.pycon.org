@@ -86,7 +86,7 @@ export default function PyLadies() {
         </div>
       </div>
 
-      <div className="max-w-4xl mx-auto p-4">
+      <section className="max-w-4xl mx-auto p-4">
         <h2 className="text-2xl font-bold mb-4">PyLadies Workshop FAQ</h2>
         <Accordion type="single" collapsible className="w-full">
           <AccordionItem value="item-1">
@@ -102,8 +102,8 @@ export default function PyLadies() {
           <AccordionItem value="item-2">
             <AccordionTrigger>Should I bring my own laptop?</AccordionTrigger>
             <AccordionContent>
-              Yes, please bring your own laptop. We don&#39;t provide hardware, and
-              it&#39;s important for you to have your computer to take home
+              Yes, please bring your own laptop. We don&#39;t provide hardware,
+              and it&#39;s important for you to have your computer to take home
               everything you create during the workshop.
             </AccordionContent>
           </AccordionItem>
@@ -112,9 +112,9 @@ export default function PyLadies() {
               Do I need to install anything on my laptop beforehand?
             </AccordionTrigger>
             <AccordionContent>
-              It would be helpful to have Python installed, but don&#39;t worry if
-              you haven&#39;t done it yet. We&#39;ll have an installation session before
-              the workshop to help you get set up.
+              It would be helpful to have Python installed, but don&#39;t worry
+              if you haven&#39;t done it yet. We&#39;ll have an installation
+              session before the workshop to help you get set up.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-4">
@@ -122,16 +122,16 @@ export default function PyLadies() {
               Do I need to be a PyLady already to attend?
             </AccordionTrigger>
             <AccordionContent>
-              No. Simply sign up for the workshop session, and you&#39;re welcome to
-              join other activities if you&#39;re interested.
+              No. Simply sign up for the workshop session, and you&#39;re
+              welcome to join other activities if you&#39;re interested.
             </AccordionContent>
           </AccordionItem>
         </Accordion>
-      </div>
+      </section>
 
-      <div className="lg:mx-20 mx-4">
+      <section className="lg:mx-20 mx-4">
         <PyLadiesSchedule />
-      </div>
+      </section>
 
       <section className="my-10 justify-center items-center text-justify text-lg">
         <section
