@@ -1,6 +1,7 @@
 import ScheduleStep from "@/2024/schedule/schedule-step";
 import Image from "next/image";
 import Link from "next/link";
+import CommunitySummitSchedule from "./community-summit-schedule";
 
 export default function CommunitySummit() {
   const PYCON_DAY1_SCHEDULE = [
@@ -59,29 +60,20 @@ export default function CommunitySummit() {
     },
   ];
   return (
-    <>
-      <section className="flex bg-cyan-900 text-zinc-300 justify-center">
-        <div className="flex py-10 lg:items-center">
-          <div className="md:mx-10 text-center mx-4">
-            <h1 className="text-3xl font-extrabold sm:text-5xl text-white">
-              Python Community Summit Schedule
-            </h1>
-            <p className="mt-4 sm:text-xl mx-5">
-              Come take part in amazing community events
-            </p>
-            <p className="mt-4 sm:text-xl mx-5 font-bold">
-              Date: 9th October 2024
-            </p>
-          </div>
+    <main className="flex-grow space-y-6 mb-10">
+      <section className="relative h-[500px] bg-cover bg-center flex items-center justify-center text-white bg-cyan-900">
+        <div className="relative z-10 text-center">
+          <h1 className="text-6xl font-bold mb-4">Python Community Summit </h1>
+          <p className="text-xl mb-8">at PyCon Uganda 2024</p>
         </div>
       </section>
 
-      <section className="mx-8 md:mx-28 max-w-screen-xl my-10 text-justify text-lg">
-        <div class="container mx-auto">
-          <h2 className="text-3xl font-bold sm:text-5xl text-black">
-            About Python Community Summit
+      <div className="container mx-auto px-4 py-12">
+        <div className="shadow-lg p-8 rounded-lg hover:shadow-none">
+          <h2 className="text-3xl font-bold mb-4">
+            About Python Community Summit{" "}
           </h2>
-          <p className="mt-4 sm:text-xl mx-5">
+          <p className="mb-4">
             The Python Community Summit is an annual event that brings together
             Python enthusiasts from around the world. It provides a platform for
             community members to connect, share knowledge, and collaborate on
@@ -91,18 +83,29 @@ export default function CommunitySummit() {
             Community Summit offers something for everyone. Join us and be a
             part of this vibrant and inclusive community!
           </p>
+          <p className="mb-4">
+            We are a part of the PyData Global network that promotes discussions
+            of the best practices, new approaches, and merging technologies for
+            data management, processing, analytics and visualization. PyData
+            Kampala approaches data science using many languages, including (but
+            not limited to) Python, Julia and R.
+          </p>
+          <p>
+            PyData Kampala follows the&nbsp;
+            <Link
+              target="_blank"
+              href="https://numfocus.org/code-of-conduct"
+              className="text-blue-600 hover:underline"
+            >
+              NumFocus code of conduct
+            </Link>
+          </p>
         </div>
-      </section>
+      </div>
 
-      <section className="mx-8 md:mx-28 max-w-screen-xl ">
-        <section className=" ">
-          <ol className="relative border-l border-gray-200 dark:border-gray-700 dark:text-gray-400 ">
-            {PYCON_DAY1_SCHEDULE?.map((step, index) => (
-              <ScheduleStep key={index} stepData={step} />
-            ))}
-          </ol>
-        </section>
-      </section>
-    </>
+      <div className="lg:mx-20 mx-4">
+        <CommunitySummitSchedule />
+      </div>
+    </main>
   );
 }
