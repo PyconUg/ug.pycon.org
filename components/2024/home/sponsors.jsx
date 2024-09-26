@@ -14,7 +14,7 @@ export default function Sponsors() {
               <div className="lg:col-span-5 md:col-span-5">
                 <div className="sticky top-48">
                   <h1 className="font-sans font-bold text-4xl leading-10 lg:text-5xl lg:leading-16 text-black text-center md:text-left">
-                    Sponsor us!
+                    Sponsors!
                   </h1>
                   <span className="h-8 lg:h-12 block"></span>
                   <p className="font-sans break-words transition-colors font-medium whitespace-pre-wrap select-auto text-md leading-7 lg:text-2md lg:leading-8 text-grey-900 text-center md:text-left">
@@ -28,6 +28,7 @@ export default function Sponsors() {
                   <Link
                     className="inline-flex items-center uppercase select-none  border cursor-pointer transition-colors hover:bg-[#1a9baa] bg-[#177e89] border-[#177e89] py-5 px-8 justify-center w-full md:w-auto"
                     href="/2024/sponsors/why-sponsor"
+                    target="_blank"
                   >
                     <span className="font-sans break-words transition-colors font-semibold whitespace-nowrap select-auto text-base leading-1 lg:text-md lg:leading-2 text-white">
                       Sponsor us!

@@ -68,7 +68,7 @@ export const SPONSORS_2024 = {
     {
       name: "Black Python Devs",
       href: "https://blackpythondevs.com/",
-      logo: "/2024/sponsors/BlackPythonDevs.png",
+      logo: "/2024/sponsors/BPD logo.png",
     },
     
   ],
