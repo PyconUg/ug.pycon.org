@@ -6,7 +6,7 @@ const products = [
   {
     name: "PyCon Uganda 2024 Hoodie",
     price: "USh80,000.00",
-    imageSrc:"/assets/images/swag/hoodie.jpg",
+    imageSrc:"/assets/images/swag/newhoodie.png",
     link: PYCONUGANDA_MERCH_2024
   },
   {
