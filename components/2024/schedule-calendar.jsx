@@ -82,7 +82,8 @@ export default function ScheduleCalendar({ rooms, sessions }) {
                       let bgColor = "";
                       if (
                         session?.title.toLowerCase().includes("break") ||
-                        session?.title.toLowerCase().includes("lunch")
+                        session?.title.toLowerCase().includes("lunch") ||
+                        session?.title.toLowerCase().includes("tea")
                       ) {
                         bgColor = "bg-slate-300";
                       } else if (session?.tag === "django-girls") {
