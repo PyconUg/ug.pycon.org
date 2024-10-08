@@ -50,7 +50,7 @@ export default function ScheduleCalendar({ rooms, sessions }) {
       </div>
 
       <div className="container mt-10">
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-y-4">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-y-4">
           <div className="hidden md:block"></div>
 
           {rooms?.map((room) => (
@@ -69,8 +69,8 @@ export default function ScheduleCalendar({ rooms, sessions }) {
             ))}
           </div>
 
-          <div className="col-span-4 md:col-span-4 relative">
-            <div className="grid grid-cols-4">
+          <div className="col-span-3 md:col-span-3 relative">
+            <div className="grid grid-cols-3">
               {rooms.map((room) => (
                 <div key={room} className="relative border-r border-t h-full">
                   {hours.map((hour) => (
