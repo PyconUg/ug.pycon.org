@@ -410,7 +410,7 @@ export const PYCON_DAY3_SCHEDULE = [
     room: "pacificHall",
     start: "10:00",
     end: "11:00",
-    speaker: null,
+    speaker: "Łukasz Langa",
   },
   {
     id: 3,
@@ -424,7 +424,7 @@ export const PYCON_DAY3_SCHEDULE = [
   {
     id: 4,
     title: "Building SMART Recommendation Systems in Python (Using intellikit)",
-    room: "pacificHall",
+    room: "voltaRoom",
     start: "11:00",
     end: "11:30",
     speaker: "Arthur Kakande",
