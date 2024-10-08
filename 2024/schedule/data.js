@@ -529,6 +529,14 @@ export const PYCON_DAY5_SCHEDULE = [
     end: "10:00",
   },
   {
+    id: 101,
+    title: "Keynote",
+    room: "pacificHall",
+    start: "10:00",
+    end: "11:00",
+    speaker: "Robert Mutyaba",
+  },
+  {
     id: 2,
     title: "Python in Smart Contract development",
     room: "pacificHall",
