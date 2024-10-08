@@ -42,4 +42,12 @@ export const KEYNOTESPEAKERS_2024 = [
     twitterUrl: "",
     linkedinUrl: "",
   },
+  {
+    name: "Kelvin Ndemo",
+    description: "Building @afrikanest | Software Engineer | Problem Solver",
+    role: "Building @afrikanest | Software Engineer | Problem Solver",
+    image: "/assets/images/keynote-speakers/Kelvin Ndemo.png",
+    twitterUrl: "",
+    linkedinUrl: "",
+  },
 ];
