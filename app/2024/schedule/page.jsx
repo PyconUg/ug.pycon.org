@@ -20,7 +20,7 @@ export default function SchedulePage() {
           </div>
         </div>
       </section>
-      <section className="lg:px-36 px-4 py-16">
+      <section className="w-full">
         <ScheduleTabs />
       </section>
     </main>
