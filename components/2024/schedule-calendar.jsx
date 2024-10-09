@@ -164,7 +164,7 @@ export default function ScheduleCalendar({ rooms, sessions }) {
         </div>
 
         {/* Desktop View */}
-        <div className="hidden md:grid md:grid-cols-4 md:divide-x">
+        <div className="hidden md:grid md:grid-cols-3 md:divide-x">
           {rooms?.map((room) => (
             <div key={room} className="p-4">
               <h2 className="mb-4 text-lg font-bold text-gray-700 uppercase tracking-wide border-b-2 border-gray-300 pb-2">
