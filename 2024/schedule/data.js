@@ -646,6 +646,7 @@ export const PYCON_DAY5_SCHEDULE = [
     room: "pacificHall",
     start: "15:30",
     end: "16:00",
+    speaker:"James Powell, Cameron Riddell, and Courtney Haun"
   },
   {
     id: 13,
