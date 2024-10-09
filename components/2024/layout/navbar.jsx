@@ -120,7 +120,7 @@ const NavbarLinks = [
   },
   {
     path: "#",
-    label: "Communities",
+    label: "Co-Events",
     subLinks: [
       {
         path: "/2024/django-girls",

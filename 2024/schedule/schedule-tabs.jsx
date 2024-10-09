@@ -11,7 +11,6 @@ import {
 } from "./data";
 
 const rooms = [
-  "innovationFloor",
   "pacificHall",
   "voltaRoom",
   "videoConferenceRoom",

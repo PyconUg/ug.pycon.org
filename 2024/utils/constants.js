@@ -34,7 +34,7 @@ export const SPONSORS_2024 = {
       logo: "/2024/sponsors/pulitzer-center-logo.webp",
     },
   ],
-  expo: [
+  contributing: [
     {
       name: "GitHub",
       href: "https://github.com",
@@ -45,10 +45,38 @@ export const SPONSORS_2024 = {
       href: "https://www.jetbrains.com",
       logo: "https://resources.jetbrains.com/storage/products/company/brand/logos/jetbrains.png",
     },
+    
+  ],
+  expo: [
     {
       name: "Chaooss Africa",
       href: "https://chaoss.community/",
       logo: "/2024/sponsors/CHAOSS AFRICA LOGO.png",
+    },
+    {
+      name: "Africa Is Talking",
+      href: "https://africastalking.com/",
+      logo: "/2024/sponsors/AfricaIsTaliking.png",
+    },
+  ],
+  diversity: [
+    {
+      name: "Python Software Foundation",
+      href: "https://www.python.org/psf-landing/",
+      logo: "/assets/images/sponsors/psf-logo.png",
+    },
+    {
+      name: "Black Python Devs",
+      href: "https://blackpythondevs.com/",
+      logo: "/2024/sponsors/BPD logo.png",
+    },
+    
+  ],
+  "Special Partners": [
+    {
+      name: "Propel",
+      href: "https://www.propel.community/",
+      logo: "/2024/sponsors/Propel.png",
     },
   ],
 };
