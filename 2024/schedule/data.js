@@ -569,7 +569,8 @@ export const PYCON_DAY5_SCHEDULE = [
     room: "voltaRoom",
     start: "11:00",
     end: "13:00",
-    speaker: "Deoborah Lanyero and Monica Iyabo",
+    speaker:
+      "Dinah  Grace Aikomo, Irene Githhinji, Lidya K Tilahum, Hellen Namulindwa, Rebecca Mirembe, Bernice Omiunu, Edna Nakajugo",
     tag: "pyladies",
   },
 
@@ -621,7 +622,8 @@ export const PYCON_DAY5_SCHEDULE = [
     room: "voltaRoom",
     start: "14:00",
     end: "16:30",
-    speaker: "Deoborah Lanyero and Monica Iyabo",
+    speaker:
+      "Dinah  Grace Aikomo, Irene Githhinji, Lidya K Tilahum, Hellen Namulindwa, Rebecca Mirembe, Bernice Omiunu, Edna Nakajugo",
     tag: "pyladies",
   },
   {
