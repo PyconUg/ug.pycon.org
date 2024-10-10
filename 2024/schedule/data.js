@@ -27,6 +27,7 @@ export const PYCON_DAY1_SCHEDULE = [
     room: ["pacificHall", "voltaRoom", "videoConferenceRoom"],
     start: "11:00",
     end: "12:00",
+    speaker: "",
   },
   {
     id: 4,
@@ -112,7 +113,15 @@ export const PYCON_DAY2_SCHEDULE = [
     title: "Tea",
     room: ["pacificHall", "voltaRoom", "videoConferenceRoom"],
     start: "7:00",
+    end: "8:30",
+  },
+  {
+    id: 102,
+    title: "Welcome and Announcements",
+    room: "pacificHall",
+    start: "8:30",
     end: "9:00",
+    speaker: "Kirabo Atuhurira",
   },
   {
     id: 2,
@@ -181,6 +190,7 @@ export const PYCON_DAY2_SCHEDULE = [
     room: "pacificHall",
     start: "16:00",
     end: "17:00",
+    speaker: "Sumaiya Nalukwago",
   },
 ];
 
@@ -215,15 +225,7 @@ export const PYCON_DAY3_SCHEDULE = [
     room: "voltaRoom",
     start: "11:00",
     end: "11:30",
-    speaker: "Arthur Kakande",
-  },
-  {
-    id: 5,
-    title: "Serving TensorFlow Models with FastAPI",
-    room: "videoConferenceRoom",
-    start: "11:00",
-    end: "11:30",
-    speaker: "Wesley Kambale",
+    speaker: "Arthur Kakande and Rashid Kisejjere",
   },
   {
     id: 6,
@@ -250,15 +252,7 @@ export const PYCON_DAY3_SCHEDULE = [
     end: "12:30",
     speaker: "Brayan Mwanyumba",
   },
-  {
-    id: 9,
-    title:
-      "Python with Kafka: Get started on modern stream processing with Python",
-    room: "videoConferenceRoom",
-    start: "12:00",
-    end: "12:30",
-    speaker: "Mark Lubega",
-  },
+
   {
     id: 10,
     title: "End-to-end testing with Selenium and Python",
@@ -267,6 +261,17 @@ export const PYCON_DAY3_SCHEDULE = [
     end: "13:00",
     speaker: "Victoria Mutai and Pauline Gechure",
   },
+  {
+    id: 303,
+    title: "Django Girls Workshop",
+    room: "videoConferenceRoom",
+    start: "11:00",
+    end: "13:00",
+    speaker:
+      "Shakira Ndagire, Patricia Assimire, Ann Namuli, Dorothy Kabarozi and Eva Nanyonga",
+    tag: "django-girls",
+  },
+
   {
     id: 11,
     title: "Lunch Break",
@@ -282,6 +287,16 @@ export const PYCON_DAY3_SCHEDULE = [
     start: "14:00",
     end: "14:30",
     speaker: null,
+  },
+  {
+    id: 103,
+    title: "Django Girls Workshop",
+    room: "videoConferenceRoom",
+    start: "14:00",
+    end: "16:30",
+    speaker:
+      "Shakira Ndagire, Patricia Assimire, Ann Namuli, Dorothy Kabarozi and Eva Nanyonga",
+    tag: "django-girls",
   },
   {
     id: 13,
@@ -317,14 +332,7 @@ export const PYCON_DAY3_SCHEDULE = [
     end: "16:00",
     speaker: "Okot Daniel",
   },
-  {
-    id: 17,
-    title: "Beginner's Guide to Data Orchestration with Apache Airflow",
-    room: "voltaRoom",
-    start: "16:00",
-    end: "16:30",
-    speaker: "Okumu Justine",
-  },
+
   {
     id: 17,
     title: "Beginner's Guide to Data Orchestration with Apache Airflow",
@@ -400,6 +408,15 @@ export const PYCON_DAY4_SCHEDULE = [
     start: "12:00",
     end: "12:30",
     speaker: "Fanny Nyayic",
+  },
+  {
+    id: 107,
+    title:
+      "Python with Kafka: Get started on modern stream processing with Python",
+    room: "voltaRoom",
+    start: "11:00",
+    end: "11:30",
+    speaker: "Mark Lubega",
   },
   {
     id: 7,
@@ -547,41 +564,16 @@ export const PYCON_DAY5_SCHEDULE = [
     speaker: "Jovan Mwesigwa",
   },
   {
-    id: 3,
-    title: "Django Girls Workshop",
+    id: 204,
+    title: "PyLadies Kampala Anniversary Workshop",
     room: "voltaRoom",
     start: "11:00",
     end: "13:00",
-    speaker: "Ann Namuli, Dorothy Kabarozi and Eva Nanyonga",
-    tag: "django-girls",
-  },
-  {
-    id: 103,
-    title: "Django Girls Workshop",
-    room: "voltaRoom",
-    start: "14:00",
-    end: "16:30",
-    speaker: "Ann Namuli, Dorothy Kabarozi and Eva Nanyonga",
-    tag: "django-girls",
-  },
-  {
-    id: 4,
-    title: "PyLadies Kampala Anniversary Workshop",
-    room: "videoConferenceRoom",
-    start: "11:00",
-    end: "13:00",
-    speaker: "Deoborah Lanyero and Monica Iyabo",
+    speaker:
+      "Dinah  Grace Aikomo, Irene Githhinji, Lidya K Tilahum, Hellen Namulindwa, Rebecca Mirembe, Bernice Omiunu, Edna Nakajugo",
     tag: "pyladies",
   },
-  {
-    id: 104,
-    title: "PyLadies Kampala Anniversary Workshop",
-    room: "videoConferenceRoom",
-    start: "14:00",
-    end: "16:30",
-    speaker: "Deoborah Lanyero and Monica Iyabo",
-    tag: "pyladies",
-  },
+
   {
     id: 5,
     title: "Python For The Web?",
@@ -609,12 +601,30 @@ export const PYCON_DAY5_SCHEDULE = [
     speaker: "Sodiq Akinjobi",
   },
   {
+    id: 105,
+    title: "Serving TensorFlow Models with FastAPI",
+    room: "videoConferenceRoom",
+    start: "11:00",
+    end: "11:30",
+    speaker: "Wesley Kambale",
+  },
+  {
     id: 8,
     title: "Lunch Break",
     room: ["pacificHall", "voltaRoom", "videoConferenceRoom"],
     start: "13:00",
     end: "14:00",
     speaker: null,
+  },
+  {
+    id: 104,
+    title: "PyLadies Kampala Anniversary Workshop",
+    room: "voltaRoom",
+    start: "14:00",
+    end: "16:30",
+    speaker:
+      "Dinah  Grace Aikomo, Irene Githhinji, Lidya K Tilahum, Hellen Namulindwa, Rebecca Mirembe, Bernice Omiunu, Edna Nakajugo",
+    tag: "pyladies",
   },
   {
     id: 9,
@@ -646,7 +656,7 @@ export const PYCON_DAY5_SCHEDULE = [
     room: "pacificHall",
     start: "15:30",
     end: "16:00",
-    speaker:"James Powell, Cameron Riddell, and Courtney Haun"
+    speaker: "James Powell, Cameron Riddell, and Courtney Haun",
   },
   {
     id: 13,
@@ -671,5 +681,14 @@ export const PYCON_DAY5_SCHEDULE = [
     room: "pacificHall",
     start: "18:00",
     end: "19:00",
+  },
+
+  {
+    id: 9,
+    title: "Africa is Talking Workshop",
+    room: "videoConferenceRoom",
+    start: "12:00",
+    end: "12:30",
+    speaker: "Mark Ssemujju",
   },
 ];
