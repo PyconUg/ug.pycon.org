@@ -82,8 +82,7 @@ export default function Footer() {
               </svg>
               <span>
                 {" "}
-                NWSC International Resource Center, Bugolobi (IREC) Plot M11 Old
-                Portbell Road, Bugolobi, P. O. Box 7053, Kampala, Uganda
+                International University Of East Africa, Kampala, Uganda
               </span>
             </p>
             <p className="mb-4 flex items-center justify-center md:justify-start">

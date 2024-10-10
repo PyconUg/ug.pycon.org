@@ -33,9 +33,9 @@ export default function Contact() {
             <i className="bi bi-geo-alt"></i>
             <h3 className="text-lg uppercase font-bold">Address</h3>
             <address>
-              NWSC International Resource Center, Bugolobi (IREC)
-              <br /> Plot M11 Old Portbell Road, Bugolobi, <br />
-              P. O. Box 7053, Kampala, Uganda
+            International University Of East Africa
+              {/* <br /> Plot M11 Old Portbell Road, Bugolobi, <br />
+              P. O. Box 7053, Kampala, Uganda */}
             </address>
           </div>
           {/* <div className="mb-0 text-[#112363]">

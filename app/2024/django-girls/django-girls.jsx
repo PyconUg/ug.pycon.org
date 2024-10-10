@@ -36,8 +36,8 @@ export default function DjangoGirls() {
               beginners!
             </p>
             <p className="mb-4">
-              It will take place during the PyCon Uganda conference, at NWSC
-              International Resource Center. We would like to give you an
+              It will take place during the PyCon Uganda conference, at International University Of East Africa.
+              We would like to give you an
               opportunity to learn how to program and become one of us - female
               programmers!
             </p>
