@@ -335,11 +335,12 @@ export const PYCON_DAY3_SCHEDULE = [
 
   {
     id: 17,
-    title: "Beginner's Guide to Data Orchestration with Apache Airflow",
+    title:
+      "Building the Future: Leveraging Tech Talent & AI for Sustainable Growth in Africa",
     room: "pacificHall",
     start: "16:00",
     end: "16:30",
-    speaker: "Okumu Justine",
+    speaker: "Sodiq Akinjobi",
   },
   {
     id: 18,
@@ -590,15 +591,6 @@ export const PYCON_DAY5_SCHEDULE = [
     start: "12:00",
     end: "12:30",
     speaker: "Ssemujju Sharif",
-  },
-  {
-    id: 7,
-    title:
-      "Building the Future: Leveraging Tech Talent & AI for Sustainable Growth in Africa",
-    room: "pacificHall",
-    start: "12:30",
-    end: "13:00",
-    speaker: "Sodiq Akinjobi",
   },
   {
     id: 105,
