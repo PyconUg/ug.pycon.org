@@ -27,6 +27,7 @@ export const PYCON_DAY1_SCHEDULE = [
     room: ["pacificHall", "voltaRoom", "videoConferenceRoom"],
     start: "11:00",
     end: "12:00",
+    speaker: "",
   },
   {
     id: 4,
@@ -112,7 +113,15 @@ export const PYCON_DAY2_SCHEDULE = [
     title: "Tea",
     room: ["pacificHall", "voltaRoom", "videoConferenceRoom"],
     start: "7:00",
+    end: "8:30",
+  },
+  {
+    id: 102,
+    title: "Welcome and Announcements",
+    room: "pacificHall",
+    start: "8:30",
     end: "9:00",
+    speaker: "Kirabo Atuhurira",
   },
   {
     id: 2,
@@ -181,6 +190,7 @@ export const PYCON_DAY2_SCHEDULE = [
     room: "pacificHall",
     start: "16:00",
     end: "17:00",
+    speaker: "Sumaiya Nalukwago",
   },
 ];
 
@@ -646,7 +656,7 @@ export const PYCON_DAY5_SCHEDULE = [
     room: "pacificHall",
     start: "15:30",
     end: "16:00",
-    speaker:"James Powell, Cameron Riddell, and Courtney Haun"
+    speaker: "James Powell, Cameron Riddell, and Courtney Haun",
   },
   {
     id: 13,
