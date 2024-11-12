@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { PYCONUG_EMAIL } from "@/2023/utils/constants";
 import {
   Accordion,
   AccordionContent,
@@ -28,39 +27,31 @@ export default function PyLadies() {
       <div className="md:container mx-auto px-4 py-12">
         <div className="grid md:grid-cols-2 gap-12">
           <div className="shadow-lg p-4 md:p-8 rounded-lg hover:shadow-none">
-            <h2 className="text-3xl font-bold mb-4">PyLadies Anniversary</h2>
+            <h2 className="text-3xl font-bold mb-4">Register To Attend</h2>
 
             <p className="mb-4">
-              Join us in celebrating the PyLadies Anniversary Event at PyCon
-              Uganda! This special occasion marks a significant milestone for
-              PyLadies, an international mentorship group dedicated to
-              empowering women to become active participants and leaders in the
-              Python open-source community.
+              PyLadies Kampala is dedicated to empowering women to become active
+              participants and leaders in the Python open-source community.
             </p>
             <p className="mb-4">
               Our mission is to promote, educate, and advance a diverse Python
               community through outreach, education, conferences, events, and
               social gatherings.
             </p>
-            <Image
-              width={150}
-              height={75}
-              alt=""
-              className="mx-auto"
-              src={"/assets/images/pyladies/pyladies.png"}
-            />
+            <p>Click the link below to reserve your spot:</p>
+            <Link
+              href="https://forms.gle/xYWxHfDR81xiUSHA8"
+              target="_blank"
+              className=" text-blue-500 underline text-center flex justify-center py-3 text-lg"
+            >
+              Register Here
+            </Link>
           </div>
           <div className="shadow-lg p-8 rounded-lg hover:shadow-none">
-            <h2 className="text-3xl font-bold mb-4">
-              Join Our Anniversary Workshop!
-            </h2>
+            <h2 className="text-3xl font-bold mb-4">Why You Should Attend?</h2>
+
             <p className="mb-4">
-              Don&#39;t miss this chance to start your Python journey and join a
-              supportive community. Apply now for the PyLadies Anniversary
-              Workshop!
-            </p>
-            <p className="mb-4">
-              As a workshop attendee, you&#39;ll have the opportunity to:
+              As an attendee, you&#39;ll have the opportunity to:
               <ul class="list-disc">
                 <li>
                   Learn Python Basics: Start writing your first Python programs
@@ -79,8 +70,8 @@ export default function PyLadies() {
             </p>
             <p className="mb-4">
               Don&#39;t miss this fantastic opportunity to kickstart your Python
-              journey and become part of a supportive community. Apply now to
-              join us at the PyLadies Anniversary Workshop!
+              journey and become part of a supportive community. Register now to
+              join us at the PyLadies Kampala!
             </p>
           </div>
         </div>

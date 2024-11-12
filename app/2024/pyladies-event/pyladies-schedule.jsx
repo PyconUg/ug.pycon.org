@@ -3,21 +3,17 @@ import Link from "next/link";
 
 const scheduleData = [
   {
-    time: "10:00 - 11:00",
-    title: "Welcome Remarks and Introductions",
+    time: "9:00 - 10:00",
+    title: "International Keynote",
   },
   {
-    time: "11:00 - 12:00",
-    title: "Keynote Session",
+    time: "10:00 - 12:00",
+    title: "Pannel Session",
   },
   {
-    time: "12:00 - 12:30",
-    title:
-      "Women in STEM! Championing Diversity and Inclusion in the Tech Industry!",
-  },
-  {
-    time: "12:30 - 13:00",
-    title: "Teach me through Python",
+    time: "12:00 - 13:00",
+    title: "Open source contribution",
+    tag: "Plotnine",
   },
   {
     time: "13:00",
@@ -26,28 +22,16 @@ const scheduleData = [
     avatar: "",
   },
   {
-    time: "14:30 - 15:00",
-    title: "Women Tech Makers in Kampala: Get Involved",
+    time: "14:00 - 15:00",
+    title: "Call For local Open source Maintainers",
+    tag: "Plotnine",
   },
   {
-    time: "15:00 - 15:30",
+    time: "15:00 - 16:00",
     title:
-      "Harnessing Collective Intelligence : Developing and Utilizing Data Science Communities",
+      "Closing remarks",
   },
-  {
-    time: "15:30 - 16:00",
-    title: "Advanced Django as a Professional",
-  },
-  {
-    time: "15:30 - 16:00",
-    title: "Advanced Django as a Professional",
-  },
-  {
-    time: "16:00 - 16:30",
-    title: "Closing Remarks and End",
-    speaker: "All",
-    avatar: "",
-  },
+
 ];
 
 function Avatar({ src, alt }) {
@@ -121,8 +105,7 @@ export default function PyLadiesSchedule() {
               {item.speakerDetails}
             </p>
 
-            {item.title !== "Lunch Break" &&
-              item.title !== "Networking Session" && <Badge label="Workshop" />}
+            {item.tag && <Badge label={item.tag} /> }
           </div>
         ))}
       </div>
