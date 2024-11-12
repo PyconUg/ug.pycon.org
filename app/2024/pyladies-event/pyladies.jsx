@@ -20,7 +20,9 @@ export default function PyLadies() {
             className="mx-auto"
             src={"/assets/images/pyladies/pyladies.png"}
           />
-          <p className="text-xl mb-8">30th November 2024</p>
+          <p className="text-xl mb-8">
+            30th November, 2024 at Outbox Hub Kampala
+          </p>
         </div>
       </section>
 
@@ -122,6 +124,29 @@ export default function PyLadies() {
 
       <section className="lg:mx-20 mx-4">
         <PyLadiesSchedule />
+      </section>
+      <section className="">
+        <div className="py-[60px]">
+          <div className=" px-4 py-4 items-center">
+            <div className="mx-auto max-w-xl text-center space-y-4">
+              <h2 className="text-4xl text-[#0e1b4d] font-bold uppercase">
+                Event Venue
+              </h2>
+              <p className="text-base p-0 font-medium">Outbox Hub Kampala</p>
+            </div>
+            <div className="mt-4 h-[70vh]">
+              <iframe
+                className="h-full"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7549901576226!2d32.573844175214255!3d0.3228248996740135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbb7a196c73c3%3A0xf3f534e6f1300573!2sOutbox%20Hub!5e0!3m2!1sen!2sug!4v1731430518433!5m2!1sen!2sug"
+                width="100%"
+                height="400"
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   );
