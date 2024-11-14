@@ -69,7 +69,9 @@ export default function PyLadies() {
           </div>
           <div className="shadow-lg p-8 rounded-lg hover:shadow-none">
             <h2 className="text-3xl font-bold mb-4">Why You Should Attend</h2>
-            <p className="mb-4">As a participant, you’ll have the chance to:</p>
+            <p className="mb-4">
+              As a participant, you&#39;ll have the chance to:
+            </p>
             <ul className="list-disc pl-6 mb-4">
               <li>
                 <strong>Learn Python Basics:</strong> Get hands-on experience
@@ -86,7 +88,7 @@ export default function PyLadies() {
               </li>
             </ul>
             <p className="mb-4">
-              Don’t miss this fantastic opportunity to jumpstart your Python
+              Don&#39;t miss this fantastic opportunity to jumpstart your Python
               journey and join a supportive community of tech enthusiasts.
               Register now and become a part of PyLadies Kampala!
             </p>

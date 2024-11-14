@@ -83,7 +83,7 @@ export default function PyLadiesSchedule() {
   return (
     <div className="bg-white space-y-4" id="schedule">
       <Link
-        href={"/2024/pydata/#schedule"}
+        href={"/2024/pyladies-os-summit/#schedule"}
         className="text-3xl font-bold mb-6 text-gray-800 hover:underline"
       >
         # Schedule
