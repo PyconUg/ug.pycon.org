@@ -36,7 +36,12 @@ const scheduleData = [
   {
     time: "16:00 - 17:00",
     title: "Closing Keynote",
-    speaker: "Daphne, Product Manager, Africas Talking",
+    speaker:
+      "Daphine Namukisa, UI/UX Designer at Uganda Revenue Authority (URA)",
+    speakerDetails: `Daphine is a passionate UI/UX designer, product manager and JavaScript frontend developer, with a deep commitment to user-centric design and innovation. 
+      With a background in computer science and experience in both digital product design and project management, she has contributed to impactful projects, including digital systems at the Uganda Revenue Authority. 
+      Their unique blend of technical and design expertise has driven positive change and optimized user experiences. 
+      Daphine has also been recognized for my mentorship in empowering women in tech and an advocate for knowledge sharing and continuous growth within the technology community.`,
   },
   {
     time: "17:00 - 17:15",
