@@ -29,7 +29,7 @@ export default function PyLadies() {
       <div className="md:container mx-auto px-4 py-12">
         <div className="grid md:grid-cols-2 gap-12">
           <div className="shadow-lg p-4 md:p-8 rounded-lg hover:shadow-none">
-            <h2 className="text-3xl font-bold mb-4">Register to Attend</h2>
+            <h2 className="text-3xl font-bold mb-4">About The Summit</h2>
             <p className="mb-4">
               Join us for an exciting Pyladies Kampala Open Source Summit that
               will bring together Python enthusiasts and open-source advocates,
