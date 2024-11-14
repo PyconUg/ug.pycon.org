@@ -146,8 +146,9 @@ export default function PyLadies() {
       <section className="max-w-4xl mx-auto p-4">
         <h2 className="text-3xl font-bold mb-4 text-center">Partners</h2>
         <div className="flex flex-col h-full justify-center items-center lg:flex-row md:space-x-6 lg:space-y-0 space-y-6">
-          {PARTNERS.map((partner) => (
+          {PARTNERS.map((partner, index) => (
             <Image
+              key={index}
               src={partner.logo}
               width={300}
               height={300}
