@@ -123,10 +123,10 @@ const NavbarLinks = [
     label: "Co-Events",
     subLinks: [
       {
-        path: "/2024/pyladies-event",
-        label: "Pyladies Event",
+        path: "/2024/pyladies-os-summit",
+        label: "Pyladies Kampala Open Source Summit",
         description:
-          "Join us for a PyLadies Kampala Event at Outbox Hub on 30th November, 2024.",
+          "At Outbox Hub on 30th November, 2024.",
         icon: (
           <UserGroupIcon
             className="h-6 w-6 text-gray-600 group-hover:text-pyconug-lightBlue"
