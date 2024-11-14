@@ -4,14 +4,29 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "../../../components/ui/accordion.jsx";
+} from "../../components/ui/accordion.jsx";
 import PyLadiesSchedule from "./pyladies-schedule.jsx";
+import Image from "next/image";
 
 export default function PyLadies() {
+  const PARTNERS = [
+    {
+      name: "Python Software Foundation",
+      href: "https://www.python.org/psf-landing/",
+      logo: "/assets/images/sponsors/psf-logo.png",
+    },
+    { name: "PyCon Uganda", logo: "/assets/images/logo.png" },
+    { name: "Outbox Hub", logo: "/assets/images/pyladies/outbox-logo.png" },
+    {
+      name: "Propel",
+      href: "https://www.propel.community/",
+      logo: "/2024/sponsors/Propel.png",
+    },
+  ];
   return (
     <main className="flex-grow space-y-6 mb-10">
       <section
-        className="relative h-[500px] bg-cover bg-center flex items-center justify-center text-white"
+        className="relative h-[75vh] bg-cover bg-center flex items-center justify-center text-white"
         style={{
           backgroundImage: 'url("/assets/images/pyladies/pyladies2.jpg")',
         }}
@@ -39,7 +54,14 @@ export default function PyLadies() {
             <p className="mb-4">
               This event will feature a keynote by Tania Allard from the Python
               Software Foundation, followed by a hands-on session contributing
-              to the PlotNine open-source project.
+              to the{" "}
+              <Link
+                href={`https://forms.gle/4pM8z7euTbGXetQw5`}
+                className="text-blue-500 hover:underline"
+              >
+                PlotNine open-source project{" "}
+              </Link>
+              .
             </p>
             <p className="mb-4">
               To wrap up, participants will have the chance to showcase their
@@ -60,10 +82,10 @@ export default function PyLadies() {
               Are you an open-source maintainer? Share your interest by emailing
               us at:{" "}
               <Link
-                href="mailto:kampala@pyladies.org"
+                href="mailto:kampala@pyladies.com"
                 className="text-blue-500 text-lg hover:underline"
               >
-                kampala@pyladies.org
+                kampala@pyladies.com
               </Link>
             </p>
           </div>
@@ -96,6 +118,44 @@ export default function PyLadies() {
         </div>
       </div>
 
+      <section className="lg:mx-20 mx-4">
+        <PyLadiesSchedule />
+      </section>
+      <section className="">
+        <div className="py-[60px]">
+          <div className=" px-4 py-4 items-center">
+            <div className="mx-auto max-w-xl text-center space-y-4">
+              <h2 className="text-3xl font-bold mb-4 text-center">Venue</h2>
+
+              <p className="text-base p-0 font-medium">Outbox Hub Kampala</p>
+            </div>
+            <div className="mt-4 h-[70vh]">
+              <iframe
+                className="h-full"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7549901576226!2d32.573844175214255!3d0.3228248996740135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbb7a196c73c3%3A0xf3f534e6f1300573!2sOutbox%20Hub!5e0!3m2!1sen!2sug!4v1731430518433!5m2!1sen!2sug"
+                width="100%"
+                height="400"
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="max-w-4xl mx-auto p-4">
+        <h2 className="text-3xl font-bold mb-4 text-center">Partners</h2>
+        <div className="flex flex-col h-full justify-center items-center lg:flex-row md:space-x-6 lg:space-y-0 space-y-6">
+          {PARTNERS.map((partner) => (
+            <Image
+              src={partner.logo}
+              width={300}
+              height={300}
+              alt={partner.name}
+            />
+          ))}
+        </div>
+      </section>
       <section className="max-w-4xl mx-auto p-4">
         <h2 className="text-2xl font-bold mb-4">
           Pyladies Kampala Open Source Summit FAQ
@@ -139,33 +199,6 @@ export default function PyLadies() {
             </AccordionContent>
           </AccordionItem>
         </Accordion>
-      </section>
-
-      <section className="lg:mx-20 mx-4">
-        <PyLadiesSchedule />
-      </section>
-      <section className="">
-        <div className="py-[60px]">
-          <div className=" px-4 py-4 items-center">
-            <div className="mx-auto max-w-xl text-center space-y-4">
-              <h2 className="text-4xl text-[#0e1b4d] font-bold uppercase">
-                Event Venue
-              </h2>
-              <p className="text-base p-0 font-medium">Outbox Hub Kampala</p>
-            </div>
-            <div className="mt-4 h-[70vh]">
-              <iframe
-                className="h-full"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7549901576226!2d32.573844175214255!3d0.3228248996740135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbb7a196c73c3%3A0xf3f534e6f1300573!2sOutbox%20Hub!5e0!3m2!1sen!2sug!4v1731430518433!5m2!1sen!2sug"
-                width="100%"
-                height="400"
-                allowFullScreen=""
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              ></iframe>
-            </div>
-          </div>
-        </div>
       </section>
     </main>
   );
