@@ -22,6 +22,11 @@ export default function PyLadies() {
       href: "https://www.propel.community/",
       logo: "/2024/sponsors/Propel.png",
     },
+    {
+      name: "PSSU",
+      href: "",
+      logo: "/assets/images/pssu-logo.png",
+    },
   ];
   return (
     <main className="flex-grow space-y-6 mb-10">
@@ -150,8 +155,8 @@ export default function PyLadies() {
             <Image
               key={index}
               src={partner.logo}
-              width={300}
-              height={300}
+              width={200}
+              height={200}
               alt={partner.name}
             />
           ))}
