@@ -18,12 +18,12 @@ export default function About() {
             <div>
               <h3 className="mt-4 text-2xl font-bold sm:text-xl">WHERE</h3>
               <p className="mt-2 sm:leadung-relaxed max-w-md">
-                NWSC International Resource Center
+              International University Of East Africa
                 <br />
-                Bugolobi (IREC)
+                {/* Bugolobi (IREC)
                 <br />
                 Plot M11 Old Portbell Road, Bugolobi
-                <br /> P. O. Box 7053, Kampala, Uganda
+                <br /> P. O. Box 7053, Kampala, Uganda */}
               </p>
             </div>
             <div>
