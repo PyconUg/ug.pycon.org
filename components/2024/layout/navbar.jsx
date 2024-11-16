@@ -123,7 +123,7 @@ const NavbarLinks = [
     label: "Co-Events",
     subLinks: [
       {
-        path: "pyladies-os-summit-2024",
+        path: "pyladies-os-summit",
         label: "Pyladies Kampala Open Source Summit",
         description: "At Outbox Hub on 30th November, 2024.",
         icon: (
