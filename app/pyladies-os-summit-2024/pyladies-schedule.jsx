@@ -8,8 +8,8 @@ const scheduleData = [
   },
   {
     time: "8:00 - 9:00",
-    title: "International Keynote",
-    speaker: "Tania Allard, PhD",
+    title: "Opening Keynote",
+    speaker: "Tania Allard, PhD - Director at PSF",
     speakerDetails: `Tania is the co-director at Quansight Labs and previous Sr. Developer Advocate at Microsoft. She has vast experience in academic research and industrial environments. 
     Her main areas of expertise are within data-intensive applications, scientific computing, and machine learning. Tania has conducted extensive work on the improvement of processes, 
     reproducibility and transparency in research, data science and artificial intelligence. She is passionate about mentoring, open source, and its community and is involved in a number 

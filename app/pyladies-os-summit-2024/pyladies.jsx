@@ -42,82 +42,74 @@ export default function PyLadies() {
             Pyladies Kampala Open Source Summit
           </h1>
           <p className="text-xl mb-8">
-            30th November, 2024 at Outbox Hub Kampala
+            30th November, 2024 at Outbox Hub, 4th Floor - Soliz House, Plot 23
+            - Lumumba Ave, Kampala
           </p>
         </div>
       </section>
+
+      <section className="max-w-4xl mx-auto px-4 pt-4">
+        <h2 className="text-3xl font-bold m-4 text-center">About The Summit</h2>
+        <p className=" text-center">
+          Pyladies is an international mentorship group with a focus on helping
+          more women become active participants and leaders in the Python
+          open-source community. PyLadies also aims to provide a friendly
+          support network for women and a bridge to the larger Python world.
+          Anyone with an interest in Python is encouraged to participate! The
+          meetups happen every third Saturday of the month.
+        </p>
+      </section>
+
       <div className="md:container mx-auto px-4 py-12">
         <div className="grid md:grid-cols-2 gap-12">
           <div className="shadow-lg p-4 md:p-8 rounded-lg hover:shadow-none">
-            <h2 className="text-3xl font-bold mb-4">About The Summit</h2>
+            <h2 className="text-2xl font-bold mb-4 text-center">
+              Your Open Source Journey Starts Here{" "}
+            </h2>
+
             <p className="mb-4">
-              Join us for an exciting Pyladies Kampala Open Source Summit that
-              will bring together Python enthusiasts and open-source advocates,
-              both new and experienced, for a one-day event aimed at building
-              community and promoting contributions to open source.
+              This annual open source summit brings together members of the
+              Pyladies and Python open source community to grow our
+              community&#39;s contribution to open source. Expect inspiring
+              keynotes and productive collaboration with local open source
+              maintainers. Exceptional contributions will be awarded (T.Shirts
+              and other Swag).
             </p>
             <p className="mb-4">
-              This event will feature a keynote by Tania Allard from the Python
-              Software Foundation, followed by a hands-on session contributing
-              to the{" "}
+              Reserve your attendee spot today by clicking the following link:
+              <br />
+            </p>
+            <div className="flex justify-center">
               <Link
-                href={`https://forms.gle/4pM8z7euTbGXetQw5`}
-                className="text-blue-500 hover:underline"
-              >
-                PlotNine open-source project{" "}
-              </Link>
-              .
-            </p>
-            <p className="mb-4">
-              To wrap up, participants will have the chance to showcase their
-              contributions and receive gifts like T-shirts and other swag in
-              recognition of their efforts.
-            </p>
-            <p className="mb-4">
-              Reserve your spot today by clicking the following link:{" "}
-              <Link
-                href="https://forms.gle/xYWxHfDR81xiUSHA8"
                 target="_blank"
-                className="text-blue-500 text-lg hover:underline"
+                href="https://forms.gle/4pM8z7euTbGXetQw5"
+                className="px-4 py-2 bg-[#3774A2] text-white hover:bg-white  hover:text-[#3774A2] hover:underline text-lg rounded transition duration-200"
               >
-                Register Here
+                Register Now
               </Link>
+            </div>
+          </div>
+          <div className="shadow-lg p-8 rounded-lg hover:shadow-none">
+            <h2 className="text-2xl font-bold mb-4 text-center">
+              Are you an Open Source Maintainer?
+            </h2>
+            <p className="mb-4">
+              Are you passionate about open-source and ready to Make an impact?
+              Express your interest to join the Pyladies open source summit.{" "}
+            </p>
+
+            <p className="mb-4">
+              Selected projects and maintainers will have a chance to
+              collaborate With attendees and get new contributors.
             </p>
             <p>
-              Are you an open-source maintainer? Share your interest by emailing
-              us at:{" "}
+              Email your statements of interest to:&nbsp;
               <Link
                 href="mailto:kampala@pyladies.com"
                 className="text-blue-500 text-lg hover:underline"
               >
                 kampala@pyladies.com
               </Link>
-            </p>
-          </div>
-          <div className="shadow-lg p-8 rounded-lg hover:shadow-none">
-            <h2 className="text-3xl font-bold mb-4">Why You Should Attend</h2>
-            <p className="mb-4">
-              As a participant, you&#39;ll have the chance to:
-            </p>
-            <ul className="list-disc pl-6 mb-4">
-              <li>
-                <strong>Learn Python Basics:</strong> Get hands-on experience
-                with Python under the guidance of experienced mentors.
-              </li>
-              <li>
-                <strong>Network and Connect:</strong> Meet like-minded women in
-                tech, share insights, and build connections.
-              </li>
-              <li>
-                <strong>Engage with Experts:</strong> Interact with industry
-                professionals, event organizers, and sponsors to deepen your
-                learning.
-              </li>
-            </ul>
-            <p className="mb-4">
-              Don&#39;t miss this fantastic opportunity to jumpstart your Python
-              journey and join a supportive community of tech enthusiasts.
-              Register now and become a part of PyLadies Kampala!
             </p>
           </div>
         </div>
@@ -202,6 +194,14 @@ export default function PyLadies() {
             <AccordionContent>
               No. Simply sign up for the summit, and you&#39;re welcome to join
               other activities if you&#39;re interested.
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-5">
+            <AccordionTrigger>Is the Summit For Women Only?</AccordionTrigger>
+            <AccordionContent>
+              Registration is open to everyone, women are especially encouraged
+              to attend and will be prioritized but it&#39;s an open call
+              because everyone needs this impact.
             </AccordionContent>
           </AccordionItem>
         </Accordion>
