@@ -123,6 +123,17 @@ const NavbarLinks = [
     label: "Co-Events",
     subLinks: [
       {
+        path: "pyladies-os-summit",
+        label: "Pyladies Kampala Open Source Summit",
+        description: "At Outbox Hub on 30th November, 2024.",
+        icon: (
+          <UserGroupIcon
+            className="h-6 w-6 text-gray-600 group-hover:text-pyconug-lightBlue"
+            aria-hidden="true"
+          />
+        ),
+      },
+      {
         path: "/2024/django-girls",
         label: "Django Girls",
         description:
@@ -210,7 +221,7 @@ const NavbarLinks = [
       },
     ],
   },
- 
+
   {
     path: "https://pyconug.blogspot.com",
     label: "Blog",
@@ -224,7 +235,6 @@ const NavbarLinks = [
       <ShoppingBagIcon className="h-6 w-6 -mt-1 mr-1  text-pyconug-lightBlue" />
     ),
     isActive: true,
-
   },
 ];
 
