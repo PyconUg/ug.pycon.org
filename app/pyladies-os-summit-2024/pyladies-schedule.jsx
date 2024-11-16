@@ -10,12 +10,12 @@ const scheduleData = [
     time: "8:00 - 9:00",
     title: "International Keynote",
     speaker: "Tania Allard, PhD",
-    speakerDetails:`Tania is the co-director at Quansight Labs and previous Sr. Developer Advocate at Microsoft. She has vast experience in academic research and industrial environments. 
+    speakerDetails: `Tania is the co-director at Quansight Labs and previous Sr. Developer Advocate at Microsoft. She has vast experience in academic research and industrial environments. 
     Her main areas of expertise are within data-intensive applications, scientific computing, and machine learning. Tania has conducted extensive work on the improvement of processes, 
     reproducibility and transparency in research, data science and artificial intelligence. She is passionate about mentoring, open source, and its community and is involved in a number 
     of initiatives aimed to build more diverse and inclusive communities. She is also a contributor, maintainer, and developer of a number of open source projects and the Founder of Pyladies NorthWest. 
     In her free time she likes tinkering with electronics, nerding with mechanical keyboards, reading all the books and lifting heavy weights.`,
-    avatar:"/assets/images/speakers/Tania_Allard.jpg"
+    avatar: "/assets/images/speakers/Tania_Allard.jpg",
   },
   {
     time: "9:00 - 10:00",
@@ -48,6 +48,7 @@ const scheduleData = [
       With a background in computer science and experience in both digital product design and project management, she has contributed to impactful projects, including digital systems at the Uganda Revenue Authority. 
       Their unique blend of technical and design expertise has driven positive change and optimized user experiences. 
       Daphine has also been recognized for my mentorship in empowering women in tech and an advocate for knowledge sharing and continuous growth within the technology community.`,
+    avatar: "/assets/images/speakers/daphine-namukisa.jpeg",
   },
   {
     time: "17:00 - 17:15",
