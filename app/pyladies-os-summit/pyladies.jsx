@@ -76,7 +76,7 @@ export default function PyLadies() {
               and other Swag).
             </p>
             <p className="mb-4">
-              Reserve your attendee spot today by clicking the following link:
+              Reserve your attendee spot today by clicking the button below:
               <br />
             </p>
             <div className="flex justify-center">
